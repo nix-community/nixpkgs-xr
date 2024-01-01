@@ -21,20 +21,17 @@ jobs:
 
       - name: Update flake inputs
         run: |
-          nix flake update --commit-lock-file --commit-lockfile-summary "chore: update flake.lock"
+          nix flake update --commit-lock-file
 
       - name: Update upstream sources
         run: |
-          nix develop -c nvfetcher
+          nix develop -c nvfetcher --commit-changes
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.LOCKFILE_TOKEN }}
           base: "main"
           branch: "update-locks"
           delete-branch: true
-          committer: github-actions[bot] github-actions[bot]@users.noreply.github.com
-          commit-message: "chore: update nvfetcher sources"
           title: "chore: update locks"
           body: "Automated pull request to update flake.lock and nvfetcher sources"

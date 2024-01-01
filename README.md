@@ -6,4 +6,4 @@ SPDX-License-Identifier: CC0-1.0
 
 # nixpkgs-xr
 
-Automated packages for XR/AR/VR packages for NixOS [maintainer=@Scrumplex] 
+Automated packages for XR/AR/VR tools and apps for NixOS [maintainer=@Scrumplex] 

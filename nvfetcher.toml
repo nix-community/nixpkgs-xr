@@ -1,0 +1,7 @@
+[monado]
+src.git = "https://gitlab.freedesktop.org/monado/monado.git"
+fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
+
+[opencomposite]
+src.git = "https://gitlab.com/znixian/OpenOVR.git"
+fetch.git = "https://gitlab.com/znixian/OpenOVR.git"

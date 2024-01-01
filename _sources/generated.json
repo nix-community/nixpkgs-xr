@@ -1,0 +1,40 @@
+{
+    "monado": {
+        "cargoLocks": null,
+        "date": "2023-12-31",
+        "extract": null,
+        "name": "monado",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "40eaf117c62e548818230caa7c5e001da306316e",
+            "sha256": "sha256-lBgk2t3NJm2LpzecE/O9q5OxnBGG4EBjKoNdlEN02PI=",
+            "type": "git",
+            "url": "https://gitlab.freedesktop.org/monado/monado.git"
+        },
+        "version": "40eaf117c62e548818230caa7c5e001da306316e"
+    },
+    "opencomposite": {
+        "cargoLocks": null,
+        "date": "2023-12-29",
+        "extract": null,
+        "name": "opencomposite",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "2ab29e49c96c5e446e439a408521a677737c4956",
+            "sha256": "sha256-he8ceYe6Q9DeaBkjvOihcd7DP6hCR0XVeRl7ySonUXk=",
+            "type": "git",
+            "url": "https://gitlab.com/znixian/OpenOVR.git"
+        },
+        "version": "2ab29e49c96c5e446e439a408521a677737c4956"
+    }
+}

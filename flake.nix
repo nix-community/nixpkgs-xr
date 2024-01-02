@@ -21,6 +21,8 @@
 
     forSystem = system: fn: fn nixpkgs.legacyPackages.${system};
     forAllSystems = fn: nixpkgs.lib.genAttrs systems (system: forSystem system fn);
+
+    inherit (nixpkgs) lib;
   in {
     packages = forAllSystems (pkgs: self.overlays.default pkgs pkgs);
 
@@ -31,7 +33,7 @@
 
       mkOverride = pkg: newAttrs: prev.${pkg}.overrideAttrs (_: newAttrs);
     in
-      final.lib.mapAttrs mkOverride sources;
+      lib.mapAttrs mkOverride sources;
 
     nixosModules.nixpkgs-xr = {
       nixpkgs.overlays = [self.overlays.default];

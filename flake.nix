@@ -22,14 +22,6 @@
     forSystem = system: fn: fn nixpkgs.legacyPackages.${system};
     forAllSystems = fn: nixpkgs.lib.genAttrs systems (system: forSystem system fn);
   in {
-    devShells = forAllSystems (pkgs: {
-      default = pkgs.mkShell {
-        packages = with pkgs; [nvfetcher reuse];
-      };
-    });
-
-    formatter = forAllSystems (pkgs: pkgs.alejandra);
-
     packages = forAllSystems (pkgs: self.overlays.default pkgs pkgs);
 
     overlays.default = final: prev: let
@@ -40,5 +32,22 @@
       mkOverride = pkg: newAttrs: prev.${pkg}.overrideAttrs (_: newAttrs);
     in
       final.lib.mapAttrs mkOverride sources;
+
+    nixosModules.nixpkgs-xr = {
+      nixpkgs.overlays = [self.overlays.default];
+
+      nix.settings = {
+        substituters = ["https://cache.garnix.io"];
+        trusted-public-keys = ["cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g="];
+      };
+    };
+
+    devShells = forAllSystems (pkgs: {
+      default = pkgs.mkShell {
+        packages = with pkgs; [nvfetcher reuse];
+      };
+    });
+
+    formatter = forAllSystems (pkgs: pkgs.alejandra);
   };
 }

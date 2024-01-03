@@ -23,17 +23,25 @@
     forAllSystems = fn: nixpkgs.lib.genAttrs systems (system: forSystem system fn);
 
     inherit (nixpkgs) lib;
-  in {
-    packages = forAllSystems (pkgs: self.overlays.default pkgs pkgs);
 
-    overlays.default = final: prev: let
-      sources = import ./_sources/generated.nix {
+    mkSources = final:
+      import ./_sources/generated.nix {
         inherit (final) fetchgit fetchurl fetchFromGitHub dockerTools;
       };
 
-      mkOverride = pkg: newAttrs: prev.${pkg}.overrideAttrs (_: newAttrs);
-    in
-      lib.mapAttrs mkOverride sources;
+    mkSourceOverride = prev: pkg: newAttrs: prev.${pkg}.overrideAttrs (_: newAttrs);
+
+    mkDebugOverride = prev: pkg: _:
+      prev.${pkg}.overrideAttrs (_: {
+        dontStrip = true;
+      });
+  in {
+    packages = forAllSystems (pkgs: self.overlays.default pkgs pkgs);
+
+    overlays = {
+      default = final: prev: lib.mapAttrs (mkSourceOverride prev) (mkSources final);
+      unstripped = final: prev: lib.mapAttrs (mkDebugOverride prev) (mkSources final);
+    };
 
     nixosModules.nixpkgs-xr = {
       nixpkgs.overlays = [self.overlays.default];

@@ -17,12 +17,13 @@
     nixpkgs,
     self,
   }: let
+    inherit (builtins) mapAttrs;
+    inherit (nixpkgs.lib) genAttrs;
+
     systems = ["x86_64-linux" "aarch64-linux"];
 
     forSystem = system: fn: fn nixpkgs.legacyPackages.${system};
-    forAllSystems = fn: nixpkgs.lib.genAttrs systems (system: forSystem system fn);
-
-    inherit (nixpkgs) lib;
+    forAllSystems = fn: genAttrs systems (system: forSystem system fn);
 
     mkSources = final:
       import ./_sources/generated.nix {
@@ -39,8 +40,8 @@
     packages = forAllSystems (pkgs: self.overlays.default pkgs pkgs);
 
     overlays = {
-      default = final: prev: lib.mapAttrs (mkSourceOverride prev) (mkSources final);
-      unstripped = final: prev: lib.mapAttrs (mkDebugOverride prev) (mkSources final);
+      default = final: prev: mapAttrs (mkSourceOverride prev) (mkSources final);
+      unstripped = final: prev: mapAttrs (mkDebugOverride prev) (mkSources final);
     };
 
     nixosModules.nixpkgs-xr = {

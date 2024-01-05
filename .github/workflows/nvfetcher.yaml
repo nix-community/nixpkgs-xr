@@ -28,6 +28,7 @@ jobs:
           nix develop -c nvfetcher --commit-changes
 
       - name: Create PR
+        id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           base: "main"
@@ -35,3 +36,10 @@ jobs:
           delete-branch: true
           title: "chore: update locks"
           body: "Automated pull request to update flake.lock and nvfetcher sources"
+
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: merge

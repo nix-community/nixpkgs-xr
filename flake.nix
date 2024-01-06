@@ -11,11 +11,13 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
   };
 
   outputs = {
     nixpkgs,
     self,
+    ...
   }: let
     inherit (builtins) mapAttrs;
     inherit (nixpkgs.lib) genAttrs;

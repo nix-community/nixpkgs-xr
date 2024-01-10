@@ -15,7 +15,7 @@
     config = mkIf cfg.enable {
       nixpkgs.overlays =
         [self.overlays.default]
-        ++ optional cfg.enableDebug [self.overlays.unstripped];
+        ++ optional cfg.enableUnstripped self.overlays.unstripped;
 
       nix.settings = {
         substituters = ["https://nixpkgs-xr.cachix.org"];

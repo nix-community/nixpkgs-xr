@@ -1,5 +1,0 @@
-builds:
-  include:
-    - "checks.*.*"
-    - "devShells.*.*"
-    - "packages.*.*"

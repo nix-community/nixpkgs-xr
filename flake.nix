@@ -5,8 +5,8 @@
   description = "Nixpkgs overlay for bleeding-edge XR/AR/VR packages";
 
   nixConfig = {
-    extra-substituters = ["https://cache.garnix.io"];
-    extra-trusted-public-keys = ["cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g="];
+    extra-substituters = ["https://nixpkgs-xr.cachix.org"];
+    extra-trusted-public-keys = ["nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws="];
   };
 
   inputs = {
@@ -50,8 +50,8 @@
       nixpkgs.overlays = [self.overlays.default];
 
       nix.settings = {
-        substituters = ["https://cache.garnix.io"];
-        trusted-public-keys = ["cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g="];
+        substituters = ["https://nixpkgs-xr.cachix.org"];
+        trusted-public-keys = ["nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws="];
       };
     };
 

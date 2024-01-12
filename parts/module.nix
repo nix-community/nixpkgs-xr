@@ -1,7 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
-
 {self, ...}: {
   flake.nixosModules.nixpkgs-xr = {
     config,
@@ -12,7 +11,8 @@
     cfg = config.nixpkgs.xr;
   in {
     options.nixpkgs.xr = {
-      enable = mkEnableOption "nixpkgs-xr overlay"
+      enable =
+        mkEnableOption "nixpkgs-xr overlay"
         // mkOption {default = true;};
       enableUnstripped = mkEnableOption "debug symbols for XR packages";
     };

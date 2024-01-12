@@ -18,8 +18,8 @@
         ++ optional cfg.enableUnstripped self.overlays.unstripped;
 
       nix.settings = {
-        substituters = ["https://nixpkgs-xr.cachix.org"];
-        trusted-public-keys = ["nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws="];
+        substituters = ["https://nix-community.cachix.org"];
+        trusted-public-keys = ["nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="];
       };
     };
   };

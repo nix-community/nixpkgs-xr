@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
-{...}: let
+{inputs, ...}: let
   inherit (builtins) mapAttrs;
 
   mkOverride = newAttrs: pkg: pkg.overrideAttrs (_: newAttrs);
@@ -36,7 +36,10 @@
   packages = {
     index_camera_passthrough = {
       drv = ../pkgs/index_camera_passthrough;
-      drvArgs = source: {cargoLock = source.cargoLock."Cargo.lock";};
+      drvArgs = source: {
+        inherit (inputs) fenix;
+        cargoLock = source.cargoLock."Cargo.lock";
+      };
     };
     monado = {};
     opencomposite = {};

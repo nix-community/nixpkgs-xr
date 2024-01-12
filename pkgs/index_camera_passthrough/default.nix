@@ -1,15 +1,23 @@
 {
   lib,
-  rustPlatform,
+  system,
+  makeRustPlatform,
   pkg-config,
   udev,
   vulkan-loader,
   openvr,
   shaderc,
   cmake,
+  # nixpkgs-xr:
+  fenix,
   cargoLock,
-}:
-rustPlatform.buildRustPackage {
+}: let
+  toolchain = fenix.packages.${system}.minimal.toolchain;
+  rustPlatform = makeRustPlatform {
+    cargo = toolchain;
+    rustc = toolchain;
+  }; 
+in rustPlatform.buildRustPackage {
   pname = "index-camera-passthrough";
   version = "0";
 

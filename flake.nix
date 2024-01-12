@@ -16,6 +16,10 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
+    fenix = {
+      url = "github:nix-community/fenix/monthly";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs @ {flake-parts, ...}:

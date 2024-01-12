@@ -25,6 +25,7 @@
         "aarch64-linux"
       ];
       imports = [
+        ./parts/checks.nix
         ./parts/dev.nix
         ./parts/module.nix
         ./parts/overlay.nix

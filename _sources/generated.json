@@ -1,4 +1,30 @@
 {
+    "index_camera_passthrough": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./index_camera_passthrough-19178f5ffeecaf594d20c50c969c464fb09b1062/Cargo.lock",
+                {
+                    "vulkano-0.34.0": "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY="
+                }
+            ]
+        },
+        "date": "2023-12-21",
+        "extract": null,
+        "name": "index_camera_passthrough",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "19178f5ffeecaf594d20c50c969c464fb09b1062",
+            "sha256": "sha256-XvoMV7CCOyzesd58IjjHZS0mJQcG9RxW58csRjE9Ids=",
+            "type": "git",
+            "url": "https://github.com/yshui/index_camera_passthrough.git"
+        },
+        "version": "19178f5ffeecaf594d20c50c969c464fb09b1062"
+    },
     "monado": {
         "cargoLocks": null,
         "date": "2024-01-10",

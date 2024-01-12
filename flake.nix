@@ -5,8 +5,8 @@
   description = "Nixpkgs overlay for bleeding-edge XR/AR/VR packages";
 
   nixConfig = {
-    extra-substituters = ["https://nixpkgs-xr.cachix.org"];
-    extra-trusted-public-keys = ["nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws="];
+    extra-substituters = ["https://nix-community.cachix.org"];
+    extra-trusted-public-keys = ["nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="];
   };
 
   inputs = {
@@ -25,6 +25,7 @@
         "aarch64-linux"
       ];
       imports = [
+        ./parts/checks.nix
         ./parts/dev.nix
         ./parts/module.nix
         ./parts/overlay.nix

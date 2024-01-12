@@ -18,7 +18,7 @@ you can also use itw without Flakes.
 ### Flake-based Setup
 
 All you have to do, to apply this overlay to your NixOS configuration,
-is to add the input `github:Scrumplex/nixpkgs-xr` to your flake
+is to add the input `github:nix-community/nixpkgs-xr` to your flake
 and import the convenient NixOS module `nixpkgs-xr.nixosModules.nixpkgs-xr`.
 See the example below.
 
@@ -30,7 +30,7 @@ See the example below.
 {
   inputs = {
     # ...
-    nixpkgs-xr.url = "github:Scrumplex/nixpkgs-xr";
+    nixpkgs-xr.url = "github:nix-community/nixpkgs-xr";
   };
 
   outputs = { nixpkgs, nixpkgs-xr, ... }: {
@@ -54,7 +54,7 @@ Assuming your NixOS configuration is right in your `flake.nix`, you can write th
 {
   inputs = {
     # ...
-    nixpkgs-xr.url = "github:Scrumplex/nixpkgs-xr";
+    nixpkgs-xr.url = "github:nix-community/nixpkgs-xr";
   };
 
   outputs = { nixpkgs, nixpkgs-xr, ... }: {
@@ -66,8 +66,8 @@ Assuming your NixOS configuration is right in your `flake.nix`, you can write th
           nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
 
           #nix.settings = {
-          #  substituters = [ "https://nixpkgs-xr.cachix.org" ];
-          #  trusted-public-keys = [ "nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws=" ];
+          #  substituters = [ "https://nix-community.cachix.org" ];
+          #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
           #};
         }
       ];
@@ -84,20 +84,20 @@ You can just add the following snippet to your configuration:
 ```nix
 { ... }:
 let
-  nixpkgs-xr = import (builtins.fetchTarball "https://github.com/Scrumplex/nixpkgs-xr/archive/main.tar.gz");
+  nixpkgs-xr = import (builtins.fetchTarball "https://github.com/nix-community/nixpkgs-xr/archive/main.tar.gz");
 in
   {
     nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
 
     #nix.settings = {
-    #  substituters = [ "https://nixpkgs-xr.cachix.org" ];
-    #  trusted-public-keys = [ "nixpkgs-xr.cachix.org-1:MmpJFzgK51AitU+tunf3aDOSDb9dKXuRyqR+EF6Z5ws=" ];
+    #  substituters = [ "https://nix-community.cachix.org" ];
+    #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
     #};
   }
 ```
 
 You can also pin the tarball url using tools like [niv][niv].
 
-[binary-cache]: https://app.cachix.org/cache/nixpkgs-xr
+[binary-cache]: https://app.cachix.org/cache/nix-community
 [flake-compat]: https://github.com/edolstra/flake-compat
 [niv]: https://github.com/nmattia/niv

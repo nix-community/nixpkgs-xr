@@ -8,3 +8,7 @@ Source: https://github.com/Scrumplex/nixpkgs-xr
 # Files: src/*
 # Copyright: $YEAR $NAME <$CONTACT>
 # License: ...
+
+Files: _sources/**
+Copyright: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+License: CC0-1.0

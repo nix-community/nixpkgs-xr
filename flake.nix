@@ -34,6 +34,7 @@
         ./parts/module.nix
         ./parts/overlay.nix
         ./parts/packages.nix
+        ./parts/readme.nix
       ];
     };
 }

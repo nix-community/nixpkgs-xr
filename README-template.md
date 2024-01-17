@@ -102,9 +102,7 @@ You can also pin the tarball url using tools like [niv][niv].
 
 This overlay provides the following packages:
 
-- `index_camera_passthrough`
-- `monado`
-- `opencomposite`
+@packageNames@
 
 [binary-cache]: https://app.cachix.org/cache/nix-community
 [flake-compat]: https://github.com/edolstra/flake-compat

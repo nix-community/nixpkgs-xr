@@ -3,47 +3,47 @@
 {
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
-    version = "7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11";
+    version = "f89422e8e79959f163a55c3f1053fb1ba1c57278";
     src = fetchgit {
       url = "https://github.com/yshui/index_camera_passthrough.git";
-      rev = "7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11";
+      rev = "f89422e8e79959f163a55c3f1053fb1ba1c57278";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-jgI8nayqjY9LZi279A/sZlGWXXnirEvbrgVZ/PkxdWo=";
+      sha256 = "sha256-fQeEXAlt3mr3sD7UnB7t3+0NiRyFHHSZQYJhR41CfBo=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./index_camera_passthrough-7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11/Cargo.lock;
+      lockFile = ./index_camera_passthrough-f89422e8e79959f163a55c3f1053fb1ba1c57278/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY=";
       };
     };
-    date = "2024-01-18";
+    date = "2024-01-20";
   };
   monado = {
     pname = "monado";
-    version = "bc8025a6bd9ede8b5f9e02596faa0c08822b760b";
+    version = "057584e1fb7a6cd526f9b1d6a0d66a0241f32dce";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "bc8025a6bd9ede8b5f9e02596faa0c08822b760b";
+      rev = "057584e1fb7a6cd526f9b1d6a0d66a0241f32dce";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-URdCEOiCVniPYJEQAkEcRBpmoZMPSN4KQs+oTmIzd6E=";
+      sha256 = "sha256-+1i5V5IWx+H13exaLgVea27Q+I/tdqYUkzviOkyPGUk=";
     };
-    date = "2024-01-17";
+    date = "2024-01-23";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "2ab29e49c96c5e446e439a408521a677737c4956";
+    version = "57ecdd2675fd1baeab7d9cf55b6e827f19a65530";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "2ab29e49c96c5e446e439a408521a677737c4956";
+      rev = "57ecdd2675fd1baeab7d9cf55b6e827f19a65530";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-he8ceYe6Q9DeaBkjvOihcd7DP6hCR0XVeRl7ySonUXk=";
+      sha256 = "sha256-OOJNQzFRPSdLrIaDrGke12ubIiSjdD/vvHBz0WjGf3c=";
     };
-    date = "2023-12-29";
+    date = "2024-01-13";
   };
 }

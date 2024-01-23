@@ -2,13 +2,13 @@
     "index_camera_passthrough": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./index_camera_passthrough-7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11/Cargo.lock",
+                "./index_camera_passthrough-f89422e8e79959f163a55c3f1053fb1ba1c57278/Cargo.lock",
                 {
                     "vulkano-0.34.0": "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY="
                 }
             ]
         },
-        "date": "2024-01-18",
+        "date": "2024-01-20",
         "extract": null,
         "name": "index_camera_passthrough",
         "passthru": null,
@@ -18,16 +18,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11",
-            "sha256": "sha256-jgI8nayqjY9LZi279A/sZlGWXXnirEvbrgVZ/PkxdWo=",
+            "rev": "f89422e8e79959f163a55c3f1053fb1ba1c57278",
+            "sha256": "sha256-fQeEXAlt3mr3sD7UnB7t3+0NiRyFHHSZQYJhR41CfBo=",
             "type": "git",
             "url": "https://github.com/yshui/index_camera_passthrough.git"
         },
-        "version": "7f529a48ddc3f841f3e7fdb4a383c564a3b5bc11"
+        "version": "f89422e8e79959f163a55c3f1053fb1ba1c57278"
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2024-01-17",
+        "date": "2024-01-23",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -37,16 +37,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bc8025a6bd9ede8b5f9e02596faa0c08822b760b",
-            "sha256": "sha256-URdCEOiCVniPYJEQAkEcRBpmoZMPSN4KQs+oTmIzd6E=",
+            "rev": "057584e1fb7a6cd526f9b1d6a0d66a0241f32dce",
+            "sha256": "sha256-+1i5V5IWx+H13exaLgVea27Q+I/tdqYUkzviOkyPGUk=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "bc8025a6bd9ede8b5f9e02596faa0c08822b760b"
+        "version": "057584e1fb7a6cd526f9b1d6a0d66a0241f32dce"
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2023-12-29",
+        "date": "2024-01-13",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -56,11 +56,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2ab29e49c96c5e446e439a408521a677737c4956",
-            "sha256": "sha256-he8ceYe6Q9DeaBkjvOihcd7DP6hCR0XVeRl7ySonUXk=",
+            "rev": "57ecdd2675fd1baeab7d9cf55b6e827f19a65530",
+            "sha256": "sha256-OOJNQzFRPSdLrIaDrGke12ubIiSjdD/vvHBz0WjGf3c=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "2ab29e49c96c5e446e439a408521a677737c4956"
+        "version": "57ecdd2675fd1baeab7d9cf55b6e827f19a65530"
     }
 }

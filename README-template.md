@@ -6,7 +6,13 @@ SPDX-License-Identifier: CC0-1.0
 
 # nixpkgs-xr
 
-Automated packages for XR/AR/VR tools and apps for NixOS [maintainer=@Scrumplex]
+This repository provides Nix packages as well as a Nixpkgs overlay for unstable versions of XR/AR/VR packages for NixOS.
+The packages are automatically updated, built and cached regularly.
+A list of packages in provided down in the [Packages section](#packages).
+
+See [Usage](#usage) for information on how to set this up on your machine.
+
+A community chat is available on Matrix: [#nixpkgs-xr:matrix.org](https://matrix.to/#/#nixpkgs-xr:matrix.org)
 
 ## Usage
 

@@ -1,37 +1,42 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
-{inputs, ...}: let
+{ inputs, ... }:
+let
   inherit (builtins) mapAttrs;
 
   mkOverride = newAttrs: pkg: pkg.overrideAttrs (_: newAttrs);
 
-  mkSources = final:
+  mkSources =
+    final:
     import ../_sources/generated.nix {
-      inherit (final) fetchgit fetchurl fetchFromGitHub dockerTools;
+      inherit (final)
+        fetchgit
+        fetchurl
+        fetchFromGitHub
+        dockerTools
+        ;
     };
 
-  mkSourceArgs = source: {inherit (source) pname version src;};
+  mkSourceArgs = source: { inherit (source) pname version src; };
 
-  mkCallPackage = final: cfg: source:
+  mkCallPackage =
+    final: cfg: source:
     final.callPackage cfg.drv (cfg.drvArgs source);
 
   mkSourceOverride = source: mkOverride (mkSourceArgs source);
 
-  mkPackage = final: prev: sources: name: cfg: let
-    source = sources.${name};
-    pkg =
-      if cfg ? drv
-      then mkCallPackage final cfg source
-      else prev.${name};
-  in
+  mkPackage =
+    final: prev: sources: name: cfg:
+    let
+      source = sources.${name};
+      pkg = if cfg ? drv then mkCallPackage final cfg source else prev.${name};
+    in
     mkSourceOverride source pkg;
 
-  mkDebugOverride = prev: pkg: _:
-    mkOverride {
-      dontStrip = true;
-    }
-    prev.${pkg};
+  mkDebugOverride =
+    prev: pkg: _:
+    mkOverride { dontStrip = true; } prev.${pkg};
 
   packages = {
     index_camera_passthrough = {
@@ -41,10 +46,11 @@
         cargoLock = source.cargoLock."Cargo.lock";
       };
     };
-    monado = {};
-    opencomposite = {};
+    monado = { };
+    opencomposite = { };
   };
-in {
+in
+{
   flake.overlays = {
     default = final: prev: mapAttrs (mkPackage final prev (mkSources final)) packages;
     unstripped = final: prev: mapAttrs (mkDebugOverride prev) packages;

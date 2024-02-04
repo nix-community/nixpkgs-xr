@@ -29,6 +29,9 @@ jobs:
 
       - name: Update upstream sources
         run: |
+          # HACK: nvfetcher doesn't delete old extracted files
+          # See https://github.com/berberman/nvfetcher/issues/111
+          rm -rfv _sources/*/
           nix develop -c nvfetcher --commit-changes
 
       - name: Create PR

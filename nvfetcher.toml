@@ -14,3 +14,8 @@ fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 src.git = "https://github.com/yshui/index_camera_passthrough.git"
 fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
 cargo_locks = ["Cargo.lock"]
+
+[wlx-overlay-s]
+src.git = "https://github.com/galister/wlx-overlay-s.git"
+fetch.git = "https://github.com/galister/wlx-overlay-s.git"
+cargo_locks = ["Cargo.lock"]

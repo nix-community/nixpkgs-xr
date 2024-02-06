@@ -27,7 +27,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2024-02-02",
+        "date": "2024-02-05",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -37,16 +37,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b5df7f1761b057f48d7b820c55fb38a279efc46f",
-            "sha256": "sha256-pYawXk6yTqpKddv/EQ9aZdlf/ch1N04rukUj4Wp24DA=",
+            "rev": "84f74ff3df5936ff95b1eec3cb394716fc358111",
+            "sha256": "sha256-HsEQX0alHabWBIml0/tTNvuxLjcGp167lxPCtU8wvmM=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "b5df7f1761b057f48d7b820c55fb38a279efc46f"
+        "version": "84f74ff3df5936ff95b1eec3cb394716fc358111"
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2024-01-13",
+        "date": "2024-02-04",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -56,11 +56,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "57ecdd2675fd1baeab7d9cf55b6e827f19a65530",
-            "sha256": "sha256-OOJNQzFRPSdLrIaDrGke12ubIiSjdD/vvHBz0WjGf3c=",
+            "rev": "c1649b0e4f3c4f51c12904c0b818263006d56f00",
+            "sha256": "sha256-K8Vtd60cKmhEKMBrlNZxoC73m1BY0014ejJM2mWkwsA=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "57ecdd2675fd1baeab7d9cf55b6e827f19a65530"
+        "version": "c1649b0e4f3c4f51c12904c0b818263006d56f00"
     }
 }

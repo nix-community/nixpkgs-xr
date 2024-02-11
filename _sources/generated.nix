@@ -35,15 +35,15 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "c1649b0e4f3c4f51c12904c0b818263006d56f00";
+    version = "91364d4c06d36582d552f7fe43aa1e40105c65f1";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "c1649b0e4f3c4f51c12904c0b818263006d56f00";
+      rev = "91364d4c06d36582d552f7fe43aa1e40105c65f1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-K8Vtd60cKmhEKMBrlNZxoC73m1BY0014ejJM2mWkwsA=";
+      sha256 = "sha256-Az8wfGqD1NBCuz333ESfZXDDAhBTtG0Va5MRbLN05mM=";
     };
-    date = "2024-02-04";
+    date = "2024-02-10";
   };
 }

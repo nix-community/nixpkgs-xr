@@ -2,23 +2,18 @@
 #
 # SPDX-License-Identifier: MIT
 { lib, ... }:
-let
-  inherit (builtins) attrValues;
-  inherit (lib) mapAttrs' nameValuePair;
-in
 {
   perSystem =
-    { pkgs, self', ... }:
+    { self', ... }:
+    let
+      inherit (lib) filterAttrs mapAttrs' nameValuePair;
+
+      packages' = filterAttrs (_: pkg: !pkg.meta.broken) self'.packages;
+
+      packageChecks = mapAttrs' (n: nameValuePair "package-${n}") packages';
+      devShellChecks = mapAttrs' (n: nameValuePair "devShell-${n}") self'.devShells;
+    in
     {
-      checks =
-        let
-          packages = mapAttrs' (n: nameValuePair "package-${n}") self'.packages;
-          devShells = mapAttrs' (n: nameValuePair "devShell-${n}") self'.devShells;
-        in
-        packages
-        // devShells
-        // {
-          packages = pkgs.linkFarmFromDrvs "nixpkgs-xr-packages" (attrValues self'.packages);
-        };
+      checks = packageChecks // devShellChecks;
     };
 }

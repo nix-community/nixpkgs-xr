@@ -50,9 +50,7 @@ let
     opencomposite = { };
     wlx-overlay-s = {
       drv = ../pkgs/wlx-overlay-s;
-      drvArgs = source: {
-        cargoLock = source.cargoLock."Cargo.lock";
-      };
+      drvArgs = source: { cargoLock = source.cargoLock."Cargo.lock"; };
     };
   };
 in

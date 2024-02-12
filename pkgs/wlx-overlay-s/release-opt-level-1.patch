@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+diff --git a/Cargo.toml b/Cargo.toml
+index e4f93a5..3eefa4f 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -54,3 +54,5 @@ openxr = ["dep:openxr"]
+ osc = ["dep:rosc"]
+ default = ["openvr", "openxr", "osc"]
+ 
++[profile.release]
++opt-level = 1

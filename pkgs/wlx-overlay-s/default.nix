@@ -59,6 +59,10 @@ rustPlatform.buildRustPackage {
 
   env.SHADERC_LIB_DIR = "${lib.getLib shaderc}/lib";
 
+  patches = [
+    ./release-opt-level-1.patch
+  ];
+
   postPatch = lib.optionalString withDefaultPrograms ''
     substituteAllInPlace src/res/watch.yaml \
       --replace '"pactl"' '"${lib.getExe' pulseaudio "pactl"}"'
@@ -76,10 +80,6 @@ rustPlatform.buildRustPackage {
         ]
       }
   '';
-
-  # Release builds are broken as of 2024-02-12
-  dontStrip = true;
-  buildType = "debug";
 
   meta = with lib; {
     description = "Wayland desktop overlay for SteamVR and OpenXR, Vulkan edition";

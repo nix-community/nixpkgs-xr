@@ -4,7 +4,6 @@
 
 {
   lib,
-  system,
   stdenv,
   rustPlatform,
   fetchFromGitHub,
@@ -58,10 +57,6 @@ rustPlatform.buildRustPackage {
   ];
 
   env.SHADERC_LIB_DIR = "${lib.getLib shaderc}/lib";
-
-  patches = [
-    ./release-opt-level-1.patch
-  ];
 
   postPatch = lib.optionalString withDefaultPrograms ''
     substituteAllInPlace src/res/watch.yaml \

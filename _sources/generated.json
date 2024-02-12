@@ -62,5 +62,34 @@
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
         "version": "021a644e0da02d77ec131c5878598f3897c0e86b"
+    },
+    "wlx-overlay-s": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./wlx-overlay-s-75da834e4afab83bb385ff767a5c8bdf3abc48c1/Cargo.lock",
+                {
+                    "ovr_overlay-0.0.0": "sha256-M6vjOXUCHLdf/fqZ4XBUwtZmLwYRRaeB/LFTDPTN4CA=",
+                    "rxscreen-0.1.6": "sha256-8qP2yxURMK6zExaMmUMjUH6nfQWKiuATFMqmzZMVKEg=",
+                    "vulkano-0.34.0": "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=",
+                    "wlx-capture-0.1.0": "sha256-UqRJ4FGXHhPfe8fir0vxj2y4atugFnmwbO918mihvM0="
+                }
+            ]
+        },
+        "date": "2024-02-11",
+        "extract": null,
+        "name": "wlx-overlay-s",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "75da834e4afab83bb385ff767a5c8bdf3abc48c1",
+            "sha256": "sha256-zaP1L3q3yToNSQ+s+hiJDjk6ygkSwByKtd9FbJ3cQIA=",
+            "type": "git",
+            "url": "https://github.com/galister/wlx-overlay-s.git"
+        },
+        "version": "75da834e4afab83bb385ff767a5c8bdf3abc48c1"
     }
 }

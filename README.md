@@ -111,6 +111,7 @@ This overlay provides the following packages:
 - `index_camera_passthrough`
 - `monado`
 - `opencomposite`
+- `wlx-overlay-s`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community
 [flake-compat]: https://github.com/edolstra/flake-compat

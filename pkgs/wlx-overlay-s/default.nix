@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+#
+# SPDX-License-Identifier: MIT
+
 {
   lib,
   system,

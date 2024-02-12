@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+#
+# SPDX-License-Identifier: MIT
+
+name: Nix Format Check
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
+    - name: Check formatting
+      run: |
+        nix fmt -- --check

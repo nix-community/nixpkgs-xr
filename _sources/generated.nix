@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "e884e038af04873374b5b4981dab358f817603ea";
+    version = "1daa7abc4c3fe3cede0b7869be2dc51f6f6f844e";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "e884e038af04873374b5b4981dab358f817603ea";
+      rev = "1daa7abc4c3fe3cede0b7869be2dc51f6f6f844e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-nbuXKF7d+DsBpyJ7HJN3oZMEHuVoeXRDv/HZ/CmBA38=";
+      sha256 = "sha256-22cQOJ54x/5XGcVqD1A7arSY/kNZ3ZDg7D1I4Z04M80=";
     };
-    date = "2024-02-15";
+    date = "2024-02-18";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,24 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "63b43c0e592814539419f2ca826cd77342af83ff";
+    version = "1d9fa95ea08e8b1fd75c5b95bb3bd983dc35a6a7";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "63b43c0e592814539419f2ca826cd77342af83ff";
+      rev = "1d9fa95ea08e8b1fd75c5b95bb3bd983dc35a6a7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Tf1sALzvYk3ETX1HFpohnaQq/jlY16LV3HOKxVKe3Jk=";
+      sha256 = "sha256-9odWR9InfmknWC/y4r3/LqMRlBsLj3MdkwmjBJFzX98=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-63b43c0e592814539419f2ca826cd77342af83ff/Cargo.lock;
+      lockFile = ./wlx-overlay-s-1d9fa95ea08e8b1fd75c5b95bb3bd983dc35a6a7/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
-        "wlx-capture-0.1.0" = "sha256-HDP/HuyWk4UN6NSpGIrCaz/Rj2yPyNyM06Dte5tgplc=";
-        "rxscreen-0.1.6" = "sha256-yMyel3pCiOBGLl+BuvMlxlr5bImIw/ZpsF1XIhTXO6Q=";
+        "wlx-capture-0.1.1" = "sha256-5XjgkGUesgD9cYmfxcYeo1wwPIN21jBw803jp2WhACM=";
         "ovr_overlay-0.0.0" = "sha256-RvoI5Q00ZD6wwH0HcQ4izoNfimV4bVe8NAeWjbcqf2o=";
       };
     };
-    date = "2024-02-18";
+    date = "2024-02-19";
   };
 }

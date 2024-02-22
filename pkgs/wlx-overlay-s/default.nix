@@ -8,6 +8,7 @@
   rustPlatform,
   fetchFromGitHub,
   alsa-lib,
+  dbus,
   fontconfig,
   libxkbcommon,
   makeWrapper,
@@ -46,6 +47,7 @@ rustPlatform.buildRustPackage {
 
   buildInputs = [
     alsa-lib
+    dbus
     fontconfig
     libxkbcommon
     openvr

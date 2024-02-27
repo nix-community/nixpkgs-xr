@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "82f3264d88a1de7e94a2d1f021cdb5f9ce308857";
+    version = "42047ef15719c479a59da0adb88c6b99ccefdbca";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "82f3264d88a1de7e94a2d1f021cdb5f9ce308857";
+      rev = "42047ef15719c479a59da0adb88c6b99ccefdbca";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-1P+pFnPqm62LoGquxxiI1rwWCyfTkAlVD9x4eszNKRc=";
+      sha256 = "sha256-kML5KdJ7W/7CAPv9GoxVdzfMNK81VYIcHd22+PWUUBU=";
     };
-    date = "2024-02-20";
+    date = "2024-02-26";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,23 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "b93ddfce5b2c987babe7018284d4f5ad56c59db7";
+    version = "b045f46b1287a37afcc68f382e52f461c56b8ac2";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "b93ddfce5b2c987babe7018284d4f5ad56c59db7";
+      rev = "b045f46b1287a37afcc68f382e52f461c56b8ac2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-XEpq4RHrcQI7RBq0LMfsWvXcC1wdcFc0wEkLII27AJk=";
+      sha256 = "sha256-QwJ5O6SJ8jfBTFUiW2I9quYxd1fajRAcacnEPuebfXU=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-b93ddfce5b2c987babe7018284d4f5ad56c59db7/Cargo.lock;
+      lockFile = ./wlx-overlay-s-b045f46b1287a37afcc68f382e52f461c56b8ac2/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "ovr_overlay-0.0.0" = "sha256-KpvNJraDRtJEg8BPpQqpeZ5Yxx2FII+QNDu6wsDwzsI=";
         "wlx-capture-0.2.0" = "sha256-yArUxgTM/DV5PcCm33VoTdXjR8mXQoHWnax0oLDSz9U=";
       };
     };
-    date = "2024-02-22";
+    date = "2024-02-25";
   };
 }

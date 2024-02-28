@@ -3,22 +3,22 @@
 {
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
-    version = "d54369daacecb7a5a710002a2e8821aad21be64e";
+    version = "04fb965edb14eee5a3591ea35d35c33e428ba7fe";
     src = fetchgit {
       url = "https://github.com/yshui/index_camera_passthrough.git";
-      rev = "d54369daacecb7a5a710002a2e8821aad21be64e";
+      rev = "04fb965edb14eee5a3591ea35d35c33e428ba7fe";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-TBKXkL3SGqvm2jiZjtdrJsVWTF8vTTz3kv7b1mK+bYI=";
+      sha256 = "sha256-UAyXAPqJqq1uGrpW3AEQB/pyE3yoFa32tJxLVhI+OPs=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./index_camera_passthrough-d54369daacecb7a5a710002a2e8821aad21be64e/Cargo.lock;
+      lockFile = ./index_camera_passthrough-04fb965edb14eee5a3591ea35d35c33e428ba7fe/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY=";
       };
     };
-    date = "2024-01-30";
+    date = "2024-02-27";
   };
   monado = {
     pname = "monado";
@@ -48,23 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "b045f46b1287a37afcc68f382e52f461c56b8ac2";
+    version = "8e2677bd87c11292d90986851f9e999c976d4410";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "b045f46b1287a37afcc68f382e52f461c56b8ac2";
+      rev = "8e2677bd87c11292d90986851f9e999c976d4410";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-QwJ5O6SJ8jfBTFUiW2I9quYxd1fajRAcacnEPuebfXU=";
+      sha256 = "sha256-fsPhzM1wfD26Sil9fxbObHYYMigIPp0acE5NXfWGm0Y=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-b045f46b1287a37afcc68f382e52f461c56b8ac2/Cargo.lock;
+      lockFile = ./wlx-overlay-s-8e2677bd87c11292d90986851f9e999c976d4410/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "ovr_overlay-0.0.0" = "sha256-KpvNJraDRtJEg8BPpQqpeZ5Yxx2FII+QNDu6wsDwzsI=";
-        "wlx-capture-0.2.0" = "sha256-yArUxgTM/DV5PcCm33VoTdXjR8mXQoHWnax0oLDSz9U=";
+        "wlx-capture-0.2.0" = "sha256-4Ntx6ysYmmj0XG56fGMS8pHgYwfm3HHQJIDUmxSsukU=";
       };
     };
-    date = "2024-02-25";
+    date = "2024-02-28";
   };
 }

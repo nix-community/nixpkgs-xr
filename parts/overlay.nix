@@ -5,8 +5,6 @@
 let
   inherit (builtins) mapAttrs;
 
-  mkOverride = newAttrs: pkg: pkg.overrideAttrs (_: newAttrs);
-
   mkSources =
     final:
     import ../_sources/generated.nix {
@@ -18,25 +16,29 @@ let
         ;
     };
 
-  mkSourceArgs = source: { inherit (source) pname version src; };
-
   mkCallPackage =
     final: cfg: source:
     final.callPackage cfg.drv (cfg.drvArgs source);
-
-  mkSourceOverride = source: mkOverride (mkSourceArgs source);
 
   mkPackage =
     final: prev: sources: name: cfg:
     let
       source = sources.${name};
       pkg = if cfg ? drv then mkCallPackage final cfg source else prev.${name};
+      # final: prev: source: prevAttrs {<attrs>}
+      extraAttrs =
+        cfg.extraAttrs or (
+          _: _: _: _:
+          { }
+        );
     in
-    mkSourceOverride source pkg;
+    (pkg.overrideAttrs (_: { inherit (source) pname version src; })).overrideAttrs (
+      extraAttrs final prev source
+    );
 
   mkDebugOverride =
     prev: pkg: _:
-    mkOverride { dontStrip = true; } prev.${pkg};
+    prev.${pkg}.overrideAttrs (_: { dontStrip = true; });
 
   packages = {
     index_camera_passthrough = {
@@ -49,8 +51,9 @@ let
     monado = { };
     opencomposite = { };
     wlx-overlay-s = {
-      drv = ../pkgs/wlx-overlay-s;
-      drvArgs = source: { cargoLock = source.cargoLock."Cargo.lock"; };
+      extraAttrs = final: _: source: _: {
+        cargoDeps = final.rustPlatform.importCargoLock source.cargoLock."Cargo.lock";
+      };
     };
   };
 in

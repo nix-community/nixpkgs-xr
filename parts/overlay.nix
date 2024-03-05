@@ -24,7 +24,11 @@ let
     final: prev: sources: name: cfg:
     let
       source = sources.${name};
-      pkg = if cfg ? drv then mkCallPackage final cfg source else prev.${name};
+      pkg =
+        if cfg ? drv then
+          mkCallPackage final cfg source
+        else
+          prev.${name} or (throw "package ${name} not in Nixpkgs!");
       # final: prev: source: prevAttrs {<attrs>}
       extraAttrs =
         cfg.extraAttrs or (

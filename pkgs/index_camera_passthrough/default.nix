@@ -9,6 +9,7 @@
   udev,
   vulkan-loader,
   openvr,
+  openxr-loader,
   shaderc,
   cmake,
   # nixpkgs-xr:
@@ -26,6 +27,11 @@ rustPlatform.buildRustPackage {
   pname = "index-camera-passthrough";
   version = "0";
 
+  postPatch = ''
+    substituteInPlace Cargo.toml \
+      --replace 'openxr = "0.17.1"' 'openxr = { version = "0.17.1", features = ["linked"] }'
+  '';
+
   # src will be added by the source override
   inherit cargoLock;
 
@@ -39,6 +45,7 @@ rustPlatform.buildRustPackage {
     udev
     vulkan-loader
     openvr
+    openxr-loader
   ];
 
   env.SHADERC_LIB_DIR = "${lib.getLib shaderc}/lib";

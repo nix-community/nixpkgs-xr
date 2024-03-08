@@ -3,35 +3,35 @@
 {
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
-    version = "9faa30189677982f6369aa22d0a9cbdb1ccd445b";
+    version = "5b96be8fd7a437b227438a4a9f3e6492b5845c06";
     src = fetchgit {
       url = "https://github.com/yshui/index_camera_passthrough.git";
-      rev = "9faa30189677982f6369aa22d0a9cbdb1ccd445b";
+      rev = "5b96be8fd7a437b227438a4a9f3e6492b5845c06";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-x/V6TZgwx2v46LZ+ijyc6QeVuCK/naOlA5hGnfBB+tA=";
+      sha256 = "sha256-7VTDHlcJ0c4H8YKn3aw9tuJzMMQsw4y0BkmIj7JhYRw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./index_camera_passthrough-9faa30189677982f6369aa22d0a9cbdb1ccd445b/Cargo.lock;
+      lockFile = ./index_camera_passthrough-5b96be8fd7a437b227438a4a9f3e6492b5845c06/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY=";
       };
     };
-    date = "2024-03-03";
+    date = "2024-03-07";
   };
   monado = {
     pname = "monado";
-    version = "4b3f7bba95e259d85bb5197d80f1e9785ac6b82a";
+    version = "6fddf3103d61bfb3b7b1a12d8b18a4572c78f59e";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "4b3f7bba95e259d85bb5197d80f1e9785ac6b82a";
+      rev = "6fddf3103d61bfb3b7b1a12d8b18a4572c78f59e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-mZUkeLaOF/VmmHM9rXUJsX30uNSLhALQg4g6xE45ee8=";
+      sha256 = "sha256-8d/GqYhK+Z1mgKwpg8WaqZRCqEpMpF3oB5TaN3zVsx8=";
     };
-    date = "2024-03-05";
+    date = "2024-03-07";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,23 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "507c0677c8096cc85612df5ab3f60848b1a933ff";
+    version = "19bc4a5df24f5cdc5b25a69d943b271d4a508c87";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "507c0677c8096cc85612df5ab3f60848b1a933ff";
+      rev = "19bc4a5df24f5cdc5b25a69d943b271d4a508c87";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-gZ0sewE5t4vhyhDkExpRH6P92WZnMZehzgyI1SaTS4s=";
+      sha256 = "sha256-3S5tJbMSjRh0MIN5iI+J2qKJNM7mA1Qj3vKloYNQ6bw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-507c0677c8096cc85612df5ab3f60848b1a933ff/Cargo.lock;
+      lockFile = ./wlx-overlay-s-19bc4a5df24f5cdc5b25a69d943b271d4a508c87/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
-        "ovr_overlay-0.0.0" = "sha256-SVAQ/91NJD/wpG3WaFerz8chRWx9SzQcDbDrXg7Jczg=";
+        "ovr_overlay-0.0.0" = "sha256-k+yDkA+lmkhE0TPPpexBaUWbYbe1zYL4wcALt4Jvh3g=";
         "wlx-capture-0.2.1" = "sha256-3nEcEvsFPPvLe4/Es5NCq3sxUfQUz1rtRzCuyUfr/6U=";
       };
     };
-    date = "2024-03-06";
+    date = "2024-03-08";
   };
 }

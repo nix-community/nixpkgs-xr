@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "a896d798538e696539bd3ba61c5b726b11542382";
+    version = "e91102d27822fc68195b61eed0dcbbb52cadfd26";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "a896d798538e696539bd3ba61c5b726b11542382";
+      rev = "e91102d27822fc68195b61eed0dcbbb52cadfd26";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Dxk33v/T74Sf0WmzGWZnUKWbhSC9OuMrMe7jX+Ls/1M=";
+      sha256 = "sha256-G1+Ftfezwyhv2LuHF+xplYNpktB2RIwgeywsG4ct+aY=";
     };
-    date = "2024-03-19";
+    date = "2024-03-24";
   };
   opencomposite = {
     pname = "opencomposite";

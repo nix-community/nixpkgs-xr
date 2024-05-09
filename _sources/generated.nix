@@ -3,22 +3,22 @@
 {
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
-    version = "d102ddb0ff70126483d91a7a87d987065d45c06b";
+    version = "4ae1b8d65e89d1fd9914ad57502e6ab143079043";
     src = fetchgit {
       url = "https://github.com/yshui/index_camera_passthrough.git";
-      rev = "d102ddb0ff70126483d91a7a87d987065d45c06b";
+      rev = "4ae1b8d65e89d1fd9914ad57502e6ab143079043";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-OA1YuFPoeJzQ7ZdhLKzoAR9hY64OOrpBmG23u9YqWQg=";
+      sha256 = "sha256-yMCSzLrQzbMgeYZscgDOatIuQ/OyBo4DOH+q230FzXk=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./index_camera_passthrough-d102ddb0ff70126483d91a7a87d987065d45c06b/Cargo.lock;
+      lockFile = ./index_camera_passthrough-4ae1b8d65e89d1fd9914ad57502e6ab143079043/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY=";
       };
     };
-    date = "2024-03-08";
+    date = "2024-05-09";
   };
   monado = {
     pname = "monado";
@@ -35,16 +35,16 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "1bfdf67358add5f573efedbec1fa65d18b790e0e";
+    version = "5ddd6024efafa82c7a432c9dd8a67e3d5c3f9b38";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "1bfdf67358add5f573efedbec1fa65d18b790e0e";
+      rev = "5ddd6024efafa82c7a432c9dd8a67e3d5c3f9b38";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-qF5oMI9B5a1oE2gQb/scbom/39Efccja0pTPHHaHMA8=";
+      sha256 = "sha256-m6Xhi6xlDWiVqtYyxpQP2vp5JsB2EKsoXkmd0IYtPQ8=";
     };
-    date = "2024-03-04";
+    date = "2024-05-08";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";

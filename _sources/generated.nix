@@ -3,17 +3,17 @@
 {
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
-    version = "4ae1b8d65e89d1fd9914ad57502e6ab143079043";
+    version = "f68cd0df0a36e7b90bb94d433cb446dc2a81dfff";
     src = fetchgit {
       url = "https://github.com/yshui/index_camera_passthrough.git";
-      rev = "4ae1b8d65e89d1fd9914ad57502e6ab143079043";
+      rev = "f68cd0df0a36e7b90bb94d433cb446dc2a81dfff";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-yMCSzLrQzbMgeYZscgDOatIuQ/OyBo4DOH+q230FzXk=";
+      sha256 = "sha256-QjmdkX7XEE5XuqHzSESS3/nF9nONRRIDEbX9pk+VEIk=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./index_camera_passthrough-4ae1b8d65e89d1fd9914ad57502e6ab143079043/Cargo.lock;
+      lockFile = ./index_camera_passthrough-f68cd0df0a36e7b90bb94d433cb446dc2a81dfff/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY=";
       };
@@ -48,23 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "6ee0cb4fd1bd099a0f22171656f87f85e3f86abd";
+    version = "93a4a6702b62e04a3f355a8712a5c3b56dce1f8c";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "6ee0cb4fd1bd099a0f22171656f87f85e3f86abd";
+      rev = "93a4a6702b62e04a3f355a8712a5c3b56dce1f8c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-F3WbLPRKkP+8LHr99VjDnXI5A/pZihG3wf2inAFjrog=";
+      sha256 = "sha256-K5lywIrucjwiXZbr0Mc4mNA1tpYABbmCrdyW6nM57+M=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-6ee0cb4fd1bd099a0f22171656f87f85e3f86abd/Cargo.lock;
+      lockFile = ./wlx-overlay-s-93a4a6702b62e04a3f355a8712a5c3b56dce1f8c/Cargo.lock;
       outputHashes = {
         "wlx-capture-0.3.8" = "sha256-cbu5tmeGOHKd6BryjK509GuiBPUEhsaS/6mW92nRbO0=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "ovr_overlay-0.0.0" = "sha256-b2sGzBOB2aNNJ0dsDBjgV2jH3ROO/Cdu8AIHPSXMCPg=";
       };
     };
-    date = "2024-05-04";
+    date = "2024-05-09";
   };
 }

@@ -53,7 +53,13 @@ let
       };
     };
     monado = { };
-    opencomposite = { };
+    opencomposite = {
+      extraAttrs = _: _: _: prevAttrs: {
+        cmakeFlags = prevAttrs.cmakeFlags or [] ++ [
+          "-DCMAKE_CXX_FLAGS=-Wno-error=format-security"
+        ];
+      };
+    };
     wlx-overlay-s = {
       extraAttrs = final: _: source: _: {
         cargoDeps = final.rustPlatform.importCargoLock source.cargoLock."Cargo.lock";

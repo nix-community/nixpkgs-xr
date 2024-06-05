@@ -19,7 +19,7 @@
     };
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
     fenix = {
-      url = "github:nix-community/fenix/monthly";
+      url = "github:nix-community/fenix/73124e1356bde9411b163d636b39fe4804b7ca45";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

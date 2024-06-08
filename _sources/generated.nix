@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "53bcd6ebed685a48b7c3eb2cb8ecc6f9280e6cf7";
+    version = "28cb225be12a8a55c221f22103c235aff6de3883";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "53bcd6ebed685a48b7c3eb2cb8ecc6f9280e6cf7";
+      rev = "28cb225be12a8a55c221f22103c235aff6de3883";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-HitkwZfGYpsjHRRqoOIfCmBg4UNIlQgnd9KLZUcI75w=";
+      sha256 = "sha256-lFy0VvaLD4Oyu2TZJnaIWjuaJUZjGGDJS0VsRfIUpcc=";
     };
-    date = "2024-06-06";
+    date = "2024-06-07";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,23 +48,23 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "009626704cde81a02915c33e8bb29b11f0b18bb3";
+    version = "8ae65083f90b34232da615bdb3bf1e9aa72fe4e5";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "009626704cde81a02915c33e8bb29b11f0b18bb3";
+      rev = "8ae65083f90b34232da615bdb3bf1e9aa72fe4e5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-B3nTj1phJ82bPSX1eJ0LtnrBlhFtEjtJN4N2cFNY8ew=";
+      sha256 = "sha256-zvGB1HjSR3n/WzzQN6xa5Qm/jGL8zIgsE/yGycU4LCw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-009626704cde81a02915c33e8bb29b11f0b18bb3/Cargo.lock;
+      lockFile = ./wlx-overlay-s-8ae65083f90b34232da615bdb3bf1e9aa72fe4e5/Cargo.lock;
       outputHashes = {
-        "wlx-capture-0.3.8" = "sha256-cbu5tmeGOHKd6BryjK509GuiBPUEhsaS/6mW92nRbO0=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
-        "ovr_overlay-0.0.0" = "sha256-b2sGzBOB2aNNJ0dsDBjgV2jH3ROO/Cdu8AIHPSXMCPg=";
+        "ovr_overlay-0.0.0" = "sha256-d38LqhKOp9tHbiK4eU7OPdFvkExqaJN1tB6y2qqPm9U=";
+        "wlx-capture-0.3.11" = "sha256-CmFnVfA3MAYXSejn9GpuaNCRu4HiX0CN0j3aN4Pxvjw=";
       };
     };
-    date = "2024-06-03";
+    date = "2024-06-08";
   };
 }

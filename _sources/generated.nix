@@ -22,49 +22,49 @@
   };
   monado = {
     pname = "monado";
-    version = "f935fa943f2dcaafde5b628fd66a0b070092e100";
+    version = "9422aca625049b186e41da1aab386a97083604a1";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "f935fa943f2dcaafde5b628fd66a0b070092e100";
+      rev = "9422aca625049b186e41da1aab386a97083604a1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-B+9xn3DbaErP6NSZAf1QuJyv8GGIoO/Pd4arH/o//U0=";
+      sha256 = "sha256-yhcez0Yw2a2nFBkOllGwUkOGGW3Jp20BLXuHRyYL4vw=";
     };
-    date = "2024-06-12";
+    date = "2024-06-13";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "863c7843bafb385fa747d6ba109ad2fdd3b36b29";
+    version = "de1658db7e2535fd36c2e37fa8dd3d756280c86f";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "863c7843bafb385fa747d6ba109ad2fdd3b36b29";
+      rev = "de1658db7e2535fd36c2e37fa8dd3d756280c86f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-RXHqoEmmXm7zKWRV6QopImV2lnBXQJ+IUwXzECaTdQ8=";
+      sha256 = "sha256-xyEiuEy3nt2AbF149Pjz5wi/rkTup2SgByR4DrNOJX0=";
     };
-    date = "2024-06-11";
+    date = "2024-06-12";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "40383f2529e7ac616425d81a760eaadd98879ec8";
+    version = "8fb9ef4a05f90410dcf658de33449faac8d27bad";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "40383f2529e7ac616425d81a760eaadd98879ec8";
+      rev = "8fb9ef4a05f90410dcf658de33449faac8d27bad";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-9ess8/H7cByNYFNHvCi0124xCBwXk+PTNhAZKBcS08A=";
+      sha256 = "sha256-0JLx5zjCA+I6LDyGt4K3OQVb7e4fif2+AgGQemFCFDI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-40383f2529e7ac616425d81a760eaadd98879ec8/Cargo.lock;
+      lockFile = ./wlx-overlay-s-8fb9ef4a05f90410dcf658de33449faac8d27bad/Cargo.lock;
       outputHashes = {
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "ovr_overlay-0.0.0" = "sha256-d38LqhKOp9tHbiK4eU7OPdFvkExqaJN1tB6y2qqPm9U=";
         "wlx-capture-0.3.11" = "sha256-CmFnVfA3MAYXSejn9GpuaNCRu4HiX0CN0j3aN4Pxvjw=";
       };
     };
-    date = "2024-06-09";
+    date = "2024-06-14";
   };
 }

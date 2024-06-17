@@ -66,15 +66,15 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-b3ae583cb44d832a7acb951839e7880583853cdb/Cargo.lock",
+                "./wlx-overlay-s-371d3c27578893da736af2ca3205528232b7319a/Cargo.lock",
                 {
                     "ovr_overlay-0.0.0": "sha256-d38LqhKOp9tHbiK4eU7OPdFvkExqaJN1tB6y2qqPm9U=",
-                    "vulkano-0.34.0": "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=",
+                    "vulkano-0.34.0": "sha256-o1KP/mscMG5j3U3xtei/2nMNEh7jLedcW1P0gL9Y1Rc=",
                     "wlx-capture-0.3.11": "sha256-CmFnVfA3MAYXSejn9GpuaNCRu4HiX0CN0j3aN4Pxvjw="
                 }
             ]
         },
-        "date": "2024-06-16",
+        "date": "2024-06-17",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -84,11 +84,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b3ae583cb44d832a7acb951839e7880583853cdb",
-            "sha256": "sha256-6hmFNdUNUqRsYdwWZOJiqmbdYC3rBM5oIf+9pDKjsGM=",
+            "rev": "371d3c27578893da736af2ca3205528232b7319a",
+            "sha256": "sha256-HyKJQ+S84vQhTzRqQcjbcKdSffKv/vJ9n9noYhZvw8Q=",
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "b3ae583cb44d832a7acb951839e7880583853cdb"
+        "version": "371d3c27578893da736af2ca3205528232b7319a"
     }
 }

@@ -9,6 +9,7 @@ fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 [opencomposite]
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
 fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
+git.fetchSubmodules = true
 
 [index_camera_passthrough]
 src.git = "https://github.com/yshui/index_camera_passthrough.git"

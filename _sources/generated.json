@@ -53,11 +53,11 @@
         "pinned": false,
         "src": {
             "deepClone": false,
-            "fetchSubmodules": false,
+            "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
             "rev": "97acbdaac1cbd729950892428dccd8e54371ec62",
-            "sha256": "sha256-gHu59nOADe1uQ6l599aI6gVstDHeuMt85zC8k0jzMuo=",
+            "sha256": "sha256-T9Bz3TsDWdtFBlyxRWQFIH7vBcAh04nO/eGl9j0iT3Y=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },

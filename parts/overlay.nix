@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
-{ inputs, ... }:
+{ inputs, lib, ... }:
 let
   inherit (builtins) mapAttrs;
 
@@ -56,7 +56,9 @@ let
     opencomposite = {
       extraAttrs = _: _: _: prevAttrs: {
         cmakeFlags = prevAttrs.cmakeFlags or [] ++ [
-          "-DCMAKE_CXX_FLAGS=-Wno-error=format-security"
+          (lib.cmakeFeature "CMAKE_CXX_FLAGS" "-Wno-error=format-security")
+          # TODO: This is a temporary workaround to fix missing json headers. File bug upstream!
+          (lib.cmakeBool "USE_SYSTEM_OPENXR" false)
         ];
       };
     };

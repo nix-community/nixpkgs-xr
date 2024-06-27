@@ -39,10 +39,10 @@
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
       rev = "97acbdaac1cbd729950892428dccd8e54371ec62";
-      fetchSubmodules = false;
+      fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-gHu59nOADe1uQ6l599aI6gVstDHeuMt85zC8k0jzMuo=";
+      sha256 = "sha256-T9Bz3TsDWdtFBlyxRWQFIH7vBcAh04nO/eGl9j0iT3Y=";
     };
     date = "2024-06-24";
   };

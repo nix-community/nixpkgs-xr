@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "nixpkgs-xr"
+SPDX-PackageSupplier = "Sefa Eyeoglu <contact@scrumplex.net>"
+SPDX-PackageDownloadLocation = "https://github.com/Scrumplex/nixpkgs-xr"
+
+[[annotations]]
+path = "_sources/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Sefa Eyeoglu <contact@scrumplex.net>"
+SPDX-License-Identifier = "CC0-1.0"

@@ -59,6 +59,7 @@ let
           (lib.cmakeFeature "CMAKE_CXX_FLAGS" "-Wno-error=format-security")
           # TODO: This is a temporary workaround to fix missing json headers. File bug upstream!
           (lib.cmakeBool "USE_SYSTEM_OPENXR" false)
+          (lib.cmakeBool "USE_SYSTEM_GLM" false)
         ];
       };
     };

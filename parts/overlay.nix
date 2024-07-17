@@ -54,12 +54,17 @@ let
     };
     monado = { };
     opencomposite = {
-      extraAttrs = _: _: _: prevAttrs: {
+      extraAttrs = final: _: source: prevAttrs: {
+        nativeBuildInputs = prevAttrs.nativeBuildInputs or [] ++ [
+          # recent versions broke with Make
+          final.ninja
+        ];
         cmakeFlags = prevAttrs.cmakeFlags or [] ++ [
           (lib.cmakeFeature "CMAKE_CXX_FLAGS" "-Wno-error=format-security")
           # TODO: This is a temporary workaround to fix missing json headers. File bug upstream!
           (lib.cmakeBool "USE_SYSTEM_OPENXR" false)
           (lib.cmakeBool "USE_SYSTEM_GLM" false)
+          (lib.cmakeFeature "OC_VERSION" "${source.src.rev} (${source.date})")
         ];
       };
     };

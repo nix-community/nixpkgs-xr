@@ -46,7 +46,7 @@
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2024-07-14",
+        "date": "2024-07-23",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -56,17 +56,17 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "54b74112e9509407b3b601223d8eafdb3c827dd6",
-            "sha256": "sha256-pexbxz7wBI7wRVnEnNFzQCONoVdQvAGuSiI7M/ZKQHA=",
+            "rev": "632e5cc50b913e93194ca2970e6f13021182579f",
+            "sha256": "sha256-xGLgqV2GAYq3Zkg15C9BwTEfxnrmCjKiX/VETa+p24E=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "54b74112e9509407b3b601223d8eafdb3c827dd6"
+        "version": "632e5cc50b913e93194ca2970e6f13021182579f"
     },
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-5a45d4dd2f5d85cbe85a94686ccf7abe4fb0b103/Cargo.lock",
+                "./wlx-overlay-s-17addcde78e1f7ac9e063fc10f186567e5c6a0d4/Cargo.lock",
                 {
                     "ovr_overlay-0.0.0": "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=",
                     "vulkano-0.34.0": "sha256-o1KP/mscMG5j3U3xtei/2nMNEh7jLedcW1P0gL9Y1Rc=",
@@ -74,7 +74,7 @@
                 }
             ]
         },
-        "date": "2024-07-22",
+        "date": "2024-07-23",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -84,11 +84,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5a45d4dd2f5d85cbe85a94686ccf7abe4fb0b103",
-            "sha256": "sha256-90tceWc8CKKtDqURktH2YZqqmHkYpYR4nU6JbCZudzI=",
+            "rev": "17addcde78e1f7ac9e063fc10f186567e5c6a0d4",
+            "sha256": "sha256-il5H1pIN3EaGp2T80Di0svJvABK9/5yJDkqnGt2iP+Q=",
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "5a45d4dd2f5d85cbe85a94686ccf7abe4fb0b103"
+        "version": "17addcde78e1f7ac9e063fc10f186567e5c6a0d4"
     }
 }

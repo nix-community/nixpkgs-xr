@@ -2,13 +2,13 @@
     "index_camera_passthrough": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./index_camera_passthrough-74edecbf97eaf4ff93032cfecf9b61c179dcffa8/Cargo.lock",
+                "./index_camera_passthrough-0d3ec30c5cd74e4a3df93d704ecf4a25136afd73/Cargo.lock",
                 {
                     "vulkano-0.34.0": "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY="
                 }
             ]
         },
-        "date": "2024-06-04",
+        "date": "2024-07-25",
         "extract": null,
         "name": "index_camera_passthrough",
         "passthru": null,
@@ -18,12 +18,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "74edecbf97eaf4ff93032cfecf9b61c179dcffa8",
-            "sha256": "sha256-mLnRuOxKQuJwgeH0pUj2TNnIug/toJYxTUo4wkJGCxM=",
+            "rev": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73",
+            "sha256": "sha256-jldpVWnpWEA3bi3lzmG94uCaoZuL+xhaEAtFiZrSGc4=",
             "type": "git",
             "url": "https://github.com/yshui/index_camera_passthrough.git"
         },
-        "version": "74edecbf97eaf4ff93032cfecf9b61c179dcffa8"
+        "version": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73"
     },
     "monado": {
         "cargoLocks": null,

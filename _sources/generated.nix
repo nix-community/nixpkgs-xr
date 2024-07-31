@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "a0dbda4977cd5a956410cd9058f12a39aa98249c";
+    version = "dfc602288ab05131584a3f2be18031a13fccd061";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "a0dbda4977cd5a956410cd9058f12a39aa98249c";
+      rev = "dfc602288ab05131584a3f2be18031a13fccd061";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Xg7SkscKye+D5OYjZ3TGWJgs3NecBZNIvkApc9fizWU=";
+      sha256 = "sha256-4HZs3cgqOWWpXQb5kfG513f7+znO0hJvAbj2rxrqmeI=";
     };
-    date = "2024-07-26";
+    date = "2024-07-30";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,24 +48,25 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "dcc2cd0575f1c0ce4f4d870e71061d8ec9a50043";
+    version = "3d0611052f8701dd34edd65f3723cc999ecd03c9";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "dcc2cd0575f1c0ce4f4d870e71061d8ec9a50043";
+      rev = "3d0611052f8701dd34edd65f3723cc999ecd03c9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-jpebFZR0q1lYr4RABO7u3a8c5VUXOLgMXscnrnd/+DE=";
+      sha256 = "sha256-FxvcrPW45dCV0yJFTRW0efHJ3I4KlEhExT5FAUDnNsU=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-dcc2cd0575f1c0ce4f4d870e71061d8ec9a50043/Cargo.lock;
+      lockFile = ./wlx-overlay-s-3d0611052f8701dd34edd65f3723cc999ecd03c9/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
+        "libmonado-rs-0.1.0" = "sha256-NCkHY0MvOnqGfAmOch8TTM1uHsFFFtWR/sQ559K3DwY=";
         "vulkano-0.34.0" = "sha256-o1KP/mscMG5j3U3xtei/2nMNEh7jLedcW1P0gL9Y1Rc=";
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
         "wlx-capture-0.3.12" = "sha256-rZTJp7VhUvE/6lwESW2jKeGweFut6BvcxouG/nyl+GE=";
       };
     };
-    date = "2024-07-29";
+    date = "2024-07-31";
   };
 }

@@ -48,17 +48,17 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "ee3fbff44c8e8d700eaa3191fcc1b38a4914a045";
+    version = "b6a07c43a5c847cfa18c77969ae2150c24800bc8";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "ee3fbff44c8e8d700eaa3191fcc1b38a4914a045";
+      rev = "b6a07c43a5c847cfa18c77969ae2150c24800bc8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-zdm2ADBIsW0QGgxnuDkp2nQjWtMxe3pT9LXhw6juQ34=";
+      sha256 = "sha256-rE2/oQXKC/6ajIFIVEc9MJHYbwneDcB48UYFbdfdXLE=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-ee3fbff44c8e8d700eaa3191fcc1b38a4914a045/Cargo.lock;
+      lockFile = ./wlx-overlay-s-b6a07c43a5c847cfa18c77969ae2150c24800bc8/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
@@ -67,6 +67,6 @@
         "wlx-capture-0.3.12" = "sha256-rZTJp7VhUvE/6lwESW2jKeGweFut6BvcxouG/nyl+GE=";
       };
     };
-    date = "2024-08-04";
+    date = "2024-08-07";
   };
 }

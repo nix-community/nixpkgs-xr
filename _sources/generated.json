@@ -27,7 +27,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2024-08-06",
+        "date": "2024-08-08",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -37,12 +37,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ea262a539c08852d597f6af2863b4b64d5d54df5",
-            "sha256": "sha256-BUwPToneoucpGIhVen9356bh6OUpRVHTSzsz3KlPmHk=",
+            "rev": "c29fea16d817a8f2fabf1f6d4b7abdddccced27e",
+            "sha256": "sha256-rZKcIHefq+B4MCc4vSqZRGVpQ52+fLXj4mGcVmZ5N9w=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "ea262a539c08852d597f6af2863b4b64d5d54df5"
+        "version": "c29fea16d817a8f2fabf1f6d4b7abdddccced27e"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -66,7 +66,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-b6a07c43a5c847cfa18c77969ae2150c24800bc8/Cargo.lock",
+                "./wlx-overlay-s-c71911998edc8761579f8d7f19b187c7fe21902e/Cargo.lock",
                 {
                     "libmonado-rs-0.1.0": "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=",
                     "openxr-0.18.0": "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=",
@@ -76,7 +76,7 @@
                 }
             ]
         },
-        "date": "2024-08-07",
+        "date": "2024-08-09",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -86,11 +86,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b6a07c43a5c847cfa18c77969ae2150c24800bc8",
-            "sha256": "sha256-rE2/oQXKC/6ajIFIVEc9MJHYbwneDcB48UYFbdfdXLE=",
+            "rev": "c71911998edc8761579f8d7f19b187c7fe21902e",
+            "sha256": "sha256-U/lON/YJNfoX2IPN3kY4tbEWWDYTPauukIGmqy8Wta8=",
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "b6a07c43a5c847cfa18c77969ae2150c24800bc8"
+        "version": "c71911998edc8761579f8d7f19b187c7fe21902e"
     }
 }

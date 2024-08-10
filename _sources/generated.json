@@ -37,12 +37,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c29fea16d817a8f2fabf1f6d4b7abdddccced27e",
-            "sha256": "sha256-rZKcIHefq+B4MCc4vSqZRGVpQ52+fLXj4mGcVmZ5N9w=",
+            "rev": "21d5991fa5eb16a0b8cb4b438c16f7864b3f69bb",
+            "sha256": "sha256-fBKB3k0KyWuAbzESeury6OST2Wkmw3eUEwlMo3tv7XM=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "c29fea16d817a8f2fabf1f6d4b7abdddccced27e"
+        "version": "21d5991fa5eb16a0b8cb4b438c16f7864b3f69bb"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -66,7 +66,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-c71911998edc8761579f8d7f19b187c7fe21902e/Cargo.lock",
+                "./wlx-overlay-s-f4cc49ca69e0b55d628652efd578ba81182bd3de/Cargo.lock",
                 {
                     "libmonado-rs-0.1.0": "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=",
                     "openxr-0.18.0": "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=",
@@ -86,11 +86,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c71911998edc8761579f8d7f19b187c7fe21902e",
-            "sha256": "sha256-U/lON/YJNfoX2IPN3kY4tbEWWDYTPauukIGmqy8Wta8=",
+            "rev": "f4cc49ca69e0b55d628652efd578ba81182bd3de",
+            "sha256": "sha256-kJ245BDxgu747F60krtHzeKqcM8Y2QlTvyMYqcuA60I=",
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "c71911998edc8761579f8d7f19b187c7fe21902e"
+        "version": "f4cc49ca69e0b55d628652efd578ba81182bd3de"
     }
 }

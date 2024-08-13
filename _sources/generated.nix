@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "21d5991fa5eb16a0b8cb4b438c16f7864b3f69bb";
+    version = "30ae628b83374aac1eba4c1a07217ddbed18897c";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "21d5991fa5eb16a0b8cb4b438c16f7864b3f69bb";
+      rev = "30ae628b83374aac1eba4c1a07217ddbed18897c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-fBKB3k0KyWuAbzESeury6OST2Wkmw3eUEwlMo3tv7XM=";
+      sha256 = "sha256-x/eZc6He88qz2H8S5I4G2TwxVS9R4oOi7VCveSsED/M=";
     };
-    date = "2024-08-08";
+    date = "2024-08-13";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -48,25 +48,25 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "8a4c7a400f1ade1150ba0c776430bd94b531449a";
+    version = "850601b3b988f19b05ebb34e24e88cf50ad2d6c6";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "8a4c7a400f1ade1150ba0c776430bd94b531449a";
+      rev = "850601b3b988f19b05ebb34e24e88cf50ad2d6c6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-EE1xl8u+QcCn3iz6TJM7FpMiFyMxv+NfdaVvyUIMnA8=";
+      sha256 = "sha256-mIcUSmNiZvXgEW0CqXWKAR3hnwTq2q26gTIfibOBG94=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-8a4c7a400f1ade1150ba0c776430bd94b531449a/Cargo.lock;
+      lockFile = ./wlx-overlay-s-850601b3b988f19b05ebb34e24e88cf50ad2d6c6/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
         "vulkano-0.34.0" = "sha256-o1KP/mscMG5j3U3xtei/2nMNEh7jLedcW1P0gL9Y1Rc=";
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
-        "wlx-capture-0.3.12" = "sha256-rZTJp7VhUvE/6lwESW2jKeGweFut6BvcxouG/nyl+GE=";
+        "wlx-capture-0.3.12" = "sha256-32WnAnNUSfsAA8WB9da3Wqb4acVlXh6HWsY9tPzCHEE=";
       };
     };
-    date = "2024-08-11";
+    date = "2024-08-12";
   };
 }

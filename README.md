@@ -111,6 +111,8 @@ This overlay provides the following packages:
 - `index_camera_passthrough`
 - `monado`
 - `opencomposite`
+- `opencomposite-hand-fixes`
+- `opencomposite-vendored`
 - `wlx-overlay-s`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community

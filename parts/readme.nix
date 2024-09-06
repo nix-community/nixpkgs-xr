@@ -6,7 +6,7 @@
   perSystem =
     { pkgs, self', ... }:
     let
-      inherit (builtins) attrValues;
+      inherit (builtins) attrNames;
       inherit (lib) concatMapStringsSep;
     in
     {
@@ -16,7 +16,7 @@
           cat ${
             pkgs.substituteAll {
               src = ../README-template.md;
-              packageNames = concatMapStringsSep "\n" (pkg: "- `${pkg.pname}`") (attrValues self'.packages);
+              packageNames = concatMapStringsSep "\n" (name: "- `${name}`") (attrNames self'.packages);
             }
           } > README.md
         '';

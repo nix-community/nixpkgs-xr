@@ -11,15 +11,17 @@
   shaderc,
   udev,
   vulkan-loader,
-  # nixpkgs-xr:
-  cargoLock,
+
+  xrSources,
 }:
 rustPlatform.buildRustPackage {
-  pname = "index-camera-passthrough";
-  version = "0";
-
-  # src will be added by the source override
-  inherit cargoLock;
+  inherit (xrSources.index_camera_passthrough)
+    pname
+    version
+    src
+    date
+    ;
+  cargoLock = xrSources.index_camera_passthrough.cargoLock."Cargo.lock";
 
   nativeBuildInputs = [
     cmake

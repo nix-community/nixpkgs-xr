@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: MIT
 
 final: prev: {
-  opencomposite-vendored = prev.opencomposite.overrideAttrs (prevAttrs: {
-    inherit (final.xrSources.opencomposite) pname version src;
+  opencomposite-hand-fixes = prev.opencomposite.overrideAttrs (prevAttrs: {
+    inherit (final.xrSources.opencomposite-hand-fixes) pname version src;
 
     # remove glm and openxr-loader from buildInputs
     buildInputs = final.lib.subtractLists (with final; [

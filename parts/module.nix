@@ -20,7 +20,7 @@
           "nixpkgs"
           "xr"
           "enableUnstripped"
-        ])
+        ] "The nixpkgs-xr unstripped overlay has been removed. Please create your own overlay.")
       ];
 
       options.nixpkgs.xr.enable = mkEnableOption "nixpkgs-xr overlay" // mkOption { default = true; };

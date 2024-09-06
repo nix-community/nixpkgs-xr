@@ -48,7 +48,6 @@ let
     index_camera_passthrough = {
       drv = ../pkgs/index_camera_passthrough;
       drvArgs = source: {
-        inherit (inputs) fenix;
         cargoLock = source.cargoLock."Cargo.lock";
       };
     };

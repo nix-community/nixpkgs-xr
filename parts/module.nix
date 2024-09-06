@@ -10,19 +10,25 @@
         mkEnableOption
         mkIf
         mkOption
-        optional
+        mkRemovedOptionModule
         ;
       cfg = config.nixpkgs.xr;
     in
     {
-      options.nixpkgs.xr = {
-        enable = mkEnableOption "nixpkgs-xr overlay" // mkOption { default = true; };
-        enableUnstripped = mkEnableOption "debug symbols for XR packages";
-      };
+      imports = [
+        (mkRemovedOptionModule [
+          "nixpkgs"
+          "xr"
+          "enableUnstripped"
+        ])
+      ];
+
+      options.nixpkgs.xr.enable = mkEnableOption "nixpkgs-xr overlay" // mkOption { default = true; };
+
       config = mkIf cfg.enable {
         nixpkgs.overlays = [
           self.overlays.default
-        ] ++ optional cfg.enableUnstripped self.overlays.unstripped;
+        ];
 
         nix.settings = {
           substituters = [ "https://nix-community.cachix.org" ];

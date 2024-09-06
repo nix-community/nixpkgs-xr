@@ -2,27 +2,18 @@
 #
 # SPDX-License-Identifier: MIT
 {
+  cmake,
   lib,
-  system,
-  makeRustPlatform,
-  pkg-config,
-  udev,
-  vulkan-loader,
   openvr,
   openxr-loader,
+  pkg-config,
+  rustPlatform,
   shaderc,
-  cmake,
+  udev,
+  vulkan-loader,
   # nixpkgs-xr:
-  fenix,
   cargoLock,
 }:
-let
-  toolchain = fenix.packages.${system}.minimal.toolchain;
-  rustPlatform = makeRustPlatform {
-    cargo = toolchain;
-    rustc = toolchain;
-  };
-in
 rustPlatform.buildRustPackage {
   pname = "index-camera-passthrough";
   version = "0";

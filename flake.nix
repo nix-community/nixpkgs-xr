@@ -28,7 +28,7 @@
         "aarch64-linux"
       ];
       imports = [
-        #./parts/checks.nix
+        ./parts/checks.nix
         ./parts/dev.nix
         ./parts/module.nix
         ./parts/readme.nix

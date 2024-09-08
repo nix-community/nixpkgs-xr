@@ -48,16 +48,16 @@
   };
   opencomposite-hand-fixes = {
     pname = "opencomposite-hand-fixes";
-    version = "3f950d57a071a8c1417147c63c1cab1af03bcb86";
+    version = "e444a17fe3626bef702a4a151b38ce11735991ac";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "3f950d57a071a8c1417147c63c1cab1af03bcb86";
+      rev = "e444a17fe3626bef702a4a151b38ce11735991ac";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-ZcDORAweDd3rcV5IQ8nXxLqcyJZf4tcm6jhVth0ali0=";
+      sha256 = "sha256-BPEQlVhj67i3d+F9YNsi0wIZM8sv/ohnd38aiscYnak=";
     };
-    date = "2024-09-06";
+    date = "2024-09-07";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";

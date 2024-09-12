@@ -22,42 +22,42 @@
   };
   monado = {
     pname = "monado";
-    version = "5c49a2c18a5f6557d87d32c306702816ac9609e4";
+    version = "6e4a3a4759457ce75c950bf95ce6ff6e555cd158";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "5c49a2c18a5f6557d87d32c306702816ac9609e4";
+      rev = "6e4a3a4759457ce75c950bf95ce6ff6e555cd158";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-967X20d/JStiXF/0RqGO1E24aH24J7k9PnAsTq8GBq8=";
+      sha256 = "sha256-xs0pXWuu9fQ0rIEMGh/BqLnwbLp62gaQFVzS5f4OLBM=";
     };
-    date = "2024-09-10";
+    date = "2024-09-11";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "b4bef2a6deb3c8526c211c6db169efedeb13a887";
+    version = "042bc49e73dd4612e06d881d90dc0ab6366b895b";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "b4bef2a6deb3c8526c211c6db169efedeb13a887";
+      rev = "042bc49e73dd4612e06d881d90dc0ab6366b895b";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-BKJB+tFnPV+BaQtgGfGFydhbUd1H4si2iGagHp2wRV0=";
+      sha256 = "sha256-Ix1bMyjzOuloBPlLHCBgYSHgdTBLSnqlQA/1D+xCKkk=";
     };
-    date = "2024-08-30";
+    date = "2024-09-11";
   };
   opencomposite-hand-fixes = {
     pname = "opencomposite-hand-fixes";
-    version = "e444a17fe3626bef702a4a151b38ce11735991ac";
+    version = "042bc49e73dd4612e06d881d90dc0ab6366b895b";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "e444a17fe3626bef702a4a151b38ce11735991ac";
+      rev = "042bc49e73dd4612e06d881d90dc0ab6366b895b";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-BPEQlVhj67i3d+F9YNsi0wIZM8sv/ohnd38aiscYnak=";
+      sha256 = "sha256-Ix1bMyjzOuloBPlLHCBgYSHgdTBLSnqlQA/1D+xCKkk=";
     };
-    date = "2024-09-07";
+    date = "2024-09-11";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";

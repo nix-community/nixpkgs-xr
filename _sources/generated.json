@@ -27,7 +27,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2024-09-10",
+        "date": "2024-09-11",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -37,16 +37,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5c49a2c18a5f6557d87d32c306702816ac9609e4",
-            "sha256": "sha256-967X20d/JStiXF/0RqGO1E24aH24J7k9PnAsTq8GBq8=",
+            "rev": "6e4a3a4759457ce75c950bf95ce6ff6e555cd158",
+            "sha256": "sha256-xs0pXWuu9fQ0rIEMGh/BqLnwbLp62gaQFVzS5f4OLBM=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "5c49a2c18a5f6557d87d32c306702816ac9609e4"
+        "version": "6e4a3a4759457ce75c950bf95ce6ff6e555cd158"
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2024-08-30",
+        "date": "2024-09-11",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -56,16 +56,16 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b4bef2a6deb3c8526c211c6db169efedeb13a887",
-            "sha256": "sha256-BKJB+tFnPV+BaQtgGfGFydhbUd1H4si2iGagHp2wRV0=",
+            "rev": "042bc49e73dd4612e06d881d90dc0ab6366b895b",
+            "sha256": "sha256-Ix1bMyjzOuloBPlLHCBgYSHgdTBLSnqlQA/1D+xCKkk=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "b4bef2a6deb3c8526c211c6db169efedeb13a887"
+        "version": "042bc49e73dd4612e06d881d90dc0ab6366b895b"
     },
     "opencomposite-hand-fixes": {
         "cargoLocks": null,
-        "date": "2024-09-07",
+        "date": "2024-09-11",
         "extract": null,
         "name": "opencomposite-hand-fixes",
         "passthru": null,
@@ -75,12 +75,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "e444a17fe3626bef702a4a151b38ce11735991ac",
-            "sha256": "sha256-BPEQlVhj67i3d+F9YNsi0wIZM8sv/ohnd38aiscYnak=",
+            "rev": "042bc49e73dd4612e06d881d90dc0ab6366b895b",
+            "sha256": "sha256-Ix1bMyjzOuloBPlLHCBgYSHgdTBLSnqlQA/1D+xCKkk=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "e444a17fe3626bef702a4a151b38ce11735991ac"
+        "version": "042bc49e73dd4612e06d881d90dc0ab6366b895b"
     },
     "wlx-overlay-s": {
         "cargoLocks": {

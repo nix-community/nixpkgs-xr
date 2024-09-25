@@ -22,16 +22,16 @@
   };
   monado = {
     pname = "monado";
-    version = "b1117a78549776a6a0f9c11c2c15995633398e6d";
+    version = "c5c14f0435769a0c32954408ab2182bd25aa1154";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "b1117a78549776a6a0f9c11c2c15995633398e6d";
+      rev = "c5c14f0435769a0c32954408ab2182bd25aa1154";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-rqGpkPxZ59yUTbzIMP3TtFMIW5L6jATsh7CPIhuRxCc=";
+      sha256 = "sha256-foe0gLmWylk4trDU0YGJJQhrm2mk3Y4TY+F8avmeJTo=";
     };
-    date = "2024-09-23";
+    date = "2024-09-24";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -61,25 +61,25 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "6af5623fa73e9f48fab6a47f64e473c867f2f4c8";
+    version = "8d35b45c2b7c2b6d48c88db28f5129c7e002d2a5";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "6af5623fa73e9f48fab6a47f64e473c867f2f4c8";
+      rev = "8d35b45c2b7c2b6d48c88db28f5129c7e002d2a5";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-JsPIIQGSHRKtI02edoNjjH8fr9giVEPlotBtzJ8asCo=";
+      sha256 = "sha256-rPo+ifdfpRHnS3V/Nfn9WtXlkJaSnflS231KNDSF2Og=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-6af5623fa73e9f48fab6a47f64e473c867f2f4c8/Cargo.lock;
+      lockFile = ./wlx-overlay-s-8d35b45c2b7c2b6d48c88db28f5129c7e002d2a5/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
-        "vulkano-0.34.0" = "sha256-o1KP/mscMG5j3U3xtei/2nMNEh7jLedcW1P0gL9Y1Rc=";
+        "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
         "wlx-capture-0.3.12" = "sha256-32WnAnNUSfsAA8WB9da3Wqb4acVlXh6HWsY9tPzCHEE=";
       };
     };
-    date = "2024-09-19";
+    date = "2024-09-24";
   };
 }

@@ -22,29 +22,29 @@
   };
   monado = {
     pname = "monado";
-    version = "9bba558fe1496dd654524c3c07aec0b1f0fddac8";
+    version = "c26901f8031ef9fab0699fda0a16717a3f7dc182";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "9bba558fe1496dd654524c3c07aec0b1f0fddac8";
+      rev = "c26901f8031ef9fab0699fda0a16717a3f7dc182";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-F0CzOlt+hrXh092ii7NCapvJ6XFuToznu0PMf1T/9zA=";
+      sha256 = "sha256-D1X320tNGO6Vawl+edvgX+u9fLfcD8qtgfYSoDnCo+I=";
     };
-    date = "2024-09-27";
+    date = "2024-10-02";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "f8db7aa35831753f00215a2d9ba7197a80d7bacd";
+    version = "f969a972e9a151de776fa8d1bd6e67056f0a5d5d";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "f8db7aa35831753f00215a2d9ba7197a80d7bacd";
+      rev = "f969a972e9a151de776fa8d1bd6e67056f0a5d5d";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-ksOXSeVskfv/d9kz6Zc5PQjGSTOTxVGEeQNiqCuDpsA=";
+      sha256 = "sha256-3Aar7HGhn9nd/EtJoeUbQTkUR16jx946ZXMNDOXSdfQ=";
     };
-    date = "2024-09-13";
+    date = "2024-10-02";
   };
   opencomposite-hand-fixes = {
     pname = "opencomposite-hand-fixes";
@@ -61,17 +61,17 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "85aa0fb1bcb19997c9ef795f1c76a53251964e85";
+    version = "64b326330933a1b27efcb0d546468d3acad4ec56";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "85aa0fb1bcb19997c9ef795f1c76a53251964e85";
+      rev = "64b326330933a1b27efcb0d546468d3acad4ec56";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-Gk/3m4eWFZqeQBphBUTGAUqe8SspXqut8n4JM8tTe6o=";
+      sha256 = "sha256-nGOi3BMDe4IUtyN5StpJxvdCG0znwgN54SN0jF7uCdY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-85aa0fb1bcb19997c9ef795f1c76a53251964e85/Cargo.lock;
+      lockFile = ./wlx-overlay-s-64b326330933a1b27efcb0d546468d3acad4ec56/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
@@ -80,6 +80,6 @@
         "wlx-capture-0.3.12" = "sha256-32WnAnNUSfsAA8WB9da3Wqb4acVlXh6HWsY9tPzCHEE=";
       };
     };
-    date = "2024-09-28";
+    date = "2024-09-30";
   };
 }

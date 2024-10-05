@@ -35,16 +35,16 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "f969a972e9a151de776fa8d1bd6e67056f0a5d5d";
+    version = "9d2c9d99583fdbbfe1644206da20dab5f4750dfe";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "f969a972e9a151de776fa8d1bd6e67056f0a5d5d";
+      rev = "9d2c9d99583fdbbfe1644206da20dab5f4750dfe";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-3Aar7HGhn9nd/EtJoeUbQTkUR16jx946ZXMNDOXSdfQ=";
+      sha256 = "sha256-9pPvaQ6tV8eZz5RXQbNNjGkLb8+bODe+tsk+T6X9NTI=";
     };
-    date = "2024-10-02";
+    date = "2024-10-04";
   };
   opencomposite-hand-fixes = {
     pname = "opencomposite-hand-fixes";

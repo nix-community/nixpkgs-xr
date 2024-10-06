@@ -11,12 +11,6 @@ src.git = "https://gitlab.com/znixian/OpenOVR.git"
 fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 
-[opencomposite-hand-fixes]
-src.git = "https://gitlab.com/znixian/OpenOVR.git"
-src.branch = "hand-fixes"
-fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
-git.fetchSubmodules = true
-
 [index_camera_passthrough]
 src.git = "https://github.com/yshui/index_camera_passthrough.git"
 fetch.git = "https://github.com/yshui/index_camera_passthrough.git"

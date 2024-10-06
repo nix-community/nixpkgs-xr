@@ -29,7 +29,6 @@ in
       # Overridden packages
       (import ./overrides/monado.nix)
       (import ./overrides/opencomposite.nix)
-      (import ./overrides/opencomposite-hand-fixes.nix)
       (import ./overrides/opencomposite-vendored.nix)
       (import ./overrides/wlx-overlay-s.nix)
     ];

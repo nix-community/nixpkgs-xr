@@ -63,25 +63,6 @@
         },
         "version": "9d2c9d99583fdbbfe1644206da20dab5f4750dfe"
     },
-    "opencomposite-hand-fixes": {
-        "cargoLocks": null,
-        "date": "2024-09-11",
-        "extract": null,
-        "name": "opencomposite-hand-fixes",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": true,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "042bc49e73dd4612e06d881d90dc0ab6366b895b",
-            "sha256": "sha256-Ix1bMyjzOuloBPlLHCBgYSHgdTBLSnqlQA/1D+xCKkk=",
-            "type": "git",
-            "url": "https://gitlab.com/znixian/OpenOVR.git"
-        },
-        "version": "042bc49e73dd4612e06d881d90dc0ab6366b895b"
-    },
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [

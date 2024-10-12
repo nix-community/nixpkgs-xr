@@ -22,27 +22,27 @@
   };
   monado = {
     pname = "monado";
-    version = "d7089f182b0514e13554e99512d63e69c30523c5";
+    version = "8992376e6a15b1261c2e0c6fbf2468b1e1c7ba1b";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "d7089f182b0514e13554e99512d63e69c30523c5";
+      rev = "8992376e6a15b1261c2e0c6fbf2468b1e1c7ba1b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-5+8cFDQ2ptaBIJMdZ6gyb0GSL8vBaZktbuBnRlTWOmg=";
+      sha256 = "sha256-BNKsOF5gRXvl3VxX4PpGdh4wZB4JfAs6FnizNjU4Znk=";
     };
-    date = "2024-10-03";
+    date = "2024-10-10";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "402aff64a7f60dc142fd50d0da6ae5214cdfdc49";
+    version = "e664f625e07a8249fb0e4f9dab179e47f3596d46";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "402aff64a7f60dc142fd50d0da6ae5214cdfdc49";
+      rev = "e664f625e07a8249fb0e4f9dab179e47f3596d46";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-PfeEVaaaiGuSTvMuDVQ+IRwjWxTXZRlHnhaTMF7kGlU=";
+      sha256 = "sha256-qykGfzlgEI3odLZTnnnk1NKHGBeYoM9yk2xtFTZkA+8=";
     };
     date = "2024-10-10";
   };

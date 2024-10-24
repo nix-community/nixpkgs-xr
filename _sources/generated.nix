@@ -35,16 +35,16 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "e664f625e07a8249fb0e4f9dab179e47f3596d46";
+    version = "eb07eea7117c84e4e5cd98c53a21dbf73d21b18d";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "e664f625e07a8249fb0e4f9dab179e47f3596d46";
+      rev = "eb07eea7117c84e4e5cd98c53a21dbf73d21b18d";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-qykGfzlgEI3odLZTnnnk1NKHGBeYoM9yk2xtFTZkA+8=";
+      sha256 = "sha256-I7HwM4CPAbOujbvZUpLuowzDGfxXhK6EYsrObVj2y8o=";
     };
-    date = "2024-10-10";
+    date = "2024-10-23";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";

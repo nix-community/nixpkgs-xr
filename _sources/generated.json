@@ -66,7 +66,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-0b1a7e8bc86964000b7452b518e52e1afdf6b0f4/Cargo.lock",
+                "./wlx-overlay-s-7cb8e4a9d2588e9784ae49cb6349d8eef04a3b47/Cargo.lock",
                 {
                     "libmonado-rs-0.1.0": "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=",
                     "openxr-0.18.0": "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=",
@@ -77,7 +77,7 @@
                 }
             ]
         },
-        "date": "2024-10-24",
+        "date": "2024-10-25",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -87,11 +87,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0b1a7e8bc86964000b7452b518e52e1afdf6b0f4",
-            "sha256": "sha256-lVL1DkvdlOwHrGp76TCBgYTEHeRiF0Oj7adGbEu4ibs=",
+            "rev": "7cb8e4a9d2588e9784ae49cb6349d8eef04a3b47",
+            "sha256": "sha256-sW9VTOZ6qH/DiEvqzy9HLc4sm76O49nE8aVobZ1Q/d4=",
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "0b1a7e8bc86964000b7452b518e52e1afdf6b0f4"
+        "version": "7cb8e4a9d2588e9784ae49cb6349d8eef04a3b47"
     }
 }

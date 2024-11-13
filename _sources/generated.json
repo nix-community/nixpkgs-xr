@@ -27,7 +27,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2024-11-08",
+        "date": "2024-11-12",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -37,12 +37,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "e8074ec33350c06dfab27dbe29fc6927cadac838",
-            "sha256": "sha256-S8q/svY3oYRbyOqYECGrbWlK+TmOvtQKCdRJVgpH104=",
+            "rev": "0ca2ddd9145eab323cee99cf314c6e6a19421622",
+            "sha256": "sha256-KNiSydotGcZc3RYfXjBisEkFDw3bIuScdv1JAJcQFEs=",
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "e8074ec33350c06dfab27dbe29fc6927cadac838"
+        "version": "0ca2ddd9145eab323cee99cf314c6e6a19421622"
     },
     "opencomposite": {
         "cargoLocks": null,

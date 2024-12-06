@@ -2,6 +2,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+[envision-unwrapped]
+src.git = "https://gitlab.com/gabmus/envision.git"
+fetch.git = "https://gitlab.com/gabmus/envision.git"
+cargo_locks = ["Cargo.lock"]
+
 [monado]
 src.git = "https://gitlab.freedesktop.org/monado/monado.git"
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"

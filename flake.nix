@@ -13,26 +13,21 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    flake-parts = {
-      url = "github:hercules-ci/flake-parts";
-      inputs.nixpkgs-lib.follows = "nixpkgs";
-    };
+    flake-utils.url = "github:numtide/flake-utils";
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
+    treefmt-nix = {
+      url = "github:numtide/treefmt-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
-    inputs@{ flake-parts, ... }:
-    flake-parts.lib.mkFlake { inherit inputs; } {
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-      ];
-      imports = [
-        ./parts/checks.nix
-        ./parts/dev.nix
-        ./parts/module.nix
-        ./parts/readme.nix
-        ./pkgs
-      ];
-    };
+    { flake-utils, ... }@inputs:
+    flake-utils.lib.meld inputs [
+      ./development.nix
+      ./nixos
+      ./pkgs
+      ./pkgs/overlay.nix
+      ./tools/update-readme.nix
+    ];
 }

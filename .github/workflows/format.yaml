@@ -15,4 +15,4 @@ jobs:
     - uses: DeterminateSystems/magic-nix-cache-action@main
     - name: Check formatting
       run: |
-        nix fmt -- --check
+        nix fmt -- --ci

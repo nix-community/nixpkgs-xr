@@ -108,6 +108,7 @@ You can also pin the tarball url using tools like [niv].
 
 This overlay provides the following packages:
 
+- `envision-unwrapped`
 - `index_camera_passthrough`
 - `monado`
 - `opencomposite`

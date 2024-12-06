@@ -111,8 +111,8 @@ This overlay provides the following packages:
 - `index_camera_passthrough`
 - `monado`
 - `opencomposite`
-- `opencomposite-hand-fixes`
 - `opencomposite-vendored`
+- `proton-ge-rtsp-bin`
 - `wlx-overlay-s`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community

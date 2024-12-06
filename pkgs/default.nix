@@ -27,6 +27,7 @@ in
       (import "${inputs.nixpkgs}/pkgs/top-level/by-name-overlay.nix" ./by-name)
 
       # Overridden packages
+      (import ./overrides/envision-unwrapped.nix)
       (import ./overrides/monado.nix)
       (import ./overrides/opencomposite.nix)
       (import ./overrides/opencomposite-vendored.nix)

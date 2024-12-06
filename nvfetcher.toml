@@ -3,25 +3,25 @@
 # SPDX-License-Identifier: CC0-1.0
 
 [envision-unwrapped]
-src.git = "https://gitlab.com/gabmus/envision.git"
-fetch.git = "https://gitlab.com/gabmus/envision.git"
 cargo_locks = ["Cargo.lock"]
-
-[monado]
-src.git = "https://gitlab.freedesktop.org/monado/monado.git"
-fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
-
-[opencomposite]
-src.git = "https://gitlab.com/znixian/OpenOVR.git"
-fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
-git.fetchSubmodules = true
+fetch.git = "https://gitlab.com/gabmus/envision.git"
+src.git = "https://gitlab.com/gabmus/envision.git"
 
 [index_camera_passthrough]
-src.git = "https://github.com/yshui/index_camera_passthrough.git"
-fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
 cargo_locks = ["Cargo.lock"]
+fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
+src.git = "https://github.com/yshui/index_camera_passthrough.git"
+
+[monado]
+fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
+src.git = "https://gitlab.freedesktop.org/monado/monado.git"
+
+[opencomposite]
+fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
+git.fetchSubmodules = true
+src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
 [wlx-overlay-s]
-src.git = "https://github.com/galister/wlx-overlay-s.git"
-fetch.git = "https://github.com/galister/wlx-overlay-s.git"
 cargo_locks = ["Cargo.lock"]
+fetch.git = "https://github.com/galister/wlx-overlay-s.git"
+src.git = "https://github.com/galister/wlx-overlay-s.git"

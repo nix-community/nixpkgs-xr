@@ -28,7 +28,7 @@ is to add the input `github:nix-community/nixpkgs-xr` to your flake
 and import the convenient NixOS module `nixpkgs-xr.nixosModules.nixpkgs-xr`.
 See the example below.
 
-> [!IMPORTANT]
+> \[!IMPORTANT\]
 > This module adds the Nixpkgs overlay as well as [the binary cache][binary-cache] for this repository.
 > If you don't want the binary cache see [manual setup](#manually-setup-flake-overlay) below.
 
@@ -84,7 +84,7 @@ Assuming your NixOS configuration is right in your `flake.nix`, you can write th
 
 ### Traditional setup
 
-Compatibility for traditional NixOS setups is provided using [flake-compat][flake-compat].
+Compatibility for traditional NixOS setups is provided using [flake-compat].
 You can just add the following snippet to your configuration:
 
 ```nix
@@ -102,7 +102,7 @@ in
   }
 ```
 
-You can also pin the tarball url using tools like [niv][niv].
+You can also pin the tarball url using tools like [niv].
 
 ## Packages
 

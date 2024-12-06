@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
+# SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+#
+# SPDX-License-Identifier: MIT
+{ nixpkgs, ... }:
+let
+  inherit (nixpkgs.lib) composeManyExtensions;
+in
+{
+  overlays.default = composeManyExtensions [
+    (final: _: {
+      xrSources = final.callPackage ../_sources/generated.nix { };
+    })
+
+    # New packaged added by us
+    (import "${nixpkgs}/pkgs/top-level/by-name-overlay.nix" ./by-name)
+
+    # Overridden packages
+    (import ./overrides/envision-unwrapped.nix)
+    (import ./overrides/monado.nix)
+    (import ./overrides/opencomposite.nix)
+    (import ./overrides/opencomposite-vendored.nix)
+    (import ./overrides/wlx-overlay-s.nix)
+  ];
+}

@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-9711c257a69309b171f7a1df68a8a18fa17621c1/Cargo.lock",
+                "./envision-unwrapped-67172df56755b5be29da79cf3d2d8f5299a2488b/Cargo.lock",
                 {}
             ]
         },
-        "date": "2024-12-09",
+        "date": "2024-12-11",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,12 +16,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9711c257a69309b171f7a1df68a8a18fa17621c1",
-            "sha256": "sha256-xZkl8bA1XDU8zi9z9Nnw9kjGoJkDDIt0Ifn0DZdRiLw=",
+            "rev": "67172df56755b5be29da79cf3d2d8f5299a2488b",
+            "sha256": "sha256-J1zctfFOyu+uLpctTiAe5OWBM7nXanzQocTGs1ToUMA=",
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "9711c257a69309b171f7a1df68a8a18fa17621c1"
+        "version": "67172df56755b5be29da79cf3d2d8f5299a2488b"
     },
     "index_camera_passthrough": {
         "cargoLocks": {

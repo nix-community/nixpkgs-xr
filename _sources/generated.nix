@@ -3,22 +3,22 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "9711c257a69309b171f7a1df68a8a18fa17621c1";
+    version = "67172df56755b5be29da79cf3d2d8f5299a2488b";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "9711c257a69309b171f7a1df68a8a18fa17621c1";
+      rev = "67172df56755b5be29da79cf3d2d8f5299a2488b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-xZkl8bA1XDU8zi9z9Nnw9kjGoJkDDIt0Ifn0DZdRiLw=";
+      sha256 = "sha256-J1zctfFOyu+uLpctTiAe5OWBM7nXanzQocTGs1ToUMA=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-9711c257a69309b171f7a1df68a8a18fa17621c1/Cargo.lock;
+      lockFile = ./envision-unwrapped-67172df56755b5be29da79cf3d2d8f5299a2488b/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2024-12-09";
+    date = "2024-12-11";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";

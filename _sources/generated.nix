@@ -3,22 +3,22 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "f04723c1c4753f3d1451e0a8da18953b16d0a947";
+    version = "e781736ffa83e17984172fc0873864cc2dae7e43";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "f04723c1c4753f3d1451e0a8da18953b16d0a947";
+      rev = "e781736ffa83e17984172fc0873864cc2dae7e43";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2CkvZzR7FARmse86DHsJ5GAGu3vl6qbDfejQm1k9OMw=";
+      sha256 = "sha256-ZXrCJZa3icLku/2xnUt8vXSkjxS4MSW/UEUMEuOwjBw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-f04723c1c4753f3d1451e0a8da18953b16d0a947/Cargo.lock;
+      lockFile = ./envision-unwrapped-e781736ffa83e17984172fc0873864cc2dae7e43/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2024-12-14";
+    date = "2024-12-17";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -41,16 +41,16 @@
   };
   monado = {
     pname = "monado";
-    version = "e076de071aa35db5f01f7a89b9f209ee60840fb2";
+    version = "2cce3a06a0a7633871d612117359f4cb58d06b80";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "e076de071aa35db5f01f7a89b9f209ee60840fb2";
+      rev = "2cce3a06a0a7633871d612117359f4cb58d06b80";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2Ef9mpjo6DsOX8Ha0clpYO+urO6XXvk4vU0ciUr7uno=";
+      sha256 = "sha256-WTu2rxVHGtOfT4fXZYBSMiEDUAkWYRlJB/vd4vrFCLA=";
     };
-    date = "2024-12-12";
+    date = "2024-12-17";
   };
   opencomposite = {
     pname = "opencomposite";

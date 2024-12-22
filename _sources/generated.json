@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-0020dcf3d4ed0d88725e248086f276c64614c0f4/Cargo.lock",
+                "./envision-unwrapped-e69a7a9bd62bef27f3d84b8d037bafe55bbed483/Cargo.lock",
                 {}
             ]
         },
-        "date": "2024-12-18",
+        "date": "2024-12-21",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,12 +16,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0020dcf3d4ed0d88725e248086f276c64614c0f4",
-            "sha256": "sha256-P/SBL9WC2kMdAM4UFsKTbiPtBXBrBinMFthR235pN3U=",
+            "rev": "e69a7a9bd62bef27f3d84b8d037bafe55bbed483",
+            "sha256": "sha256-TukLgU8aubnrrtWSGhP9X90zBKWL0m36UFe3+nPgw2I=",
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "0020dcf3d4ed0d88725e248086f276c64614c0f4"
+        "version": "e69a7a9bd62bef27f3d84b8d037bafe55bbed483"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -80,12 +80,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4c0d12e6b025a6521b772977bd20b9e0b14bf87f",
-            "sha256": "sha256-DbvHbE5OZs+39q4L/V5ryWyuNvXLhUq7zY4CQ0IZUPc=",
+            "rev": "b9069698f2ed420a5f1ae783c02b88fbde775fc2",
+            "sha256": "sha256-ow10yTvZyB5fLTwgxspjS/atxK1QTGcLJtkWpQgYaeQ=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "4c0d12e6b025a6521b772977bd20b9e0b14bf87f"
+        "version": "b9069698f2ed420a5f1ae783c02b88fbde775fc2"
     },
     "wlx-overlay-s": {
         "cargoLocks": {

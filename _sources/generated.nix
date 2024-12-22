@@ -3,22 +3,22 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "0020dcf3d4ed0d88725e248086f276c64614c0f4";
+    version = "e69a7a9bd62bef27f3d84b8d037bafe55bbed483";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "0020dcf3d4ed0d88725e248086f276c64614c0f4";
+      rev = "e69a7a9bd62bef27f3d84b8d037bafe55bbed483";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-P/SBL9WC2kMdAM4UFsKTbiPtBXBrBinMFthR235pN3U=";
+      sha256 = "sha256-TukLgU8aubnrrtWSGhP9X90zBKWL0m36UFe3+nPgw2I=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-0020dcf3d4ed0d88725e248086f276c64614c0f4/Cargo.lock;
+      lockFile = ./envision-unwrapped-e69a7a9bd62bef27f3d84b8d037bafe55bbed483/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2024-12-18";
+    date = "2024-12-21";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -54,14 +54,14 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "4c0d12e6b025a6521b772977bd20b9e0b14bf87f";
+    version = "b9069698f2ed420a5f1ae783c02b88fbde775fc2";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "4c0d12e6b025a6521b772977bd20b9e0b14bf87f";
+      rev = "b9069698f2ed420a5f1ae783c02b88fbde775fc2";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-DbvHbE5OZs+39q4L/V5ryWyuNvXLhUq7zY4CQ0IZUPc=";
+      sha256 = "sha256-ow10yTvZyB5fLTwgxspjS/atxK1QTGcLJtkWpQgYaeQ=";
     };
     date = "2024-12-20";
   };

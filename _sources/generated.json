@@ -70,7 +70,7 @@
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2024-12-23",
+        "date": "2024-12-26",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -80,12 +80,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c6e11da966d76873cda933206c525a0203a499cf",
-            "sha256": "sha256-eKfE18DRIwi+nZL9EiDA4yTM+vUl/vhrhXmHccUXgYI=",
+            "rev": "effe0a8783937c5a3cfe7a72cf6f81152150b6cb",
+            "sha256": "sha256-SV8E+4qu5J7MueHmdsdTDKNx4CH085fidgIJyewj8RQ=",
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "c6e11da966d76873cda933206c525a0203a499cf"
+        "version": "effe0a8783937c5a3cfe7a72cf6f81152150b6cb"
     },
     "wlx-overlay-s": {
         "cargoLocks": {

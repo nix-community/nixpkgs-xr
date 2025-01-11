@@ -9,5 +9,7 @@ final: prev: {
     cargoDeps =
       final.rustPlatform.importCargoLock
         final.xrSources.envision-unwrapped.cargoLock."Cargo.lock";
+
+    patches = [ ];
   };
 }

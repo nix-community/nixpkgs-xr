@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-2bec37ee24d404a7b3f27aae499be13d5873b56f/Cargo.lock",
+                "./envision-unwrapped-3680e305a9824f851a441bc96fc7654ef849b01a/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-01-20",
+        "date": "2025-01-26",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2bec37ee24d404a7b3f27aae499be13d5873b56f",
-            "sha256": "sha256-S+fXxWF+phX4cMTad0hUYzmX3V16ylCUlWu8k4qHlOU=",
+            "rev": "3680e305a9824f851a441bc96fc7654ef849b01a",
+            "sha256": "sha256-keATMKBm1u64HfkXqpcy6PeQT9U5QEVSF54jMX+G1nc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "2bec37ee24d404a7b3f27aae499be13d5873b56f"
+        "version": "3680e305a9824f851a441bc96fc7654ef849b01a"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -94,7 +94,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-52298ccfdf80c29a6ad76339e9aba3d2110b3b7e/Cargo.lock",
+                "./wlx-overlay-s-da129b62b3db7d1b2ad5422e22a514d5f0f6ca94/Cargo.lock",
                 {
                     "libmonado-rs-0.1.0": "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
@@ -107,7 +107,7 @@
                 }
             ]
         },
-        "date": "2025-01-23",
+        "date": "2025-01-26",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -117,12 +117,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e",
-            "sha256": "sha256-jlorQTbVRA1pxIQH7zfhwJxyNbALZypN6Hc0qRZBdkI=",
+            "rev": "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94",
+            "sha256": "sha256-MKIfWkzD7auxsRT28v53OZgvbh+yNZ9lN5v/iWXKRgk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e"
+        "version": "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94"
     }
 }

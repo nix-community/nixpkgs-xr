@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "2bec37ee24d404a7b3f27aae499be13d5873b56f";
+    version = "3680e305a9824f851a441bc96fc7654ef849b01a";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "2bec37ee24d404a7b3f27aae499be13d5873b56f";
+      rev = "3680e305a9824f851a441bc96fc7654ef849b01a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-S+fXxWF+phX4cMTad0hUYzmX3V16ylCUlWu8k4qHlOU=";
+      sha256 = "sha256-keATMKBm1u64HfkXqpcy6PeQT9U5QEVSF54jMX+G1nc=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-2bec37ee24d404a7b3f27aae499be13d5873b56f/Cargo.lock;
+      lockFile = ./envision-unwrapped-3680e305a9824f851a441bc96fc7654ef849b01a/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-01-20";
+    date = "2025-01-26";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -71,18 +71,18 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e";
+    version = "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e";
+      rev = "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-jlorQTbVRA1pxIQH7zfhwJxyNbALZypN6Hc0qRZBdkI=";
+      sha256 = "sha256-MKIfWkzD7auxsRT28v53OZgvbh+yNZ9lN5v/iWXKRgk=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-52298ccfdf80c29a6ad76339e9aba3d2110b3b7e/Cargo.lock;
+      lockFile = ./wlx-overlay-s-da129b62b3db7d1b2ad5422e22a514d5f0f6ca94/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
@@ -94,6 +94,6 @@
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
       };
     };
-    date = "2025-01-23";
+    date = "2025-01-26";
   };
 }

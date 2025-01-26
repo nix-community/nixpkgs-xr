@@ -3,22 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "879637115c4c248e79031da64b916cd748525086";
+    version = "2bec37ee24d404a7b3f27aae499be13d5873b56f";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "879637115c4c248e79031da64b916cd748525086";
+      rev = "2bec37ee24d404a7b3f27aae499be13d5873b56f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-eESnQU8yFOz+/HE03wvohbfl/U3MrHt4XmLNZdye3dM=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-S+fXxWF+phX4cMTad0hUYzmX3V16ylCUlWu8k4qHlOU=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-879637115c4c248e79031da64b916cd748525086/Cargo.lock;
+      lockFile = ./envision-unwrapped-2bec37ee24d404a7b3f27aae499be13d5873b56f/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-01-08";
+    date = "2025-01-20";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -29,6 +30,7 @@
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-jldpVWnpWEA3bi3lzmG94uCaoZuL+xhaEAtFiZrSGc4=";
     };
     cargoLock."Cargo.lock" = {
@@ -41,54 +43,57 @@
   };
   monado = {
     pname = "monado";
-    version = "aeb574c96c70727a9b5fef61f4694d04b7e4cb04";
+    version = "4f3c9bb2fe2427600f4915eab99d1a72bc15d67f";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "aeb574c96c70727a9b5fef61f4694d04b7e4cb04";
+      rev = "4f3c9bb2fe2427600f4915eab99d1a72bc15d67f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-NOA85FMQVCD2mKXYB5zC2JzS1roZsLuop37SYNeG5H4=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-Hw399GCFmP1E1Sqy9H71IAumqu+DtooiKIQuaXblF3o=";
     };
-    date = "2025-01-10";
+    date = "2025-01-24";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "bdb830a4bcd04196ba13e8c08a07a4530363aa4b";
+    version = "6573b9aa8966da3c0ec603689eb88c83d35cf6f1";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "bdb830a4bcd04196ba13e8c08a07a4530363aa4b";
+      rev = "6573b9aa8966da3c0ec603689eb88c83d35cf6f1";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-y8djMkjcWA0TSI+3Pc7pAqTGaE5MSGIJpq4/ee7LWQs=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-K27yeGUfSb4I8Xv3s4UEXrgUscGZUzsXS4++5NfSJTs=";
     };
-    date = "2025-01-10";
+    date = "2025-01-15";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "eb3087f2301717af26fc8a492a913b454641487e";
+    version = "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "eb3087f2301717af26fc8a492a913b454641487e";
+      rev = "52298ccfdf80c29a6ad76339e9aba3d2110b3b7e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-2OzUOMptdwwke0+ToBM0WN5gSwlWkWQu4lu6m2MOqBs=";
+      sparseCheckout = [ ];
+      sha256 = "sha256-jlorQTbVRA1pxIQH7zfhwJxyNbALZypN6Hc0qRZBdkI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-eb3087f2301717af26fc8a492a913b454641487e/Cargo.lock;
+      lockFile = ./wlx-overlay-s-52298ccfdf80c29a6ad76339e9aba3d2110b3b7e/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "wlx-capture-0.4.2" = "sha256-uNOVG5EJ8ZBGvdBzq8XaS8agspj0Ko8dwPoYpLBM1UY=";
         "smithay-0.3.0" = "sha256-Njw+deqcmUaR4iAmXZEzRTyNR2ZP+tshAGk0f6/CdAg=";
-        "wayvr_ipc-0.1.0" = "sha256-1lOnTt/i9h7wS55zAbYYb8gMxnapjZQrht5mCosK+Ms=";
+        "wayvr_ipc-0.1.0" = "sha256-/xnglHzbtRRQ4Zc7CDujPwJ76K+dIFIxM0sSgh3nRpw=";
         "libspa-0.8.0" = "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=";
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
       };
     };
-    date = "2025-01-11";
+    date = "2025-01-23";
   };
 }

@@ -43,57 +43,57 @@
   };
   monado = {
     pname = "monado";
-    version = "bc3ac9b32edc131aaafe1f62ea2784c89cb92524";
+    version = "848a24aa106758fd6c7afcab6d95880c57dbe450";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "bc3ac9b32edc131aaafe1f62ea2784c89cb92524";
+      rev = "848a24aa106758fd6c7afcab6d95880c57dbe450";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-7PU0AtahxA9EvizTsEp/lm6Ki3I/DctQTtnZIhxgHh8=";
+      sha256 = "sha256-+rax9/CG/3y8rLYwGqoWJa4FxH+Z3eREiwhuxDOUzLs=";
     };
-    date = "2025-01-28";
+    date = "2025-01-30";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "6573b9aa8966da3c0ec603689eb88c83d35cf6f1";
+    version = "d37c9e7a4bc41f2b636282064eb39efb9e50d48b";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "6573b9aa8966da3c0ec603689eb88c83d35cf6f1";
+      rev = "d37c9e7a4bc41f2b636282064eb39efb9e50d48b";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-K27yeGUfSb4I8Xv3s4UEXrgUscGZUzsXS4++5NfSJTs=";
+      sha256 = "sha256-Bc+lQdQeiojaHjglj7gZhXB5BMho0vb/HErfh50pcmA=";
     };
-    date = "2025-01-15";
+    date = "2025-01-23";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94";
+    version = "e44872f831c957a18c974d6667900787c61c42cb";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "da129b62b3db7d1b2ad5422e22a514d5f0f6ca94";
+      rev = "e44872f831c957a18c974d6667900787c61c42cb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-MKIfWkzD7auxsRT28v53OZgvbh+yNZ9lN5v/iWXKRgk=";
+      sha256 = "sha256-MfguHwtlviSvyRuxhd8dDj11sw497WbN+D7zXJpQB2s=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-da129b62b3db7d1b2ad5422e22a514d5f0f6ca94/Cargo.lock;
+      lockFile = ./wlx-overlay-s-e44872f831c957a18c974d6667900787c61c42cb/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "libmonado-rs-0.1.0" = "sha256-ja7OW/YSmfzaQoBhu6tec9v8fyNDknLekE2eY7McLPE=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
         "wlx-capture-0.4.2" = "sha256-uNOVG5EJ8ZBGvdBzq8XaS8agspj0Ko8dwPoYpLBM1UY=";
         "smithay-0.3.0" = "sha256-Njw+deqcmUaR4iAmXZEzRTyNR2ZP+tshAGk0f6/CdAg=";
-        "wayvr_ipc-0.1.0" = "sha256-/xnglHzbtRRQ4Zc7CDujPwJ76K+dIFIxM0sSgh3nRpw=";
+        "wayvr_ipc-0.1.0" = "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E=";
         "libspa-0.8.0" = "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=";
         "ovr_overlay-0.0.0" = "sha256-5IMEI0IPTacbA/1gibYU7OT6r+Bj+hlQjDZ3Kg0L2gw=";
       };
     };
-    date = "2025-01-26";
+    date = "2025-01-31";
   };
 }

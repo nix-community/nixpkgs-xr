@@ -15,8 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: cachix/install-nix-action@v27
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
 
       - name: Set Git user info
         run: |
@@ -25,13 +26,10 @@ jobs:
 
       - name: Update flake inputs
         run: |
-          nix flake update --commit-lock-file
+          nix develop -c nix flake update --commit-lock-file
 
       - name: Update upstream sources
         run: |
-          # HACK: nvfetcher doesn't delete old extracted files
-          # See https://github.com/berberman/nvfetcher/issues/111
-          rm -rfv _sources/*/
           nix develop -c nvfetcher --commit-changes
 
       - name: Create PR

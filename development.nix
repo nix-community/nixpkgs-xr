@@ -21,6 +21,7 @@ flake-utils.lib.eachDefaultSystem (
   {
     devShells.default = pkgs.mkShellNoCC {
       packages = [
+        pkgs.git
         pkgs.nvfetcher
         pkgs.reuse
       ];

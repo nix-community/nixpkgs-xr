@@ -69,6 +69,27 @@
     };
     date = "2025-02-08";
   };
+  wayvr-dashboard = {
+    pname = "wayvr-dashboard";
+    version = "9246f42ddb00301fbc46d3c2999736894b2ae615";
+    src = fetchgit {
+      url = "https://github.com/olekolek1000/wayvr-dashboard";
+      rev = "9246f42ddb00301fbc46d3c2999736894b2ae615";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-EPpa6uJcim0DfgucxXEEQjqVyFDQUeoKZMsz7X6as0g=";
+    };
+    cargoLock."src-tauri/Cargo.lock" = {
+      lockFile = ./wayvr-dashboard-9246f42ddb00301fbc46d3c2999736894b2ae615/src-tauri/Cargo.lock;
+      outputHashes = {
+        "keyvalues-parser-0.2.0" = "sha256-zbpgA6q2mIfFN6RoM0tauIQQFWT091TZ+6CCnBcYLa0=";
+        "wayvr_ipc-0.1.0" = "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E=";
+      };
+    };
+    date = "2025-02-14";
+  };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
     version = "965174c7812274915f175d92a503f7ea9cd1468d";

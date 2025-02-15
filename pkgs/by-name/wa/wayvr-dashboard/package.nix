@@ -4,7 +4,6 @@
 {
   lib,
   rustPlatform,
-  fetchFromGitHub,
   importNpmLock,
   pkg-config,
   cargo-tauri,
@@ -20,16 +19,6 @@
 }:
 
 let
-  pname = "wayvr-dashboard";
-  version = "9246f42ddb00301fbc46d3c2999736894b2ae615";
-
-  src = fetchFromGitHub {
-    owner = "olekolek1000";
-    repo = pname;
-    rev = version;
-    hash = "sha256-EPpa6uJcim0DfgucxXEEQjqVyFDQUeoKZMsz7X6as0g=";
-  };
-
   cargoRoot = "src-tauri";
 
   nanoyaki = {
@@ -52,10 +41,7 @@ rustPlatform.buildRustPackage {
     src
     date
     ;
-  cargoLock = xrSources.wayvr-dashboard.cargoLock."src-tauri/Cargo.lock";
-
-  # useFetchCargoVendor = true;
-  # cargoHash = "sha256-+rSyIf0GOuMKEbPrQJO+RufmTyMrSX49EvCKjOHemYA=";
+  cargoLock = xrSources.wayvr-dashboard.cargoLock."${cargoRoot}/Cargo.lock";
 
   npmDeps = importNpmLock {
     npmRoot = xrSources.wayvr-dashboard.src;

@@ -114,6 +114,7 @@ This overlay provides the following packages:
 - `opencomposite`
 - `opencomposite-vendored`
 - `proton-ge-rtsp-bin`
+- `wayvr-dashboard`
 - `wlx-overlay-s`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community

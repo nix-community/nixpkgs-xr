@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-3680e305a9824f851a441bc96fc7654ef849b01a/Cargo.lock",
+                "./envision-unwrapped-33db18bd62d59a2d22550a7f42e15de8ab5c79d5/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-01-26",
+        "date": "2025-02-14",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "3680e305a9824f851a441bc96fc7654ef849b01a",
-            "sha256": "sha256-keATMKBm1u64HfkXqpcy6PeQT9U5QEVSF54jMX+G1nc=",
+            "rev": "33db18bd62d59a2d22550a7f42e15de8ab5c79d5",
+            "sha256": "sha256-klhNP8CGiIEzzBTIpzdaB6669jaLzHUdBcc0Uiqye4U=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "3680e305a9824f851a441bc96fc7654ef849b01a"
+        "version": "33db18bd62d59a2d22550a7f42e15de8ab5c79d5"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -53,7 +53,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-02-12",
+        "date": "2025-02-15",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -63,13 +63,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "907fd6d338390ac3a07f7f06966c68637b90ecd8",
-            "sha256": "sha256-PWrrGNH07p3R+h0VS3SByPRqrw7wxRFOXBjuHxp4t5w=",
+            "rev": "445829f6ce84f402b983f73e2eedfc02f6c0cd21",
+            "sha256": "sha256-BFE2wL0C1IJD/v5ehiCY4O9bO/VI2rUR2frzMMWDcIc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "907fd6d338390ac3a07f7f06966c68637b90ecd8"
+        "version": "445829f6ce84f402b983f73e2eedfc02f6c0cd21"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -94,14 +94,14 @@
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-9246f42ddb00301fbc46d3c2999736894b2ae615/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-959bc6fee68ece0d9929b80a882e9dc04ab279d8/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-zbpgA6q2mIfFN6RoM0tauIQQFWT091TZ+6CCnBcYLa0=",
                     "wayvr_ipc-0.1.0": "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E="
                 }
             ]
         },
-        "date": "2025-02-14",
+        "date": "2025-02-16",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -111,13 +111,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9246f42ddb00301fbc46d3c2999736894b2ae615",
-            "sha256": "sha256-EPpa6uJcim0DfgucxXEEQjqVyFDQUeoKZMsz7X6as0g=",
+            "rev": "959bc6fee68ece0d9929b80a882e9dc04ab279d8",
+            "sha256": "sha256-vs4lk0B/D51WsHWOgqpTcPHf8WFaRJCkJyHZImDsdqk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "9246f42ddb00301fbc46d3c2999736894b2ae615"
+        "version": "959bc6fee68ece0d9929b80a882e9dc04ab279d8"
     },
     "wlx-overlay-s": {
         "cargoLocks": {

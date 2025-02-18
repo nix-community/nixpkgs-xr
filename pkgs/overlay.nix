@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 # SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+# SPDX-FileCopyrightText: 2025 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
 { nixpkgs, ... }:
@@ -21,5 +22,6 @@ in
     (import ./overrides/opencomposite.nix)
     (import ./overrides/opencomposite-vendored.nix)
     (import ./overrides/wlx-overlay-s.nix)
+    (import ./overrides/xrizer.nix)
   ];
 }

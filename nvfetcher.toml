@@ -30,3 +30,8 @@ src.git = "https://github.com/olekolek1000/wayvr-dashboard"
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/wlx-overlay-s.git"
 src.git = "https://github.com/galister/wlx-overlay-s.git"
+
+[xrizer]
+cargo_locks = ["Cargo.lock"]
+fetch.git = "https://github.com/Supreeeme/xrizer.git"
+src.git = "https://github.com/Supreeeme/xrizer.git"

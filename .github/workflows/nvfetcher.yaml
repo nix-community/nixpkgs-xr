@@ -23,6 +23,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          # See https://github.com/berberman/nvfetcher/issues/133
+          export LANG=en_US.UTF-8
 
       - name: Update flake inputs
         run: |

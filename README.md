@@ -116,6 +116,7 @@ This overlay provides the following packages:
 - `proton-ge-rtsp-bin`
 - `wayvr-dashboard`
 - `wlx-overlay-s`
+- `xrizer`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community
 [flake-compat]: https://github.com/edolstra/flake-compat

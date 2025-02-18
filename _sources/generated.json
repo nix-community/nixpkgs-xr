@@ -152,5 +152,32 @@
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
         "version": "965174c7812274915f175d92a503f7ea9cd1468d"
+    },
+    "xrizer": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./xrizer-30c420d3ae1335f3467b4d89b6a30ab1ea125171/Cargo.lock",
+                {
+                    "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
+                }
+            ]
+        },
+        "date": "2025-02-17",
+        "extract": null,
+        "name": "xrizer",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "30c420d3ae1335f3467b4d89b6a30ab1ea125171",
+            "sha256": "sha256-BDA6INvjoMUPYEYuALUMqk/pWGSKOhpKbzgmXvL7ujk=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Supreeeme/xrizer.git"
+        },
+        "version": "30c420d3ae1335f3467b4d89b6a30ab1ea125171"
     }
 }

@@ -1,0 +1,46 @@
+# SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+#
+# SPDX-License-Identifier: MIT
+
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  format:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - uses: cachix/install-nix-action@v30
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+    - name: Check formatting
+      run: |
+        nix fmt -- --ci
+
+  check-readme:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - uses: cachix/install-nix-action@v30
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+    - name: Check README contents
+      run: |
+        nix run .#update-readme
+
+        git diff
+
+        if git diff-index --quiet HEAD -- ; then
+          echo "All good!"
+        else
+          echo "The README is out of date. Please run 'nix run .#update-readme' to update the README." >&2
+          exit 1
+        fi
+
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: REUSE Compliance Check
+      uses: fsfe/reuse-action@v5

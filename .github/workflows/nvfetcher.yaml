@@ -24,15 +24,15 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           # See https://github.com/berberman/nvfetcher/issues/133
-          export LANG=en_US.UTF-8
+          export LANG=C.UTF-8
 
       - name: Update flake inputs
         run: |
-          nix develop -c nix flake update --commit-lock-file
+          nix flake update --commit-lock-file
 
       - name: Update upstream sources
         run: |
-          nix develop -c nvfetcher --commit-changes
+          nix develop --accept-flake-config -c nvfetcher --commit-changes
 
       - name: Create PR
         id: cpr

@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "33db18bd62d59a2d22550a7f42e15de8ab5c79d5";
+    version = "9c6bfe110a50f7f96cd5204205397a9ccd2548d4";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "33db18bd62d59a2d22550a7f42e15de8ab5c79d5";
+      rev = "9c6bfe110a50f7f96cd5204205397a9ccd2548d4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-klhNP8CGiIEzzBTIpzdaB6669jaLzHUdBcc0Uiqye4U=";
+      sha256 = "sha256-IeXN4Tr06Ldnf3SkqxMmWaJTh+C9xOMIry+3hPo/x8o=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-33db18bd62d59a2d22550a7f42e15de8ab5c79d5/Cargo.lock;
+      lockFile = ./envision-unwrapped-9c6bfe110a50f7f96cd5204205397a9ccd2548d4/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-02-14";
+    date = "2025-02-23";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -71,18 +71,18 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "775f75ae8fb765ab45e2144f521e84066ed28275";
+    version = "1bb7b408958539aead121448f6ceea4dd9d5095c";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "775f75ae8fb765ab45e2144f521e84066ed28275";
+      rev = "1bb7b408958539aead121448f6ceea4dd9d5095c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SqM+oP6eoviVVCUjAa9WMjvVv+tLLnBgjasE6DU0Dv0=";
+      sha256 = "sha256-0GW5OvmoflVNSDdo6UBokvCsdzFLiEHOQgxuRAp8vUQ=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-775f75ae8fb765ab45e2144f521e84066ed28275/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-1bb7b408958539aead121448f6ceea4dd9d5095c/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-zbpgA6q2mIfFN6RoM0tauIQQFWT091TZ+6CCnBcYLa0=";
         "wayvr_ipc-0.1.0" = "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E=";

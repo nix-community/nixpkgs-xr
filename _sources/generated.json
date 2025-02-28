@@ -123,7 +123,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-507ff7353ed2dbc3701ebd674c4f2192fed32750/Cargo.lock",
+                "./wlx-overlay-s-e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d/Cargo.lock",
                 {
                     "libmonado-1.3.1": "sha256-8NA8DLfErX44LIXg5fi2xRDyJaofjpQfILQuu0oaIOQ=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
@@ -136,7 +136,7 @@
                 }
             ]
         },
-        "date": "2025-02-20",
+        "date": "2025-02-28",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -146,24 +146,24 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "507ff7353ed2dbc3701ebd674c4f2192fed32750",
-            "sha256": "sha256-iyOn/RHX1QoB4CYk/uW4toemYLloTZCXq9zuLyutWjM=",
+            "rev": "e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d",
+            "sha256": "sha256-FmYw1opE2ZzJTZqf5kt5bFW+gtjnWjha+9DS4qVa0Ss=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "507ff7353ed2dbc3701ebd674c4f2192fed32750"
+        "version": "e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d"
     },
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-30c420d3ae1335f3467b4d89b6a30ab1ea125171/Cargo.lock",
+                "./xrizer-1346be49fc91293f6fa29de0d329e6087ce5a3d2/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-02-17",
+        "date": "2025-02-25",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -173,12 +173,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "30c420d3ae1335f3467b4d89b6a30ab1ea125171",
-            "sha256": "sha256-BDA6INvjoMUPYEYuALUMqk/pWGSKOhpKbzgmXvL7ujk=",
+            "rev": "1346be49fc91293f6fa29de0d329e6087ce5a3d2",
+            "sha256": "sha256-UoYqxtCIIJ2ABCIUxdxywS2XDdqaSVkpMB4OytkCLVo=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "30c420d3ae1335f3467b4d89b6a30ab1ea125171"
+        "version": "1346be49fc91293f6fa29de0d329e6087ce5a3d2"
     }
 }

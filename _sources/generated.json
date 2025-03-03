@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-9c6bfe110a50f7f96cd5204205397a9ccd2548d4/Cargo.lock",
+                "./envision-unwrapped-e117986715e1e9ef955009ad7f03ec110aa14940/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-02-23",
+        "date": "2025-03-02",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9c6bfe110a50f7f96cd5204205397a9ccd2548d4",
-            "sha256": "sha256-IeXN4Tr06Ldnf3SkqxMmWaJTh+C9xOMIry+3hPo/x8o=",
+            "rev": "e117986715e1e9ef955009ad7f03ec110aa14940",
+            "sha256": "sha256-7nTOH76/EdMrDNulTQyX2mHAB2lBzhsGr2aL7crbnDQ=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "9c6bfe110a50f7f96cd5204205397a9ccd2548d4"
+        "version": "e117986715e1e9ef955009ad7f03ec110aa14940"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -73,7 +73,7 @@
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2025-02-08",
+        "date": "2025-03-01",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -83,26 +83,26 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "175e3b3a5408ff120bd21036faa703deb57159fc",
-            "sha256": "sha256-kwu8eM/rQBcZfs91loh7QAB46a01F9n5Xm1DmMd53MQ=",
+            "rev": "578a1a5c57204e7db31299351c8e312ead9ba7c4",
+            "sha256": "sha256-LTC/RJdi4saj5hVli23GUm+ytKPv/Z94WHlo5s+tMeY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "175e3b3a5408ff120bd21036faa703deb57159fc"
+        "version": "578a1a5c57204e7db31299351c8e312ead9ba7c4"
     },
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-1bb7b408958539aead121448f6ceea4dd9d5095c/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-7da4adfc6532f5adda9113b1421b232eecefb274/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-zbpgA6q2mIfFN6RoM0tauIQQFWT091TZ+6CCnBcYLa0=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
-                    "wayvr_ipc-0.1.0": "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E="
+                    "wayvr_ipc-0.1.0": "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc="
                 }
             ]
         },
-        "date": "2025-02-22",
+        "date": "2025-03-02",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -112,18 +112,18 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1bb7b408958539aead121448f6ceea4dd9d5095c",
-            "sha256": "sha256-0GW5OvmoflVNSDdo6UBokvCsdzFLiEHOQgxuRAp8vUQ=",
+            "rev": "7da4adfc6532f5adda9113b1421b232eecefb274",
+            "sha256": "sha256-VmoxcOClR4BU+md6gVbNKEQWRY4D9JnIHIhWSvLFb0M=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "1bb7b408958539aead121448f6ceea4dd9d5095c"
+        "version": "7da4adfc6532f5adda9113b1421b232eecefb274"
     },
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d/Cargo.lock",
+                "./wlx-overlay-s-009862e2a2ebdfba32eee70ca3f0c0191b31db5a/Cargo.lock",
                 {
                     "libmonado-1.3.1": "sha256-8NA8DLfErX44LIXg5fi2xRDyJaofjpQfILQuu0oaIOQ=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
@@ -131,12 +131,12 @@
                     "ovr_overlay-0.0.0": "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=",
                     "smithay-0.4.0": "sha256-Z1AS2IsbUJVIRNowzmtZ7hq0AOgVkuVgDBS8f9dBMKQ=",
                     "vulkano-0.34.0": "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=",
-                    "wayvr_ipc-0.1.0": "sha256-o224e306Y0Rlmkci/jBQwCNsgeI7jlOpRkLuVveQP2E=",
+                    "wayvr_ipc-0.1.0": "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=",
                     "wlx-capture-0.4.2": "sha256-uNOVG5EJ8ZBGvdBzq8XaS8agspj0Ko8dwPoYpLBM1UY="
                 }
             ]
         },
-        "date": "2025-02-28",
+        "date": "2025-03-02",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -146,24 +146,24 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d",
-            "sha256": "sha256-FmYw1opE2ZzJTZqf5kt5bFW+gtjnWjha+9DS4qVa0Ss=",
+            "rev": "009862e2a2ebdfba32eee70ca3f0c0191b31db5a",
+            "sha256": "sha256-m2YVXF9bEjovZOWa+X1CYHAUaAsUI4dBMG2ni3jP9L4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "e66a8d27c98968d0cbe4c7fdc57ef04c0723f40d"
+        "version": "009862e2a2ebdfba32eee70ca3f0c0191b31db5a"
     },
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-1346be49fc91293f6fa29de0d329e6087ce5a3d2/Cargo.lock",
+                "./xrizer-6f2552014734dd9c24dbe9c2a7e6429186bce6b5/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-02-25",
+        "date": "2025-03-02",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -173,12 +173,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1346be49fc91293f6fa29de0d329e6087ce5a3d2",
-            "sha256": "sha256-UoYqxtCIIJ2ABCIUxdxywS2XDdqaSVkpMB4OytkCLVo=",
+            "rev": "6f2552014734dd9c24dbe9c2a7e6429186bce6b5",
+            "sha256": "sha256-ouTR6Ra1ioqQpXeyypNIFHNyk2XLOzI8ftkOd89L76s=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "1346be49fc91293f6fa29de0d329e6087ce5a3d2"
+        "version": "6f2552014734dd9c24dbe9c2a7e6429186bce6b5"
     }
 }

@@ -71,40 +71,40 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "7da4adfc6532f5adda9113b1421b232eecefb274";
+    version = "9e3fe495a96400de1728bb96231cdb554febf1bb";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "7da4adfc6532f5adda9113b1421b232eecefb274";
+      rev = "9e3fe495a96400de1728bb96231cdb554febf1bb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-VmoxcOClR4BU+md6gVbNKEQWRY4D9JnIHIhWSvLFb0M=";
+      sha256 = "sha256-29EBAGRv72BaDnbX2WSIVGBNo/f32aGTmIXxTpzvUJ4=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-7da4adfc6532f5adda9113b1421b232eecefb274/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-9e3fe495a96400de1728bb96231cdb554febf1bb/src-tauri/Cargo.lock;
       outputHashes = {
-        "keyvalues-parser-0.2.0" = "sha256-zbpgA6q2mIfFN6RoM0tauIQQFWT091TZ+6CCnBcYLa0=";
+        "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
       };
     };
-    date = "2025-03-02";
+    date = "2025-03-09";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "fa3af63e893ec932aa6a8c578abd6488642eade6";
+    version = "049f91eed3f7cbcd648190eab8a5e7a0414d0f22";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "fa3af63e893ec932aa6a8c578abd6488642eade6";
+      rev = "049f91eed3f7cbcd648190eab8a5e7a0414d0f22";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-aYZuyLglK6pw02anl6UDtIfIak5oHh0R8HYmhcc9Te0=";
+      sha256 = "sha256-RPJtKcszN3AHKBwhEVHhRect8otABGZPqEZCR56EXxM=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-fa3af63e893ec932aa6a8c578abd6488642eade6/Cargo.lock;
+      lockFile = ./wlx-overlay-s-049f91eed3f7cbcd648190eab8a5e7a0414d0f22/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";

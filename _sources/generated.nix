@@ -93,18 +93,18 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "049f91eed3f7cbcd648190eab8a5e7a0414d0f22";
+    version = "659f1492fb857e723ad5be02cbaa2828516f970f";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "049f91eed3f7cbcd648190eab8a5e7a0414d0f22";
+      rev = "659f1492fb857e723ad5be02cbaa2828516f970f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-RPJtKcszN3AHKBwhEVHhRect8otABGZPqEZCR56EXxM=";
+      sha256 = "sha256-HgLItpwVn1MU5/GKECQxJWpZFEMZkAR+BqkWx9/xay4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-049f91eed3f7cbcd648190eab8a5e7a0414d0f22/Cargo.lock;
+      lockFile = ./wlx-overlay-s-659f1492fb857e723ad5be02cbaa2828516f970f/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
@@ -115,26 +115,26 @@
         "libmonado-1.3.1" = "sha256-8NA8DLfErX44LIXg5fi2xRDyJaofjpQfILQuu0oaIOQ=";
       };
     };
-    date = "2025-03-09";
+    date = "2025-03-12";
   };
   xrizer = {
     pname = "xrizer";
-    version = "63434338b36f91234dd5d0e69f30793368e94d00";
+    version = "8ff43eb9b0c482077e3bd9ad5ac5d180a9565ec8";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "63434338b36f91234dd5d0e69f30793368e94d00";
+      rev = "8ff43eb9b0c482077e3bd9ad5ac5d180a9565ec8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-FNsL9SnfYPg3tjYlk9d172iyAVlqC6U7ZgHVOoSSEFo=";
+      sha256 = "sha256-HJBV3QWv2QjtHuQFlxfKsZGEmpeD8lLswOfPSAaTIc0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-63434338b36f91234dd5d0e69f30793368e94d00/Cargo.lock;
+      lockFile = ./xrizer-8ff43eb9b0c482077e3bd9ad5ac5d180a9565ec8/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-03-04";
+    date = "2025-03-10";
   };
 }

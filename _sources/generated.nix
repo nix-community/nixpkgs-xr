@@ -71,25 +71,25 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "cdd5982da9497509cb5fbb5c499289e506cf2499";
+    version = "125900a3ca55a645ca297a216e52102452604cf9";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "cdd5982da9497509cb5fbb5c499289e506cf2499";
+      rev = "125900a3ca55a645ca297a216e52102452604cf9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-VqHVTPOCQWzNM7X++FXOkdc0uNqtXGsZ3yYgf3Hg1k0=";
+      sha256 = "sha256-5313JDxAVGamgNYpgnGY7Q4M9VMSQYqKP9wjWg02D8Q=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-cdd5982da9497509cb5fbb5c499289e506cf2499/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-125900a3ca55a645ca297a216e52102452604cf9/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
       };
     };
-    date = "2025-03-13";
+    date = "2025-03-23";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
@@ -119,22 +119,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "23b4ea80f0be6e658819afd5f41cfc62d4fe32ba";
+    version = "cd87a81df98e3efd6262804282aa5d22735bd44f";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "23b4ea80f0be6e658819afd5f41cfc62d4fe32ba";
+      rev = "cd87a81df98e3efd6262804282aa5d22735bd44f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-uNTQzhcwxwXlOuvPrY1D/X1W+WYhZM0vi1e2A9ZPyAg=";
+      sha256 = "sha256-QilkevQGwvMC6S08Qm7EfEW6rqFCKRNq8nx2Id/DggQ=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-23b4ea80f0be6e658819afd5f41cfc62d4fe32ba/Cargo.lock;
+      lockFile = ./xrizer-cd87a81df98e3efd6262804282aa5d22735bd44f/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-03-22";
+    date = "2025-03-23";
   };
 }

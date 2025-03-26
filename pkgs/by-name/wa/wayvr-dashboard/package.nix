@@ -15,6 +15,7 @@
   wrapGAppsHook4,
   librsvg,
   openssl,
+  pulseaudio,
 
   xrSources,
 }:
@@ -72,6 +73,12 @@ rustPlatform.buildRustPackage {
   preBuild = ''
     # using sass-embedded fails at executing node_modules/sass-embedded-linux-x64/dart-sass/src/dart
     rm -r node_modules/sass-embedded*
+  '';
+
+  postInstall = ''
+    gappsWrapperArgs+=(
+      --prefix PATH : "${lib.makeBinPath [ pulseaudio ]}}"
+    )
   '';
 
   inherit cargoRoot;

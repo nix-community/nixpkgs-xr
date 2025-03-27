@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-e117986715e1e9ef955009ad7f03ec110aa14940/Cargo.lock",
+                "./envision-unwrapped-db45103d1bc23d56692571d652f56f8866dc956d/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-03-02",
+        "date": "2025-03-13",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "e117986715e1e9ef955009ad7f03ec110aa14940",
-            "sha256": "sha256-7nTOH76/EdMrDNulTQyX2mHAB2lBzhsGr2aL7crbnDQ=",
+            "rev": "db45103d1bc23d56692571d652f56f8866dc956d",
+            "sha256": "sha256-FQOA6nn+MFBXoSUSkUFRNSlZQmqqmGfYCT6tdoRiWlo=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "e117986715e1e9ef955009ad7f03ec110aa14940"
+        "version": "db45103d1bc23d56692571d652f56f8866dc956d"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -53,7 +53,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-03-03",
+        "date": "2025-03-25",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -63,13 +63,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4e22c990fdd595b60336247e80cb0ae0e590f518",
-            "sha256": "sha256-aqKrVDX0uS0Wu4JsYveLcfeEVR1Wm00KMyh1wILOkmA=",
+            "rev": "d98fda64a808d1edc3ed3833a0ccc237d77fb646",
+            "sha256": "sha256-h7o8oo17smUbTd5Bm0PLXxEGJcxpIaGREFSJCAOqqM8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "4e22c990fdd595b60336247e80cb0ae0e590f518"
+        "version": "d98fda64a808d1edc3ed3833a0ccc237d77fb646"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -156,13 +156,13 @@
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-cd87a81df98e3efd6262804282aa5d22735bd44f/Cargo.lock",
+                "./xrizer-cb501c3a1a0f671cb30b4356be8a7129f05ad2d9/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-03-23",
+        "date": "2025-03-25",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -172,12 +172,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "cd87a81df98e3efd6262804282aa5d22735bd44f",
-            "sha256": "sha256-QilkevQGwvMC6S08Qm7EfEW6rqFCKRNq8nx2Id/DggQ=",
+            "rev": "cb501c3a1a0f671cb30b4356be8a7129f05ad2d9",
+            "sha256": "sha256-9m9WzNzVs7SFJoVVQFJ9WrUdwCy/C/lWyMkLCpI/S+M=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "cd87a81df98e3efd6262804282aa5d22735bd44f"
+        "version": "cb501c3a1a0f671cb30b4356be8a7129f05ad2d9"
     }
 }

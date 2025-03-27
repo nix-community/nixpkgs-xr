@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "e117986715e1e9ef955009ad7f03ec110aa14940";
+    version = "db45103d1bc23d56692571d652f56f8866dc956d";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "e117986715e1e9ef955009ad7f03ec110aa14940";
+      rev = "db45103d1bc23d56692571d652f56f8866dc956d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-7nTOH76/EdMrDNulTQyX2mHAB2lBzhsGr2aL7crbnDQ=";
+      sha256 = "sha256-FQOA6nn+MFBXoSUSkUFRNSlZQmqqmGfYCT6tdoRiWlo=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-e117986715e1e9ef955009ad7f03ec110aa14940/Cargo.lock;
+      lockFile = ./envision-unwrapped-db45103d1bc23d56692571d652f56f8866dc956d/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-03-02";
+    date = "2025-03-13";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -43,17 +43,17 @@
   };
   monado = {
     pname = "monado";
-    version = "4e22c990fdd595b60336247e80cb0ae0e590f518";
+    version = "d98fda64a808d1edc3ed3833a0ccc237d77fb646";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "4e22c990fdd595b60336247e80cb0ae0e590f518";
+      rev = "d98fda64a808d1edc3ed3833a0ccc237d77fb646";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-aqKrVDX0uS0Wu4JsYveLcfeEVR1Wm00KMyh1wILOkmA=";
+      sha256 = "sha256-h7o8oo17smUbTd5Bm0PLXxEGJcxpIaGREFSJCAOqqM8=";
     };
-    date = "2025-03-03";
+    date = "2025-03-25";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -119,22 +119,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "cd87a81df98e3efd6262804282aa5d22735bd44f";
+    version = "cb501c3a1a0f671cb30b4356be8a7129f05ad2d9";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "cd87a81df98e3efd6262804282aa5d22735bd44f";
+      rev = "cb501c3a1a0f671cb30b4356be8a7129f05ad2d9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-QilkevQGwvMC6S08Qm7EfEW6rqFCKRNq8nx2Id/DggQ=";
+      sha256 = "sha256-9m9WzNzVs7SFJoVVQFJ9WrUdwCy/C/lWyMkLCpI/S+M=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-cd87a81df98e3efd6262804282aa5d22735bd44f/Cargo.lock;
+      lockFile = ./xrizer-cb501c3a1a0f671cb30b4356be8a7129f05ad2d9/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-03-23";
+    date = "2025-03-25";
   };
 }

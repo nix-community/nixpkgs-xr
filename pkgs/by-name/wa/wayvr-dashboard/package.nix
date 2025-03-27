@@ -9,11 +9,13 @@
   cargo-tauri,
   nodejs,
   glib,
-  gtk3,
-  gtk4,
+  gdk-pixbuf,
   webkitgtk_4_1,
-  libsoup_3,
   alsa-lib,
+  wrapGAppsHook4,
+  librsvg,
+  openssl,
+  pulseaudio,
 
   xrSources,
 }:
@@ -54,20 +56,29 @@ rustPlatform.buildRustPackage {
 
     nodejs
     importNpmLock.npmConfigHook
+
+    wrapGAppsHook4
   ];
 
   buildInputs = [
-    glib
-    gtk3
-    gtk4
     webkitgtk_4_1
-    libsoup_3
+    glib
+    gdk-pixbuf
+    librsvg
+
+    openssl
     alsa-lib
   ];
 
   preBuild = ''
     # using sass-embedded fails at executing node_modules/sass-embedded-linux-x64/dart-sass/src/dart
     rm -r node_modules/sass-embedded*
+  '';
+
+  postInstall = ''
+    gappsWrapperArgs+=(
+      --prefix PATH : "${lib.makeBinPath [ pulseaudio ]}}"
+    )
   '';
 
   inherit cargoRoot;

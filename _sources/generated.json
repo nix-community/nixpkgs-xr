@@ -73,7 +73,7 @@
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2025-03-01",
+        "date": "2025-03-28",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -83,13 +83,13 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "578a1a5c57204e7db31299351c8e312ead9ba7c4",
-            "sha256": "sha256-LTC/RJdi4saj5hVli23GUm+ytKPv/Z94WHlo5s+tMeY=",
+            "rev": "97bf852b446e1bd61c732663b9af192479ad7fe4",
+            "sha256": "sha256-ycKZXMJdoPsmb6kQvtf7u13dfuISIVqDIigwR/cDikw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "578a1a5c57204e7db31299351c8e312ead9ba7c4"
+        "version": "97bf852b446e1bd61c732663b9af192479ad7fe4"
     },
     "wayvr-dashboard": {
         "cargoLocks": {

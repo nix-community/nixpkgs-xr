@@ -57,17 +57,17 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "97bf852b446e1bd61c732663b9af192479ad7fe4";
+    version = "aa25936e3884b0da5862280c7ec523e3f3e0c7ae";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "97bf852b446e1bd61c732663b9af192479ad7fe4";
+      rev = "aa25936e3884b0da5862280c7ec523e3f3e0c7ae";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-ycKZXMJdoPsmb6kQvtf7u13dfuISIVqDIigwR/cDikw=";
+      sha256 = "sha256-Xie1IdFLU1NJcK1rEdW/r7kgass4QyP32DTZ0w6a8DM=";
     };
-    date = "2025-03-28";
+    date = "2025-04-01";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";

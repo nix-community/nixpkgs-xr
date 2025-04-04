@@ -43,17 +43,17 @@
   };
   monado = {
     pname = "monado";
-    version = "0c2992ea79aeb514a72a01771b71e6edc79bb02a";
+    version = "b51ddbacf3ad3f3e97e339139c0740cf55477d9c";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "0c2992ea79aeb514a72a01771b71e6edc79bb02a";
+      rev = "b51ddbacf3ad3f3e97e339139c0740cf55477d9c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-jskcRYdZ9302xDEPy+AmcaD1Pjlz79tabrV74ZC10Sw=";
+      sha256 = "sha256-cEV9H3Y3RArzcmN1LuW8nA1jbsuE6P1dF5lir6ybHP8=";
     };
-    date = "2025-03-31";
+    date = "2025-04-03";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -93,18 +93,18 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "60bc8b986ef627b32d936170fcc99bd7c533d654";
+    version = "55867e803fe9b14d58b3858523aec4b9e96564fa";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "60bc8b986ef627b32d936170fcc99bd7c533d654";
+      rev = "55867e803fe9b14d58b3858523aec4b9e96564fa";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-pQvIe4WW3pjQJDvBK6LNkew2l9k3y7m+YOsPgyHrbm8=";
+      sha256 = "sha256-sddB0DhtCRbCaj+yksm3UOdy0NJ5FVZeQx4eNkqLBqI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-60bc8b986ef627b32d936170fcc99bd7c533d654/Cargo.lock;
+      lockFile = ./wlx-overlay-s-55867e803fe9b14d58b3858523aec4b9e96564fa/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "vulkano-0.34.0" = "sha256-0ZIxU2oItT35IFnS0YTVNmM775x21gXOvaahg/B9sj8=";
@@ -115,26 +115,26 @@
         "libmonado-1.3.1" = "sha256-8NA8DLfErX44LIXg5fi2xRDyJaofjpQfILQuu0oaIOQ=";
       };
     };
-    date = "2025-03-29";
+    date = "2025-04-04";
   };
   xrizer = {
     pname = "xrizer";
-    version = "89474fa3cc083f65db97d2cf184cf6871100c8a9";
+    version = "2ba2c4f2b9592e821e387d2840975a22db5c413f";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "89474fa3cc083f65db97d2cf184cf6871100c8a9";
+      rev = "2ba2c4f2b9592e821e387d2840975a22db5c413f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-WHuz/OA+/plXc3HkXTSnYzTR4AO32qpxXbcRnUf7jfI=";
+      sha256 = "sha256-gsOgvlh8xOOh9nk4mn/KXAXXqHuYfm5yHBELYakaWlQ=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-89474fa3cc083f65db97d2cf184cf6871100c8a9/Cargo.lock;
+      lockFile = ./xrizer-2ba2c4f2b9592e821e387d2840975a22db5c413f/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-03-27";
+    date = "2025-04-02";
   };
 }

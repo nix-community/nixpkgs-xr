@@ -94,7 +94,7 @@
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-a54268422f54d69973f9975c2043246a86f45b6c/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
@@ -102,7 +102,7 @@
                 }
             ]
         },
-        "date": "2025-04-04",
+        "date": "2025-04-05",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -112,13 +112,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a54268422f54d69973f9975c2043246a86f45b6c",
-            "sha256": "sha256-Nvzmxp0HezkyiutDZnhF/l8nxlkNNDzNJ2T92TGy6tQ=",
+            "rev": "e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1",
+            "sha256": "sha256-lFNOwvA7jwL4bB/Gm5JsH4ggV1phFVIltwhbxDfvsos=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "a54268422f54d69973f9975c2043246a86f45b6c"
+        "version": "e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1"
     },
     "wlx-overlay-s": {
         "cargoLocks": {

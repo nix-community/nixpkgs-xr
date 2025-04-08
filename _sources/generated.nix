@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "25c90d175f83e4a4439b4c58e2ce687843ae3c1b";
+    version = "2f5ec57a0a95bdf889094d459a4a3fcb4de2dd97";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "25c90d175f83e4a4439b4c58e2ce687843ae3c1b";
+      rev = "2f5ec57a0a95bdf889094d459a4a3fcb4de2dd97";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dcderouU/wSx6OhG+se4kAn93n5TRDiPoJd2/gIOnhE=";
+      sha256 = "sha256-LB/W5pxKxca2ierdKk50BZrD5vFgQjGGkVAHZJuRvmY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-25c90d175f83e4a4439b4c58e2ce687843ae3c1b/Cargo.lock;
+      lockFile = ./envision-unwrapped-2f5ec57a0a95bdf889094d459a4a3fcb4de2dd97/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-04-06";
+    date = "2025-04-07";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -43,17 +43,17 @@
   };
   monado = {
     pname = "monado";
-    version = "b51ddbacf3ad3f3e97e339139c0740cf55477d9c";
+    version = "e926230f346a5b446a9b366cb7cae11224faa5cd";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "b51ddbacf3ad3f3e97e339139c0740cf55477d9c";
+      rev = "e926230f346a5b446a9b366cb7cae11224faa5cd";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-cEV9H3Y3RArzcmN1LuW8nA1jbsuE6P1dF5lir6ybHP8=";
+      sha256 = "sha256-fDjhM6zpsViDQ65uBF/Trz/3gzwOwGm42pEewM0Ej4E=";
     };
-    date = "2025-04-03";
+    date = "2025-04-06";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -71,25 +71,25 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1";
+    version = "5a92992de517e94d2160f456fc21f58ea3fe6729";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1";
+      rev = "5a92992de517e94d2160f456fc21f58ea3fe6729";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-lFNOwvA7jwL4bB/Gm5JsH4ggV1phFVIltwhbxDfvsos=";
+      sha256 = "sha256-GT44Lf8yVBch5VX0zYhaiMucHW+uzQDHCM0yNyiO7AE=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-e819d05c7a4f4ee3a7bb61297ad566fc0f7de7a1/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-5a92992de517e94d2160f456fc21f58ea3fe6729/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
       };
     };
-    date = "2025-04-05";
+    date = "2025-04-07";
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";

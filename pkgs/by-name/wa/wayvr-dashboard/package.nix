@@ -90,6 +90,6 @@ rustPlatform.buildRustPackage {
     license = lib.licenses.mit;
     maintainers = [ nanoyaki ];
     platforms = lib.platforms.linux;
-    mainProgram = "wayvr_dashboard";
+    mainProgram = "wayvr-dashboard";
   };
 }

@@ -94,7 +94,7 @@
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-deb42bdfb301ef7e4a0142772e325244f69e2b59/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-dcf3a1a9052a1bc9588f73cd1eb78f7c37fe3031/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
@@ -102,7 +102,7 @@
                 }
             ]
         },
-        "date": "2025-04-13",
+        "date": "2025-04-14",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -112,18 +112,18 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "deb42bdfb301ef7e4a0142772e325244f69e2b59",
-            "sha256": "sha256-/vcqE+QNK0zzbPmLOgptFJlM5jy/Ol+48kIyt9W6syw=",
+            "rev": "dcf3a1a9052a1bc9588f73cd1eb78f7c37fe3031",
+            "sha256": "sha256-q1UnN9Ws16Se0NQoJi7dDjVXS8n+r8Agmg66Q648ZC8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "deb42bdfb301ef7e4a0142772e325244f69e2b59"
+        "version": "dcf3a1a9052a1bc9588f73cd1eb78f7c37fe3031"
     },
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-bcc9f5d2776469a577cf21b40b88c9ffd5c34835/Cargo.lock",
+                "./wlx-overlay-s-d6c106c65425eea10ff5793e15b4d1c0933fa7bd/Cargo.lock",
                 {
                     "libmonado-1.3.1": "sha256-8NA8DLfErX44LIXg5fi2xRDyJaofjpQfILQuu0oaIOQ=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
@@ -134,7 +134,7 @@
                 }
             ]
         },
-        "date": "2025-04-12",
+        "date": "2025-04-14",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -144,13 +144,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bcc9f5d2776469a577cf21b40b88c9ffd5c34835",
-            "sha256": "sha256-lWUfhiHRxu72p9ZG2f2fZH6WZECm/fOKcK05MLZV+MI=",
+            "rev": "d6c106c65425eea10ff5793e15b4d1c0933fa7bd",
+            "sha256": "sha256-k8f8nLwhDWqgM6Ki8q6jYHBrOGaYcKzM+iO5cRw25cg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "bcc9f5d2776469a577cf21b40b88c9ffd5c34835"
+        "version": "d6c106c65425eea10ff5793e15b4d1c0933fa7bd"
     },
     "xrizer": {
         "cargoLocks": {

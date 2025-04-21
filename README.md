@@ -110,12 +110,17 @@ This overlay provides the following packages:
 
 - `envision-unwrapped`
 - `index_camera_passthrough`
+- `lovr`
+- `lovr-playspace`
 - `monado`
 - `opencomposite`
 - `opencomposite-vendored`
+- `oscavmgr`
 - `proton-ge-rtsp-bin`
+- `resolute`
 - `wayvr-dashboard`
 - `wlx-overlay-s`
+- `xrbinder`
 - `xrizer`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community

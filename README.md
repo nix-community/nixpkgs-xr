@@ -28,7 +28,7 @@ is to add the input `github:nix-community/nixpkgs-xr` to your flake
 and import the convenient NixOS module `nixpkgs-xr.nixosModules.nixpkgs-xr`.
 See the example below.
 
-> \[!IMPORTANT\]
+> [!IMPORTANT]
 > This module adds the Nixpkgs overlay as well as [the binary cache][binary-cache] for this repository.
 > If you don't want the binary cache see [manual setup](#manually-setup-flake-overlay) below.
 

@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-9d85f1c24f5c6234e1672c96ea19b2dc990001e8/Cargo.lock",
+                "./envision-unwrapped-c794037377bbddc014ce4a58b3662038fc6b056f/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-04-22",
+        "date": "2025-04-29",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9d85f1c24f5c6234e1672c96ea19b2dc990001e8",
-            "sha256": "sha256-Ce/Ts8P4HAXmfgSPPpLTqZMWMlEFOnZAwzJCbVLwY+s=",
+            "rev": "c794037377bbddc014ce4a58b3662038fc6b056f",
+            "sha256": "sha256-XJ4+hE6gqZsPobuTJcnuNVam/k5M0Q/It1Ko5BoJMbc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "9d85f1c24f5c6234e1672c96ea19b2dc990001e8"
+        "version": "c794037377bbddc014ce4a58b3662038fc6b056f"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -123,7 +123,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-9fb1d6347799a855cdbe5d1c8dd6466922531baa/Cargo.lock",
+                "./wlx-overlay-s-6b3f091552edda2bb4180a0e56442904370fa2e2/Cargo.lock",
                 {
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
                     "openxr-0.18.0": "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=",
@@ -133,7 +133,7 @@
                 }
             ]
         },
-        "date": "2025-04-25",
+        "date": "2025-04-29",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -143,24 +143,24 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9fb1d6347799a855cdbe5d1c8dd6466922531baa",
-            "sha256": "sha256-TCpTaroI2y2vZlLYO3SypTiIemYQP8PBTRqZtqX+UPQ=",
+            "rev": "6b3f091552edda2bb4180a0e56442904370fa2e2",
+            "sha256": "sha256-e33H5KFRbfSnhAfsJLNEoZATXTFfJ5ymTSfncXGMCr4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "9fb1d6347799a855cdbe5d1c8dd6466922531baa"
+        "version": "6b3f091552edda2bb4180a0e56442904370fa2e2"
     },
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-31433a84ead43d801808226dccbf1f93c97777e7/Cargo.lock",
+                "./xrizer-acbcd1c0ee85ec94025ec3c6b07d372b2d34961c/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-04-24",
+        "date": "2025-04-29",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -170,12 +170,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "31433a84ead43d801808226dccbf1f93c97777e7",
-            "sha256": "sha256-SanhVH2y8pl4uLdOf8XFA17QUtEMBYYUUcxnADJlq5o=",
+            "rev": "acbcd1c0ee85ec94025ec3c6b07d372b2d34961c",
+            "sha256": "sha256-IT35x+LV+G7cegMUjIrHocp1jSopRe2CYSGLzlbWx4o=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "31433a84ead43d801808226dccbf1f93c97777e7"
+        "version": "acbcd1c0ee85ec94025ec3c6b07d372b2d34961c"
     }
 }

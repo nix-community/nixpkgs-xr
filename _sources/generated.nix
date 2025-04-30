@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "9d85f1c24f5c6234e1672c96ea19b2dc990001e8";
+    version = "c794037377bbddc014ce4a58b3662038fc6b056f";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "9d85f1c24f5c6234e1672c96ea19b2dc990001e8";
+      rev = "c794037377bbddc014ce4a58b3662038fc6b056f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Ce/Ts8P4HAXmfgSPPpLTqZMWMlEFOnZAwzJCbVLwY+s=";
+      sha256 = "sha256-XJ4+hE6gqZsPobuTJcnuNVam/k5M0Q/It1Ko5BoJMbc=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-9d85f1c24f5c6234e1672c96ea19b2dc990001e8/Cargo.lock;
+      lockFile = ./envision-unwrapped-c794037377bbddc014ce4a58b3662038fc6b056f/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-04-22";
+    date = "2025-04-29";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -93,18 +93,18 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "9fb1d6347799a855cdbe5d1c8dd6466922531baa";
+    version = "6b3f091552edda2bb4180a0e56442904370fa2e2";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "9fb1d6347799a855cdbe5d1c8dd6466922531baa";
+      rev = "6b3f091552edda2bb4180a0e56442904370fa2e2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-TCpTaroI2y2vZlLYO3SypTiIemYQP8PBTRqZtqX+UPQ=";
+      sha256 = "sha256-e33H5KFRbfSnhAfsJLNEoZATXTFfJ5ymTSfncXGMCr4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-9fb1d6347799a855cdbe5d1c8dd6466922531baa/Cargo.lock;
+      lockFile = ./wlx-overlay-s-6b3f091552edda2bb4180a0e56442904370fa2e2/Cargo.lock;
       outputHashes = {
         "openxr-0.18.0" = "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=";
         "wlx-capture-0.5.2" = "sha256-rw6konHyvUeb9c5Ln+yUgjJIxymiJfaWKLUL8vDqjnM=";
@@ -113,26 +113,26 @@
         "ovr_overlay-0.0.0" = "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=";
       };
     };
-    date = "2025-04-25";
+    date = "2025-04-29";
   };
   xrizer = {
     pname = "xrizer";
-    version = "31433a84ead43d801808226dccbf1f93c97777e7";
+    version = "acbcd1c0ee85ec94025ec3c6b07d372b2d34961c";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "31433a84ead43d801808226dccbf1f93c97777e7";
+      rev = "acbcd1c0ee85ec94025ec3c6b07d372b2d34961c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SanhVH2y8pl4uLdOf8XFA17QUtEMBYYUUcxnADJlq5o=";
+      sha256 = "sha256-IT35x+LV+G7cegMUjIrHocp1jSopRe2CYSGLzlbWx4o=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-31433a84ead43d801808226dccbf1f93c97777e7/Cargo.lock;
+      lockFile = ./xrizer-acbcd1c0ee85ec94025ec3c6b07d372b2d34961c/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-04-24";
+    date = "2025-04-29";
   };
 }

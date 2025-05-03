@@ -3,23 +3,23 @@
 {
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "c794037377bbddc014ce4a58b3662038fc6b056f";
+    version = "d0df943e483f1c768eb35ad60f06a7854e1b3a91";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "c794037377bbddc014ce4a58b3662038fc6b056f";
+      rev = "d0df943e483f1c768eb35ad60f06a7854e1b3a91";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XJ4+hE6gqZsPobuTJcnuNVam/k5M0Q/It1Ko5BoJMbc=";
+      sha256 = "sha256-UnjN7Mzp9D3AgzXnY0ZzoYRWFyl9vgA7nEyKFByskrg=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-c794037377bbddc014ce4a58b3662038fc6b056f/Cargo.lock;
+      lockFile = ./envision-unwrapped-d0df943e483f1c768eb35ad60f06a7854e1b3a91/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-04-29";
+    date = "2025-05-02";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -57,17 +57,17 @@
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "485023192cc4605c2a140f8255620d77ef129043";
+    version = "538639b86c5c71223f11040b09479e5c0a83078c";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "485023192cc4605c2a140f8255620d77ef129043";
+      rev = "538639b86c5c71223f11040b09479e5c0a83078c";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-6nd7kolP1CSB5Pgy9NhVcLdlwc9bMLrmqDArOQxvpis=";
+      sha256 = "sha256-xVsi06/1bwK4gCMnuPeV/Wwt8SCVMvzsM8TyIbqZiD4=";
     };
-    date = "2025-04-24";
+    date = "2025-04-27";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";

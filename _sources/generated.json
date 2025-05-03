@@ -2,11 +2,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-c794037377bbddc014ce4a58b3662038fc6b056f/Cargo.lock",
+                "./envision-unwrapped-d0df943e483f1c768eb35ad60f06a7854e1b3a91/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-04-29",
+        "date": "2025-05-02",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -16,13 +16,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c794037377bbddc014ce4a58b3662038fc6b056f",
-            "sha256": "sha256-XJ4+hE6gqZsPobuTJcnuNVam/k5M0Q/It1Ko5BoJMbc=",
+            "rev": "d0df943e483f1c768eb35ad60f06a7854e1b3a91",
+            "sha256": "sha256-UnjN7Mzp9D3AgzXnY0ZzoYRWFyl9vgA7nEyKFByskrg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "c794037377bbddc014ce4a58b3662038fc6b056f"
+        "version": "d0df943e483f1c768eb35ad60f06a7854e1b3a91"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -73,7 +73,7 @@
     },
     "opencomposite": {
         "cargoLocks": null,
-        "date": "2025-04-24",
+        "date": "2025-04-27",
         "extract": null,
         "name": "opencomposite",
         "passthru": null,
@@ -83,13 +83,13 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "485023192cc4605c2a140f8255620d77ef129043",
-            "sha256": "sha256-6nd7kolP1CSB5Pgy9NhVcLdlwc9bMLrmqDArOQxvpis=",
+            "rev": "538639b86c5c71223f11040b09479e5c0a83078c",
+            "sha256": "sha256-xVsi06/1bwK4gCMnuPeV/Wwt8SCVMvzsM8TyIbqZiD4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
-        "version": "485023192cc4605c2a140f8255620d77ef129043"
+        "version": "538639b86c5c71223f11040b09479e5c0a83078c"
     },
     "wayvr-dashboard": {
         "cargoLocks": {

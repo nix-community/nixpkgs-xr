@@ -5,7 +5,5 @@
 final: prev: {
   monado = prev.monado.overrideAttrs (prevAttrs: {
     inherit (final.xrSources.monado) pname version src;
-
-    patches = builtins.filter (p: p.name != "improve-reproducibility.patch") prevAttrs.patches;
   });
 }

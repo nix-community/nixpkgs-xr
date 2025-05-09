@@ -55,6 +55,20 @@
     };
     date = "2024-07-25";
   };
+  lovr-playspace = {
+    pname = "lovr-playspace";
+    version = "cd3b21d12933a227a7969a8dd4150ad166709bcf";
+    src = fetchgit {
+      url = "https://github.com/SpookySkeletons/lovr-playspace.git";
+      rev = "cd3b21d12933a227a7969a8dd4150ad166709bcf";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-nW4hyEf35NlfqljKKy47NC2pr3EuCKb4HbsFh8+CGRQ=";
+    };
+    date = "2025-02-13";
+  };
   monado = {
     pname = "monado";
     version = "88588213b455be7cf1c8ad002eeffbe3672251be";
@@ -82,6 +96,48 @@
       sha256 = "sha256-xVsi06/1bwK4gCMnuPeV/Wwt8SCVMvzsM8TyIbqZiD4=";
     };
     date = "2025-04-27";
+  };
+  oscavmgr = {
+    pname = "oscavmgr";
+    version = "a97ac244c6a731d6d565da2e190e8fc6b7cb0d1b";
+    src = fetchgit {
+      url = "https://github.com/galister/oscavmgr.git";
+      rev = "a97ac244c6a731d6d565da2e190e8fc6b7cb0d1b";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-592qj0dHn0fbIFt4Y+1TESIOUpwXcJ2tnlKNcYuxriQ=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./oscavmgr-a97ac244c6a731d6d565da2e190e8fc6b7cb0d1b/Cargo.lock;
+      outputHashes = {
+        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
+        "alvr_common-20.12.1" = "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=";
+        "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
+      };
+    };
+    date = "2025-02-12";
+  };
+  resolute = {
+    pname = "resolute";
+    version = "ac79045d50581832323adadded9d2d1f90e19419";
+    src = fetchgit {
+      url = "https://github.com/Gawdl3y/Resolute.git";
+      rev = "ac79045d50581832323adadded9d2d1f90e19419";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock;
+      outputHashes = {
+        
+      };
+    };
+    date = "2025-03-05";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
@@ -128,6 +184,20 @@
       };
     };
     date = "2025-05-06";
+  };
+  xrbinder = {
+    pname = "xrbinder";
+    version = "251e19d3d121283b6589b84818453f8138f29e6d";
+    src = fetchgit {
+      url = "https://gitlab.com/mittorn/xrBinder.git";
+      rev = "251e19d3d121283b6589b84818453f8138f29e6d";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-c77ZVnbOGxs81Kt7pL+bP7GPwfzm0esVRTj4D8DODcA=";
+    };
+    date = "2025-04-18";
   };
   xrizer = {
     pname = "xrizer";

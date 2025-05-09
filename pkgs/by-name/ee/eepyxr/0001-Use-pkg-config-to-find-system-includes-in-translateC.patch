@@ -1,0 +1,84 @@
+# SPDX-FileCopyrightText: 2025 Sapphire <imsapphire0@gmail.com>
+#
+# SPDX-License-Identifier: MIT
+
+From 3644f007fbc3cb601ebbebb0d8b5f5a60bef871a Mon Sep 17 00:00:00 2001
+From: Sapphire <imsapphire0@gmail.com>
+Date: Sun, 30 Mar 2025 21:38:49 -0500
+Subject: [PATCH] Use pkg-config to find system includes in translateC build
+ step
+
+---
+ build.zig | 16 +++++++++++++++-
+ src/c.c   |  2 +-
+ src/c.h   |  4 ++--
+ 3 files changed, 18 insertions(+), 4 deletions(-)
+
+diff --git a/build.zig b/build.zig
+index 95b6163..df047b2 100644
+--- a/build.zig
++++ b/build.zig
+@@ -12,6 +12,14 @@ pub fn build(b: *std.Build) void {
+     const known_folders_dep = b.dependency("known-folders", .{ .target = target, .optimize = optimize });
+     const known_folders_mod = known_folders_dep.module("known-folders");
+ 
++    const include_dirs = b.run(&[_][]const u8{
++        "pkg-config",
++        "--cflags-only-I",
++        "openxr",
++        "sdl3",
++        "stb",
++    });
++
+     const translate_c = b.addTranslateC(.{
+         .link_libc = true,
+         .optimize = optimize,
+@@ -20,6 +28,12 @@ pub fn build(b: *std.Build) void {
+     });
+     translate_c.addIncludePath(sdl_include);
+     translate_c.addIncludePath(stb);
++    if (include_dirs.len > 0) {
++        var it = std.mem.tokenizeAny(u8, include_dirs, " ");
++        while (it.next()) |arg| {
++            translate_c.addSystemIncludePath(.{ .cwd_relative = b.dupe(arg[2..]) });
++        }
++    }
+ 
+     const translate_c_mod = translate_c.createModule();
+ 
+@@ -40,7 +54,7 @@ pub fn build(b: *std.Build) void {
+         .link_libc = true,
+     });
+     exe_mod.linkSystemLibrary("SDL3", .{});
+-    exe_mod.linkSystemLibrary("openxr_loader", .{});
++    exe_mod.linkSystemLibrary("openxr", .{});
+ 
+     exe_mod.addIncludePath(stb);
+     exe_mod.addCSourceFile(.{ .file = src.path(b, "c.c") });
+diff --git a/src/c.c b/src/c.c
+index 7819971..9177288 100644
+--- a/src/c.c
++++ b/src/c.c
+@@ -1,2 +1,2 @@
+ #define STB_IMAGE_IMPLEMENTATION
+-#include <stb/stb_image.h>
++#include <stb_image.h>
+diff --git a/src/c.h b/src/c.h
+index 8d882b0..4bcdec6 100644
+--- a/src/c.h
++++ b/src/c.h
+@@ -3,8 +3,8 @@
+ #include <SDL3/SDL.h>
+ #include <SDL3/SDL_openxr.h>
+ 
+-#include <stb/stb_image.h>
++#include <stb_image.h>
+ 
+ #include <signal.h>
+ 
+-#include "xr_linear.h"
+\ No newline at end of file
++#include "xr_linear.h"
+-- 
+2.48.1
+

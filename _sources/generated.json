@@ -1,4 +1,24 @@
 {
+    "eepyxr": {
+        "cargoLocks": null,
+        "date": "2025-03-09",
+        "extract": null,
+        "name": "eepyxr",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "b826495d60b297d4a7a38c3c10203c919209fc3d",
+            "sha256": "sha256-eDGIE/Mbc+52qAqjU+N5yrR23BO7PXLJTsZFG66qoqE=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Beyley/eepyxr.git"
+        },
+        "version": "b826495d60b297d4a7a38c3c10203c919209fc3d"
+    },
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [

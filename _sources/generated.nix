@@ -105,6 +105,31 @@
     };
     date = "2025-05-06";
   };
+  wivrn = {
+    pname = "wivrn";
+    version = "798ecd1693eadf82a82f9bbdf2ea45baa200a720";
+    src = fetchFromGitHub {
+      owner = "WiVRn";
+      repo = "WiVRn";
+      rev = "798ecd1693eadf82a82f9bbdf2ea45baa200a720";
+      fetchSubmodules = false;
+      sha256 = "sha256-rjr403/Xta5Cem2B+Z0vEQRrh1clQ8KbiPBKzESLchc=";
+    };
+    date = "2025-05-05";
+  };
+  wivrn-monado = {
+    pname = "wivrn-monado";
+    version = "c80de9e7cacf2bf9579f8ae8c621d8bf16e85d6c";
+    src = fetchgit {
+      url = "https://gitlab.freedesktop.org/monado/monado.git";
+      rev = "c80de9e7cacf2bf9579f8ae8c621d8bf16e85d6c";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-ciH26Hyr8FumB2rQB5sFcXqtcQ1R84XOlphkkLBjzvA=";
+    };
+  };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
     version = "6e08b7f3afcf0cfdc9fffdbce68efecd8e73712e";

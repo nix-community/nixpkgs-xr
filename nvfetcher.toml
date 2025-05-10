@@ -31,6 +31,15 @@ cargo_locks = ["src-tauri/Cargo.lock"]
 fetch.git = "https://github.com/olekolek1000/wayvr-dashboard"
 src.git = "https://github.com/olekolek1000/wayvr-dashboard"
 
+[wivrn]
+fetch.github = "WiVRn/WiVRn"
+src.git = "https://github.com/WiVRn/WiVRn"
+
+[wivrn-monado]
+fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
+src.webpage = "https://github.com/WiVRn/WiVRn/blob/master/CMakeLists.txt"
+src.regex = "FetchContent_Declare\\(monado[\\s\\S]*?GIT_TAG (\\w+)[\\s\\S]*?\\)"
+
 [wlx-overlay-s]
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/wlx-overlay-s.git"

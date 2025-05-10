@@ -116,6 +116,7 @@ This overlay provides the following packages:
 - `opencomposite-vendored`
 - `proton-ge-rtsp-bin`
 - `wayvr-dashboard`
+- `wivrn`
 - `wlx-overlay-s`
 - `xrizer`
 

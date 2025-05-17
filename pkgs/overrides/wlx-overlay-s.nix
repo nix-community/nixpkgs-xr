@@ -8,6 +8,11 @@ final: prev: {
 
     cargoDeps = final.rustPlatform.importCargoLock final.xrSources.wlx-overlay-s.cargoLock."Cargo.lock";
 
+    nativeBuildInputs =
+      prevAttrs.nativeBuildInputs or [ ]
+      ++ (with final; [
+        cmake
+      ]);
     buildInputs =
       prevAttrs.buildInputs or [ ]
       ++ (with final; [

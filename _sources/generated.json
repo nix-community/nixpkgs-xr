@@ -22,11 +22,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-fc4a2d3993d4cfd363537114b491b5b3da937e3a/Cargo.lock",
+                "./envision-unwrapped-b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-05-10",
+        "date": "2025-05-14",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -36,13 +36,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "fc4a2d3993d4cfd363537114b491b5b3da937e3a",
-            "sha256": "sha256-Cwj1CwfKWZhsus88qGl68Uu15LoOEQd9ms7OPh1EUbs=",
+            "rev": "b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c",
+            "sha256": "sha256-puKEvXHCxTFbh2jBK7iC1g5YFu6d8tiASUaY2CAx2n0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "fc4a2d3993d4cfd363537114b491b5b3da937e3a"
+        "version": "b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -73,7 +73,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-05-08",
+        "date": "2025-05-14",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -83,13 +83,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "88588213b455be7cf1c8ad002eeffbe3672251be",
-            "sha256": "sha256-OV9/W6E3hVemZhBU9l7+yruP89m8ucZASEGEUzmgLRo=",
+            "rev": "2a6932d46dad9aa957205e8a47ec2baa33041076",
+            "sha256": "sha256-Bus9GTNC4+nOSwN8pUsMaFsiXjlpHYioQfBLxbQEF+0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "88588213b455be7cf1c8ad002eeffbe3672251be"
+        "version": "2a6932d46dad9aa957205e8a47ec2baa33041076"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -142,7 +142,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-05-13",
+        "date": "2025-05-15",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -154,12 +154,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "01486c5b0e851dbd064255d986303663026385cc",
-            "sha256": "sha256-bolyOuRx3u3RoBqh4k++rV5WtdQuScrByoZPwXRx2r8=",
+            "rev": "c5af415310fc9ff8662616556a937cd2c7cc8e1a",
+            "sha256": "sha256-mDmW1AhUVZzS4rQv9deOgNgGQfH9fYWMfATPYsXKZG4=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "01486c5b0e851dbd064255d986303663026385cc"
+        "version": "c5af415310fc9ff8662616556a937cd2c7cc8e1a"
     },
     "wivrn-monado": {
         "cargoLocks": null,
@@ -173,28 +173,28 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c80de9e7cacf2bf9579f8ae8c621d8bf16e85d6c",
-            "sha256": "sha256-ciH26Hyr8FumB2rQB5sFcXqtcQ1R84XOlphkkLBjzvA=",
+            "rev": "2a6932d46dad9aa957205e8a47ec2baa33041076",
+            "sha256": "sha256-Bus9GTNC4+nOSwN8pUsMaFsiXjlpHYioQfBLxbQEF+0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "c80de9e7cacf2bf9579f8ae8c621d8bf16e85d6c"
+        "version": "2a6932d46dad9aa957205e8a47ec2baa33041076"
     },
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-eef80eae3ada3c788192db29739b077e0ae2fc71/Cargo.lock",
+                "./wlx-overlay-s-af45138add07c7a1a8c68accfa88b42ee051b96d/Cargo.lock",
                 {
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
-                    "openxr-0.18.0": "sha256-ktkbhmExstkNJDYM/HYOwAwv3acex7P9SP0KMAOKhQk=",
+                    "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=",
                     "ovr_overlay-0.0.0": "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=",
                     "wayvr_ipc-0.1.0": "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=",
                     "wlx-capture-0.5.3": "sha256-1R5R9a9MSCWZ+S8GXu2oMBodoy9CCmCfAwH1eXBPqno="
                 }
             ]
         },
-        "date": "2025-05-10",
+        "date": "2025-05-16",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -204,13 +204,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "eef80eae3ada3c788192db29739b077e0ae2fc71",
-            "sha256": "sha256-xVn52vmKrQBkYNGcTkzhmRYUJicww86/POEqClnbpuE=",
+            "rev": "af45138add07c7a1a8c68accfa88b42ee051b96d",
+            "sha256": "sha256-TCFHQwnN3zZfVgxlJ2kptGtVnoW0t6ZG+zEAs2XZ+YM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "eef80eae3ada3c788192db29739b077e0ae2fc71"
+        "version": "af45138add07c7a1a8c68accfa88b42ee051b96d"
     },
     "xrizer": {
         "cargoLocks": {

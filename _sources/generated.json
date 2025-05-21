@@ -22,11 +22,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c/Cargo.lock",
+                "./envision-unwrapped-d42de840a2d1f2bb973278c45a873db75b773e25/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-05-14",
+        "date": "2025-05-18",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -36,13 +36,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c",
-            "sha256": "sha256-puKEvXHCxTFbh2jBK7iC1g5YFu6d8tiASUaY2CAx2n0=",
+            "rev": "d42de840a2d1f2bb973278c45a873db75b773e25",
+            "sha256": "sha256-w5Cr1Gu3DUWerhPUdnBvfmKbuJXnDNL3sDIRGg18rgc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "b174fab6bf85eeb14af2ad3f0e7427f1b9fb4b4c"
+        "version": "d42de840a2d1f2bb973278c45a873db75b773e25"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -142,7 +142,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-05-18",
+        "date": "2025-05-20",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -154,12 +154,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "bb0c847b92e8c2f912cf9303a4b7a703f3c8f526",
-            "sha256": "sha256-JJLRMj3g4EEk0oFigiAmouh54nGGLf4G34SWtElUnoo=",
+            "rev": "bc7d0ad6e00d7c03fdfd8145fa54645462b46e43",
+            "sha256": "sha256-ZO30Rcypsk5eZV37JpV2R9OhqYrkbUQAGjUsRxbg5WM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "bb0c847b92e8c2f912cf9303a4b7a703f3c8f526"
+        "version": "bc7d0ad6e00d7c03fdfd8145fa54645462b46e43"
     },
     "wivrn-monado": {
         "cargoLocks": null,

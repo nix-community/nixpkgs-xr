@@ -37,8 +37,8 @@ src.git = "https://github.com/WiVRn/WiVRn"
 
 [wivrn-monado]
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
-src.webpage = "https://github.com/WiVRn/WiVRn/blob/master/CMakeLists.txt"
-src.regex = "FetchContent_Declare\\(monado[\\s\\S]*?GIT_TAG (\\w+)[\\s\\S]*?\\)"
+src.webpage = "https://github.com/WiVRn/WiVRn/raw/refs/heads/master/monado-rev"
+src.regex = "(\\w+)"
 
 [wlx-overlay-s]
 cargo_locks = ["Cargo.lock"]

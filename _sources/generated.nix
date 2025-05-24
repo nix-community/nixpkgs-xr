@@ -57,17 +57,17 @@
   };
   monado = {
     pname = "monado";
-    version = "ce7e64e5934a9c294360f37a2afc5284999e0bb5";
+    version = "3e2eb908df969e1701c42c7a95f4f06c0a45a2f9";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "ce7e64e5934a9c294360f37a2afc5284999e0bb5";
+      rev = "3e2eb908df969e1701c42c7a95f4f06c0a45a2f9";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-GFamiPduy2OAuHLY3F6SoGdn9r34/sicaW4oPFGnZAg=";
+      sha256 = "sha256-4rUextjQ05U/MPPerZIFLESShIrT3f3c92ZCXjou5is=";
     };
-    date = "2025-05-22";
+    date = "2025-05-23";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -85,25 +85,25 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "ad988f85b9cac247fda40bcb4af290d96cd558b9";
+    version = "a2434e818e820e5c1f40624714c2cc0c03201b04";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "ad988f85b9cac247fda40bcb4af290d96cd558b9";
+      rev = "a2434e818e820e5c1f40624714c2cc0c03201b04";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-C76tBLVF1RRDq05UGj5/MpCHrbyV3Ba/ttcV9JVF5zE=";
+      sha256 = "sha256-MGruS6V/ZRE30D4CbnEIspXZtD8pvdpaGvdlWUX4ZIo=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-ad988f85b9cac247fda40bcb4af290d96cd558b9/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-a2434e818e820e5c1f40624714c2cc0c03201b04/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
       };
     };
-    date = "2025-05-06";
+    date = "2025-05-23";
   };
   wivrn = {
     pname = "wivrn";

@@ -83,6 +83,20 @@
     };
     date = "2025-05-20";
   };
+  vapor = {
+    pname = "vapor";
+    version = "2de72b13666117e9cf208a1f6ae2c2e06ee4d397";
+    src = fetchgit {
+      url = "https://github.com/micheal65536/VapoR.git";
+      rev = "2de72b13666117e9cf208a1f6ae2c2e06ee4d397";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-IXGr+McB2UjDF1iunU992ELmnE2XJCiepGM6YEnbXTg=";
+    };
+    date = "2025-05-26";
+  };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
     version = "a2434e818e820e5c1f40624714c2cc0c03201b04";

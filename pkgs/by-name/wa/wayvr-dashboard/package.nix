@@ -79,6 +79,7 @@ rustPlatform.buildRustPackage {
     gappsWrapperArgs+=(
       --prefix PATH : "${lib.makeBinPath [ pulseaudio ]}}"
     )
+    install -Dm644 wayvr-dashboard.svg $out/share/icons/hicolor/scalable/apps/wayvr-dashboard.svg
   '';
 
   inherit cargoRoot;

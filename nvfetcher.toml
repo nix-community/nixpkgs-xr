@@ -26,6 +26,10 @@ fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
+[vapor]
+fetch.git = "https://github.com/micheal65536/VapoR.git"
+src.git = "https://github.com/micheal65536/VapoR.git"
+
 [wayvr-dashboard]
 cargo_locks = ["src-tauri/Cargo.lock"]
 fetch.git = "https://github.com/olekolek1000/wayvr-dashboard"

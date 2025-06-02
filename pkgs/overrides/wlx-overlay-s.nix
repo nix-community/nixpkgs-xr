@@ -14,12 +14,5 @@ final: prev: {
         libGL
         wayland
       ]);
-
-    postPatch =
-      prevAttrs.postPatch
-      + ''
-        substituteInPlace Cargo.toml \
-          --replace-fail \"static\", \"linked\",
-      '';
   });
 }

@@ -57,17 +57,17 @@
   };
   monado = {
     pname = "monado";
-    version = "4e34d4c8197947138d558407e3d37bb70d302833";
+    version = "9f9d26270ef5131f94adaecc4d6b87aebe50d841";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "4e34d4c8197947138d558407e3d37bb70d302833";
+      rev = "9f9d26270ef5131f94adaecc4d6b87aebe50d841";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-jDiI76/St1k5sQ7r+8TDWkRmMbdBPh+ieJ43OX8odrw=";
+      sha256 = "sha256-KSHnJ+H/JdLFg/oFERDk+dXTJY44yUP04WHxa7xp6LY=";
     };
-    date = "2025-06-05";
+    date = "2025-06-06";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -121,15 +121,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "53a6efe27a7b7c811d8220e6e43480a21e4e97ea";
+    version = "5cebea6eda9c92ca0ced7b67d70172daf753fa15";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "53a6efe27a7b7c811d8220e6e43480a21e4e97ea";
+      rev = "5cebea6eda9c92ca0ced7b67d70172daf753fa15";
       fetchSubmodules = false;
-      sha256 = "sha256-SY1UpJ85sRmT2JDJKPK7NowM7dNhntuMRy2IVm0YsGc=";
+      sha256 = "sha256-DaJyfNikj3aipPn4Zs9YBo9YyUYDpDK/XAN2NOEivwE=";
     };
-    date = "2025-06-01";
+    date = "2025-06-06";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

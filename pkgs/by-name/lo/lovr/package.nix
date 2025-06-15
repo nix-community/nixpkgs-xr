@@ -84,12 +84,12 @@ stdenv.mkDerivation rec {
     cp -r bin/*.so $out/lib/
     runHook postInstall
   '';
-  meta = with lib; {
+  meta = {
     description = "A simple Lua framework for rapidly building VR experiences.";
     homepage = "https://lovr.org/";
-    license = licenses.mit;
-    maintainers = with maintainers; [ ];
+    license = lib.licenses.mit;
+    maintainers = with lib.maintainers; [ ];
     mainProgram = "lovr";
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
   };
 }

@@ -48,12 +48,12 @@ symlinkJoin rec {
       '';
     })
   ];
-  meta = with lib; {
+  meta = {
     description = "Uses LOVR for projecting a playspace area while using OpenXR";
     homepage = "https://github.com/SpookySkeletons/lovr-playspace";
-    license = licenses.mit;
-    maintainers = with maintainers; [ ];
+    license = lib.licenses.mit;
+    maintainers = with lib.maintainers; [ ];
     mainProgram = "lovr-playspace";
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
   };
 }

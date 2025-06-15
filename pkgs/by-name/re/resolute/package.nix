@@ -86,12 +86,12 @@ rustPlatform.buildRustPackage rec {
     glib-networking
     webkitgtk_4_1
   ];
-  meta = with lib; {
+  meta = {
     description = "Resolute is a friendly GUI application for installing, updating, and managing Resonite mods. The goal is to provide a cross-platform beginning-to-end setup experience for Resonite modding.";
     homepage = "https://github.com/Gawdl3y/Resolute";
-    license = licenses.gpl3;
-    maintainers = with maintainers; [ ];
+    license = lib.licenses.gpl3;
+    maintainers = with lib.maintainers; [ ];
     mainProgram = "resolute-app";
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
   };
 }

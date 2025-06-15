@@ -16,7 +16,7 @@
   xrSources,
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   inherit (xrSources.xrbinder)
     pname
     version
@@ -29,24 +29,24 @@ stdenv.mkDerivation rec {
       dontDisableStatic = true;
     }))
     imgui
+    xorg.libX11
   ];
   nativeBuildInputs = [
     cmake
     makeWrapper
     pkg-config
-    xorg.libX11.dev
   ];
 
   installPhase = ''
     runHook preInstall
-    cp -r ./XR_APILAYER_NOVENDOR_xr_binder $out/
+    cp -r ./XR_APILAYER_NOVENDOR_xr_binder $out/share/openxr/1/api_layers/
     runHook postInstall
   '';
-  meta = with lib; {
+  meta = {
     description = "Advanced OpenXR binding layer";
     homepage = "https://gitlab.com/mittorn/xrBinder";
-    license = licenses.mit;
-    maintainers = with maintainers; [ ];
-    platforms = platforms.linux;
+    license = lib.licenses.mit;
+    maintainers = with lib.maintainers; [ ];
+    platforms = lib.platforms.linux;
   };
 }

@@ -22,7 +22,6 @@ in
     (import ./overrides/opencomposite.nix)
     (import ./overrides/opencomposite-vendored.nix)
     (import ./overrides/wivrn.nix)
-    (import ./overrides/oscavmgr.nix)
     (import ./overrides/wlx-overlay-s.nix)
     (import ./overrides/xrizer.nix)
   ];

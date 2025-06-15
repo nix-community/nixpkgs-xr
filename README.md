@@ -116,7 +116,6 @@ This overlay provides the following packages:
 - `monado`
 - `opencomposite`
 - `opencomposite-vendored`
-- `oscavmgr`
 - `proton-ge-rtsp-bin`
 - `resolute`
 - `vapor`

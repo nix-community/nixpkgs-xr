@@ -14,7 +14,7 @@
   xrSources,
 }:
 
-symlinkJoin {
+symlinkJoin rec {
   inherit (xrSources.lovr-playspace)
     pname
     version
@@ -26,7 +26,7 @@ symlinkJoin {
         src
         version
         ;
-      pname = "${finalAttrs.pname}-unwrapped";
+      pname = "${xrSources.lovr-playspace.pname}-unwrapped";
 
       dontUseCmakeConfigure = true;
 
@@ -38,15 +38,15 @@ symlinkJoin {
         runHook postInstall
       '';
     }))
-    (writeTextFile (finalAttrs: {
+    (writeTextFile rec {
       name = "lovr-playspace-script";
       executable = true;
       destination = "/bin/lovr-playspace";
       text = ''
         #!${bash}/bin/bash
-        ${lovr}/bin/lovr ${builtins.elemAt finalAttrs.paths 1}/lovr-playspace
+        ${lovr}/bin/lovr ${builtins.elemAt paths 1}/lovr-playspace
       '';
-    }))
+    })
   ];
   meta = {
     description = "Uses LOVR for projecting a playspace area while using OpenXR";

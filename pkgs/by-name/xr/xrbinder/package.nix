@@ -16,7 +16,7 @@
   xrSources,
 }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   inherit (xrSources.xrbinder)
     pname
     version
@@ -39,6 +39,7 @@ stdenv.mkDerivation {
 
   installPhase = ''
     runHook preInstall
+    mkdir -p $out/share/openxr/1
     cp -r ./XR_APILAYER_NOVENDOR_xr_binder $out/share/openxr/1/api_layers/
     runHook postInstall
   '';

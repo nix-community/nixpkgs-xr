@@ -22,11 +22,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-754395586e8c690343d9826b437dd0a98a34b154/Cargo.lock",
+                "./envision-unwrapped-8f3f9b8759eecca4768f4860cbf6dc878337fb82/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-06-12",
+        "date": "2025-06-14",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -36,13 +36,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "754395586e8c690343d9826b437dd0a98a34b154",
-            "sha256": "sha256-4d9iI083wdVB2J+lmzPyIP5WjTnBggPeblDm+t2IFPs=",
+            "rev": "8f3f9b8759eecca4768f4860cbf6dc878337fb82",
+            "sha256": "sha256-r7z37RIfghG2UNN2ClbYeuaYEHhAOPvuAh2IZ0blsD4=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "754395586e8c690343d9826b437dd0a98a34b154"
+        "version": "8f3f9b8759eecca4768f4860cbf6dc878337fb82"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -131,26 +131,6 @@
         },
         "version": "8d43dc81dc31722dc2460fa21a21c6e18be0b2b4"
     },
-    "vapor": {
-        "cargoLocks": null,
-        "date": "2025-05-27",
-        "extract": null,
-        "name": "vapor",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "rev": "6d273cb6c7db0847daee1276be20886e6ff515ae",
-            "sha256": "sha256-Ul7TBMyWnvsEIdaA0gEKiB5SNoiOSrcF937lkuZPUEg=",
-            "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/micheal65536/VapoR.git"
-        },
-        "version": "6d273cb6c7db0847daee1276be20886e6ff515ae"
-    },
     "oscavmgr": {
         "cargoLocks": {
             "Cargo.lock": [
@@ -204,6 +184,26 @@
             "url": "https://github.com/Gawdl3y/Resolute.git"
         },
         "version": "ac79045d50581832323adadded9d2d1f90e19419"
+    },
+    "vapor": {
+        "cargoLocks": null,
+        "date": "2025-05-27",
+        "extract": null,
+        "name": "vapor",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "6d273cb6c7db0847daee1276be20886e6ff515ae",
+            "sha256": "sha256-Ul7TBMyWnvsEIdaA0gEKiB5SNoiOSrcF937lkuZPUEg=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/micheal65536/VapoR.git"
+        },
+        "version": "6d273cb6c7db0847daee1276be20886e6ff515ae"
     },
     "wayvr-dashboard": {
         "cargoLocks": {

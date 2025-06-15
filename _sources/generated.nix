@@ -17,23 +17,23 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "754395586e8c690343d9826b437dd0a98a34b154";
+    version = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "754395586e8c690343d9826b437dd0a98a34b154";
+      rev = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4d9iI083wdVB2J+lmzPyIP5WjTnBggPeblDm+t2IFPs=";
+      sha256 = "sha256-r7z37RIfghG2UNN2ClbYeuaYEHhAOPvuAh2IZ0blsD4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-754395586e8c690343d9826b437dd0a98a34b154/Cargo.lock;
+      lockFile = ./envision-unwrapped-8f3f9b8759eecca4768f4860cbf6dc878337fb82/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-06-12";
+    date = "2025-06-14";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -97,20 +97,6 @@
     };
     date = "2025-05-20";
   };
-  vapor = {
-    pname = "vapor";
-    version = "6d273cb6c7db0847daee1276be20886e6ff515ae";
-    src = fetchgit {
-      url = "https://github.com/micheal65536/VapoR.git";
-      rev = "6d273cb6c7db0847daee1276be20886e6ff515ae";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-Ul7TBMyWnvsEIdaA0gEKiB5SNoiOSrcF937lkuZPUEg=";
-    };
-    date = "2025-05-27";
-  };
   oscavmgr = {
     pname = "oscavmgr";
     version = "a97ac244c6a731d6d565da2e190e8fc6b7cb0d1b";
@@ -126,8 +112,8 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./oscavmgr-a97ac244c6a731d6d565da2e190e8fc6b7cb0d1b/Cargo.lock;
       outputHashes = {
-        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
         "alvr_common-20.12.1" = "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=";
+        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
         "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
       };
     };
@@ -152,6 +138,20 @@
       };
     };
     date = "2025-03-05";
+  };
+  vapor = {
+    pname = "vapor";
+    version = "6d273cb6c7db0847daee1276be20886e6ff515ae";
+    src = fetchgit {
+      url = "https://github.com/micheal65536/VapoR.git";
+      rev = "6d273cb6c7db0847daee1276be20886e6ff515ae";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-Ul7TBMyWnvsEIdaA0gEKiB5SNoiOSrcF937lkuZPUEg=";
+    };
+    date = "2025-05-27";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";

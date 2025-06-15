@@ -31,10 +31,6 @@ fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
-[vapor]
-fetch.git = "https://github.com/micheal65536/VapoR.git"
-src.git = "https://github.com/micheal65536/VapoR.git"
-
 [oscavmgr]
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/oscavmgr.git"
@@ -45,6 +41,10 @@ src.git = "https://github.com/galister/oscavmgr.git"
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/Gawdl3y/Resolute.git"
 src.git = "https://github.com/Gawdl3y/Resolute.git"
+
+[vapor]
+fetch.git = "https://github.com/micheal65536/VapoR.git"
+src.git = "https://github.com/micheal65536/VapoR.git"
 
 [wayvr-dashboard]
 cargo_locks = ["src-tauri/Cargo.lock"]

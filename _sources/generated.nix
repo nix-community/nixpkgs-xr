@@ -17,23 +17,23 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "754395586e8c690343d9826b437dd0a98a34b154";
+    version = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "754395586e8c690343d9826b437dd0a98a34b154";
+      rev = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4d9iI083wdVB2J+lmzPyIP5WjTnBggPeblDm+t2IFPs=";
+      sha256 = "sha256-r7z37RIfghG2UNN2ClbYeuaYEHhAOPvuAh2IZ0blsD4=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-754395586e8c690343d9826b437dd0a98a34b154/Cargo.lock;
+      lockFile = ./envision-unwrapped-8f3f9b8759eecca4768f4860cbf6dc878337fb82/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-06-12";
+    date = "2025-06-14";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";

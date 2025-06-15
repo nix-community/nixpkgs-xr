@@ -16,7 +16,7 @@
   xrSources,
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   inherit (xrSources.xrbinder)
     pname
     version

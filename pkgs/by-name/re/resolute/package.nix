@@ -29,7 +29,7 @@
   xrSources,
 }:
 
-rustPlatform.buildRustPackage rec {
+rustPlatform.buildRustPackage (finalAttrs: {
   inherit (xrSources.resolute)
     pname
     version
@@ -40,8 +40,11 @@ rustPlatform.buildRustPackage rec {
 
   useFetchCargoVendor = true;
 
-  frontend = buildNpmPackage {
-    inherit version src;
+  frontend = buildNpmPackage (finalAttrs: {
+    inherit (xrSources.resolute)
+      src
+      version
+      ;
     pname = "Resolute-ui";
 
     npmDepsHash = "sha256-X+mTF7Fc4FL/Nyt8ejvsWLwmNWIDXyYKCg00mdyEWhA=";
@@ -59,11 +62,11 @@ rustPlatform.buildRustPackage rec {
     postBuild = ''
       cp -r ./ui/dist/ $out
     '';
-  };
+  });
 
   postPatch = ''
     substituteInPlace crates/tauri-app/tauri.conf.json \
-    --replace-warn '"frontendDist": "../../ui/dist"' '"frontendDist": "${frontend}"'
+    --replace-warn '"frontendDist": "../../ui/dist"' '"frontendDist": "${finalAttrs.frontend}"'
     substituteInPlace crates/tauri-app/tauri.conf.json \
     --replace-warn '"npm run build"' '""'
   '';
@@ -94,4 +97,4 @@ rustPlatform.buildRustPackage rec {
     mainProgram = "resolute-app";
     platforms = lib.platforms.linux;
   };
-}
+})

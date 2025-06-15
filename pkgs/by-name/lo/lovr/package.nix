@@ -21,14 +21,14 @@
   wayland,
 }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation (finalAttrs: {
   pname = "lovr";
   version = "v0.17.1";
   src = [
     (fetchFromGitHub {
-      name = pname;
+      name = finalAttrs.pname;
       owner = "bjornbytes";
-      repo = pname;
+      repo = finalAttrs.pname;
       fetchSubmodules = true;
       rev = "161856b5ed4e6db38653552f515d58b6b485bf9b"; # latest release is broken
       hash = "sha256-cO9cJH1/9hy0LmAuINXOERZ64nzwna9kPZlFGndsL+g=";
@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
       hash = "sha256-owI9uM/hjicuUWXYeZOhfYby5ygWm3JOO/qifRGiOdM=";
     })
   ];
-  sourceRoot = pname;
+  sourceRoot = finalAttrs.pname;
 
   buildInputs = [
     wayland
@@ -69,7 +69,9 @@ stdenv.mkDerivation rec {
     wayland
   ];
   cmakeFlags = [
-    (lib.cmakeOptionType "path" "FETCHCONTENT_SOURCE_DIR_JOLTPHYSICS" "${builtins.elemAt src 1}")
+    (lib.cmakeOptionType "path" "FETCHCONTENT_SOURCE_DIR_JOLTPHYSICS"
+      "${builtins.elemAt finalAttrs.src 1}"
+    )
     (lib.cmakeBool "GLFW_BUILD_WAYLAND" true)
     (lib.cmakeBool "LOVR_SYSTEM_GLFW" true)
     (lib.cmakeBool "LOVR_SYSTEM_LUA" true)
@@ -92,4 +94,4 @@ stdenv.mkDerivation rec {
     mainProgram = "lovr";
     platforms = lib.platforms.linux;
   };
-}
+})

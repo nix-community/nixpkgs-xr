@@ -39,17 +39,15 @@ See the example below.
     nixpkgs-xr.url = "github:nix-community/nixpkgs-xr";
   };
 
-  outputs =
-    { nixpkgs, nixpkgs-xr, ... }:
-    {
-      nixosConfigurations.foo = nixpkgs.lib.nixosSystem {
+  outputs = { nixpkgs, nixpkgs-xr, ... }: {
+    nixosConfigurations.foo = nixpkgs.lib.nixosSystem {
+      # ...
+      modules = [
         # ...
-        modules = [
-          # ...
-          nixpkgs-xr.nixosModules.nixpkgs-xr
-        ];
-      };
+        nixpkgs-xr.nixosModules.nixpkgs-xr
+      ];
     };
+  };
 }
 ```
 
@@ -65,24 +63,22 @@ Assuming your NixOS configuration is right in your `flake.nix`, you can write th
     nixpkgs-xr.url = "github:nix-community/nixpkgs-xr";
   };
 
-  outputs =
-    { nixpkgs, nixpkgs-xr, ... }:
-    {
-      nixosConfigurations.foo = nixpkgs.lib.nixosSystem {
+  outputs = { nixpkgs, nixpkgs-xr, ... }: {
+    nixosConfigurations.foo = nixpkgs.lib.nixosSystem {
+      # ...
+      modules = [
         # ...
-        modules = [
-          # ...
-          {
-            nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
+        {
+          nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
 
-            #nix.settings = {
-            #  substituters = [ "https://nix-community.cachix.org" ];
-            #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
-            #};
-          }
-        ];
-      };
+          #nix.settings = {
+          #  substituters = [ "https://nix-community.cachix.org" ];
+          #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
+          #};
+        }
+      ];
     };
+  };
 }
 ```
 
@@ -94,18 +90,16 @@ You can just add the following snippet to your configuration:
 ```nix
 { ... }:
 let
-  nixpkgs-xr = import (
-    builtins.fetchTarball "https://github.com/nix-community/nixpkgs-xr/archive/main.tar.gz"
-  );
+  nixpkgs-xr = import (builtins.fetchTarball "https://github.com/nix-community/nixpkgs-xr/archive/main.tar.gz");
 in
-{
-  nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
+  {
+    nixpkgs.overlays = [ nixpkgs-xr.overlays.default ];
 
-  #nix.settings = {
-  #  substituters = [ "https://nix-community.cachix.org" ];
-  #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
-  #};
-}
+    #nix.settings = {
+    #  substituters = [ "https://nix-community.cachix.org" ];
+    #  trusted-public-keys = [ "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs=" ];
+    #};
+  }
 ```
 
 You can also pin the tarball url using tools like [niv].
@@ -124,8 +118,8 @@ This overlay provides the following packages:
 - `opencomposite-vendored`
 - `oscavmgr`
 - `proton-ge-rtsp-bin`
-- `vapor`
 - `resolute`
+- `vapor`
 - `wayvr-dashboard`
 - `wivrn`
 - `wlx-overlay-s`

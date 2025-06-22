@@ -46,7 +46,7 @@ stdenv.mkDerivation {
   '';
 
   dontUseZigCheck = true;
-  zigBuildFlags = [ "-Doptimize=ReleaseSafe" ];
+  zigBuildFlags = [ "-Doptimize=ReleaseFast" ];
 
   meta = with lib; {
     description = "A Linux OpenXR overlay to help you sleep in VR";

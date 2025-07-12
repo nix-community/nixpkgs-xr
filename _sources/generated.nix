@@ -57,17 +57,17 @@
   };
   monado = {
     pname = "monado";
-    version = "68612a72c0a2d025d4eba5f846683aa72a4a82a1";
+    version = "1d37e1d6c8c0fa7c86f8cea029c5d12ee43d3f12";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "68612a72c0a2d025d4eba5f846683aa72a4a82a1";
+      rev = "1d37e1d6c8c0fa7c86f8cea029c5d12ee43d3f12";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-p3n6WQ2dJTV/p9O4XdU77L7ICzB5ScHUIQO5ILcJNRo=";
+      sha256 = "sha256-4iQjNpPyH423Z07YohWEvvE/VX6bCcZ4GafL5KST9gg=";
     };
-    date = "2025-07-10";
+    date = "2025-07-11";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -121,15 +121,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "c5dab27f3c0a06091b0a5e99025cd30f74c5e3fa";
+    version = "ec42db83bc3c8697db71aa05626107ca356ab027";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "c5dab27f3c0a06091b0a5e99025cd30f74c5e3fa";
+      rev = "ec42db83bc3c8697db71aa05626107ca356ab027";
       fetchSubmodules = false;
-      sha256 = "sha256-rxySoSSRFT20H9NLHx4QkyefesPfxHn5SfB2k0RC89A=";
+      sha256 = "sha256-qISw8sEcJDxYSjfpGC6PFbf7WMdhhPJJmtOQt0kR/5k=";
     };
-    date = "2025-07-09";
+    date = "2025-07-11";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
@@ -146,18 +146,18 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "f4fbb416da50df86c39eface2eacbde2b05fb423";
+    version = "9dceaf30e54baed2d89686c6b03951cfd7ae5a7e";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "f4fbb416da50df86c39eface2eacbde2b05fb423";
+      rev = "9dceaf30e54baed2d89686c6b03951cfd7ae5a7e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-VDACjaBeDBpbfrQP4BteXdJ/zvn4I5jnoFPdt0TCNlU=";
+      sha256 = "sha256-1ig8fQquYu6PTGroR1dbBFXQF8jPQJy2Cmg+AVF5m/g=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-f4fbb416da50df86c39eface2eacbde2b05fb423/Cargo.lock;
+      lockFile = ./wlx-overlay-s-9dceaf30e54baed2d89686c6b03951cfd7ae5a7e/Cargo.lock;
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=";
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
@@ -166,7 +166,7 @@
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
       };
     };
-    date = "2025-06-26";
+    date = "2025-07-11";
   };
   xrizer = {
     pname = "xrizer";

@@ -111,14 +111,18 @@ This overlay provides the following packages:
 - `eepyxr`
 - `envision-unwrapped`
 - `index_camera_passthrough`
+- `lovr`
+- `lovr-playspace`
 - `monado`
 - `opencomposite`
 - `opencomposite-vendored`
 - `proton-ge-rtsp-bin`
+- `resolute`
 - `vapor`
 - `wayvr-dashboard`
 - `wivrn`
 - `wlx-overlay-s`
+- `xrbinder`
 - `xrizer`
 
 [binary-cache]: https://app.cachix.org/cache/nix-community

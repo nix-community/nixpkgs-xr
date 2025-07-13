@@ -17,18 +17,18 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
+    version = "1a1d1682fe4978dca98c2811c5c8cb67114991b1";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "8f3f9b8759eecca4768f4860cbf6dc878337fb82";
+      rev = "1a1d1682fe4978dca98c2811c5c8cb67114991b1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-r7z37RIfghG2UNN2ClbYeuaYEHhAOPvuAh2IZ0blsD4=";
+      sha256 = "sha256-imAuQxqzPRe90NVxMtKLvNdKE43BOVgml4Vo7g5Uoms=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-8f3f9b8759eecca4768f4860cbf6dc878337fb82/Cargo.lock;
+      lockFile = ./envision-unwrapped-1a1d1682fe4978dca98c2811c5c8cb67114991b1/Cargo.lock;
       outputHashes = {
         
       };
@@ -170,22 +170,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "4ea8f6135fa67d1cc4786c7891914c54d76a7f65";
+    version = "1e6281c7656717a78b5fb75bdd1c60ddbc3ee312";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "4ea8f6135fa67d1cc4786c7891914c54d76a7f65";
+      rev = "1e6281c7656717a78b5fb75bdd1c60ddbc3ee312";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Q/afoS9k0EzfvHOQDO43AtUnS1AUBPhNgBnS0A/li2o=";
+      sha256 = "sha256-W9auo5m42OTmxSbnO6gxS68hpKx60Tn11gXqPnaQc7w=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-4ea8f6135fa67d1cc4786c7891914c54d76a7f65/Cargo.lock;
+      lockFile = ./xrizer-1e6281c7656717a78b5fb75bdd1c60ddbc3ee312/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-07-08";
+    date = "2025-07-12";
   };
 }

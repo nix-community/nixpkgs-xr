@@ -134,7 +134,7 @@
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-d6136b348e63cab23b4d8665d8e300dc65a1eb6c/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-dad0b13389def4b6e8b8cdf212bcfcd314f19472/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
@@ -142,7 +142,7 @@
                 }
             ]
         },
-        "date": "2025-06-23",
+        "date": "2025-07-13",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d6136b348e63cab23b4d8665d8e300dc65a1eb6c",
-            "sha256": "sha256-C23O9EFOpGwamJuKjluBAMFF7YaNDqd61JVDkWyoy+E=",
+            "rev": "dad0b13389def4b6e8b8cdf212bcfcd314f19472",
+            "sha256": "sha256-8lNkpGAV1mTj2M3wgDpjQwZm10RtBGsvURqlPULY4RA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "d6136b348e63cab23b4d8665d8e300dc65a1eb6c"
+        "version": "dad0b13389def4b6e8b8cdf212bcfcd314f19472"
     },
     "wivrn": {
         "cargoLocks": null,
@@ -235,13 +235,13 @@
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-1e6281c7656717a78b5fb75bdd1c60ddbc3ee312/Cargo.lock",
+                "./xrizer-cc472ba75a1efc4cfcdfee27cd632ade04ad3916/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-07-12",
+        "date": "2025-07-13",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -251,12 +251,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1e6281c7656717a78b5fb75bdd1c60ddbc3ee312",
-            "sha256": "sha256-W9auo5m42OTmxSbnO6gxS68hpKx60Tn11gXqPnaQc7w=",
+            "rev": "cc472ba75a1efc4cfcdfee27cd632ade04ad3916",
+            "sha256": "sha256-NAo4X+9dsdwkXqdV4dEahXO1pFlN0sIEmaYGEIUPxtw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "1e6281c7656717a78b5fb75bdd1c60ddbc3ee312"
+        "version": "cc472ba75a1efc4cfcdfee27cd632ade04ad3916"
     }
 }

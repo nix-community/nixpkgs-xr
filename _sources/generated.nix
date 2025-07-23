@@ -17,23 +17,23 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "8311adc3dd8865912a9b110505b009b1448f7545";
+    version = "0a46a7d3329d86629d7562d9f5747da70973a338";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "8311adc3dd8865912a9b110505b009b1448f7545";
+      rev = "0a46a7d3329d86629d7562d9f5747da70973a338";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-BqbpA1u1V/JEh3b436fjZ+6ZTT+c26d+sWXy7HecgRA=";
+      sha256 = "sha256-CwaOSn5MP3iL6fQIAqi+mIfpPColyYs1rUM2jtRECPQ=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-8311adc3dd8865912a9b110505b009b1448f7545/Cargo.lock;
+      lockFile = ./envision-unwrapped-0a46a7d3329d86629d7562d9f5747da70973a338/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-07-18";
+    date = "2025-07-22";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -57,31 +57,31 @@
   };
   monado = {
     pname = "monado";
-    version = "c02a640676f8ccbf880c128860d38ff4cbe4897c";
+    version = "4f121e03a95ebb0737c409adc8441e0317c1dc71";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "c02a640676f8ccbf880c128860d38ff4cbe4897c";
+      rev = "4f121e03a95ebb0737c409adc8441e0317c1dc71";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-u6EnlAa/bBsAFbHrGddTzQuMFdu6tUaZvfOHlFPSnYg=";
+      sha256 = "sha256-pLte8fyy8ByCLcNjImqhz2J5zzBa/BUr1WIZ53zruYo=";
     };
-    date = "2025-07-21";
+    date = "2025-07-22";
   };
   opencomposite = {
     pname = "opencomposite";
-    version = "a27e7e6a64bdcd1eff6b7fba1ea2ea34bcf1273d";
+    version = "cff07db75c4823afe93ed7027b03d5f7bc86f164";
     src = fetchgit {
       url = "https://gitlab.com/znixian/OpenOVR.git";
-      rev = "a27e7e6a64bdcd1eff6b7fba1ea2ea34bcf1273d";
+      rev = "cff07db75c4823afe93ed7027b03d5f7bc86f164";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-AL1HtxSdZ3pJWRXxzuRSyIeIHmawhJIXqg5rU8rhMgY=";
+      sha256 = "sha256-nie+8g/P9aZYimuLJxrzN+frfA772VyPDf2ThyguqBM=";
     };
-    date = "2025-07-08";
+    date = "2025-07-21";
   };
   vapor = {
     pname = "vapor";
@@ -121,15 +121,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "b845f30454a39dc4ac660453c0bd2284a867f5f6";
+    version = "d3e10dc31b0835d73887c615100ce1b1efdfb810";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "b845f30454a39dc4ac660453c0bd2284a867f5f6";
+      rev = "d3e10dc31b0835d73887c615100ce1b1efdfb810";
       fetchSubmodules = false;
-      sha256 = "sha256-BlyXX6XHEm5JTZ64Pxu/zyxsm99ZLOJBmZ4CbvFObwk=";
+      sha256 = "sha256-oYbaQfW2rdbxcvg0m3Ej3BF7BPEFWdQHqH/+ZkBs7+Q=";
     };
-    date = "2025-07-16";
+    date = "2025-07-22";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

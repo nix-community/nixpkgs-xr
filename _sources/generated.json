@@ -162,7 +162,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-07-25",
+        "date": "2025-07-26",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -174,12 +174,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "a69bd596d16d3cbc370ccd1523b9835308a6c744",
-            "sha256": "sha256-sdArbSwNTsU1KBXFON26KEkwgKr1DNw0hkUbBxB2LJI=",
+            "rev": "ac2044dffc261daf14b16a2df42a24328e38b138",
+            "sha256": "sha256-zbV5nGu2ShMGzix4XlwTOrQmbB1q+qP4gIZ4pdYTJa8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a69bd596d16d3cbc370ccd1523b9835308a6c744"
+        "version": "ac2044dffc261daf14b16a2df42a24328e38b138"
     },
     "wivrn-monado": {
         "cargoLocks": null,
@@ -204,7 +204,7 @@
     "wlx-overlay-s": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./wlx-overlay-s-9dceaf30e54baed2d89686c6b03951cfd7ae5a7e/Cargo.lock",
+                "./wlx-overlay-s-afb71b1985d8598db23ec415cfb4e5ac67730084/Cargo.lock",
                 {
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=",
@@ -214,7 +214,7 @@
                 }
             ]
         },
-        "date": "2025-07-11",
+        "date": "2025-07-26",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -224,24 +224,24 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "9dceaf30e54baed2d89686c6b03951cfd7ae5a7e",
-            "sha256": "sha256-1ig8fQquYu6PTGroR1dbBFXQF8jPQJy2Cmg+AVF5m/g=",
+            "rev": "afb71b1985d8598db23ec415cfb4e5ac67730084",
+            "sha256": "sha256-+tbvKZ4GjHeCH2WPKXYS4kQGiDLeKFwBhClV9XUjX24=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "9dceaf30e54baed2d89686c6b03951cfd7ae5a7e"
+        "version": "afb71b1985d8598db23ec415cfb4e5ac67730084"
     },
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-366be00cdeb3156cf958fa48b49c39ce819cab86/Cargo.lock",
+                "./xrizer-74c3462d27ce3bdeeee70011746c9cfdf83cb49b/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-07-23",
+        "date": "2025-07-26",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -251,12 +251,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "366be00cdeb3156cf958fa48b49c39ce819cab86",
-            "sha256": "sha256-4khkm1PU8YQ1AWN3ilBcn3Azg6hF71MvBv7sPQQ4ljM=",
+            "rev": "74c3462d27ce3bdeeee70011746c9cfdf83cb49b",
+            "sha256": "sha256-Up4Qk3IvppjdT11VG0LBsn2EJo+TGPM6j2h/VLjJBxs=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "366be00cdeb3156cf958fa48b49c39ce819cab86"
+        "version": "74c3462d27ce3bdeeee70011746c9cfdf83cb49b"
     }
 }

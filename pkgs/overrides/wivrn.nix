@@ -24,6 +24,11 @@ final: prev: {
         fi
       '';
 
+      buildInputs = prevAttrs.buildInputs ++ [
+        final.librsvg
+        final.libpng
+      ];
+
       meta = prevAttrs.meta // {
         broken = !final.stdenv.buildPlatform.isx86_64;
       };

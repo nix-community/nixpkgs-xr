@@ -27,6 +27,7 @@ final: prev: {
       buildInputs = prevAttrs.buildInputs ++ [
         final.librsvg
         final.libpng
+        final.libarchive
       ];
 
       meta = prevAttrs.meta // {

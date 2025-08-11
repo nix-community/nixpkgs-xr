@@ -99,37 +99,37 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "a7d807ce273d8ff6f92e3a68b35470f1e64f324a";
+    version = "adf31946c88824d60dc51dc79a52e891b3efd7e7";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "a7d807ce273d8ff6f92e3a68b35470f1e64f324a";
+      rev = "adf31946c88824d60dc51dc79a52e891b3efd7e7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-OYBKKIwV0ICABQ3nrePzm1yTMAVUnJdMXgtlbC7NT34=";
+      sha256 = "sha256-+WEwTg9Z5p1TNoqUdh8Nke0KHa6k0AlA/myrYiF3rOU=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-a7d807ce273d8ff6f92e3a68b35470f1e64f324a/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-adf31946c88824d60dc51dc79a52e891b3efd7e7/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
       };
     };
-    date = "2025-08-06";
+    date = "2025-08-10";
   };
   wivrn = {
     pname = "wivrn";
-    version = "5ccc725ef73aa6b2bda6093a3d0b51f5b574c13d";
+    version = "93ba9b836753accf3ad0b6ad931be505b14324ce";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "5ccc725ef73aa6b2bda6093a3d0b51f5b574c13d";
+      rev = "93ba9b836753accf3ad0b6ad931be505b14324ce";
       fetchSubmodules = false;
-      sha256 = "sha256-v8Sfz+c2ryVwXcrEeQlVFTuSvbSSGLvh9YGGLsgeLFc=";
+      sha256 = "sha256-DNb24la6CqT07Jxm2ifMDeZcMGZmoK1+2Zr5SDMoibI=";
     };
-    date = "2025-08-09";
+    date = "2025-08-10";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

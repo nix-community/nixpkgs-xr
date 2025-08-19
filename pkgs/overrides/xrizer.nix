@@ -7,8 +7,5 @@ final: prev: {
     inherit (final.xrSources.xrizer) pname version src;
 
     cargoDeps = final.rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";
-
-    # FIXME: Tests sometimes fail for no reason (upstream issue), remove eventually
-    doCheck = false;
   };
 }

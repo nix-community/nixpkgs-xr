@@ -57,17 +57,17 @@
   };
   monado = {
     pname = "monado";
-    version = "08ec9009bfef58fb6b6e1965b0c4784d34cf6699";
+    version = "1244d50cb817a202861a7750817a32e0955be434";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "08ec9009bfef58fb6b6e1965b0c4784d34cf6699";
+      rev = "1244d50cb817a202861a7750817a32e0955be434";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-/grHHrf+m0To07e6pz+K5qAN9LLIDM2xNG6sLoS2wbg=";
+      sha256 = "sha256-0Eg1W9Wo3SKvUAzR5hQhMphj9IDRtB8ldGX4XdwLTNo=";
     };
-    date = "2025-08-25";
+    date = "2025-08-28";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -99,49 +99,49 @@
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
-    version = "adf31946c88824d60dc51dc79a52e891b3efd7e7";
+    version = "580daf23923e7376e6a770b1a8fcf6188bd6db9c";
     src = fetchgit {
       url = "https://github.com/olekolek1000/wayvr-dashboard";
-      rev = "adf31946c88824d60dc51dc79a52e891b3efd7e7";
+      rev = "580daf23923e7376e6a770b1a8fcf6188bd6db9c";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+WEwTg9Z5p1TNoqUdh8Nke0KHa6k0AlA/myrYiF3rOU=";
+      sha256 = "sha256-yxnpOO/p8OFqn/zCC4rOx/4mU7pqLcot6pVsYMrkIhI=";
     };
     cargoLock."src-tauri/Cargo.lock" = {
-      lockFile = ./wayvr-dashboard-adf31946c88824d60dc51dc79a52e891b3efd7e7/src-tauri/Cargo.lock;
+      lockFile = ./wayvr-dashboard-580daf23923e7376e6a770b1a8fcf6188bd6db9c/src-tauri/Cargo.lock;
       outputHashes = {
         "keyvalues-parser-0.2.0" = "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=";
         "libmonado-1.3.1" = "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
       };
     };
-    date = "2025-08-10";
+    date = "2025-08-27";
   };
   wivrn = {
     pname = "wivrn";
-    version = "8f8e583eb67f9e381fb90b6a23a0a20056ce13a9";
+    version = "74ff55d5cbad0790146a3c8bbb67a8c28f42f324";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "8f8e583eb67f9e381fb90b6a23a0a20056ce13a9";
+      rev = "74ff55d5cbad0790146a3c8bbb67a8c28f42f324";
       fetchSubmodules = false;
-      sha256 = "sha256-vubg6e3E/JlQvYmFUiDTvMpqIfOh3CEob1Nadsrt77E=";
+      sha256 = "sha256-/6yUHs22GfDAxlqR/1B5IgDj8KB0u//xEyNPumnq/RE=";
     };
-    date = "2025-08-24";
+    date = "2025-08-27";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
-    version = "5c137fe28b232fe460f9b03defa7749adc32ee48";
+    version = "7a4018e2d89151e60e562fac79eba90ca7a328d8";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "5c137fe28b232fe460f9b03defa7749adc32ee48";
+      rev = "7a4018e2d89151e60e562fac79eba90ca7a328d8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4P/ejRAitrYn8hXZPaDOcx27utfm+aVLjtqL6JxZYAg=";
+      sha256 = "sha256-DPIvJb23bK7SDjZr9mK0Wt6Zbo3Ari3Ar8TtPe5QgKY=";
     };
   };
   wlx-overlay-s = {
@@ -170,22 +170,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "bfaf59725c0f56e24f7b78b4dd6ac09f5859eafc";
+    version = "072476c7fa5f090ee0e8f6a376d4907288e36252";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "bfaf59725c0f56e24f7b78b4dd6ac09f5859eafc";
+      rev = "072476c7fa5f090ee0e8f6a376d4907288e36252";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Js0wRa7+piI9Hm2gtWoTpixualA4By0M499PfIZ/+BA=";
+      sha256 = "sha256-5DQw3RQopBcVeuEoKlaHo0KUDHslBqor9RDe99DAvH0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-bfaf59725c0f56e24f7b78b4dd6ac09f5859eafc/Cargo.lock;
+      lockFile = ./xrizer-072476c7fa5f090ee0e8f6a376d4907288e36252/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-08-23";
+    date = "2025-08-26";
   };
 }

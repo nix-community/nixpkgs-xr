@@ -12,17 +12,10 @@ final: prev: {
         inherit (prevAttrs.monado) patches postPatch;
       };
 
-      # Let's make sure our monado source revision matches what is used by WiVRn upstream
-      postUnpack = ''
-        ourMonadoRev="${finalAttrs.monado.src.rev}"
-        theirMonadoRev=$(cat ${finalAttrs.src.name}/monado-rev)
-        if [ ! "$theirMonadoRev" == "$ourMonadoRev" ]; then
-          echo "Our Monado source revision doesn't match WiVRn's monado-rev." >&2
-          echo "  theirs: $theirMonadoRev" >&2
-          echo "    ours: $ourMonadoRev" >&2
-          return 1
-        fi
-      '';
+      # Remove patches against stable versions
+      # We need to make sure to filter this in the future, in case we have
+      # NixOS compatibility patches in nixpkgs
+      patches = [ ];
 
       buildInputs = prevAttrs.buildInputs ++ [
         final.librsvg

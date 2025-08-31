@@ -170,22 +170,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "072476c7fa5f090ee0e8f6a376d4907288e36252";
+    version = "ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "072476c7fa5f090ee0e8f6a376d4907288e36252";
+      rev = "ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-5DQw3RQopBcVeuEoKlaHo0KUDHslBqor9RDe99DAvH0=";
+      sha256 = "sha256-6keLXin7h4IveHMHDPnlCja6pN76nhOr0+87k8BgrpM=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-072476c7fa5f090ee0e8f6a376d4907288e36252/Cargo.lock;
+      lockFile = ./xrizer-ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-08-26";
+    date = "2025-08-30";
   };
 }

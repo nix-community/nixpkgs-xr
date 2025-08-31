@@ -235,13 +235,13 @@
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-072476c7fa5f090ee0e8f6a376d4907288e36252/Cargo.lock",
+                "./xrizer-ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-08-26",
+        "date": "2025-08-30",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -251,12 +251,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "072476c7fa5f090ee0e8f6a376d4907288e36252",
-            "sha256": "sha256-5DQw3RQopBcVeuEoKlaHo0KUDHslBqor9RDe99DAvH0=",
+            "rev": "ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0",
+            "sha256": "sha256-6keLXin7h4IveHMHDPnlCja6pN76nhOr0+87k8BgrpM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "072476c7fa5f090ee0e8f6a376d4907288e36252"
+        "version": "ffcda1aa1b8cd7e208117ff1632f561e9d8ecdd0"
     }
 }

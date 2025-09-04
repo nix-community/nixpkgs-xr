@@ -13,7 +13,11 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
+    systems.url = "github:nix-systems/default-linux";
+    flake-utils = {
+      url = "github:numtide/flake-utils";
+      inputs.systems.follows = "systems";
+    };
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";

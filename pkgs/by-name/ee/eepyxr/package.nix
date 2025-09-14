@@ -11,7 +11,7 @@
   sdl3,
   stb,
   stdenv,
-  zig,
+  zig_0_14,
 
   xrSources,
 }:
@@ -24,7 +24,7 @@ stdenv.mkDerivation {
     ;
 
   nativeBuildInputs = [
-    zig.hook
+    zig_0_14.hook
     pkg-config
   ];
   buildInputs = [

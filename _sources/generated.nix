@@ -17,23 +17,23 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "32b222cd9e2749cfdecb216189f954c719e3f66e";
+    version = "5470662f25a0fc9cdb024d2e3dce4108f5cc529a";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "32b222cd9e2749cfdecb216189f954c719e3f66e";
+      rev = "5470662f25a0fc9cdb024d2e3dce4108f5cc529a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-fEEbcfszPUkevu39dIdx2N9o4bJHjaEQy+LGsTQXJoA=";
+      sha256 = "sha256-H6E62C0jZCrSw13zitu1BGY0xTg9cveL8z5tb2jbBNY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-32b222cd9e2749cfdecb216189f954c719e3f66e/Cargo.lock;
+      lockFile = ./envision-unwrapped-5470662f25a0fc9cdb024d2e3dce4108f5cc529a/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-08-19";
+    date = "2025-09-16";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -170,22 +170,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "d6f7b986374e379bcc89a34e099f55a20a58cb83";
+    version = "d9f9e2cef6b980d55f67df74baf826656e7265e1";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "d6f7b986374e379bcc89a34e099f55a20a58cb83";
+      rev = "d9f9e2cef6b980d55f67df74baf826656e7265e1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-B4pEp58qYqdANJwY7VvBk6MWxit8ZSTc6R3lUs6JMm8=";
+      sha256 = "sha256-kXYb1syZnqHbSu9WsfyXr0w6TzN+8Ku1TZruaxUbIok=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-d6f7b986374e379bcc89a34e099f55a20a58cb83/Cargo.lock;
+      lockFile = ./xrizer-d9f9e2cef6b980d55f67df74baf826656e7265e1/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-09-14";
+    date = "2025-09-15";
   };
 }

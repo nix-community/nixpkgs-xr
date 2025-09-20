@@ -85,17 +85,17 @@
   };
   vapor = {
     pname = "vapor";
-    version = "faf1f6ca6299e9e8889a8e87b8258a8cdbe9ef5a";
+    version = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";
     src = fetchgit {
       url = "https://github.com/micheal65536/VapoR.git";
-      rev = "faf1f6ca6299e9e8889a8e87b8258a8cdbe9ef5a";
+      rev = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-4dKq/TBB+eEmwhDixJ5NsvogKMruqZ97Mqs/GK72IyY=";
+      sha256 = "sha256-JysqSSr2LW7dTzEWX5ntJovJydhA6OjRhzleftj0SKE=";
     };
-    date = "2025-09-07";
+    date = "2025-09-19";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
@@ -121,15 +121,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "f33dc57ec985a625c6117dde8198113fb752b3ca";
+    version = "98347fc8322cdad4a1f6ba83f24ac44c859741b7";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "f33dc57ec985a625c6117dde8198113fb752b3ca";
+      rev = "98347fc8322cdad4a1f6ba83f24ac44c859741b7";
       fetchSubmodules = false;
-      sha256 = "sha256-XP0bpXgtira2QIlS0fNEteNP48WnEjBYFM1Xmt2sm5I=";
+      sha256 = "sha256-8oMdHynhv96gBo+yEOiwwfROjpQBRuXKic7HtUT/pe4=";
     };
-    date = "2025-09-17";
+    date = "2025-09-19";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

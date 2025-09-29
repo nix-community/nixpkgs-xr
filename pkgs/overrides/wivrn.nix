@@ -16,6 +16,15 @@ final: prev: {
       # We need to make sure to filter this in the future, in case we have
       # NixOS compatibility patches in nixpkgs
       patches = [ ];
+
+      cmakeFlags =
+        (final.lib.filter (flag: !final.lib.hasInfix "GIT_DESC" flag) prevAttrs.cmakeFlags)
+        ++ [
+          (final.lib.cmakeFeature "GIT_DESC" "v${prevAttrs.version}-0-g${
+            builtins.substring 0 8 finalAttrs.version
+          }")
+          (final.lib.cmakeFeature "GIT_COMMIT" finalAttrs.version)
+        ];
     }
   );
 }

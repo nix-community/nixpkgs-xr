@@ -16,16 +16,6 @@ final: prev: {
       # We need to make sure to filter this in the future, in case we have
       # NixOS compatibility patches in nixpkgs
       patches = [ ];
-
-      buildInputs = prevAttrs.buildInputs ++ [
-        final.librsvg
-        final.libpng
-        final.libarchive
-      ];
-
-      meta = prevAttrs.meta // {
-        broken = !final.stdenv.buildPlatform.isx86_64;
-      };
     }
   );
 }

@@ -17,15 +17,14 @@ final: prev: {
       # NixOS compatibility patches in nixpkgs
       patches = [ ];
 
-      buildInputs = prevAttrs.buildInputs ++ [
-        final.librsvg
-        final.libpng
-        final.libarchive
-      ];
-
-      meta = prevAttrs.meta // {
-        broken = !final.stdenv.buildPlatform.isx86_64;
-      };
+      cmakeFlags =
+        (final.lib.filter (flag: !final.lib.hasInfix "GIT_DESC" flag) prevAttrs.cmakeFlags)
+        ++ [
+          (final.lib.cmakeFeature "GIT_DESC" "v${prevAttrs.version}-0-g${
+            builtins.substring 0 8 finalAttrs.version
+          }")
+          (final.lib.cmakeFeature "GIT_COMMIT" finalAttrs.version)
+        ];
     }
   );
 }

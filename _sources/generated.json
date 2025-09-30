@@ -71,6 +71,27 @@
         },
         "version": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73"
     },
+    "kaon": {
+        "cargoLocks": null,
+        "date": "2025-09-18",
+        "extract": null,
+        "name": "kaon",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "LorenDB",
+            "repo": "kaon",
+            "rev": "3b62b8ffca8495e957f8748454c70f2f74e738fd",
+            "sha256": "sha256-Qj381w2EiWAIrr6xwBqPABh8VyZbyRX0jdOibaYukZY=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "3b62b8ffca8495e957f8748454c70f2f74e738fd"
+    },
     "monado": {
         "cargoLocks": null,
         "date": "2025-09-28",

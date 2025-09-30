@@ -111,6 +111,7 @@ This overlay provides the following packages:
 - `eepyxr`
 - `envision-unwrapped`
 - `index_camera_passthrough`
+- `kaon`
 - `monado`
 - `opencomposite`
 - `opencomposite-vendored`

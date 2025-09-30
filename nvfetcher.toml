@@ -17,6 +17,10 @@ cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
 src.git = "https://github.com/yshui/index_camera_passthrough.git"
 
+[kaon]
+fetch.github = "LorenDB/kaon"
+src.git = "https://github.com/LorenDB/kaon"
+
 [monado]
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 src.git = "https://gitlab.freedesktop.org/monado/monado.git"

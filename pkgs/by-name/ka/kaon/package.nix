@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 coolGi <me@coolgi.dev>
+#
+# SPDX-License-Identifier: MIT
 {
   lib,
   stdenv,

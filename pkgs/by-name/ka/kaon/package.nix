@@ -1,4 +1,5 @@
 {
+  lib,
   stdenv,
   qt6,
   cmake,
@@ -31,4 +32,12 @@ stdenv.mkDerivation {
   cmakeFlags = [
     "-DFETCHCONTENT_SOURCE_DIR_VALVEFILEVDF=${ValveFileVDF_src}"
   ];
+
+  meta = {
+    description = "Use UEVR with Steam games via Proton";
+    homepage = "https://github.com/LorenDB/kaon";
+    license = [ lib.licenses.gpl3 ];
+
+    platforms = lib.platforms.linux;
+  };
 }

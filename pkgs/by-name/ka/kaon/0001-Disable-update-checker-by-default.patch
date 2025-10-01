@@ -1,0 +1,25 @@
+From a8e5075402abde8a092c03712efa4fc200f9d1cc Mon Sep 17 00:00:00 2001
+From: coolGi <me@coolgi.dev>
+Date: Wed, 1 Oct 2025 12:39:20 +0930
+Subject: [PATCH] Disable update checker by default
+
+---
+ src/UpdateChecker.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/UpdateChecker.cpp b/src/UpdateChecker.cpp
+index 5f99adf..72ed633 100644
+--- a/src/UpdateChecker.cpp
++++ b/src/UpdateChecker.cpp
+@@ -13,7 +13,7 @@ UpdateChecker::UpdateChecker(QObject *parent)
+ {
+     QSettings settings;
+     settings.beginGroup("update"_L1);
+-    m_enabled = settings.value("enabled"_L1, true).toBool();
++    m_enabled = settings.value("enabled"_L1, false).toBool();
+     m_ignore = settings.value("ignore"_L1).toString();
+ 
+     if (m_enabled)
+-- 
+2.51.0
+

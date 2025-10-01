@@ -32,6 +32,8 @@ stdenv.mkDerivation {
     date
     ;
 
+  patches = [ ./0001-Disable-update-checker-by-default.patch ];
+
   buildInputs = [
     qt6.qtbase
     qt6.qtquick3d

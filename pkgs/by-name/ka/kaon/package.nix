@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: MIT
 {
   lib,
+  fetchzip,
   stdenv,
   qt6,
   cmake,
@@ -10,9 +11,9 @@
   xrSources,
 }:
 let
-  ValveFileVDF_src = builtins.fetchTarball {
+  ValveFileVDF_src = fetchzip {
     url = "https://github.com/TinyTinni/ValveFileVDF/archive/refs/tags/v1.1.1.tar.gz";
-    sha256 = "sha256:1qg66p68fn8c2pifqkzz490b366dvcpq6j779b9k2c1ahwf35g5k";
+    hash = "sha256-s7wyHIcqMDHTSudIgy/bzZixQCL/T+ziFQxZh8w15uE=";
   };
 
   coolgi = {
@@ -35,6 +36,7 @@ stdenv.mkDerivation {
     qt6.qtbase
     qt6.qtquick3d
   ];
+
   nativeBuildInputs = [
     qt6.wrapQtAppsHook
     cmake

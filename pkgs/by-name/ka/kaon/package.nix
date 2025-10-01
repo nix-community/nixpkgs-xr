@@ -14,6 +14,14 @@ let
     url = "https://github.com/TinyTinni/ValveFileVDF/archive/refs/tags/v1.1.1.tar.gz";
     sha256 = "sha256:1qg66p68fn8c2pifqkzz490b366dvcpq6j779b9k2c1ahwf35g5k";
   };
+
+  coolgi = {
+    name = "coolGi";
+    email = "me@coolgi.dev";
+    matrix = "@me:coolgi.dev";
+    github = "coolGi69";
+    githubId = 57488297;
+  };
 in
 stdenv.mkDerivation {
   inherit (xrSources.kaon)
@@ -41,6 +49,7 @@ stdenv.mkDerivation {
     homepage = "https://github.com/LorenDB/kaon";
     license = [ lib.licenses.gpl3 ];
 
+    maintainers = [ coolgi ];
     platforms = lib.platforms.linux;
   };
 }

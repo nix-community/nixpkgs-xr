@@ -55,6 +55,18 @@
     };
     date = "2024-07-25";
   };
+  kaon = {
+    pname = "kaon";
+    version = "3b62b8ffca8495e957f8748454c70f2f74e738fd";
+    src = fetchFromGitHub {
+      owner = "LorenDB";
+      repo = "kaon";
+      rev = "3b62b8ffca8495e957f8748454c70f2f74e738fd";
+      fetchSubmodules = false;
+      sha256 = "sha256-Qj381w2EiWAIrr6xwBqPABh8VyZbyRX0jdOibaYukZY=";
+    };
+    date = "2025-09-18";
+  };
   monado = {
     pname = "monado";
     version = "68c330027646fe6c0bea1706bcbe2fae81ddcc17";

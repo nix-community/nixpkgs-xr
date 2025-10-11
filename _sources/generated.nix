@@ -57,15 +57,15 @@
   };
   kaon = {
     pname = "kaon";
-    version = "3b62b8ffca8495e957f8748454c70f2f74e738fd";
+    version = "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8";
     src = fetchFromGitHub {
       owner = "LorenDB";
       repo = "kaon";
-      rev = "3b62b8ffca8495e957f8748454c70f2f74e738fd";
+      rev = "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8";
       fetchSubmodules = false;
-      sha256 = "sha256-Qj381w2EiWAIrr6xwBqPABh8VyZbyRX0jdOibaYukZY=";
+      sha256 = "sha256-ZJudDEnxrzEGlsVB2NBK5XXCwQvYefU6GPbVpBtoyVk=";
     };
-    date = "2025-09-18";
+    date = "2025-10-10";
   };
   monado = {
     pname = "monado";

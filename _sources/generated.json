@@ -155,7 +155,7 @@
     "wayvr-dashboard": {
         "cargoLocks": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-580daf23923e7376e6a770b1a8fcf6188bd6db9c/src-tauri/Cargo.lock",
+                "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
@@ -163,7 +163,7 @@
                 }
             ]
         },
-        "date": "2025-08-27",
+        "date": "2025-10-19",
         "extract": null,
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -173,17 +173,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "580daf23923e7376e6a770b1a8fcf6188bd6db9c",
-            "sha256": "sha256-yxnpOO/p8OFqn/zCC4rOx/4mU7pqLcot6pVsYMrkIhI=",
+            "rev": "952d92bfedf99f4bc16155394cf9e3fe2f08a8bf",
+            "sha256": "sha256-8Zy+ykPszRbYZrjShPy8zRRdzL0ppLFUcnJerOWPUtc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/olekolek1000/wayvr-dashboard"
         },
-        "version": "580daf23923e7376e6a770b1a8fcf6188bd6db9c"
+        "version": "952d92bfedf99f4bc16155394cf9e3fe2f08a8bf"
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-10-13",
+        "date": "2025-10-19",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -195,12 +195,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "1dd0ed4fe34235e7ca127cf72ff898928bce5d27",
-            "sha256": "sha256-+3yIwoacXyF4ykN/5dVwO28BLCqofLF0TbSpj/ObTxs=",
+            "rev": "3e0f6bf6fa19e0ece244200eff961131d601ab35",
+            "sha256": "sha256-mNrq72ShoHRjpw33BCLEfMw4tAMiOF9637EARQyfxms=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1dd0ed4fe34235e7ca127cf72ff898928bce5d27"
+        "version": "3e0f6bf6fa19e0ece244200eff961131d601ab35"
     },
     "wivrn-monado": {
         "cargoLocks": null,

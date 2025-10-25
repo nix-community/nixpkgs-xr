@@ -1,24 +1,27 @@
 # SPDX-FileCopyrightText: 2025 ShyAssassin <ShyAssassin@assassin.dev>
 #
 # SPDX-License-Identifier: MIT
-{ lib,
+{
+  lib,
   stdenv,
-  fetchFromGitHub,
   cmake,
   opencv,
-}: stdenv.mkDerivation rec {
-  name = "opencvsharp";
-  src = fetchFromGitHub {
-    owner = "shimat";
-    repo = "opencvsharp";
-    tag = "4.11.0.20250507";
-    hash = "sha256-CkG4Kx/AkZqyhtclMfS51a9a9R+hsqBRlM4fry32YJ0=";
-  };
+
+  xrSources,
+}:
+stdenv.mkDerivation rec {
+  inherit (xrSources.opencvsharp)
+    pname
+    version
+    src
+    date
+    ;
+
   buildInputs = [ opencv ];
   nativeBuildInputs = [ cmake ];
   sourceRoot = "${src.name}/src";
 
-  cmakeFlags = [(lib.cmakeFeature "CMAKE_POLICY_VERSION_MINIMUM" "3.5")];
+  cmakeFlags = [ (lib.cmakeFeature "CMAKE_POLICY_VERSION_MINIMUM" "3.5") ];
 
   meta = with lib; {
     license = licenses.asl20;

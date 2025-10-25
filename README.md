@@ -108,8 +108,10 @@ You can also pin the tarball url using tools like [niv].
 
 This overlay provides the following packages:
 
+- `baballonia`
 - `eepyxr`
 - `envision-unwrapped`
+- `go-bsb-cams`
 - `index_camera_passthrough`
 - `kaon`
 - `monado`

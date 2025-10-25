@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: 2025 ShyAssassin <ShyAssassin@assassin.dev>
+#
+# SPDX-License-Identifier: MIT
 { lib,
   stdenv,
   fetchFromGitHub,

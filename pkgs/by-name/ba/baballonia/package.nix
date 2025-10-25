@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: 2025 ShyAssassin <ShyAssassin@assassin.dev>
+#
+# SPDX-License-Identifier: MIT
 {
   cmake,
   opencv,
@@ -78,6 +80,6 @@ in buildDotnetModule(finalAttrs: {
     homepage = "https://github.com/Project-Babble/Baballonia";
     description = "Repo for the new Babble App, free and open source eye and face tracking for social VR";
     license = licenses.unfree;
-    maintainers = with maintainers; [ zenisbestwolf ];
+    maintainers = with maintainers; [ zenisbestwolf shyassassin ];
   };
 })

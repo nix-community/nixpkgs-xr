@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 ShyAssassin <ShyAssassin@assassin.dev>
 {
   cmake,
   opencv,
@@ -76,5 +77,7 @@ in buildDotnetModule(finalAttrs: {
     platforms = platforms.linux;
     homepage = "https://github.com/Project-Babble/Baballonia";
     description = "Repo for the new Babble App, free and open source eye and face tracking for social VR";
+    license = licenses.unfree;
+    maintainers = with maintainers; [ zenisbestwolf ];
   };
 })

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Zen Dignan <zen@dignan.dev>
+#
+# SPDX-License-Identifier: MIT
 {
   lib,
   pkg-config,

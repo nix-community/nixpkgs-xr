@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 ShyAssassin <ShyAssassin@assassin.dev>
 { lib,
   stdenv,
   fetchFromGitHub,

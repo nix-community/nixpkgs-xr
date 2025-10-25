@@ -3,6 +3,11 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+[baballonia]
+fetch.github = "Project-Babble/Baballonia"
+git.fetchSubmodules = true
+src.git = "https://github.com/Project-Babble/Baballonia"
+
 [eepyxr]
 fetch.git = "https://github.com/Beyley/eepyxr.git"
 src.git = "https://github.com/Beyley/eepyxr.git"
@@ -11,6 +16,10 @@ src.git = "https://github.com/Beyley/eepyxr.git"
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://gitlab.com/gabmus/envision.git"
 src.git = "https://gitlab.com/gabmus/envision.git"
+
+[go-bsb-cams]
+fetch.github = "LilliaElaine/go-bsb-cams"
+src.git = "https://github.com/LilliaElaine/go-bsb-cams"
 
 [index_camera_passthrough]
 cargo_locks = ["Cargo.lock"]
@@ -29,6 +38,10 @@ src.git = "https://gitlab.freedesktop.org/monado/monado.git"
 fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
+
+[opencvsharp]
+fetch.github = "shimat/opencvsharp"
+src.git = "https://github.com/shimat/opencvsharp"
 
 [vapor]
 fetch.git = "https://github.com/micheal65536/VapoR.git"

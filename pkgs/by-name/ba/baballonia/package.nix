@@ -13,34 +13,42 @@
   lib,
   buildDotnetModule,
   dotnetCorePackages,
-  fetchFromGitHub,
-  mkLicense,
-}: let
-    internal = builtins.fetchurl {
-      url = "http://217.154.52.44:7771/builds/trainer/1.0.0.0.zip";
-      sha256 = "sha256:0cfc1r1nwcrkihmi9xn4higybyawy465qa6kpls2bjh9wbl5ys82";
-    };
 
-    dotnet = dotnetCorePackages.dotnet_8;
+  xrSources,
+}:
+let
+  internal = builtins.fetchurl {
+    url = "http://217.154.52.44:7771/builds/trainer/1.0.0.0.zip";
+    sha256 = "sha256:0cfc1r1nwcrkihmi9xn4higybyawy465qa6kpls2bjh9wbl5ys82";
+  };
 
-    baballoniaPrograms = [
-      cmake opencv udev
-      libjpeg libGL fontconfig
-      xorg.libX11 xorg.libSM xorg.libICE
-      (callPackage ./opencvsharp.nix {})
-    ];
-in buildDotnetModule(finalAttrs: {
-  version = "1.1.0.8";
-  pname = "baballonia";
+  dotnet = dotnetCorePackages.dotnet_8;
+
+  baballoniaPrograms = [
+    cmake
+    opencv
+    udev
+    libjpeg
+    libGL
+    fontconfig
+    xorg.libX11
+    xorg.libSM
+    xorg.libICE
+    (callPackage ./opencvsharp.nix { })
+  ];
+in
+buildDotnetModule (finalAttrs: {
+  inherit (xrSources.baballonia)
+    pname
+    # version
+    src
+    date
+    ;
+  # NOTE: We cannot use the git revision as the version as
+  #       that will cause dotnet to fail
+  version = "0.0.0";
 
   buildInputs = baballoniaPrograms;
-  src = fetchFromGitHub {
-    owner = "Project-Babble";
-    repo = "Baballonia";
-    rev = "v${finalAttrs.version}";
-    sha256 = "sha256-OnLCK/T7b0NsExKEv95a0lM9TccJkI/uLGIe+oz3Rtw=";
-    fetchSubmodules = true;
-  };
 
   dotnetSdk = dotnet.sdk;
   nugetDeps = ./deps.json;
@@ -78,15 +86,18 @@ in buildDotnetModule(finalAttrs: {
   meta = {
     mainProgram = "baballonia";
     platforms = lib.platforms.linux;
-    homepage = "https://github.com/Project-Babble/Baballonia";
+    homepage = "https://babble.diy/";
     description = "Repo for the new Babble App, free and open source eye and face tracking for social VR";
-    license = mkLicense {
-      spdxId = "Babble-Software-Distribution-License-1.0";
+    license = {
       fullName = "Babble Software Distribution License 1.0";
       url = "https://raw.githubusercontent.com/Project-Babble/Baballonia/refs/heads/main/LICENSE";
+      # While the licence is based off the Apache v2 licence, a clause 10 is added breaking this
       free = false;
       redistributable = true;
     };
-    maintainers = with lib.maintainers; [ zenisbestwolf shyassassin ];
+    maintainers = with lib.maintainers; [
+      zenisbestwolf
+      shyassassin
+    ];
   };
 })

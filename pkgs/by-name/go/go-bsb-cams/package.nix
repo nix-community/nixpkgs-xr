@@ -7,19 +7,17 @@
   libusb1,
   gcc,
   go,
-  fetchFromGitHub,
   buildGoModule,
+
+  xrSources,
 }:
 buildGoModule (finalAttrs: rec {
-  pname = "go-bsb-cams";
-  version = "1.0.1";
-
-  src = fetchFromGitHub {
-    owner = "LilliaElaine";
-    repo = "go-bsb-cams";
-    rev = finalAttrs.version;
-    hash = "sha256-stenEti9ndQv5ItFiQKSoRbG0q1JA622H886fC5WOvQ=";
-  };
+  inherit (xrSources.go-bsb-cams)
+    pname
+    version
+    src
+    date
+    ;
 
   buildInputs = [ libusb1 ];
   nativeBuildInputs = [ pkg-config ];

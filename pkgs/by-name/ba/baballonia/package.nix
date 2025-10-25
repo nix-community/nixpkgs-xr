@@ -14,6 +14,7 @@
   buildDotnetModule,
   dotnetCorePackages,
   fetchFromGitHub,
+  mkLicense,
 }: let
     internal = builtins.fetchurl {
       url = "http://217.154.52.44:7771/builds/trainer/1.0.0.0.zip";
@@ -74,12 +75,18 @@ in buildDotnetModule(finalAttrs: {
     mv $out/lib/baballonia/Baballonia.SerialCameraCapture.pdb $out/lib/baballonia/Modules/
   '';
 
-  meta = with lib; {
+  meta = {
     mainProgram = "baballonia";
-    platforms = platforms.linux;
+    platforms = lib.platforms.linux;
     homepage = "https://github.com/Project-Babble/Baballonia";
     description = "Repo for the new Babble App, free and open source eye and face tracking for social VR";
-    license = licenses.unfree;
-    maintainers = with maintainers; [ zenisbestwolf shyassassin ];
+    license = mkLicense {
+      spdxId = "Babble-Software-Distribution-License-1.0";
+      fullName = "Babble Software Distribution License 1.0";
+      url = "https://raw.githubusercontent.com/Project-Babble/Baballonia/refs/heads/main/LICENSE";
+      free = false;
+      redistributable = true;
+    };
+    maintainers = with lib.maintainers; [ zenisbestwolf shyassassin ];
   };
 })

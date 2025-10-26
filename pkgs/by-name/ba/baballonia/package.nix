@@ -48,6 +48,8 @@ buildDotnetModule (finalAttrs: {
   #       that will cause dotnet to fail
   version = "0.0.0";
 
+  patches = [ ./0001-disable-auto-updating.patch ];
+
   buildInputs = baballoniaPrograms;
 
   dotnetSdk = dotnet.sdk;

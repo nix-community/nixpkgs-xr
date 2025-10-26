@@ -15,9 +15,11 @@ flake-utils.lib.eachDefaultSystem (
 
       config = {
         allowUnfree = true;
-        allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-          "babellonia"
-        ];
+        allowUnfreePredicate =
+          pkg:
+          builtins.elem (lib.getName pkg) [
+            "babellonia"
+          ];
       };
     };
     inherit (pkgs) lib;

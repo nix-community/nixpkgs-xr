@@ -11,7 +11,9 @@
 flake-utils.lib.eachDefaultSystem (
   system:
   let
-    pkgs = nixpkgs.legacyPackages.${system};
+    pkgs = import nixpkgs {
+      inherit system;
+    };
     inherit (pkgs.lib) mapAttrs' nameValuePair;
 
     treefmtEval = treefmt-nix.lib.evalModule pkgs ./treefmt.nix;

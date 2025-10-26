@@ -91,7 +91,7 @@ buildDotnetModule (finalAttrs: {
     license = {
       fullName = "Babble Software Distribution License 1.0";
       url = "https://raw.githubusercontent.com/Project-Babble/Baballonia/refs/heads/main/LICENSE";
-      # While the licence is based off the Apache v2 licence, a clause 10 is added breaking this
+      # While the licence is based off the Apache v2 licence, clause 10 is added making it no longer free
       free = false;
       redistributable = true;
     };

@@ -67,6 +67,20 @@
     };
     date = "2025-10-10";
   };
+  lovr-playspace = {
+    pname = "lovr-playspace";
+    version = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+    src = fetchgit {
+      url = "https://github.com/SpookySkeletons/lovr-playspace.git";
+      rev = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-fES0w/h5aDPgBPqnapVXg1FQfOHFdoQQQdANCwiWPaQ=";
+    };
+    date = "2025-07-21";
+  };
   monado = {
     pname = "monado";
     version = "e8eb2edea4d62201789180c519f5173ce0e9d612";

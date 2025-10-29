@@ -21,6 +21,11 @@ src.git = "https://github.com/yshui/index_camera_passthrough.git"
 fetch.github = "LorenDB/kaon"
 src.git = "https://github.com/LorenDB/kaon"
 
+[lovr-playspace]
+fetch.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
+git.fetchSubmodules = true
+src.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
+
 [monado]
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 src.git = "https://gitlab.freedesktop.org/monado/monado.git"

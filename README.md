@@ -112,6 +112,8 @@ This overlay provides the following packages:
 - `envision-unwrapped`
 - `index_camera_passthrough`
 - `kaon`
+- `lovr`
+- `lovr-playspace`
 - `monado`
 - `opencomposite`
 - `opencomposite-vendored`

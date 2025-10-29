@@ -92,6 +92,26 @@
         },
         "version": "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8"
     },
+    "lovr-playspace": {
+        "cargoLocks": null,
+        "date": "2025-07-21",
+        "extract": null,
+        "name": "lovr-playspace",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8ce7d1c6a521e370e97da4fda254c69c149c68a2",
+            "sha256": "sha256-fES0w/h5aDPgBPqnapVXg1FQfOHFdoQQQdANCwiWPaQ=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/SpookySkeletons/lovr-playspace.git"
+        },
+        "version": "8ce7d1c6a521e370e97da4fda254c69c149c68a2"
+    },
     "monado": {
         "cargoLocks": null,
         "date": "2025-10-29",

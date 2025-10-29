@@ -95,6 +95,28 @@
     };
     date = "2025-07-21";
   };
+  oscavmgr = {
+    pname = "oscavmgr";
+    version = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
+    src = fetchgit {
+      url = "https://github.com/galister/oscavmgr.git";
+      rev = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./oscavmgr-a0d6c46de87b2a1c72f72fbefb7025399f42e916/Cargo.lock;
+      outputHashes = {
+        "alvr_common-20.12.1" = "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=";
+        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
+        "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
+      };
+    };
+    date = "2025-08-31";
+  };
   vapor = {
     pname = "vapor";
     version = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";

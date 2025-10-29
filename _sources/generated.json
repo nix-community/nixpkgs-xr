@@ -132,6 +132,35 @@
         },
         "version": "cff07db75c4823afe93ed7027b03d5f7bc86f164"
     },
+    "oscavmgr": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./oscavmgr-a0d6c46de87b2a1c72f72fbefb7025399f42e916/Cargo.lock",
+                {
+                    "alvr_common-20.12.1": "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=",
+                    "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
+                    "settings-schema-0.2.0": "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k="
+                }
+            ]
+        },
+        "date": "2025-08-31",
+        "extract": null,
+        "name": "oscavmgr",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "a0d6c46de87b2a1c72f72fbefb7025399f42e916",
+            "sha256": "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/galister/oscavmgr.git"
+        },
+        "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
+    },
     "vapor": {
         "cargoLocks": null,
         "date": "2025-09-19",

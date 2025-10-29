@@ -30,6 +30,12 @@ fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
+[oscavmgr]
+cargo_locks = ["Cargo.lock"]
+fetch.git = "https://github.com/galister/oscavmgr.git"
+git.fetchSubmodules = true
+src.git = "https://github.com/galister/oscavmgr.git"
+
 [vapor]
 fetch.git = "https://github.com/micheal65536/VapoR.git"
 src.git = "https://github.com/micheal65536/VapoR.git"

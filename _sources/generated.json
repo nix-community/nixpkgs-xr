@@ -253,6 +253,26 @@
         },
         "version": "fbd518952127299dddea91122e0dcb53a0218568"
     },
+    "xrbinder": {
+        "cargoLocks": null,
+        "date": "2025-04-18",
+        "extract": null,
+        "name": "xrbinder",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "251e19d3d121283b6589b84818453f8138f29e6d",
+            "sha256": "sha256-c77ZVnbOGxs81Kt7pL+bP7GPwfzm0esVRTj4D8DODcA=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://gitlab.com/mittorn/xrBinder.git"
+        },
+        "version": "251e19d3d121283b6589b84818453f8138f29e6d"
+    },
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [

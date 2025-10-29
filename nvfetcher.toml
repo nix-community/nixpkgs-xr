@@ -53,6 +53,11 @@ cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/wlx-overlay-s.git"
 src.git = "https://github.com/galister/wlx-overlay-s.git"
 
+[xrbinder]
+fetch.git = "https://gitlab.com/mittorn/xrBinder.git"
+git.fetchSubmodules = true
+src.git = "https://gitlab.com/mittorn/xrBinder.git"
+
 [xrizer]
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/Supreeeme/xrizer.git"

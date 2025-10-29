@@ -180,6 +180,20 @@
     };
     date = "2025-08-13";
   };
+  xrbinder = {
+    pname = "xrbinder";
+    version = "251e19d3d121283b6589b84818453f8138f29e6d";
+    src = fetchgit {
+      url = "https://gitlab.com/mittorn/xrBinder.git";
+      rev = "251e19d3d121283b6589b84818453f8138f29e6d";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-c77ZVnbOGxs81Kt7pL+bP7GPwfzm0esVRTj4D8DODcA=";
+    };
+    date = "2025-04-18";
+  };
   xrizer = {
     pname = "xrizer";
     version = "bb7e2e5697479d1b7786540155132becfc530cea";

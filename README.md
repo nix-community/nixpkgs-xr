@@ -117,6 +117,7 @@ This overlay provides the following packages:
 - `opencomposite-vendored`
 - `oscavmgr`
 - `proton-ge-rtsp-bin`
+- `resolute`
 - `vapor`
 - `wayvr-dashboard`
 - `wivrn`

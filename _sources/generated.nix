@@ -117,6 +117,28 @@
     };
     date = "2025-08-31";
   };
+  resolute = {
+    pname = "resolute";
+    version = "ac79045d50581832323adadded9d2d1f90e19419";
+    src = fetchgit {
+      url = "https://github.com/Gawdl3y/Resolute.git";
+      rev = "ac79045d50581832323adadded9d2d1f90e19419";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=";
+    };
+    "package-lock.json" = builtins.readFile ./resolute-ac79045d50581832323adadded9d2d1f90e19419/package-lock.json;
+    "package.json" = builtins.readFile ./resolute-ac79045d50581832323adadded9d2d1f90e19419/package.json;
+    cargoLock."Cargo.lock" = {
+      lockFile = ./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock;
+      outputHashes = {
+        
+      };
+    };
+    date = "2025-03-05";
+  };
   vapor = {
     pname = "vapor";
     version = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";

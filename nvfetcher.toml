@@ -36,6 +36,12 @@ fetch.git = "https://github.com/galister/oscavmgr.git"
 git.fetchSubmodules = true
 src.git = "https://github.com/galister/oscavmgr.git"
 
+[resolute]
+cargo_locks = ["Cargo.lock"]
+extract = ["package.json", "package-lock.json"]
+fetch.git = "https://github.com/Gawdl3y/Resolute.git"
+src.git = "https://github.com/Gawdl3y/Resolute.git"
+
 [vapor]
 fetch.git = "https://github.com/micheal65536/VapoR.git"
 src.git = "https://github.com/micheal65536/VapoR.git"

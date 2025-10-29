@@ -161,6 +161,34 @@
         },
         "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
     },
+    "resolute": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2025-03-05",
+        "extract": {
+            "package-lock.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package-lock.json",
+            "package.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package.json"
+        },
+        "name": "resolute",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "ac79045d50581832323adadded9d2d1f90e19419",
+            "sha256": "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Gawdl3y/Resolute.git"
+        },
+        "version": "ac79045d50581832323adadded9d2d1f90e19419"
+    },
     "vapor": {
         "cargoLocks": null,
         "date": "2025-09-19",

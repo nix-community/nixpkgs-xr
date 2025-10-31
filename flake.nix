@@ -29,6 +29,7 @@
     { flake-utils, ... }@inputs:
     flake-utils.lib.meld inputs [
       ./development.nix
+      ./lib
       ./nixos
       ./pkgs
       ./pkgs/overlay.nix

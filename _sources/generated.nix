@@ -67,6 +67,20 @@
     };
     date = "2025-10-10";
   };
+  lovr-playspace = {
+    pname = "lovr-playspace";
+    version = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+    src = fetchgit {
+      url = "https://github.com/SpookySkeletons/lovr-playspace.git";
+      rev = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-fES0w/h5aDPgBPqnapVXg1FQfOHFdoQQQdANCwiWPaQ=";
+    };
+    date = "2025-07-21";
+  };
   monado = {
     pname = "monado";
     version = "35348e63e0ce89090990aa9710c1143cfae2dc36";
@@ -94,6 +108,50 @@
       sha256 = "sha256-nie+8g/P9aZYimuLJxrzN+frfA772VyPDf2ThyguqBM=";
     };
     date = "2025-07-21";
+  };
+  oscavmgr = {
+    pname = "oscavmgr";
+    version = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
+    src = fetchgit {
+      url = "https://github.com/galister/oscavmgr.git";
+      rev = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./oscavmgr-a0d6c46de87b2a1c72f72fbefb7025399f42e916/Cargo.lock;
+      outputHashes = {
+        "alvr_common-20.12.1" = "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=";
+        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
+        "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
+      };
+    };
+    date = "2025-08-31";
+  };
+  resolute = {
+    pname = "resolute";
+    version = "ac79045d50581832323adadded9d2d1f90e19419";
+    src = fetchgit {
+      url = "https://github.com/Gawdl3y/Resolute.git";
+      rev = "ac79045d50581832323adadded9d2d1f90e19419";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=";
+    };
+    "package-lock.json" = builtins.readFile ./resolute-ac79045d50581832323adadded9d2d1f90e19419/package-lock.json;
+    "package.json" = builtins.readFile ./resolute-ac79045d50581832323adadded9d2d1f90e19419/package.json;
+    cargoLock."Cargo.lock" = {
+      lockFile = ./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock;
+      outputHashes = {
+        
+      };
+    };
+    date = "2025-03-05";
   };
   vapor = {
     pname = "vapor";
@@ -179,6 +237,20 @@
       };
     };
     date = "2025-08-13";
+  };
+  xrbinder = {
+    pname = "xrbinder";
+    version = "251e19d3d121283b6589b84818453f8138f29e6d";
+    src = fetchgit {
+      url = "https://gitlab.com/mittorn/xrBinder.git";
+      rev = "251e19d3d121283b6589b84818453f8138f29e6d";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-c77ZVnbOGxs81Kt7pL+bP7GPwfzm0esVRTj4D8DODcA=";
+    };
+    date = "2025-04-18";
   };
   xrizer = {
     pname = "xrizer";

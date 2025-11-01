@@ -21,6 +21,11 @@ src.git = "https://github.com/yshui/index_camera_passthrough.git"
 fetch.github = "LorenDB/kaon"
 src.git = "https://github.com/LorenDB/kaon"
 
+[lovr-playspace]
+fetch.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
+git.fetchSubmodules = true
+src.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
+
 [monado]
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 src.git = "https://gitlab.freedesktop.org/monado/monado.git"
@@ -29,6 +34,18 @@ src.git = "https://gitlab.freedesktop.org/monado/monado.git"
 fetch.git = "https://gitlab.com/znixian/OpenOVR.git"
 git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
+
+[oscavmgr]
+cargo_locks = ["Cargo.lock"]
+fetch.git = "https://github.com/galister/oscavmgr.git"
+git.fetchSubmodules = true
+src.git = "https://github.com/galister/oscavmgr.git"
+
+[resolute]
+cargo_locks = ["Cargo.lock"]
+extract = ["package.json", "package-lock.json"]
+fetch.git = "https://github.com/Gawdl3y/Resolute.git"
+src.git = "https://github.com/Gawdl3y/Resolute.git"
 
 [vapor]
 fetch.git = "https://github.com/micheal65536/VapoR.git"
@@ -52,6 +69,11 @@ src.regex = "(\\w+)"
 cargo_locks = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/wlx-overlay-s.git"
 src.git = "https://github.com/galister/wlx-overlay-s.git"
+
+[xrbinder]
+fetch.git = "https://gitlab.com/mittorn/xrBinder.git"
+git.fetchSubmodules = true
+src.git = "https://gitlab.com/mittorn/xrBinder.git"
 
 [xrizer]
 cargo_locks = ["Cargo.lock"]

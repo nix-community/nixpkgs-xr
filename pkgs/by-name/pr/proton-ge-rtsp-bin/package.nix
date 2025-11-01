@@ -5,6 +5,7 @@
   fetchzip,
   lib,
   proton-ge-bin,
+  xrLib,
 }:
 (proton-ge-bin.override {
   steamDisplayName = "GE-Proton-rtsp";

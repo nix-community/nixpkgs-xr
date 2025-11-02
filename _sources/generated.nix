@@ -133,15 +133,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "e23b571d7e291c376e34c21fee85b9bd65f9c78a";
+    version = "c0dc193247122d1ffb02748373686050e0d1d2c6";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "e23b571d7e291c376e34c21fee85b9bd65f9c78a";
+      rev = "c0dc193247122d1ffb02748373686050e0d1d2c6";
       fetchSubmodules = false;
-      sha256 = "sha256-BUYGV5ZFHS4BZ8+xT8wTiSmVTOXtN69KKS/FmxJgDYM=";
+      sha256 = "sha256-xjPqI/29myvjSHGAA5Z2yJR6dZpDcJ3KIvUamrzF71M=";
     };
-    date = "2025-10-31";
+    date = "2025-11-01";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

@@ -26,6 +26,7 @@
   vulkan-loader,
   wayland,
   xinput,
+  xrLib,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
@@ -104,7 +105,7 @@ stdenv.mkDerivation (finalAttrs: {
     description = "A simple Lua framework for rapidly building VR experiences.";
     homepage = "https://lovr.org/";
     license = lib.licenses.mit;
-    maintainers = with lib.maintainers; [ ];
+    maintainers = with lib.maintainers; [ xrLib.Red_M ];
     mainProgram = "lovr";
     platforms = lib.platforms.linux;
   };

@@ -20,5 +20,9 @@
    ```
 */
 {
-
+  Red_M = {
+    name = "Red_M";
+    github = "Red-M";
+    githubId = 1468433;
+  };
 }

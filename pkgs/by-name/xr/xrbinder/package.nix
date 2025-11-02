@@ -13,6 +13,7 @@
   libX11,
 
   xrSources,
+  xrLib,
 }:
 
 stdenv.mkDerivation {
@@ -49,7 +50,7 @@ stdenv.mkDerivation {
     description = "Advanced OpenXR binding layer";
     homepage = "https://gitlab.com/mittorn/xrBinder";
     license = lib.licenses.mit;
-    maintainers = with lib.maintainers; [ ];
+    maintainers = with lib.maintainers; [ xrLib.Red_M ];
     platforms = lib.platforms.linux;
   };
 }

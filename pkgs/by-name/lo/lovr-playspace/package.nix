@@ -8,6 +8,7 @@
   makeBinaryWrapper,
   stdenvNoCC,
   xrSources,
+  xrLib,
 }:
 stdenvNoCC.mkDerivation {
   inherit (xrSources.lovr-playspace)
@@ -38,7 +39,7 @@ stdenvNoCC.mkDerivation {
     description = "Uses LOVR for projecting a playspace area while using OpenXR";
     homepage = "https://github.com/SpookySkeletons/lovr-playspace";
     license = lib.licenses.mit;
-    maintainers = with lib.maintainers; [ ];
+    maintainers = with lib.maintainers; [ xrLib.Red_M ];
     mainProgram = "lovr-playspace";
     platforms = lib.platforms.linux;
   };

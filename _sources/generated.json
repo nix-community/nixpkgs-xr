@@ -92,6 +92,26 @@
         },
         "version": "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8"
     },
+    "lovr-playspace": {
+        "cargoLocks": null,
+        "date": "2025-07-21",
+        "extract": null,
+        "name": "lovr-playspace",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "8ce7d1c6a521e370e97da4fda254c69c149c68a2",
+            "sha256": "sha256-fES0w/h5aDPgBPqnapVXg1FQfOHFdoQQQdANCwiWPaQ=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/SpookySkeletons/lovr-playspace.git"
+        },
+        "version": "8ce7d1c6a521e370e97da4fda254c69c149c68a2"
+    },
     "monado": {
         "cargoLocks": null,
         "date": "2025-10-31",
@@ -131,6 +151,63 @@
             "url": "https://gitlab.com/znixian/OpenOVR.git"
         },
         "version": "cff07db75c4823afe93ed7027b03d5f7bc86f164"
+    },
+    "oscavmgr": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./oscavmgr-a0d6c46de87b2a1c72f72fbefb7025399f42e916/Cargo.lock",
+                {
+                    "alvr_common-20.12.1": "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=",
+                    "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
+                    "settings-schema-0.2.0": "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k="
+                }
+            ]
+        },
+        "date": "2025-08-31",
+        "extract": null,
+        "name": "oscavmgr",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "a0d6c46de87b2a1c72f72fbefb7025399f42e916",
+            "sha256": "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/galister/oscavmgr.git"
+        },
+        "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
+    },
+    "resolute": {
+        "cargoLocks": {
+            "Cargo.lock": [
+                "./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2025-03-05",
+        "extract": {
+            "package-lock.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package-lock.json",
+            "package.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package.json"
+        },
+        "name": "resolute",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "ac79045d50581832323adadded9d2d1f90e19419",
+            "sha256": "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Gawdl3y/Resolute.git"
+        },
+        "version": "ac79045d50581832323adadded9d2d1f90e19419"
     },
     "vapor": {
         "cargoLocks": null,
@@ -252,6 +329,26 @@
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
         "version": "fbd518952127299dddea91122e0dcb53a0218568"
+    },
+    "xrbinder": {
+        "cargoLocks": null,
+        "date": "2025-04-18",
+        "extract": null,
+        "name": "xrbinder",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "251e19d3d121283b6589b84818453f8138f29e6d",
+            "sha256": "sha256-c77ZVnbOGxs81Kt7pL+bP7GPwfzm0esVRTj4D8DODcA=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://gitlab.com/mittorn/xrBinder.git"
+        },
+        "version": "251e19d3d121283b6589b84818453f8138f29e6d"
     },
     "xrizer": {
         "cargoLocks": {

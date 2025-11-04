@@ -179,6 +179,8 @@
       sparseCheckout = [ ];
       sha256 = "sha256-8Zy+ykPszRbYZrjShPy8zRRdzL0ppLFUcnJerOWPUtc=";
     };
+    "package-lock.json" = builtins.readFile ./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package-lock.json;
+    "package.json" = builtins.readFile ./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package.json;
     cargoLock."src-tauri/Cargo.lock" = {
       lockFile = ./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/src-tauri/Cargo.lock;
       outputHashes = {

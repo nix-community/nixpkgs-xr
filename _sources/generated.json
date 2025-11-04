@@ -241,7 +241,10 @@
             ]
         },
         "date": "2025-10-19",
-        "extract": null,
+        "extract": {
+            "package-lock.json": "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package-lock.json",
+            "package.json": "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package.json"
+        },
         "name": "wayvr-dashboard",
         "passthru": null,
         "pinned": false,

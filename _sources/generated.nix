@@ -17,23 +17,23 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "5470662f25a0fc9cdb024d2e3dce4108f5cc529a";
+    version = "9615228a515fd77abb0cab5de21528f1f33d26f6";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "5470662f25a0fc9cdb024d2e3dce4108f5cc529a";
+      rev = "9615228a515fd77abb0cab5de21528f1f33d26f6";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-H6E62C0jZCrSw13zitu1BGY0xTg9cveL8z5tb2jbBNY=";
+      sha256 = "sha256-4lE/Ap3lg9NZgnb/HH4eDcNU7IugGR4RiFmSnvyt8aE=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./envision-unwrapped-5470662f25a0fc9cdb024d2e3dce4108f5cc529a/Cargo.lock;
+      lockFile = ./envision-unwrapped-9615228a515fd77abb0cab5de21528f1f33d26f6/Cargo.lock;
       outputHashes = {
         
       };
     };
-    date = "2025-09-16";
+    date = "2025-11-03";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
@@ -191,15 +191,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "2696fa3b24e4141d02398908454a8748c9e24370";
+    version = "4e296d780a35c8df415cc5086ba100ed107a009c";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "2696fa3b24e4141d02398908454a8748c9e24370";
+      rev = "4e296d780a35c8df415cc5086ba100ed107a009c";
       fetchSubmodules = false;
-      sha256 = "sha256-9KHhuRpG+FH17iZZi17qCiAqyy/XGanzz1wNqZ9zTag=";
+      sha256 = "sha256-6AcCorEeEtF7mqwhAwXuB4P9PxhN4EdngO8tpE/k4LM=";
     };
-    date = "2025-11-02";
+    date = "2025-11-03";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

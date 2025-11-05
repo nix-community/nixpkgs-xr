@@ -263,7 +263,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-11-03",
+        "date": "2025-11-04",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -275,12 +275,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "4e296d780a35c8df415cc5086ba100ed107a009c",
-            "sha256": "sha256-6AcCorEeEtF7mqwhAwXuB4P9PxhN4EdngO8tpE/k4LM=",
+            "rev": "a971949c9b74f54c7cc3cf7a625c7779c1ca5da3",
+            "sha256": "sha256-dhJdGXB+HoBLcrjMZ5xnUdp5zDa1xqgGgIwjFvyBswo=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4e296d780a35c8df415cc5086ba100ed107a009c"
+        "version": "a971949c9b74f54c7cc3cf7a625c7779c1ca5da3"
     },
     "wivrn-monado": {
         "cargoLocks": null,
@@ -356,13 +356,13 @@
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-bb7e2e5697479d1b7786540155132becfc530cea/Cargo.lock",
+                "./xrizer-c77db6ca400a30e7f43b43a1f19a73f5452470d8/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-09-28",
+        "date": "2025-11-04",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -372,12 +372,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bb7e2e5697479d1b7786540155132becfc530cea",
-            "sha256": "sha256-uAUmitKGy9mGGSRti4LY6objKOPJ/2lh3vtRPmpClVY=",
+            "rev": "c77db6ca400a30e7f43b43a1f19a73f5452470d8",
+            "sha256": "sha256-vbaXL3YYVjX73wZX7Bri6Ubh+kx9oXbFScOw/j9kyII=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "bb7e2e5697479d1b7786540155132becfc530cea"
+        "version": "c77db6ca400a30e7f43b43a1f19a73f5452470d8"
     }
 }

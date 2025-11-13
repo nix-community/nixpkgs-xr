@@ -2,14 +2,28 @@
 #
 # SPDX-License-Identifier: MIT
 
-final: prev: {
-  xrizer = prev.xrizer.overrideAttrs (prevAttrs: {
-    inherit (final.xrSources.xrizer) pname version src;
+final: prev:
+let
+  # Use latest rustPlatform if compatible, otherwise use 1.89
+  # This ensure compatibility with stable releases
+  rustPlatform =
+    if final.lib.versionAtLeast final.rustPackages.rustc.version "1.88" then
+      final.rustPackages.rustPlatform
+    else
+      final.rustPackages_1_89.rustPlatform;
+in
+{
+  xrizer =
+    (prev.xrizer.override {
+      inherit rustPlatform;
+    }).overrideAttrs
+      (prevAttrs: {
+        inherit (final.xrSources.xrizer) pname version src;
 
-    patches = builtins.filter (
-      patch: (!builtins.elem patch.name [ "xrizer-fix-flaky-tests.patch" ])
-    ) prevAttrs.patches;
+        patches = builtins.filter (
+          patch: (!builtins.elem patch.name [ "xrizer-fix-flaky-tests.patch" ])
+        ) prevAttrs.patches;
 
-    cargoDeps = final.rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";
-  });
+        cargoDeps = rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";
+      });
 }

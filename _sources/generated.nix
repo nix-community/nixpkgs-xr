@@ -69,31 +69,31 @@
   };
   lovr-playspace = {
     pname = "lovr-playspace";
-    version = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+    version = "ddeb1aa7e881432d28f180cf145d8ce3cbb5eba2";
     src = fetchgit {
       url = "https://github.com/SpookySkeletons/lovr-playspace.git";
-      rev = "8ce7d1c6a521e370e97da4fda254c69c149c68a2";
+      rev = "ddeb1aa7e881432d28f180cf145d8ce3cbb5eba2";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-fES0w/h5aDPgBPqnapVXg1FQfOHFdoQQQdANCwiWPaQ=";
+      sha256 = "sha256-lczLdBW6hb0KNGAXb5Rak/JKo3uz1w44lf+tRsrXf5o=";
     };
-    date = "2025-07-21";
+    date = "2025-11-19";
   };
   monado = {
     pname = "monado";
-    version = "61d59ca7bb676dcb020d3da7c3cdaea6a4ee5ad6";
+    version = "822e93d6703761f680860e2b5e181fa5234b6d97";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "61d59ca7bb676dcb020d3da7c3cdaea6a4ee5ad6";
+      rev = "822e93d6703761f680860e2b5e181fa5234b6d97";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-JjlKHXd1SD9M8OpgFERZCvAhM0eMxjME96YU38DlKNw=";
+      sha256 = "sha256-pcau4dMvw7Un8rh2BT+K9475xSn67GsGOddm99nH89w=";
     };
-    date = "2025-11-18";
+    date = "2025-11-20";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -193,15 +193,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "ead740a8d5db523017f5314a22bd05588320e38f";
+    version = "6273a547768810a5c1e16770771018bba013231e";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "ead740a8d5db523017f5314a22bd05588320e38f";
+      rev = "6273a547768810a5c1e16770771018bba013231e";
       fetchSubmodules = false;
-      sha256 = "sha256-yy7rDaGHLlH2UjfNYdLpCgQiXnEtPsUTJsut4uVrXE4=";
+      sha256 = "sha256-NSsvVN8+Jw7WF3+IgHmpc1fZA8oEgWG/DMRYNy/+mgI=";
     };
-    date = "2025-11-18";
+    date = "2025-11-19";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

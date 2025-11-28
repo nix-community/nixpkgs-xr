@@ -114,7 +114,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-11-26",
+        "date": "2025-11-28",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -124,13 +124,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "962a2863aba71ad0eff90c1e655e4ec786ac5997",
-            "sha256": "sha256-SE2Nh0SbRCzgnNi495d0R/OwoHb1J4Z4BdW2G/lmwvo=",
+            "rev": "35ed3c9333ad61cbe5df33d0b64f32a856ce8915",
+            "sha256": "sha256-OPcjBB3PD9GonJ5hhbBklD/mrl2jjHIVUJnRZ60f+pA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "962a2863aba71ad0eff90c1e655e4ec786ac5997"
+        "version": "35ed3c9333ad61cbe5df33d0b64f32a856ce8915"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -356,7 +356,7 @@
     "xrizer": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./xrizer-afface12cea39555f6fed3ea6555b358ebec57cf/Cargo.lock",
+                "./xrizer-2a5301ae167f4db28ac23a1516bb1846f5ca56d2/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
@@ -372,12 +372,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "afface12cea39555f6fed3ea6555b358ebec57cf",
-            "sha256": "sha256-/dqLcVc8sEWY6zj1GMdY6J83IXRe44WAZXgZwafbBc4=",
+            "rev": "2a5301ae167f4db28ac23a1516bb1846f5ca56d2",
+            "sha256": "sha256-a3nflQ/qjVtEHKaQ7/nFf0FD69xv9ViTJzMw7JvN8EY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "afface12cea39555f6fed3ea6555b358ebec57cf"
+        "version": "2a5301ae167f4db28ac23a1516bb1846f5ca56d2"
     }
 }

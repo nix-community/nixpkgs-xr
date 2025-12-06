@@ -83,17 +83,17 @@
   };
   monado = {
     pname = "monado";
-    version = "f24ee92626a2b64320e12e3626e64cf65e5f6516";
+    version = "0660170c3fcff27035a44052ab593c5e96208341";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "f24ee92626a2b64320e12e3626e64cf65e5f6516";
+      rev = "0660170c3fcff27035a44052ab593c5e96208341";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-w6p9meYnMhJCGqWIFFhLqp9xWBbjMg24hYZhPb59x+o=";
+      sha256 = "sha256-+19VfeJOeWONaPVMJC1Q3VtqggGE4viC7piRYHAEtTc=";
     };
-    date = "2025-12-04";
+    date = "2025-12-05";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -193,15 +193,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "d1308bfbb869035cec9e9f85323a41512acb67ae";
+    version = "2c7812069e21b973311521fa42f6446ba6149c6f";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "d1308bfbb869035cec9e9f85323a41512acb67ae";
+      rev = "2c7812069e21b973311521fa42f6446ba6149c6f";
       fetchSubmodules = false;
-      sha256 = "sha256-K7iHnu7ZNDCn4HSTJ/nDJ09ge4k6EU3UxzXjOOXycRc=";
+      sha256 = "sha256-TZB1Kw+stmmxfpALJkhkHnyKoq6tKYTpL8b83WuncIc=";
     };
-    date = "2025-12-04";
+    date = "2025-12-05";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
@@ -256,22 +256,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "b8e3dbd137157f1cf73ad4105dce146400e83e9e";
+    version = "94c9772d4c7d1be372d882a8b916682e26cce9ad";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "b8e3dbd137157f1cf73ad4105dce146400e83e9e";
+      rev = "94c9772d4c7d1be372d882a8b916682e26cce9ad";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dkyUu4bsshpKcL6XDxB4xHdQD5uGiTjVIKz06BXOLUM=";
+      sha256 = "sha256-/ArIDn8vX8igyDoJTppVN4fo8jr+kyrjVK4zPVadlX8=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./xrizer-b8e3dbd137157f1cf73ad4105dce146400e83e9e/Cargo.lock;
+      lockFile = ./xrizer-94c9772d4c7d1be372d882a8b916682e26cce9ad/Cargo.lock;
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2025-12-02";
+    date = "2025-12-05";
   };
 }

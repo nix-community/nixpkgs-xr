@@ -73,7 +73,7 @@
     },
     "kaon": {
         "cargoLocks": null,
-        "date": "2025-10-10",
+        "date": "2025-12-07",
         "extract": null,
         "name": "kaon",
         "passthru": null,
@@ -85,12 +85,12 @@
             "name": null,
             "owner": "LorenDB",
             "repo": "kaon",
-            "rev": "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8",
-            "sha256": "sha256-ZJudDEnxrzEGlsVB2NBK5XXCwQvYefU6GPbVpBtoyVk=",
+            "rev": "e4f028e04a65022e5d9e31b13efb2d5606d23f5d",
+            "sha256": "sha256-jaPLug777DssehhcRhhLfmx+w/PvDBVlAIKaBSgSjC0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8"
+        "version": "e4f028e04a65022e5d9e31b13efb2d5606d23f5d"
     },
     "lovr-playspace": {
         "cargoLocks": null,
@@ -114,7 +114,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-12-07",
+        "date": "2025-12-08",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -124,13 +124,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bd150b764ff7f5d4df9624661fdd77a62f3eb506",
-            "sha256": "sha256-E0E1KVoaFW/YDqVlP6RDmgd16lfGDTX7Xv05CqP74Fg=",
+            "rev": "908ed93101879dca3206558452feadc66957a743",
+            "sha256": "sha256-ZSzXqp2vkHvHe25c3K7NliEGzqAW/KijanZbuH7wNAA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "bd150b764ff7f5d4df9624661fdd77a62f3eb506"
+        "version": "908ed93101879dca3206558452feadc66957a743"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -211,7 +211,7 @@
     },
     "vapor": {
         "cargoLocks": null,
-        "date": "2025-09-19",
+        "date": "2025-12-08",
         "extract": null,
         "name": "vapor",
         "passthru": null,
@@ -221,13 +221,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "775531f8c6323a3450b05ba2e4e1ef7802d9bafc",
-            "sha256": "sha256-JysqSSr2LW7dTzEWX5ntJovJydhA6OjRhzleftj0SKE=",
+            "rev": "5e218a9416b65f5c54c61a81ab7b465426a094fb",
+            "sha256": "sha256-67NU0zuKKfD3krDlivZQI7Llkccwg5zNrM+DhfiBIKU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/micheal65536/VapoR.git"
         },
-        "version": "775531f8c6323a3450b05ba2e4e1ef7802d9bafc"
+        "version": "5e218a9416b65f5c54c61a81ab7b465426a094fb"
     },
     "wayvr-dashboard": {
         "cargoLocks": {
@@ -263,7 +263,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-12-07",
+        "date": "2025-12-08",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -275,12 +275,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "e394cb0dcb811c57822dbe40a9827ce9c609180d",
-            "sha256": "sha256-QgFEJGW/kx8UZjCC8xxwqhqIaVD7mnW/vKt0FlblDf0=",
+            "rev": "281dd6000ed843605c24ec3abe766e72e2e31042",
+            "sha256": "sha256-iy1XRSYuFZfw/zlCFLgpjWo9c0eO0Hcc8D9rj9aZINI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e394cb0dcb811c57822dbe40a9827ce9c609180d"
+        "version": "281dd6000ed843605c24ec3abe766e72e2e31042"
     },
     "wivrn-monado": {
         "cargoLocks": null,

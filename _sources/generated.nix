@@ -57,15 +57,15 @@
   };
   kaon = {
     pname = "kaon";
-    version = "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8";
+    version = "e4f028e04a65022e5d9e31b13efb2d5606d23f5d";
     src = fetchFromGitHub {
       owner = "LorenDB";
       repo = "kaon";
-      rev = "3da98ac8a981fcf254a4c0bc713222b9cbfb25b8";
+      rev = "e4f028e04a65022e5d9e31b13efb2d5606d23f5d";
       fetchSubmodules = false;
-      sha256 = "sha256-ZJudDEnxrzEGlsVB2NBK5XXCwQvYefU6GPbVpBtoyVk=";
+      sha256 = "sha256-jaPLug777DssehhcRhhLfmx+w/PvDBVlAIKaBSgSjC0=";
     };
-    date = "2025-10-10";
+    date = "2025-12-07";
   };
   lovr-playspace = {
     pname = "lovr-playspace";
@@ -83,17 +83,17 @@
   };
   monado = {
     pname = "monado";
-    version = "bd150b764ff7f5d4df9624661fdd77a62f3eb506";
+    version = "908ed93101879dca3206558452feadc66957a743";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "bd150b764ff7f5d4df9624661fdd77a62f3eb506";
+      rev = "908ed93101879dca3206558452feadc66957a743";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-E0E1KVoaFW/YDqVlP6RDmgd16lfGDTX7Xv05CqP74Fg=";
+      sha256 = "sha256-ZSzXqp2vkHvHe25c3K7NliEGzqAW/KijanZbuH7wNAA=";
     };
-    date = "2025-12-07";
+    date = "2025-12-08";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -155,17 +155,17 @@
   };
   vapor = {
     pname = "vapor";
-    version = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";
+    version = "5e218a9416b65f5c54c61a81ab7b465426a094fb";
     src = fetchgit {
       url = "https://github.com/micheal65536/VapoR.git";
-      rev = "775531f8c6323a3450b05ba2e4e1ef7802d9bafc";
+      rev = "5e218a9416b65f5c54c61a81ab7b465426a094fb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-JysqSSr2LW7dTzEWX5ntJovJydhA6OjRhzleftj0SKE=";
+      sha256 = "sha256-67NU0zuKKfD3krDlivZQI7Llkccwg5zNrM+DhfiBIKU=";
     };
-    date = "2025-09-19";
+    date = "2025-12-08";
   };
   wayvr-dashboard = {
     pname = "wayvr-dashboard";
@@ -193,15 +193,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "e394cb0dcb811c57822dbe40a9827ce9c609180d";
+    version = "281dd6000ed843605c24ec3abe766e72e2e31042";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "e394cb0dcb811c57822dbe40a9827ce9c609180d";
+      rev = "281dd6000ed843605c24ec3abe766e72e2e31042";
       fetchSubmodules = false;
-      sha256 = "sha256-QgFEJGW/kx8UZjCC8xxwqhqIaVD7mnW/vKt0FlblDf0=";
+      sha256 = "sha256-iy1XRSYuFZfw/zlCFLgpjWo9c0eO0Hcc8D9rj9aZINI=";
     };
-    date = "2025-12-07";
+    date = "2025-12-08";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

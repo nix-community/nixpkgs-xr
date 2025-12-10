@@ -22,11 +22,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-6f3bee3b4a1c9ec65fcba586fc7fc1a804d567ba/Cargo.lock",
+                "./envision-unwrapped-0d370ff597101ec92bed781589127063cbed498f/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-12-04",
+        "date": "2025-12-09",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -36,13 +36,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "6f3bee3b4a1c9ec65fcba586fc7fc1a804d567ba",
-            "sha256": "sha256-TV5BPswVKov0OP7fVIo3kB+nQz1ggsnf7+4FtSpRJjc=",
+            "rev": "0d370ff597101ec92bed781589127063cbed498f",
+            "sha256": "sha256-NkbYIMSReFEF1Iib531ZKmmbYDJDQcadIBFXpMDl2Gw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "6f3bee3b4a1c9ec65fcba586fc7fc1a804d567ba"
+        "version": "0d370ff597101ec92bed781589127063cbed498f"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -114,7 +114,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-12-08",
+        "date": "2025-12-09",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -124,13 +124,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "908ed93101879dca3206558452feadc66957a743",
-            "sha256": "sha256-ZSzXqp2vkHvHe25c3K7NliEGzqAW/KijanZbuH7wNAA=",
+            "rev": "bbe8c07d44d8abec6f9b56191e1f2690c42acea0",
+            "sha256": "sha256-wR+rPxgyhdM59S3N4ZxRlX44Th0WoJYmxb69Ib7WPpw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "908ed93101879dca3206558452feadc66957a743"
+        "version": "bbe8c07d44d8abec6f9b56191e1f2690c42acea0"
     },
     "opencomposite": {
         "cargoLocks": null,
@@ -263,7 +263,7 @@
     },
     "wivrn": {
         "cargoLocks": null,
-        "date": "2025-12-08",
+        "date": "2025-12-09",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -275,12 +275,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "281dd6000ed843605c24ec3abe766e72e2e31042",
-            "sha256": "sha256-iy1XRSYuFZfw/zlCFLgpjWo9c0eO0Hcc8D9rj9aZINI=",
+            "rev": "bf811ac65d4e2a5bcc828aa8f4cb298af5f8ac9b",
+            "sha256": "sha256-tDgSysEt4vTL2/DcSQYBO7Nw4gROF5vdCNKAnYT4L5E=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "281dd6000ed843605c24ec3abe766e72e2e31042"
+        "version": "bf811ac65d4e2a5bcc828aa8f4cb298af5f8ac9b"
     },
     "wivrn-monado": {
         "cargoLocks": null,

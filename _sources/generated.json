@@ -22,11 +22,11 @@
     "envision-unwrapped": {
         "cargoLocks": {
             "Cargo.lock": [
-                "./envision-unwrapped-0d370ff597101ec92bed781589127063cbed498f/Cargo.lock",
+                "./envision-unwrapped-b50c32d7c3e74af4faeb92fb0e8f49108d85ff90/Cargo.lock",
                 {}
             ]
         },
-        "date": "2025-12-09",
+        "date": "2025-12-10",
         "extract": null,
         "name": "envision-unwrapped",
         "passthru": null,
@@ -36,13 +36,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0d370ff597101ec92bed781589127063cbed498f",
-            "sha256": "sha256-NkbYIMSReFEF1Iib531ZKmmbYDJDQcadIBFXpMDl2Gw=",
+            "rev": "b50c32d7c3e74af4faeb92fb0e8f49108d85ff90",
+            "sha256": "sha256-HSoeotdn+h+gVhghEEFdcElYu6uyWk5mFCfsMCynbK8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "0d370ff597101ec92bed781589127063cbed498f"
+        "version": "b50c32d7c3e74af4faeb92fb0e8f49108d85ff90"
     },
     "index_camera_passthrough": {
         "cargoLocks": {
@@ -114,7 +114,7 @@
     },
     "monado": {
         "cargoLocks": null,
-        "date": "2025-12-09",
+        "date": "2025-12-10",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -124,13 +124,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "bbe8c07d44d8abec6f9b56191e1f2690c42acea0",
-            "sha256": "sha256-wR+rPxgyhdM59S3N4ZxRlX44Th0WoJYmxb69Ib7WPpw=",
+            "rev": "651a749c1adac196cf3e06b718c200dd9f19056a",
+            "sha256": "sha256-U1xMHuNyYE4jEHVYOaHAwXMM2j1rIKTPhNd4QCJeLW8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "bbe8c07d44d8abec6f9b56191e1f2690c42acea0"
+        "version": "651a749c1adac196cf3e06b718c200dd9f19056a"
     },
     "opencomposite": {
         "cargoLocks": null,

@@ -193,15 +193,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "2057aff19541f4d9117bdbfd49eac74c2da662c8";
+    version = "8e7192c767cc921ea84245f866e7241b62ca9f09";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "2057aff19541f4d9117bdbfd49eac74c2da662c8";
+      rev = "8e7192c767cc921ea84245f866e7241b62ca9f09";
       fetchSubmodules = false;
-      sha256 = "sha256-TvgHhXoVG20Rk3xDZb7gEIeAjs5kLcCAmlwjgSuA/UA=";
+      sha256 = "sha256-TmCutzXbhTFsIYIGtDYtCni4Hzb/ZeOogQ5uxkDKRqo=";
     };
-    date = "2025-12-11";
+    date = "2025-12-14";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
@@ -218,27 +218,26 @@
   };
   wlx-overlay-s = {
     pname = "wlx-overlay-s";
-    version = "b6998d55c157721d5d89e4291da33e02196884da";
+    version = "3ad5c8cbfd3771306bdcde1fa5973920d8cf81ce";
     src = fetchgit {
       url = "https://github.com/galister/wlx-overlay-s.git";
-      rev = "b6998d55c157721d5d89e4291da33e02196884da";
+      rev = "3ad5c8cbfd3771306bdcde1fa5973920d8cf81ce";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-CVI4YpFOe/GLxCab644QvAOrWZcVjlCsCgzRT381BY0=";
+      sha256 = "sha256-qXo2FETY0UsIqWqBVqCF9AKLFqOKd8uxnW390cDk36w=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./wlx-overlay-s-b6998d55c157721d5d89e4291da33e02196884da/Cargo.lock;
+      lockFile = ./wlx-overlay-s-3ad5c8cbfd3771306bdcde1fa5973920d8cf81ce/Cargo.lock;
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=";
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
-        "wlx-capture-0.5.4" = "sha256-M8yOxmD8rseiYR6FJnoToHeKLkdgJNqnE6STppDi+cI=";
         "libspa-0.8.0" = "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=";
         "wayvr_ipc-0.1.0" = "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc=";
       };
     };
-    date = "2025-11-30";
+    date = "2025-12-14";
   };
   xrbinder = {
     pname = "xrbinder";

@@ -42,8 +42,8 @@ rustPlatform.buildRustPackage (finalAttrs: {
     pname = "Resolute-ui";
 
     npmDeps = importNpmLock {
-      package = builtins.fromJSON (builtins.readFile xrSources.resolute.extract."package.json");
-      packageLock = builtins.fromJSON (builtins.readFile xrSources.resolute.extract."package-lock.json");
+      package = lib.importJSON xrSources.resolute.extract."package.json";
+      packageLock = lib.importJSON xrSources.resolute.extract."package-lock.json";
     };
 
     npmConfigHook = importNpmLock.npmConfigHook;

@@ -46,8 +46,8 @@ rustPlatform.buildRustPackage {
   cargoLock = xrSources.wayvr-dashboard.cargoLock."${cargoRoot}/Cargo.lock";
 
   npmDeps = importNpmLock {
-    package = builtins.fromJSON xrSources.wayvr-dashboard."package.json";
-    packageLock = builtins.fromJSON xrSources.wayvr-dashboard."package-lock.json";
+    package = lib.importJSON xrSources.wayvr-dashboard.extract."package.json";
+    packageLock = lib.importJSON xrSources.wayvr-dashboard.extract."package-lock.json";
   };
 
   nativeBuildInputs = [

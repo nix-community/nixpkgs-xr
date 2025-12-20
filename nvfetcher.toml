@@ -8,12 +8,13 @@ fetch.git = "https://github.com/Beyley/eepyxr.git"
 src.git = "https://github.com/Beyley/eepyxr.git"
 
 [envision-unwrapped]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
+extract = ["Cargo.lock"]
 fetch.git = "https://gitlab.com/gabmus/envision.git"
 src.git = "https://gitlab.com/gabmus/envision.git"
 
 [index_camera_passthrough]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
 fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
 src.git = "https://github.com/yshui/index_camera_passthrough.git"
 
@@ -36,13 +37,13 @@ git.fetchSubmodules = true
 src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
 [oscavmgr]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/oscavmgr.git"
 git.fetchSubmodules = true
 src.git = "https://github.com/galister/oscavmgr.git"
 
 [resolute]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
 extract = ["package.json", "package-lock.json"]
 fetch.git = "https://github.com/Gawdl3y/Resolute.git"
 src.git = "https://github.com/Gawdl3y/Resolute.git"
@@ -52,7 +53,7 @@ fetch.git = "https://github.com/micheal65536/VapoR.git"
 src.git = "https://github.com/micheal65536/VapoR.git"
 
 [wayvr-dashboard]
-cargo_locks = ["src-tauri/Cargo.lock"]
+cargo_lock = ["src-tauri/Cargo.lock"]
 extract = ["package.json", "package-lock.json"]
 fetch.git = "https://github.com/olekolek1000/wayvr-dashboard"
 src.git = "https://github.com/olekolek1000/wayvr-dashboard"
@@ -67,7 +68,7 @@ src.webpage = "https://github.com/WiVRn/WiVRn/raw/refs/heads/master/monado-rev"
 src.regex = "(\\w+)"
 
 [wlx-overlay-s]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
 fetch.git = "https://github.com/galister/wlx-overlay-s.git"
 src.git = "https://github.com/galister/wlx-overlay-s.git"
 
@@ -77,6 +78,6 @@ git.fetchSubmodules = true
 src.git = "https://gitlab.com/mittorn/xrBinder.git"
 
 [xrizer]
-cargo_locks = ["Cargo.lock"]
+cargo_lock = ["Cargo.lock"]
 fetch.git = "https://github.com/Supreeeme/xrizer.git"
 src.git = "https://github.com/Supreeeme/xrizer.git"

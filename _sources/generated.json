@@ -1,6 +1,6 @@
 {
     "eepyxr": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-03-09",
         "extract": null,
         "name": "eepyxr",
@@ -20,14 +20,16 @@
         "version": "b826495d60b297d4a7a38c3c10203c919209fc3d"
     },
     "envision-unwrapped": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./envision-unwrapped-b50c32d7c3e74af4faeb92fb0e8f49108d85ff90/Cargo.lock",
+                "sha256-HSoeotdn+h+gVhghEEFdcElYu6uyWk5mFCfsMCynbK8=/Cargo.lock",
                 {}
             ]
         },
         "date": "2025-12-10",
-        "extract": null,
+        "extract": {
+            "Cargo.lock": "sha256-HSoeotdn+h+gVhghEEFdcElYu6uyWk5mFCfsMCynbK8=/Cargo.lock"
+        },
         "name": "envision-unwrapped",
         "passthru": null,
         "pinned": false,
@@ -45,9 +47,9 @@
         "version": "b50c32d7c3e74af4faeb92fb0e8f49108d85ff90"
     },
     "index_camera_passthrough": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./index_camera_passthrough-0d3ec30c5cd74e4a3df93d704ecf4a25136afd73/Cargo.lock",
+                "sha256-jldpVWnpWEA3bi3lzmG94uCaoZuL+xhaEAtFiZrSGc4=/Cargo.lock",
                 {
                     "vulkano-0.34.0": "sha256-co2+rDJ1jOee36x9FcLX2Pze9ZItBYHq9/pEq0NhcpY="
                 }
@@ -72,7 +74,7 @@
         "version": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73"
     },
     "kaon": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-12-07",
         "extract": null,
         "name": "kaon",
@@ -93,7 +95,7 @@
         "version": "e4f028e04a65022e5d9e31b13efb2d5606d23f5d"
     },
     "lovr-playspace": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-11-19",
         "extract": null,
         "name": "lovr-playspace",
@@ -113,7 +115,7 @@
         "version": "ddeb1aa7e881432d28f180cf145d8ce3cbb5eba2"
     },
     "monado": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-12-10",
         "extract": null,
         "name": "monado",
@@ -133,7 +135,7 @@
         "version": "4e5de8d627f1a1f90e225b35c1ac0d94b4118b27"
     },
     "opencomposite": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-21",
         "extract": null,
         "name": "opencomposite",
@@ -153,9 +155,9 @@
         "version": "cff07db75c4823afe93ed7027b03d5f7bc86f164"
     },
     "oscavmgr": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./oscavmgr-a0d6c46de87b2a1c72f72fbefb7025399f42e916/Cargo.lock",
+                "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=/Cargo.lock",
                 {
                     "alvr_common-20.12.1": "sha256-T7KyGZwnJ9t4Bh8KFy190IV3igWCG+yn+OW9a6mgmYI=",
                     "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
@@ -182,16 +184,16 @@
         "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
     },
     "resolute": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./resolute-ac79045d50581832323adadded9d2d1f90e19419/Cargo.lock",
+                "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=/Cargo.lock",
                 {}
             ]
         },
         "date": "2025-03-05",
         "extract": {
-            "package-lock.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package-lock.json",
-            "package.json": "./resolute-ac79045d50581832323adadded9d2d1f90e19419/package.json"
+            "package-lock.json": "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=/package-lock.json",
+            "package.json": "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=/package.json"
         },
         "name": "resolute",
         "passthru": null,
@@ -210,7 +212,7 @@
         "version": "ac79045d50581832323adadded9d2d1f90e19419"
     },
     "vapor": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-12-08",
         "extract": null,
         "name": "vapor",
@@ -230,9 +232,9 @@
         "version": "5e218a9416b65f5c54c61a81ab7b465426a094fb"
     },
     "wayvr-dashboard": {
-        "cargoLocks": {
+        "cargoLock": {
             "src-tauri/Cargo.lock": [
-                "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/src-tauri/Cargo.lock",
+                "sha256-8Zy+ykPszRbYZrjShPy8zRRdzL0ppLFUcnJerOWPUtc=/src-tauri/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.0": "sha256-LT+WHhan/USzW0EOiuIBPG5j1r9qL4n7Z7ESDxO1xQQ=",
                     "libmonado-1.3.1": "sha256-HYYfpYhyo5VmbUdwMTJuAR+2dnMITIGZIPGX9Qsnc/g=",
@@ -242,8 +244,8 @@
         },
         "date": "2025-10-19",
         "extract": {
-            "package-lock.json": "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package-lock.json",
-            "package.json": "./wayvr-dashboard-952d92bfedf99f4bc16155394cf9e3fe2f08a8bf/package.json"
+            "package-lock.json": "sha256-8Zy+ykPszRbYZrjShPy8zRRdzL0ppLFUcnJerOWPUtc=/package-lock.json",
+            "package.json": "sha256-8Zy+ykPszRbYZrjShPy8zRRdzL0ppLFUcnJerOWPUtc=/package.json"
         },
         "name": "wayvr-dashboard",
         "passthru": null,
@@ -262,8 +264,8 @@
         "version": "952d92bfedf99f4bc16155394cf9e3fe2f08a8bf"
     },
     "wivrn": {
-        "cargoLocks": null,
-        "date": "2025-12-16",
+        "cargoLock": null,
+        "date": "2025-12-19",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -275,15 +277,15 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "366792cf46b8ea0bf2eea5682b3765d0dc982380",
-            "sha256": "sha256-B5dHyMkY0tcp5L6mffZMmxgyzP46cl6Ek73xjqCLK5E=",
+            "rev": "52eef0e02e218ca60039f3b129599c2477ad82ef",
+            "sha256": "sha256-VLfkVp/FI6AN8u86e1BEs7ySqtLgFCAr8F0VMHimNuM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "366792cf46b8ea0bf2eea5682b3765d0dc982380"
+        "version": "52eef0e02e218ca60039f3b129599c2477ad82ef"
     },
     "wivrn-monado": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "wivrn-monado",
@@ -303,18 +305,18 @@
         "version": "20e0dacbdd2de863923790326beec76e848b056a"
     },
     "wlx-overlay-s": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./wlx-overlay-s-a8c083089c48e624172fe8255c6dba0637e18bbe/Cargo.lock",
+                "sha256-iZiRLKV7ERKp9FLGI+WgPZESC762b6+l+W2yB+cIC+s=/Cargo.lock",
                 {
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=",
-                    "ovr_overlay-0.0.0": "sha256-NHzESKsghqI98pkQxEmcNkQ9lTfBsqR9/25msbryi6E=",
+                    "ovr_overlay-0.0.0": "sha256-ayqRtfSW0Ql5Bqx2uAlugd/rkEBDx8pvwVDvFSsVLyQ=",
                     "wayvr_ipc-0.1.0": "sha256-ieQaY08Ogl/F3t/p825LBp1lAO3SWH1F8206IPXEgTc="
                 }
             ]
         },
-        "date": "2025-12-17",
+        "date": "2025-12-20",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -324,16 +326,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a8c083089c48e624172fe8255c6dba0637e18bbe",
-            "sha256": "sha256-/BBczA6rc+drsAlzUHKW3joEqe8G1ocOg1tz6LVKrF8=",
+            "rev": "c4ae217f688411ca82f40338500ae4b78ebb3f78",
+            "sha256": "sha256-iZiRLKV7ERKp9FLGI+WgPZESC762b6+l+W2yB+cIC+s=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "a8c083089c48e624172fe8255c6dba0637e18bbe"
+        "version": "c4ae217f688411ca82f40338500ae4b78ebb3f78"
     },
     "xrbinder": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-04-18",
         "extract": null,
         "name": "xrbinder",
@@ -353,9 +355,9 @@
         "version": "251e19d3d121283b6589b84818453f8138f29e6d"
     },
     "xrizer": {
-        "cargoLocks": {
+        "cargoLock": {
             "Cargo.lock": [
-                "./xrizer-b88f432e26a0400b170fb075e15a49bb364688e8/Cargo.lock",
+                "sha256-L3beL0T0RJfVnPkP2ynWV1BgWlZEc+DhMIhX5Myjr+w=/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }

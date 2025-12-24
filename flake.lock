@@ -50,11 +50,38 @@
         "type": "github"
       }
     },
+    "nvfetcher": {
+      "inputs": {
+        "flake-compat": [
+          "flake-compat"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1765698311,
+        "narHash": "sha256-78sPqekEDJiol2YD3Hx2zHu5E4AtrbNrUKi0032HMHo=",
+        "owner": "berberman",
+        "repo": "nvfetcher",
+        "rev": "dbae9626c46b93d9fd6b85c8b292939ae569c4fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "berberman",
+        "repo": "nvfetcher",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
+        "nvfetcher": "nvfetcher",
         "systems": "systems",
         "treefmt-nix": "treefmt-nix"
       }

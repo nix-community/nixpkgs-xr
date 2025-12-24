@@ -6,6 +6,7 @@
   nixpkgs,
   self,
   treefmt-nix,
+  nvfetcher,
   ...
 }:
 flake-utils.lib.eachDefaultSystem (
@@ -22,8 +23,8 @@ flake-utils.lib.eachDefaultSystem (
     devShells.default = pkgs.mkShellNoCC {
       packages = [
         pkgs.git
-        pkgs.nvfetcher
         pkgs.reuse
+        nvfetcher.packages.${pkgs.stdenv.hostPlatform.system}.default
       ];
     };
 

@@ -24,7 +24,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nvfetcher = {
-      url = "github:berberman/nvfetcher";
+      url = "github:Red-M/nvfetcher/a84b3ce67f1d7acd85b3aa2b9967ab91ed6e7a71";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-compat.follows = "flake-compat";

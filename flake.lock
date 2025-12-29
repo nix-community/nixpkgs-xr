@@ -63,16 +63,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1765698311,
-        "narHash": "sha256-78sPqekEDJiol2YD3Hx2zHu5E4AtrbNrUKi0032HMHo=",
-        "owner": "berberman",
+        "lastModified": 1766178214,
+        "narHash": "sha256-tKDXreDwrRkdjvfot5fr1++ed6oOq3+/hW/Dj8WfTgs=",
+        "owner": "Red-M",
         "repo": "nvfetcher",
-        "rev": "dbae9626c46b93d9fd6b85c8b292939ae569c4fc",
+        "rev": "a84b3ce67f1d7acd85b3aa2b9967ab91ed6e7a71",
         "type": "github"
       },
       "original": {
-        "owner": "berberman",
+        "owner": "Red-M",
         "repo": "nvfetcher",
+        "rev": "a84b3ce67f1d7acd85b3aa2b9967ab91ed6e7a71",
         "type": "github"
       }
     },

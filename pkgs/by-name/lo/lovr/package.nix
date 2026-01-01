@@ -89,6 +89,12 @@ stdenv.mkDerivation (finalAttrs: {
     (lib.cmakeBool "LOVR_BUILD_BUNDLE" true)
   ];
 
+  # This is due to the upgrade of GCC to GCC 15, glslang needs to be upgraded in nixpkgs
+  # https://github.com/NixOS/nixpkgs/pull/469269
+  preBuild = ''
+    sed -e '1i #include <cstdint>' -i /build/lovr/deps/glslang/SPIRV/SpvBuilder.h
+  '';
+
   installPhase = ''
     runHook preInstall
 

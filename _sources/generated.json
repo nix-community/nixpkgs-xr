@@ -116,7 +116,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2025-12-30",
+        "date": "2026-01-03",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -126,13 +126,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "072cdeb7d67cff0ce51789fd38c76e74499ad67e",
-            "sha256": "sha256-eZroKOTXrTzSSQYGCkNC3hYV493Yks1pO6773Ka623Y=",
+            "rev": "b58d31acfcf6582d66b22a48f5d26dd0df02df54",
+            "sha256": "sha256-aJVSoPjKlzxz9JiBjYPzk+NJ7uLThR/ZwXY25RTKVNg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "072cdeb7d67cff0ce51789fd38c76e74499ad67e"
+        "version": "b58d31acfcf6582d66b22a48f5d26dd0df02df54"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -265,7 +265,7 @@
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2025-12-31",
+        "date": "2026-01-01",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -277,12 +277,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "f383eb8e8d24592d0e3b2261bc95e9efbdaccdae",
-            "sha256": "sha256-5GP6/Wrtd2spU24cOWqGmereGd2jVG46a6WBvrHyWQY=",
+            "rev": "1e488a8a9c4be6fefae1fc63d9f23f65ebf53a06",
+            "sha256": "sha256-acsxbb3XKzpCkZUtkL3jfpk7qoBc7LU+VtQ7bA6JMCc=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f383eb8e8d24592d0e3b2261bc95e9efbdaccdae"
+        "version": "1e488a8a9c4be6fefae1fc63d9f23f65ebf53a06"
     },
     "wivrn-monado": {
         "cargoLock": null,
@@ -307,7 +307,7 @@
     "wlx-overlay-s": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-O_soyj+Xa6a+bC+WrKulk6rVu1ANDNjva8132UOSoUc=/Cargo.lock",
+                "sha256-WH3gUJToSt+4jGbjCD9q33yolrOPQQB21mFretNlGGM=/Cargo.lock",
                 {
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=",
@@ -315,7 +315,7 @@
                 }
             ]
         },
-        "date": "2025-12-28",
+        "date": "2026-01-01",
         "extract": null,
         "name": "wlx-overlay-s",
         "passthru": null,
@@ -325,13 +325,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "951abc70b02ad59a5034b2827449bc2a833ccba7",
-            "sha256": "sha256-O/soyj+Xa6a+bC+WrKulk6rVu1ANDNjva8132UOSoUc=",
+            "rev": "36f64c5027bf5c6652b0c82387fa0e3d2c2e2eef",
+            "sha256": "sha256-WH3gUJToSt+4jGbjCD9q33yolrOPQQB21mFretNlGGM=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/galister/wlx-overlay-s.git"
         },
-        "version": "951abc70b02ad59a5034b2827449bc2a833ccba7"
+        "version": "36f64c5027bf5c6652b0c82387fa0e3d2c2e2eef"
     },
     "xrbinder": {
         "cargoLock": null,

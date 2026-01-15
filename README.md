@@ -121,9 +121,8 @@ This overlay provides the following packages:
 - `proton-ge-rtsp-bin`
 - `resolute`
 - `vapor`
-- `wayvr-dashboard`
+- `wayvr`
 - `wivrn`
-- `wlx-overlay-s`
 - `xrbinder`
 - `xrizer`
 

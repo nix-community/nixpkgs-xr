@@ -52,11 +52,10 @@ src.git = "https://github.com/Gawdl3y/Resolute.git"
 fetch.git = "https://github.com/micheal65536/VapoR.git"
 src.git = "https://github.com/micheal65536/VapoR.git"
 
-[wayvr-dashboard]
-cargo_lock = ["src-tauri/Cargo.lock"]
-extract = ["package.json", "package-lock.json"]
-fetch.git = "https://github.com/olekolek1000/wayvr-dashboard"
-src.git = "https://github.com/olekolek1000/wayvr-dashboard"
+[wayvr]
+cargo_lock = ["Cargo.lock"]
+fetch.git = "https://github.com/wlx-team/wayvr.git"
+src.git = "https://github.com/wlx-team/wayvr.git"
 
 [wivrn]
 fetch.github = "WiVRn/WiVRn"
@@ -66,11 +65,6 @@ src.git = "https://github.com/WiVRn/WiVRn"
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 src.webpage = "https://github.com/WiVRn/WiVRn/raw/refs/heads/master/monado-rev"
 src.regex = "(\\w+)"
-
-[wlx-overlay-s]
-cargo_lock = ["Cargo.lock"]
-fetch.git = "https://github.com/galister/wlx-overlay-s.git"
-src.git = "https://github.com/galister/wlx-overlay-s.git"
 
 [xrbinder]
 fetch.git = "https://gitlab.com/mittorn/xrBinder.git"

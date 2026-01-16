@@ -75,7 +75,7 @@
     },
     "kaon": {
         "cargoLock": null,
-        "date": "2026-01-08",
+        "date": "2026-01-10",
         "extract": null,
         "name": "kaon",
         "passthru": null,
@@ -87,12 +87,12 @@
             "name": null,
             "owner": "LorenDB",
             "repo": "kaon",
-            "rev": "e1b2e939d5781ec7f179bdd81f69a442ccdad7fa",
-            "sha256": "sha256-qxbpwLIjEKWWAmQ/vo1A1E7wqaLWxv9IhJZliaWqLnY=",
+            "rev": "ca304206de0484b3867ee9e2a154d9ca2dccf49d",
+            "sha256": "sha256-1QSsccmkxDMCc8RoQDwZU72wBkQADrpEUGH7/HgRj7U=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e1b2e939d5781ec7f179bdd81f69a442ccdad7fa"
+        "version": "ca304206de0484b3867ee9e2a154d9ca2dccf49d"
     },
     "lovr-playspace": {
         "cargoLock": null,
@@ -116,7 +116,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-01-08",
+        "date": "2026-01-15",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -126,13 +126,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a40b4d2adedfa3d5bb7dc9e27f263fe9864c1e4b",
-            "sha256": "sha256-Q4Q+xJW4tVZlLEssMDFWLDKNMTKGdjtbuxYfh2PDOeU=",
+            "rev": "edecfb2472c6c5fe99739e733b42e53562ea5cb4",
+            "sha256": "sha256-PUzoBDh8sRtIRtgVlaRxjQZmptlKpKWdUe0I4om/DyU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "a40b4d2adedfa3d5bb7dc9e27f263fe9864c1e4b"
+        "version": "edecfb2472c6c5fe99739e733b42e53562ea5cb4"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -264,7 +264,7 @@
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-01-07",
+        "date": "2026-01-15",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -276,12 +276,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "f58f9c7e0b21501244a1674e3e462afc4cf8874a",
-            "sha256": "sha256-LAHRSZ30N6S5j5140mNOmPpxI2L8tP8FdRJbBSWlIRo=",
+            "rev": "3702cc05b8b7b436b84665471e07ebf7280e0f82",
+            "sha256": "sha256-ES4jprpe0EnhonccI1+Z9JrlFpLMK8ivKUu+VNN8kmM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f58f9c7e0b21501244a1674e3e462afc4cf8874a"
+        "version": "3702cc05b8b7b436b84665471e07ebf7280e0f82"
     },
     "wivrn-monado": {
         "cargoLock": null,
@@ -295,13 +295,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "86a0ea4d3e396d4d03274252c400ddb62d1049b0",
-            "sha256": "sha256-nlfrx6NRYV9eMs+Rb9JBh+mwucL6v+bB3jBrPsSxh+Q=",
+            "rev": "93d5848d2f5f835fe29291dc7e0f094f3e02de78",
+            "sha256": "sha256-zU8TLRzd4pb9KzVT/xana6rArcSu31wlCD54p7PJ9UY=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "86a0ea4d3e396d4d03274252c400ddb62d1049b0"
+        "version": "93d5848d2f5f835fe29291dc7e0f094f3e02de78"
     },
     "xrbinder": {
         "cargoLock": null,
@@ -326,13 +326,13 @@
     "xrizer": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-IRhLWlGHywp0kZe5aGmMHAF1zZwva3sGg68eG1E2K9A=/Cargo.lock",
+                "sha256-Ffg_7zAiA6whni00PtiySBL663yEBiWQ288kiYReSoc=/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2025-12-22",
+        "date": "2026-01-10",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -342,12 +342,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "01ab72809f2bd5c6494fa77fb08e4229c886da7a",
-            "sha256": "sha256-IRhLWlGHywp0kZe5aGmMHAF1zZwva3sGg68eG1E2K9A=",
+            "rev": "872c8be2b1084f709595af307a110bd5fb9c1eaf",
+            "sha256": "sha256-Ffg/7zAiA6whni00PtiySBL663yEBiWQ288kiYReSoc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "01ab72809f2bd5c6494fa77fb08e4229c886da7a"
+        "version": "872c8be2b1084f709595af307a110bd5fb9c1eaf"
     }
 }

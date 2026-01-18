@@ -116,7 +116,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-01-16",
+        "date": "2026-01-17",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -126,13 +126,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "be0b641809dfb9cc134a19dea9e0b5863b62f9fe",
-            "sha256": "sha256-6qfC6xRXxsZ819vsq2lts4yRKAmAl8L7fzDdrDrwReY=",
+            "rev": "fa2f9f5729b384078548b114dccc90296b998534",
+            "sha256": "sha256-YtdDrMI0S2Mrta7M4fh+7AJJZ5Xw6T5vuIMTlwTCD8Y=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "be0b641809dfb9cc134a19dea9e0b5863b62f9fe"
+        "version": "fa2f9f5729b384078548b114dccc90296b998534"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -326,13 +326,13 @@
     "xrizer": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-Ffg_7zAiA6whni00PtiySBL663yEBiWQ288kiYReSoc=/Cargo.lock",
+                "sha256-MtSWiOykhu8SuB0EaARFwFsSkTPeezyBsw9wnkJ2N3s=/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2026-01-10",
+        "date": "2026-01-17",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -342,12 +342,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "872c8be2b1084f709595af307a110bd5fb9c1eaf",
-            "sha256": "sha256-Ffg/7zAiA6whni00PtiySBL663yEBiWQ288kiYReSoc=",
+            "rev": "90b317b192f44af5ac228db11e89a5a4e3e5e095",
+            "sha256": "sha256-MtSWiOykhu8SuB0EaARFwFsSkTPeezyBsw9wnkJ2N3s=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "872c8be2b1084f709595af307a110bd5fb9c1eaf"
+        "version": "90b317b192f44af5ac228db11e89a5a4e3e5e095"
     }
 }

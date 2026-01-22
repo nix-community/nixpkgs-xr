@@ -10,25 +10,31 @@
 flake-utils.lib.eachDefaultSystem (
   system:
   let
-    pkgs = nixpkgs.legacyPackages.${system};
+    pkgs = import nixpkgs {
+      overlays = [
+        self.overlays.default
+      ];
+      inherit system;
+    };
+
     inherit (pkgs) lib;
 
     inherit (lib)
+      genAttrs
       filterAttrs
       isDerivation
-      makeScope
       mapAttrs'
       nameValuePair
       ;
 
-    scope = makeScope pkgs.newScope (final: self.overlays.default (pkgs // final) pkgs);
+    packageAttributes = builtins.attrNames (self.overlays.default pkgs pkgs);
 
     workingPackages = filterAttrs (_: pkg: !pkg.meta.broken) self.packages.${system};
   in
   {
     packages = filterAttrs (
       _: pkg: isDerivation pkg && (lib.meta.availableOn pkgs.stdenv.hostPlatform pkg)
-    ) scope;
+    ) (genAttrs packageAttributes (name: pkgs.${name}));
     checks = mapAttrs' (n: nameValuePair "package-${n}") workingPackages;
   }
 )

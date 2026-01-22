@@ -21,7 +21,7 @@ in
         inherit (final.xrSources.xrizer) pname version src;
 
         patches = builtins.filter (
-          patch: (!builtins.elem patch.name [ "xrizer-fix-flaky-tests.patch" ])
+          patch: (!builtins.elem patch.name [ "xrizer-fix-aarch64.patch" ])
         ) prevAttrs.patches;
 
         cargoDeps = rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";

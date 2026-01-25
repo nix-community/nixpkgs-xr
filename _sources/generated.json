@@ -234,17 +234,17 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-WFQ6Qx2ohAWCJ8gXItjsxZKvrPwkPRBP6+n05eMdUnQ=/Cargo.lock",
+                "sha256-1yPSiw9EkYGp1V+MfeHwgfFNV6ajOPSwKgHVebQqBbg=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.3.2": "sha256-CHkHtpYmo90WmPdgBz92IUb7Y5iuGom5zzjIf+/45Eo=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
-                    "ovr_overlay-0.0.0": "sha256-ayqRtfSW0Ql5Bqx2uAlugd/rkEBDx8pvwVDvFSsVLyQ=",
+                    "ovr_overlay-0.0.0": "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=",
                     "vulkano-0.35.2": "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI="
                 }
             ]
         },
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -254,17 +254,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "ab83d44a5ed4fb44a3c5886d970f50fdb4e97a5e",
-            "sha256": "sha256-WFQ6Qx2ohAWCJ8gXItjsxZKvrPwkPRBP6+n05eMdUnQ=",
+            "rev": "157c88127f24ad9e33501d63b33a96c02ddde2c5",
+            "sha256": "sha256-1yPSiw9EkYGp1V+MfeHwgfFNV6ajOPSwKgHVebQqBbg=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wlx-team/wayvr.git"
         },
-        "version": "ab83d44a5ed4fb44a3c5886d970f50fdb4e97a5e"
+        "version": "157c88127f24ad9e33501d63b33a96c02ddde2c5"
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-01-23",
+        "date": "2026-01-24",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -276,12 +276,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "2ee3306d6aa940654a13926983a8a77f19235989",
-            "sha256": "sha256-VJzI+SPr9oZsApLoDHpQ6ZPw17OAtDKy187VfYOldg4=",
+            "rev": "6fcc19d198acc668e235cb0e153449bca67e5f43",
+            "sha256": "sha256-gVsGjuFWvu6oDMUFD3LFZYRbKo2iOfe0XePu39zlty8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2ee3306d6aa940654a13926983a8a77f19235989"
+        "version": "6fcc19d198acc668e235cb0e153449bca67e5f43"
     },
     "wivrn-monado": {
         "cargoLock": null,
@@ -326,13 +326,13 @@
     "xrizer": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-pDZqTwOphkzrznWqsJIOZEZf6lzYfnUQuvE9pD0XzIM=/Cargo.lock",
+                "sha256-6WgSphp9JypuWLAF7OobmRORzAcA1LPzZsWWae9Zulc=/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2026-01-18",
+        "date": "2026-01-24",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -342,12 +342,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "2ef3d3c9142ff7f1a70f1df1d91b19cd53067b13",
-            "sha256": "sha256-pDZqTwOphkzrznWqsJIOZEZf6lzYfnUQuvE9pD0XzIM=",
+            "rev": "ba56af9ade6bb2240678635c37a3109066cc3f4d",
+            "sha256": "sha256-6WgSphp9JypuWLAF7OobmRORzAcA1LPzZsWWae9Zulc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "2ef3d3c9142ff7f1a70f1df1d91b19cd53067b13"
+        "version": "ba56af9ade6bb2240678635c37a3109066cc3f4d"
     }
 }

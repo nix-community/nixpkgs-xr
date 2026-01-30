@@ -36,6 +36,12 @@ stdenv.mkDerivation {
         rev = "f516f2011668f6b8c9deacdaee1287620ca6b8bc";
         hash = "sha256-RvOwh5BDnl7aHc8pNGQAaLQD1ShhwSqvxUFY4Ec+YpA=";
       };
+
+      prePatch = ''
+        # Hack to make postPatch pass
+        # This SDL fork is quite behind
+        echo '"zenity"' > src/dialog/unix/SDL_zenitymessagebox.c
+      '';
     })
     stb
   ];

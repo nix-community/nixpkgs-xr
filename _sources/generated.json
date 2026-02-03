@@ -116,7 +116,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-01-31",
+        "date": "2026-02-02",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -126,13 +126,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c399c3a15cdafc3af19331f1fc2edd7339436847",
-            "sha256": "sha256-Q8yciIwQrRNUCQ5tRUdL67w+5ddbdX/zFtxtLEZ014c=",
+            "rev": "cc967a2d34d4d7344314bdf42eb4308693217c12",
+            "sha256": "sha256-wrNo+HoN7yjpJuLViEmEks25xQabotJKfa7NzBPe2z8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "c399c3a15cdafc3af19331f1fc2edd7339436847"
+        "version": "cc967a2d34d4d7344314bdf42eb4308693217c12"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -213,7 +213,7 @@
     },
     "vapor": {
         "cargoLock": null,
-        "date": "2025-12-08",
+        "date": "2026-02-02",
         "extract": null,
         "name": "vapor",
         "passthru": null,
@@ -223,18 +223,18 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "5e218a9416b65f5c54c61a81ab7b465426a094fb",
-            "sha256": "sha256-67NU0zuKKfD3krDlivZQI7Llkccwg5zNrM+DhfiBIKU=",
+            "rev": "3993a084d26f385f8b9c8bcea0f70e27986c92f0",
+            "sha256": "sha256-80EZKzaXXZ/XpliYmVW6Y/RYrll2xJ9PVkNxq4t+mno=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/micheal65536/VapoR.git"
         },
-        "version": "5e218a9416b65f5c54c61a81ab7b465426a094fb"
+        "version": "3993a084d26f385f8b9c8bcea0f70e27986c92f0"
     },
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-bIsUpLRChxyJuS72XxLkzOkWijvFs4T724x__fRG+Ys=/Cargo.lock",
+                "sha256-N6E4bYD_SveF2F_OA5eWKTfNKYDeYF6IqthdGluEt9o=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.3.2": "sha256-CHkHtpYmo90WmPdgBz92IUb7Y5iuGom5zzjIf+/45Eo=",
@@ -244,7 +244,7 @@
                 }
             ]
         },
-        "date": "2026-01-28",
+        "date": "2026-02-02",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -254,17 +254,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4821123c7333cbe21f8ffb02d1972c5fd63c65d1",
-            "sha256": "sha256-bIsUpLRChxyJuS72XxLkzOkWijvFs4T724x//fRG+Ys=",
+            "rev": "676a96b2cddd4ed088e6d0936785dc4c17ad102f",
+            "sha256": "sha256-N6E4bYD/SveF2F/OA5eWKTfNKYDeYF6IqthdGluEt9o=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wlx-team/wayvr.git"
         },
-        "version": "4821123c7333cbe21f8ffb02d1972c5fd63c65d1"
+        "version": "676a96b2cddd4ed088e6d0936785dc4c17ad102f"
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-02-01",
+        "date": "2026-02-02",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -276,12 +276,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "18b00fde24ba277b274eb7409681fb25b159abe7",
-            "sha256": "sha256-qR+dsGyeHRVjpDhOxAdFnwTixXeZGm29CfzY9pcW5SU=",
+            "rev": "c693993748a8d34efbcbbe22bbaaa4e19419ac76",
+            "sha256": "sha256-iLNKnvWKTlnXNz7R8unHaRqfLJ6QDnvhfsBq8SPSYgU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "18b00fde24ba277b274eb7409681fb25b159abe7"
+        "version": "c693993748a8d34efbcbbe22bbaaa4e19419ac76"
     },
     "wivrn-monado": {
         "cargoLock": null,

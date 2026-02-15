@@ -47,7 +47,7 @@ stdenv.mkDerivation {
   ];
   patches = [ ./0001-Use-pkg-config-to-find-system-includes-in-translateC.patch ];
 
-  postPatch = ''
+  postConfigure = ''
     ln -s ${callPackage ./deps.nix { }} $ZIG_GLOBAL_CACHE_DIR/p
   '';
 

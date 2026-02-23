@@ -263,7 +263,7 @@
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-02-21",
+        "date": "2026-02-22",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -275,12 +275,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "71ee653312a6601b55fedd87df39ea6ba5c430ae",
-            "sha256": "sha256-3jGjCLBE7dBlMl7nt2NthRyNAVqkpJZ8eKAYXThRCY4=",
+            "rev": "ea84391ba37bf66f294db267148470972ccab49c",
+            "sha256": "sha256-u7pdvWaT/RCNla9Q7Szyg9AVZFSi22N4NPonOtJuOFk=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "71ee653312a6601b55fedd87df39ea6ba5c430ae"
+        "version": "ea84391ba37bf66f294db267148470972ccab49c"
     },
     "wivrn-monado": {
         "cargoLock": null,
@@ -325,13 +325,13 @@
     "xrizer": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-O3x3gGwddyHuBSuPot5cHJ+8mQpnNTBxf57rYF8UijI=/Cargo.lock",
+                "sha256-FhiJiKUyLjHQhr6Ktnst_5rbdCOpCIfE7GR3uq7IJpA=/Cargo.lock",
                 {
                     "openxr-0.19.0": "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8="
                 }
             ]
         },
-        "date": "2026-02-18",
+        "date": "2026-02-22",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -341,12 +341,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "a4731c4976e18a9f43935b83b09b0f09f1020661",
-            "sha256": "sha256-O3x3gGwddyHuBSuPot5cHJ+8mQpnNTBxf57rYF8UijI=",
+            "rev": "e7457dbfc76d9ec55a84b2def477c2c5943614d7",
+            "sha256": "sha256-FhiJiKUyLjHQhr6Ktnst/5rbdCOpCIfE7GR3uq7IJpA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/Supreeeme/xrizer.git"
         },
-        "version": "a4731c4976e18a9f43935b83b09b0f09f1020661"
+        "version": "e7457dbfc76d9ec55a84b2def477c2c5943614d7"
     }
 }

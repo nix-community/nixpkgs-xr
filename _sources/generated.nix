@@ -22,20 +22,20 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "f345e496b4edafe84d3fe6fd9150c92c7de93b72";
+    version = "f036b357d54fa7c4ca33bcdb11c6cd06afd1dd80";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "f345e496b4edafe84d3fe6fd9150c92c7de93b72";
+      rev = "f036b357d54fa7c4ca33bcdb11c6cd06afd1dd80";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd/1eMzGOiMVw2M=";
+      sha256 = "sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=";
     };
     extract = {
-      "Cargo.lock" = ./. + "/sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd_1eMzGOiMVw2M=/Cargo.lock";
+      "Cargo.lock" = ./. + "/sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=/Cargo.lock";
     };cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd_1eMzGOiMVw2M=/Cargo.lock";
+      lockFile = ./. + "/sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=/Cargo.lock";
       outputHashes = {
         "libmonado-1.6.0" = "sha256-GsICjkkwG9EJDIX8qwj6mE5QTfvisQdv5GuPCqhQxvg=";
       };
@@ -177,18 +177,18 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "6f9ca5b3b7652a466632835007b95ae7c584ffd7";
+    version = "1a74eb150703b134d7e45eb2d91362832e5dd104";
     src = fetchgit {
       url = "https://github.com/wlx-team/wayvr.git";
-      rev = "6f9ca5b3b7652a466632835007b95ae7c584ffd7";
+      rev = "1a74eb150703b134d7e45eb2d91362832e5dd104";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-XGts/ff+tVQVfCxw0XJPZhRL0K884BKvu+5lb2tixNA=";
+      sha256 = "sha256-P0Z1mC2iV59SmY0ybqjcUWEYfZ9VU/umLF0v9bgLCa0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-XGts_ff+tVQVfCxw0XJPZhRL0K884BKvu+5lb2tixNA=/Cargo.lock";
+      lockFile = ./. + "/sha256-P0Z1mC2iV59SmY0ybqjcUWEYfZ9VU_umLF0v9bgLCa0=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "libspa-0.8.0" = "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=";
@@ -196,7 +196,7 @@
         "keyvalues-parser-0.2.2" = "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=";
       };
     };
-    date = "2026-03-06";
+    date = "2026-03-08";
   };
   wivrn = {
     pname = "wivrn";

@@ -22,7 +22,7 @@
     "envision-unwrapped": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd_1eMzGOiMVw2M=/Cargo.lock",
+                "sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-GsICjkkwG9EJDIX8qwj6mE5QTfvisQdv5GuPCqhQxvg="
                 }
@@ -30,7 +30,7 @@
         },
         "date": "2026-03-05",
         "extract": {
-            "Cargo.lock": "sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd_1eMzGOiMVw2M=/Cargo.lock"
+            "Cargo.lock": "sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=/Cargo.lock"
         },
         "name": "envision-unwrapped",
         "passthru": null,
@@ -40,13 +40,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f345e496b4edafe84d3fe6fd9150c92c7de93b72",
-            "sha256": "sha256-sP4pUxPsIFKasmtsxReyrcUapYkMFd/1eMzGOiMVw2M=",
+            "rev": "f036b357d54fa7c4ca33bcdb11c6cd06afd1dd80",
+            "sha256": "sha256-rmlYiVCh+vECf6RE8B4W3FX2AWArpwxPm9kfH0CEHYw=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "f345e496b4edafe84d3fe6fd9150c92c7de93b72"
+        "version": "f036b357d54fa7c4ca33bcdb11c6cd06afd1dd80"
     },
     "index_camera_passthrough": {
         "cargoLock": {
@@ -236,7 +236,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-XGts_ff+tVQVfCxw0XJPZhRL0K884BKvu+5lb2tixNA=/Cargo.lock",
+                "sha256-P0Z1mC2iV59SmY0ybqjcUWEYfZ9VU_umLF0v9bgLCa0=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
@@ -245,7 +245,7 @@
                 }
             ]
         },
-        "date": "2026-03-06",
+        "date": "2026-03-08",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -255,13 +255,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "6f9ca5b3b7652a466632835007b95ae7c584ffd7",
-            "sha256": "sha256-XGts/ff+tVQVfCxw0XJPZhRL0K884BKvu+5lb2tixNA=",
+            "rev": "1a74eb150703b134d7e45eb2d91362832e5dd104",
+            "sha256": "sha256-P0Z1mC2iV59SmY0ybqjcUWEYfZ9VU/umLF0v9bgLCa0=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wlx-team/wayvr.git"
         },
-        "version": "6f9ca5b3b7652a466632835007b95ae7c584ffd7"
+        "version": "1a74eb150703b134d7e45eb2d91362832e5dd104"
     },
     "wivrn": {
         "cargoLock": null,

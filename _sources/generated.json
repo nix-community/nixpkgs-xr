@@ -118,7 +118,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-03-10",
+        "date": "2026-03-11",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -128,13 +128,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "8ff0ba352db1bb2c583ec2588b42c74914ee71b7",
-            "sha256": "sha256-lk6WLjdBn+1uCzsl/fGHrgyCQCELJSklCbMVmjwYJJU=",
+            "rev": "238efdcd16aa0e7e15457ec54626c63bb35325df",
+            "sha256": "sha256-zz8cZViWvzqAqz8tNzBS6S7VztoJmGh87tQWmqWjY8Y=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "8ff0ba352db1bb2c583ec2588b42c74914ee71b7"
+        "version": "238efdcd16aa0e7e15457ec54626c63bb35325df"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -265,7 +265,7 @@
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-03-06",
+        "date": "2026-03-11",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -277,12 +277,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "94ef8945cc9231acdbf98081e87ac9686c058600",
-            "sha256": "sha256-j07xPqV7GqdIzwKBC4xHApwupVrPVz88fVh/eXh0Oic=",
+            "rev": "b3b2c49da4173c73069ee54839136edad30b859e",
+            "sha256": "sha256-6XGNbNZpjWtHQ9B09VeOe+k3UFwGWcQ2MPs9YzE8d6c=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "94ef8945cc9231acdbf98081e87ac9686c058600"
+        "version": "b3b2c49da4173c73069ee54839136edad30b859e"
     },
     "wivrn-monado": {
         "cargoLock": null,

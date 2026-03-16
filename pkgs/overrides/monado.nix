@@ -7,7 +7,7 @@ final: prev: {
     inherit (final.xrSources.monado) pname version src;
 
     patches = builtins.filter (
-      patch: patch.name != "2a6932d46dad9aa957205e8a47ec2baa33041076.patch"
+      patch: patch.name != "monado-cylinder-aspectRatio.patch"
     ) prevAttrs.patches or [ ];
   });
 }

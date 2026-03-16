@@ -239,22 +239,22 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "f65c872ef9f8108b2d8a28274dcc79b87f5490ec";
+    version = "fc9b0cc2a1047adc9b7edffd68fa0c288965090a";
     src = fetchgit {
       url = "https://github.com/Supreeeme/xrizer.git";
-      rev = "f65c872ef9f8108b2d8a28274dcc79b87f5490ec";
+      rev = "fc9b0cc2a1047adc9b7edffd68fa0c288965090a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-CjSJjKt2GD4us5CIcJpqfI/2cxVPQ26T1yzQwC2xwGk=";
+      sha256 = "sha256-gBHMIocIIa5u2kJyxZ+h0xgoY3MRERHYpoQ+E82EEBU=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-CjSJjKt2GD4us5CIcJpqfI_2cxVPQ26T1yzQwC2xwGk=/Cargo.lock";
+      lockFile = ./. + "/sha256-gBHMIocIIa5u2kJyxZ+h0xgoY3MRERHYpoQ+E82EEBU=/Cargo.lock";
       outputHashes = {
         "openxr-0.19.0" = "sha256-mljVBbQTq/k7zd/WcE1Sd3gibaJiZ+t7td964clWHd8=";
       };
     };
-    date = "2026-03-04";
+    date = "2026-03-15";
   };
 }

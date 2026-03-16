@@ -9,9 +9,9 @@
   pkg-config,
   openxr-loader,
   libGL,
+  libX11,
   vulkan-headers,
   vulkan-loader,
-  xorg,
   nlohmann_json,
 }:
 stdenv.mkDerivation (finalAttrs: {
@@ -31,7 +31,7 @@ stdenv.mkDerivation (finalAttrs: {
     libGL
     vulkan-headers
     vulkan-loader
-    xorg.libX11
+    libX11
     nlohmann_json
   ];
 

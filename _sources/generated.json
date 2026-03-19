@@ -98,7 +98,7 @@
     },
     "lovr-playspace": {
         "cargoLock": null,
-        "date": "2026-01-26",
+        "date": "2026-03-18",
         "extract": null,
         "name": "lovr-playspace",
         "passthru": null,
@@ -108,13 +108,13 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c37f4e535b27d48e84b98d118fcf4bf4ca00e8f3",
-            "sha256": "sha256-RU4IBVhFAMertztn8vfsaAvoQiHuIsHz07RFOrohtIA=",
+            "rev": "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b",
+            "sha256": "sha256-F9W8h8UbIbVDaAY+etH16S5vrsexvbJ1EsLSrOB2DMU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/SpookySkeletons/lovr-playspace.git"
         },
-        "version": "c37f4e535b27d48e84b98d118fcf4bf4ca00e8f3"
+        "version": "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b"
     },
     "monado": {
         "cargoLock": null,
@@ -236,16 +236,16 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-tTj8ZXaYmhn_DYhIBcxFIzm+YjoZ6RHGVLfBWfv8uVk=/Cargo.lock",
+                "sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
-                    "libspa-0.8.0": "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=",
+                    "libspa-0.8.0": "sha256-5lfjyCPIcT+pJs8TQfLCZuBBJJBc6OPWCVlI6sT0mNc=",
                     "ovr_overlay-0.0.0": "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=",
                     "vulkano-0.35.2": "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI="
                 }
             ]
         },
-        "date": "2026-03-16",
+        "date": "2026-03-18",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -255,13 +255,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d9f89faf33e4ed95b3d3dc7b803bb46e2adfc59a",
-            "sha256": "sha256-tTj8ZXaYmhn/DYhIBcxFIzm+YjoZ6RHGVLfBWfv8uVk=",
+            "rev": "635df298fec63c610062fa362b6fb03268efa37a",
+            "sha256": "sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/wlx-team/wayvr.git"
         },
-        "version": "d9f89faf33e4ed95b3d3dc7b803bb46e2adfc59a"
+        "version": "635df298fec63c610062fa362b6fb03268efa37a"
     },
     "wivrn": {
         "cargoLock": null,

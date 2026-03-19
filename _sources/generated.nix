@@ -76,17 +76,17 @@
   };
   lovr-playspace = {
     pname = "lovr-playspace";
-    version = "c37f4e535b27d48e84b98d118fcf4bf4ca00e8f3";
+    version = "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b";
     src = fetchgit {
       url = "https://github.com/SpookySkeletons/lovr-playspace.git";
-      rev = "c37f4e535b27d48e84b98d118fcf4bf4ca00e8f3";
+      rev = "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-RU4IBVhFAMertztn8vfsaAvoQiHuIsHz07RFOrohtIA=";
+      sha256 = "sha256-F9W8h8UbIbVDaAY+etH16S5vrsexvbJ1EsLSrOB2DMU=";
     };
-    date = "2026-01-26";
+    date = "2026-03-18";
   };
   monado = {
     pname = "monado";
@@ -177,26 +177,26 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "d9f89faf33e4ed95b3d3dc7b803bb46e2adfc59a";
+    version = "635df298fec63c610062fa362b6fb03268efa37a";
     src = fetchgit {
       url = "https://github.com/wlx-team/wayvr.git";
-      rev = "d9f89faf33e4ed95b3d3dc7b803bb46e2adfc59a";
+      rev = "635df298fec63c610062fa362b6fb03268efa37a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-tTj8ZXaYmhn/DYhIBcxFIzm+YjoZ6RHGVLfBWfv8uVk=";
+      sha256 = "sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-tTj8ZXaYmhn_DYhIBcxFIzm+YjoZ6RHGVLfBWfv8uVk=/Cargo.lock";
+      lockFile = ./. + "/sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
-        "libspa-0.8.0" = "sha256-Gub2F/Gwia8DjFqUsM8e4Yr2ff92AwrWrszsws3X3sM=";
+        "libspa-0.8.0" = "sha256-5lfjyCPIcT+pJs8TQfLCZuBBJJBc6OPWCVlI6sT0mNc=";
         "vulkano-0.35.2" = "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI=";
         "keyvalues-parser-0.2.2" = "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=";
       };
     };
-    date = "2026-03-16";
+    date = "2026-03-18";
   };
   wivrn = {
     pname = "wivrn";

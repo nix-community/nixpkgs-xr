@@ -9,13 +9,11 @@
   eepyxr = {
     pname = "eepyxr";
     version = "b826495d60b297d4a7a38c3c10203c919209fc3d";
-    src = fetchgit {
-      url = "https://github.com/Beyley/eepyxr.git";
+    src = fetchFromGitHub {
+      owner = "Beyley";
+      repo = "eepyxr";
       rev = "b826495d60b297d4a7a38c3c10203c919209fc3d";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-eDGIE/Mbc+52qAqjU+N5yrR23BO7PXLJTsZFG66qoqE=";
     };
     date = "2025-03-09";
@@ -45,13 +43,11 @@
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
     version = "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73";
-    src = fetchgit {
-      url = "https://github.com/yshui/index_camera_passthrough.git";
+    src = fetchFromGitHub {
+      owner = "yshui";
+      repo = "index_camera_passthrough";
       rev = "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-jldpVWnpWEA3bi3lzmG94uCaoZuL+xhaEAtFiZrSGc4=";
     };
     cargoLock."Cargo.lock" = {
@@ -89,13 +85,11 @@
   lovr-playspace = {
     pname = "lovr-playspace";
     version = "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b";
-    src = fetchgit {
-      url = "https://github.com/SpookySkeletons/lovr-playspace.git";
+    src = fetchFromGitHub {
+      owner = "SpookySkeletons";
+      repo = "lovr-playspace";
       rev = "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-F9W8h8UbIbVDaAY+etH16S5vrsexvbJ1EsLSrOB2DMU=";
     };
     date = "2026-03-18";
@@ -131,13 +125,11 @@
   oscavmgr = {
     pname = "oscavmgr";
     version = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
-    src = fetchgit {
-      url = "https://github.com/galister/oscavmgr.git";
+    src = fetchFromGitHub {
+      owner = "galister";
+      repo = "oscavmgr";
       rev = "a0d6c46de87b2a1c72f72fbefb7025399f42e916";
       fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=";
     };
     cargoLock."Cargo.lock" = {
@@ -153,13 +145,11 @@
   resolute = {
     pname = "resolute";
     version = "ac79045d50581832323adadded9d2d1f90e19419";
-    src = fetchgit {
-      url = "https://github.com/Gawdl3y/Resolute.git";
+    src = fetchFromGitHub {
+      owner = "Gawdl3y";
+      repo = "Resolute";
       rev = "ac79045d50581832323adadded9d2d1f90e19419";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=";
     };
     extract = {
@@ -176,13 +166,11 @@
   vapor = {
     pname = "vapor";
     version = "08014062d080272bc192240e7e1ed8b2c6032011";
-    src = fetchgit {
-      url = "https://github.com/micheal65536/VapoR.git";
+    src = fetchFromGitHub {
+      owner = "micheal65536";
+      repo = "VapoR";
       rev = "08014062d080272bc192240e7e1ed8b2c6032011";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-gwg7xSo8cYiqvOhgrbe1/dq85i2nUJtoBOn23qGjGbs=";
     };
     date = "2026-02-03";
@@ -190,13 +178,11 @@
   wayvr = {
     pname = "wayvr";
     version = "635df298fec63c610062fa362b6fb03268efa37a";
-    src = fetchgit {
-      url = "https://github.com/wlx-team/wayvr.git";
+    src = fetchFromGitHub {
+      owner = "wlx-team";
+      repo = "wayvr";
       rev = "635df298fec63c610062fa362b6fb03268efa37a";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=";
     };
     cargoLock."Cargo.lock" = {
@@ -252,13 +238,11 @@
   xrizer = {
     pname = "xrizer";
     version = "fc9b0cc2a1047adc9b7edffd68fa0c288965090a";
-    src = fetchgit {
-      url = "https://github.com/Supreeeme/xrizer.git";
+    src = fetchFromGitHub {
+      owner = "Supreeeme";
+      repo = "xrizer";
       rev = "fc9b0cc2a1047adc9b7edffd68fa0c288965090a";
       fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
       sha256 = "sha256-gBHMIocIIa5u2kJyxZ+h0xgoY3MRERHYpoQ+E82EEBU=";
     };
     cargoLock."Cargo.lock" = {

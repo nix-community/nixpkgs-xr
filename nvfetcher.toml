@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 [eepyxr]
-fetch.git = "https://github.com/Beyley/eepyxr.git"
+fetch.github = "Beyley/eepyxr"
 src.git = "https://github.com/Beyley/eepyxr.git"
 
 [envision-unwrapped]
@@ -15,19 +15,19 @@ src.git = "https://gitlab.com/gabmus/envision.git"
 
 [index_camera_passthrough]
 cargo_lock = ["Cargo.lock"]
-fetch.git = "https://github.com/yshui/index_camera_passthrough.git"
+fetch.github = "yshui/index_camera_passthrough"
 src.git = "https://github.com/yshui/index_camera_passthrough.git"
 
 [kaon]
 fetch.github = "LorenDB/kaon"
-src.git = "https://github.com/LorenDB/kaon"
+src.git = "https://github.com/LorenDB/kaon.git"
 
 [libsurvive]
 fetch.github = "collabora/libsurvive"
-src.git = "https://github.com/collabora/libsurvive"
+src.git = "https://github.com/collabora/libsurvive.git"
 
 [lovr-playspace]
-fetch.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
+fetch.github = "SpookySkeletons/lovr-playspace"
 git.fetchSubmodules = true
 src.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
 
@@ -42,28 +42,28 @@ src.git = "https://gitlab.com/znixian/OpenOVR.git"
 
 [oscavmgr]
 cargo_lock = ["Cargo.lock"]
-fetch.git = "https://github.com/galister/oscavmgr.git"
+fetch.github = "galister/oscavmgr"
 git.fetchSubmodules = true
 src.git = "https://github.com/galister/oscavmgr.git"
 
 [resolute]
 cargo_lock = ["Cargo.lock"]
 extract = ["package.json", "package-lock.json"]
-fetch.git = "https://github.com/Gawdl3y/Resolute.git"
+fetch.github = "Gawdl3y/Resolute"
 src.git = "https://github.com/Gawdl3y/Resolute.git"
 
 [vapor]
-fetch.git = "https://github.com/micheal65536/VapoR.git"
+fetch.github = "micheal65536/VapoR"
 src.git = "https://github.com/micheal65536/VapoR.git"
 
 [wayvr]
 cargo_lock = ["Cargo.lock"]
-fetch.git = "https://github.com/wlx-team/wayvr.git"
+fetch.github = "wlx-team/wayvr"
 src.git = "https://github.com/wlx-team/wayvr.git"
 
 [wivrn]
 fetch.github = "WiVRn/WiVRn"
-src.git = "https://github.com/WiVRn/WiVRn"
+src.git = "https://github.com/WiVRn/WiVRn.git"
 
 [wivrn-monado]
 fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
@@ -77,5 +77,5 @@ src.git = "https://gitlab.com/mittorn/xrBinder.git"
 
 [xrizer]
 cargo_lock = ["Cargo.lock"]
-fetch.git = "https://github.com/Supreeeme/xrizer.git"
+fetch.github = "Supreeeme/xrizer"
 src.git = "https://github.com/Supreeeme/xrizer.git"

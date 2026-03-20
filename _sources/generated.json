@@ -96,6 +96,27 @@
         },
         "version": "ca304206de0484b3867ee9e2a154d9ca2dccf49d"
     },
+    "libsurvive": {
+        "cargoLock": null,
+        "date": "2026-03-20",
+        "extract": null,
+        "name": "libsurvive",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "collabora",
+            "repo": "libsurvive",
+            "rev": "8f80f7fa5ea7e82d710d57f26b9578758dec8681",
+            "sha256": "sha256-SHD8Hklp5hj/eAEUyvgKv1xglNtFBzFGY4SC5gnq8cc=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "8f80f7fa5ea7e82d710d57f26b9578758dec8681"
+    },
     "lovr-playspace": {
         "cargoLock": null,
         "date": "2026-03-18",

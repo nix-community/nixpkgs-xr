@@ -19,6 +19,7 @@ in
 
     # Overridden packages
     (import ./overrides/envision-unwrapped.nix)
+    (import ./overrides/libsurvive.nix)
     (import ./overrides/monado.nix)
     (import ./overrides/opencomposite.nix)
     (import ./overrides/opencomposite-vendored.nix)

@@ -112,6 +112,7 @@ This overlay provides the following packages:
 - `envision-unwrapped`
 - `index_camera_passthrough`
 - `kaon`
+- `libsurvive`
 - `lovr`
 - `lovr-playspace`
 - `monado`

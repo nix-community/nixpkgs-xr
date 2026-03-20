@@ -22,6 +22,10 @@ src.git = "https://github.com/yshui/index_camera_passthrough.git"
 fetch.github = "LorenDB/kaon"
 src.git = "https://github.com/LorenDB/kaon"
 
+[libsurvive]
+fetch.github = "collabora/libsurvive"
+src.git = "https://github.com/collabora/libsurvive"
+
 [lovr-playspace]
 fetch.git = "https://github.com/SpookySkeletons/lovr-playspace.git"
 git.fetchSubmodules = true

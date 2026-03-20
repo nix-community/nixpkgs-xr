@@ -11,11 +11,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "Beyley",
+            "repo": "eepyxr",
             "rev": "b826495d60b297d4a7a38c3c10203c919209fc3d",
             "sha256": "sha256-eDGIE/Mbc+52qAqjU+N5yrR23BO7PXLJTsZFG66qoqE=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Beyley/eepyxr.git"
+            "type": "github"
         },
         "version": "b826495d60b297d4a7a38c3c10203c919209fc3d"
     },
@@ -67,11 +68,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "yshui",
+            "repo": "index_camera_passthrough",
             "rev": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73",
             "sha256": "sha256-jldpVWnpWEA3bi3lzmG94uCaoZuL+xhaEAtFiZrSGc4=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/yshui/index_camera_passthrough.git"
+            "type": "github"
         },
         "version": "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73"
     },
@@ -129,11 +131,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "SpookySkeletons",
+            "repo": "lovr-playspace",
             "rev": "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b",
             "sha256": "sha256-F9W8h8UbIbVDaAY+etH16S5vrsexvbJ1EsLSrOB2DMU=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/SpookySkeletons/lovr-playspace.git"
+            "type": "github"
         },
         "version": "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b"
     },
@@ -198,11 +201,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
+            "owner": "galister",
+            "repo": "oscavmgr",
             "rev": "a0d6c46de87b2a1c72f72fbefb7025399f42e916",
             "sha256": "sha256-7U8RjIqRAl4Q9QxzVtf2v5hdUkjclG9ZostQQAjKB2s=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/galister/oscavmgr.git"
+            "type": "github"
         },
         "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
     },
@@ -226,11 +230,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "Gawdl3y",
+            "repo": "Resolute",
             "rev": "ac79045d50581832323adadded9d2d1f90e19419",
             "sha256": "sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Gawdl3y/Resolute.git"
+            "type": "github"
         },
         "version": "ac79045d50581832323adadded9d2d1f90e19419"
     },
@@ -246,11 +251,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "micheal65536",
+            "repo": "VapoR",
             "rev": "08014062d080272bc192240e7e1ed8b2c6032011",
             "sha256": "sha256-gwg7xSo8cYiqvOhgrbe1/dq85i2nUJtoBOn23qGjGbs=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/micheal65536/VapoR.git"
+            "type": "github"
         },
         "version": "08014062d080272bc192240e7e1ed8b2c6032011"
     },
@@ -276,11 +282,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "wlx-team",
+            "repo": "wayvr",
             "rev": "635df298fec63c610062fa362b6fb03268efa37a",
             "sha256": "sha256-yoRzqanib64kMerA97TgyqIgxnYDF9EHkxTi3A6niMk=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/wlx-team/wayvr.git"
+            "type": "github"
         },
         "version": "635df298fec63c610062fa362b6fb03268efa37a"
     },
@@ -364,11 +371,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
+            "owner": "Supreeeme",
+            "repo": "xrizer",
             "rev": "fc9b0cc2a1047adc9b7edffd68fa0c288965090a",
             "sha256": "sha256-gBHMIocIIa5u2kJyxZ+h0xgoY3MRERHYpoQ+E82EEBU=",
             "sparseCheckout": [],
-            "type": "git",
-            "url": "https://github.com/Supreeeme/xrizer.git"
+            "type": "github"
         },
         "version": "fc9b0cc2a1047adc9b7edffd68fa0c288965090a"
     }

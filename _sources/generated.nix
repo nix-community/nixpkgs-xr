@@ -142,6 +142,14 @@
     };
     date = "2025-08-31";
   };
+  proton-ge-rtsp-bin = {
+    pname = "proton-ge-rtsp-bin";
+    version = "GE-Proton10-26-rtsp20";
+    src = fetchTarball {
+      url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/GE-Proton10-26-rtsp20/GE-Proton10-26-rtsp20.tar.gz";
+      sha256 = "sha256-eAJjw575cJlj7qLsPC1LgRsVMW4O754Q6SO7IV74EyE=";
+    };
+  };
   resolute = {
     pname = "resolute";
     version = "ac79045d50581832323adadded9d2d1f90e19419";

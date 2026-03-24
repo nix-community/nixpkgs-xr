@@ -210,6 +210,20 @@
         },
         "version": "a0d6c46de87b2a1c72f72fbefb7025399f42e916"
     },
+    "proton-ge-rtsp-bin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "proton-ge-rtsp-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-eAJjw575cJlj7qLsPC1LgRsVMW4O754Q6SO7IV74EyE=",
+            "type": "tarball",
+            "url": "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/GE-Proton10-26-rtsp20/GE-Proton10-26-rtsp20.tar.gz"
+        },
+        "version": "GE-Proton10-26-rtsp20"
+    },
     "resolute": {
         "cargoLock": {
             "Cargo.lock": [

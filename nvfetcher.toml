@@ -46,6 +46,10 @@ fetch.github = "galister/oscavmgr"
 git.fetchSubmodules = true
 src.git = "https://github.com/galister/oscavmgr.git"
 
+[proton-ge-rtsp-bin]
+fetch.tarball = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/$ver/$ver.tar.gz"
+src.github = "SpookySkeletons/proton-ge-rtsp"
+
 [resolute]
 cargo_lock = ["Cargo.lock"]
 extract = ["package.json", "package-lock.json"]

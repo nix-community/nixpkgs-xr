@@ -11,14 +11,19 @@
   steamDisplayName = "GE-Proton-rtsp";
 }).overrideAttrs
   (
-    finalAttrs: _: {
+    finalAttrs: prevAttrs: {
       pname = "proton-ge-rtsp-bin";
-      version = "GE-Proton10-26-rtsp20";
+      version = "GE-Proton10-33-rtsp22";
 
       src = fetchzip {
-        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
-        hash = "sha256-eAJjw575cJlj7qLsPC1LgRsVMW4O754Q6SO7IV74EyE=";
+        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}-3.tar.gz";
+        hash = "sha256-54pECXspeGSFzKeRliVSbmSvy6KmohT+NpyNOlwIsDo=";
       };
+
+      preFixup = ''
+        substituteInPlace "$steamcompattool/compatibilitytool.vdf" \
+          --replace-fail "${finalAttrs.version}-3" "GE-Proton-rtsp"
+      '';
 
       meta = {
         inherit (proton-ge-bin.meta)

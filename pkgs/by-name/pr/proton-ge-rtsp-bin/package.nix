@@ -5,13 +5,12 @@
   fetchzip,
   lib,
   proton-ge-bin,
-  xrLib,
 }:
 (proton-ge-bin.override {
   steamDisplayName = "GE-Proton-rtsp";
 }).overrideAttrs
   (
-    finalAttrs: prevAttrs: {
+    finalAttrs: _: {
       pname = "proton-ge-rtsp-bin";
       version = "GE-Proton10-33-rtsp22";
 

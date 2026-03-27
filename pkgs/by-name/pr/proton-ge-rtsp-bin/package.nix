@@ -35,6 +35,7 @@
         homepage = "https://github.com/SpookySkeletons/proton-ge-rtsp";
         maintainers = with lib.maintainers; [
           Scrumplex
+          RTUnreal
         ];
       };
     }

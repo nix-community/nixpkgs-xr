@@ -15,13 +15,13 @@
       version = "GE-Proton10-33-rtsp22";
 
       src = fetchzip {
-        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}-3.tar.gz";
-        hash = "sha256-54pECXspeGSFzKeRliVSbmSvy6KmohT+NpyNOlwIsDo=";
+        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}-4.tar.gz";
+        hash = "sha256-YmdO4XaEFbq1lWWorZMqFKVQb+bMxDDH/dpwKaq+Qjg=";
       };
 
       preFixup = ''
         substituteInPlace "$steamcompattool/compatibilitytool.vdf" \
-          --replace-fail "${finalAttrs.version}-3" "GE-Proton-rtsp"
+          --replace-fail "${finalAttrs.version}-4" "GE-Proton-rtsp"
       '';
 
       meta = {

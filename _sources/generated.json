@@ -263,7 +263,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-IQkU6R58q8cvEhpjPe+c5NPideFk_7PDjkltOnOD7IM=/Cargo.lock",
+                "sha256-YxdPmcUq5EzFUtjeADzuwC9Br+ERbMOGJFWKvHrQzDE=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libspa-0.8.0": "sha256-5lfjyCPIcT+pJs8TQfLCZuBBJJBc6OPWCVlI6sT0mNc=",
@@ -284,12 +284,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "00bc179655d88bbfc82963d6661c4fa260ce18d3",
-            "sha256": "sha256-IQkU6R58q8cvEhpjPe+c5NPideFk/7PDjkltOnOD7IM=",
+            "rev": "89f43b95ef8a5e39e3259c8922633f067e238803",
+            "sha256": "sha256-YxdPmcUq5EzFUtjeADzuwC9Br+ERbMOGJFWKvHrQzDE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "00bc179655d88bbfc82963d6661c4fa260ce18d3"
+        "version": "89f43b95ef8a5e39e3259c8922633f067e238803"
     },
     "wivrn": {
         "cargoLock": null,

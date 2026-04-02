@@ -7,6 +7,10 @@ final: prev: {
     finalAttrs: prevAttrs: {
       inherit (final.xrSources.wivrn) pname version src;
 
+      nativeBuildInputs = prevAttrs.nativeBuildInputs or [ ] ++ [
+        final.hexdump
+      ];
+
       monado = final.applyPatches {
         inherit (final.xrSources.wivrn-monado) src;
         inherit (prevAttrs.monado) patches postPatch;

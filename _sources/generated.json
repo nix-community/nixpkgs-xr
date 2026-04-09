@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "4156456d9741b0b177242d3e08cc7ac08bceb849",
-            "sha256": "sha256-IeIolJpppCsRRhnAJNUVTMBKcVhVxk1Ap0HA3vMDEGc=",
+            "rev": "7f47872f47d5269cd8aec96141905ce14d8376b2",
+            "sha256": "sha256-PfYn59osPuh9gJnetj7FlTQh9nH2A4sRd6/WLAA5TM8=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "4156456d9741b0b177242d3e08cc7ac08bceb849"
+        "version": "7f47872f47d5269cd8aec96141905ce14d8376b2"
     },
     "opencomposite": {
         "cargoLock": null,

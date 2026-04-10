@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Sapphire <imsapphire0@gmail.com>
 # SPDX-FileCopyrightText: 2025 Aki <Aki@ToasterUwU.com>
+# SPDX-FileCopyrightText: 2026 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
 {
@@ -11,7 +12,7 @@
   sdl3,
   stb,
   stdenv,
-  zig_0_14,
+  zig_0_15,
 
   xrSources,
 }:
@@ -24,24 +25,19 @@ stdenv.mkDerivation {
     ;
 
   nativeBuildInputs = [
-    zig_0_14.hook
+    zig_0_15.hook
     pkg-config
   ];
   buildInputs = [
     openxr-loader
     (sdl3.overrideAttrs {
+      version = "3.5.0-unstable-2026-04-08";
       src = fetchFromGitHub {
-        owner = "Beyley";
+        owner = "libsdl-org";
         repo = "SDL";
-        rev = "f516f2011668f6b8c9deacdaee1287620ca6b8bc";
-        hash = "sha256-RvOwh5BDnl7aHc8pNGQAaLQD1ShhwSqvxUFY4Ec+YpA=";
+        rev = "57f3d2ea0aada9131c109aaa0dfda41839997ebf";
+        hash = "sha256-tLX3uY18hWMLzkeAMcvEc0BLZ1M4vgp4FIOmnvh1yIc=";
       };
-
-      prePatch = ''
-        # Hack to make postPatch pass
-        # This SDL fork is quite behind
-        echo '"zenity"' > src/dialog/unix/SDL_zenitymessagebox.c
-      '';
     })
     stb
   ];

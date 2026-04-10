@@ -6,6 +6,7 @@
 
 {
   linkFarm,
+  fetchzip,
   fetchgit,
 }:
 
@@ -19,19 +20,19 @@ linkFarm "zig-packages" [
     };
   }
   {
-    name = "N-V-__8AAF1kjwP0nRUoy3Iy9y2SqguzbgsOIB-oL10oVITZ";
+    name = "N-V-__8AAC7GCAOYyx5ViWPip8IR15Gy3Zi0YCq5IedZYsQv";
     path = fetchgit {
-      url = "https://github.com/Beyley/SDL";
-      rev = "d64e41f95ea641a32da18e526d57013966a96b41";
-      hash = "sha256-rGpfU20sXz82utt1DXy+Mld+JJ65tdiip8tpKAndlrI=";
+      url = "https://github.com/libsdl-org/SDL";
+      rev = "57f3d2ea0aada9131c109aaa0dfda41839997ebf";
+      hash = "sha256-tLX3uY18hWMLzkeAMcvEc0BLZ1M4vgp4FIOmnvh1yIc=";
     };
   }
   {
-    name = "known_folders-0.0.0-Fy-PJtLDAADGDOwYwMkVydMSTp_aN-nfjCZw6qPQ2ECL";
+    name = "known_folders-0.0.0-Fy-PJv3LAAABBRVoZWVrKZdyLoUfl5VRY5fqRRRdnF5L";
     path = fetchgit {
       url = "https://github.com/ziglibs/known-folders";
-      rev = "aa24df42183ad415d10bc0a33e6238c437fc0f59";
-      hash = "sha256-YiJ2lfG1xsGFMO6flk/BMhCqJ3kB3MnOX5fnfDEcmMY=";
+      rev = "83d39161eac2ed6f37ad3cb4d9dd518696ce90bb";
+      hash = "sha256-faXaYD+0oe6M9iB4m46O6djWxXuuluNJeJdpIXNj8DM=";
     };
   }
 ]

@@ -8,9 +8,9 @@ final: prev: {
 
     cargoDeps = final.rustPlatform.importCargoLock final.xrSources.wayvr.cargoLock."Cargo.lock";
 
-    postInstall = ''
-      install -Dm644 wayvr/wayvr.desktop $out/share/applications/wayvr.desktop
-      install -Dm644 wayvr/wayvr.svg $out/share/icons/hicolor/scalable/apps/wayvr.svg
-    '';
+    env = prevAttrs.env or { } // {
+      ORT_LIB_PATH = "${final.lib.getLib final.onnxruntime}/lib";
+      ORT_PREFER_DYNAMIC_LINK = 1;
+    };
   });
 }

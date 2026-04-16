@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "287ec53a4b79a0657f77bc0c8653fc9ebcd5cfdf";
+    version = "a55b19d0894987d2a5ae521c191e51f87f43e44b";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "287ec53a4b79a0657f77bc0c8653fc9ebcd5cfdf";
+      rev = "a55b19d0894987d2a5ae521c191e51f87f43e44b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-ZowjyNq2vzrD/yHd5Pr1XmxJP0Wek6Jnt1gaRtkm/Uo=";
+      sha256 = "sha256-GaYA3/h0GAvbKe78p7SidleNgFGbLw1myQTHCl/xhew=";
     };
-    date = "2026-04-11";
+    date = "2026-04-14";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -177,25 +177,25 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "bec00c6f48b4fa01d1f5c08ed0976acb39739f63";
+    version = "1238808d87e136c9b44649f1e9ff00cb58abfad2";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "bec00c6f48b4fa01d1f5c08ed0976acb39739f63";
+      rev = "1238808d87e136c9b44649f1e9ff00cb58abfad2";
       fetchSubmodules = false;
-      sha256 = "sha256-DFE5n3JOt75FM0izU8dznoyb9AvQDBrpbhoyKIe1cIs=";
+      sha256 = "sha256-j70SIU8hbgTNWyWAyq/ZTsE2Ukj7IR3bAvwwPfmTits=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-DFE5n3JOt75FM0izU8dznoyb9AvQDBrpbhoyKIe1cIs=/Cargo.lock";
+      lockFile = ./. + "/sha256-j70SIU8hbgTNWyWAyq_ZTsE2Ukj7IR3bAvwwPfmTits=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "libspa-0.8.0" = "sha256-5lfjyCPIcT+pJs8TQfLCZuBBJJBc6OPWCVlI6sT0mNc=";
         "vulkano-0.35.2" = "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI=";
-        "libmonado-1.6.0" = "sha256-CzECXfXLip0rS1PjjW24M/6gB3mSlnPwWh5GFcYmiQc=";
+        "libmonado-1.6.0" = "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=";
         "keyvalues-parser-0.2.2" = "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=";
       };
     };
-    date = "2026-04-10";
+    date = "2026-04-14";
   };
   wivrn = {
     pname = "wivrn";

@@ -3176,7 +3176,7 @@ checksum = "f9fbbcab51052fe104eb5e5d351cf728d30a5be1fe14d9be8a3b097481fb97de"
 [[package]]
 name = "libmonado"
 version = "1.6.0"
-source = "git+https://github.com/oo8dev/libmonado-rs.git?rev=fc39940a64dea2df080a0d2c974c7d651006241f#fc39940a64dea2df080a0d2c974c7d651006241f"
+source = "git+https://github.com/wayvr-org/libmonado-rs.git?rev=6f66b26930c24a8a2fc57ddcd85704784894c750#6f66b26930c24a8a2fc57ddcd85704784894c750"
 dependencies = [
  "dlopen2",
  "flagset",

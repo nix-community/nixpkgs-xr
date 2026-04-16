@@ -333,6 +333,32 @@
         },
         "version": "6578e7ec7f971deaa96d87c91427f1c4b09c10e4"
     },
+    "xr-chaperone": {
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-d3h3xBxEMza4MmmpDiUCHeaC6MVg1yUwZjMCwBEyLos=/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2026-05-20",
+        "extract": null,
+        "name": "xr-chaperone",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "FrostyCoolSlug",
+            "repo": "xr-chaperone",
+            "rev": "a0351bd00f208e9f7c7917d413de2accbf9208eb",
+            "sha256": "sha256-d3h3xBxEMza4MmmpDiUCHeaC6MVg1yUwZjMCwBEyLos=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "a0351bd00f208e9f7c7917d413de2accbf9208eb"
+    },
     "xrbinder": {
         "cargoLock": null,
         "date": "2025-04-18",

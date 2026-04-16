@@ -124,6 +124,7 @@ This overlay provides the following packages:
 - `vapor`
 - `wayvr`
 - `wivrn`
+- `xr-chaperone`
 - `xrbinder`
 - `xrizer`
 

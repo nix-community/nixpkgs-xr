@@ -222,6 +222,24 @@
       sha256 = "sha256-x8VuG9N1P0UL3Hy3XSI0gVVyF3sbWIhr6t2iu5Z+Flc=";
     };
   };
+  xr-chaperone = {
+    pname = "xr-chaperone";
+    version = "a0351bd00f208e9f7c7917d413de2accbf9208eb";
+    src = fetchFromGitHub {
+      owner = "FrostyCoolSlug";
+      repo = "xr-chaperone";
+      rev = "a0351bd00f208e9f7c7917d413de2accbf9208eb";
+      fetchSubmodules = false;
+      sha256 = "sha256-d3h3xBxEMza4MmmpDiUCHeaC6MVg1yUwZjMCwBEyLos=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-d3h3xBxEMza4MmmpDiUCHeaC6MVg1yUwZjMCwBEyLos=/Cargo.lock";
+      outputHashes = {
+        
+      };
+    };
+    date = "2026-05-20";
+  };
   xrbinder = {
     pname = "xrbinder";
     version = "251e19d3d121283b6589b84818453f8138f29e6d";

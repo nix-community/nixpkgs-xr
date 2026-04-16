@@ -12,16 +12,16 @@
   (
     finalAttrs: _: {
       pname = "proton-ge-rtsp-bin";
-      version = "GE-Proton10-33-rtsp22";
+      version = "GE-Proton10-33-rtsp23-1";
 
       src = fetchzip {
-        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}-4.tar.gz";
-        hash = "sha256-YmdO4XaEFbq1lWWorZMqFKVQb+bMxDDH/dpwKaq+Qjg=";
+        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
+        hash = "sha256-gb/d28Lmz4r5Cetp7ct2eQtQZIAcMDxY4F3XCtLk3BY=";
       };
 
       preFixup = ''
         substituteInPlace "$steamcompattool/compatibilitytool.vdf" \
-          --replace-fail "${finalAttrs.version}-4" "GE-Proton-rtsp"
+          --replace-fail "${finalAttrs.version}" "GE-Proton-rtsp"
       '';
 
       meta = {

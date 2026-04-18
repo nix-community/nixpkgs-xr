@@ -12,11 +12,11 @@
   (
     finalAttrs: _: {
       pname = "proton-ge-rtsp-bin";
-      version = "GE-Proton10-33-rtsp23-3";
+      version = "GE-Proton10-33-rtsp23-4";
 
       src = fetchzip {
         url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
-        hash = "sha256-f9rLihWMiyzUimHysi5bgEjHNSku1qdo4hgYsy7SzDY=";
+        hash = "sha256-sP+xNPbeI1jbs081QvFmj48A/yG6IC9ZPZRvGkFZnX0=";
       };
 
       preFixup = ''

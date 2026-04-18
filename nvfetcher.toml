@@ -70,6 +70,11 @@ fetch.git = "https://gitlab.freedesktop.org/monado/monado.git"
 src.webpage = "https://github.com/WiVRn/WiVRn/raw/refs/heads/master/monado-rev"
 src.regex = "(\\w+)"
 
+[xr-chaperone]
+cargo_lock = ["Cargo.lock"]
+fetch.github = "FrostyCoolSlug/xr-chaperone"
+src.git = "https://github.com/FrostyCoolSlug/xr-chaperone.git"
+
 [xrbinder]
 fetch.git = "https://gitlab.com/mittorn/xrBinder.git"
 git.fetchSubmodules = true

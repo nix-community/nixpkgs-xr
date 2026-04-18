@@ -9,19 +9,12 @@
   cmake,
 
   xrSources,
+  xrLib,
 }:
 let
   ValveFileVDF_src = fetchzip {
     url = "https://github.com/TinyTinni/ValveFileVDF/archive/refs/tags/v1.1.1.tar.gz";
     hash = "sha256-s7wyHIcqMDHTSudIgy/bzZixQCL/T+ziFQxZh8w15uE=";
-  };
-
-  coolgi = {
-    name = "coolGi";
-    email = "me@coolgi.dev";
-    matrix = "@me:coolgi.dev";
-    github = "coolGi69";
-    githubId = 57488297;
   };
 in
 stdenv.mkDerivation {
@@ -53,7 +46,7 @@ stdenv.mkDerivation {
     homepage = "https://github.com/LorenDB/kaon";
     license = [ lib.licenses.gpl3 ];
 
-    maintainers = [ coolgi ];
+    maintainers = [ xrLib.coolGi ];
     platforms = lib.platforms.linux;
   };
 }

@@ -5,6 +5,7 @@
   fetchzip,
   lib,
   proton-ge-bin,
+  xrLib,
 }:
 (proton-ge-bin.override {
   steamDisplayName = "GE-Proton-rtsp";
@@ -35,6 +36,7 @@
         maintainers = with lib.maintainers; [
           Scrumplex
           RTUnreal
+          xrLib.coolGi
         ];
       };
     }

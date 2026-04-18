@@ -260,6 +260,27 @@
         },
         "version": "08014062d080272bc192240e7e1ed8b2c6032011"
     },
+    "vrcvideocacher": {
+        "cargoLock": null,
+        "date": "2026-04-17",
+        "extract": null,
+        "name": "vrcvideocacher",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "EllyVR",
+            "repo": "VRCVideoCacher",
+            "rev": "f0081635b1af5a3f182270798d45d206c1596e93",
+            "sha256": "sha256-VollU7um18HYeIyXC8PzqcNbBYM3gd2JzxSql4VSFWw=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "f0081635b1af5a3f182270798d45d206c1596e93"
+    },
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [

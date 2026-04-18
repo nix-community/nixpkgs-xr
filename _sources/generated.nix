@@ -175,6 +175,18 @@
     };
     date = "2026-02-03";
   };
+  vrcvideocacher = {
+    pname = "vrcvideocacher";
+    version = "f0081635b1af5a3f182270798d45d206c1596e93";
+    src = fetchFromGitHub {
+      owner = "EllyVR";
+      repo = "VRCVideoCacher";
+      rev = "f0081635b1af5a3f182270798d45d206c1596e93";
+      fetchSubmodules = false;
+      sha256 = "sha256-VollU7um18HYeIyXC8PzqcNbBYM3gd2JzxSql4VSFWw=";
+    };
+    date = "2026-04-17";
+  };
   wayvr = {
     pname = "wayvr";
     version = "1238808d87e136c9b44649f1e9ff00cb58abfad2";

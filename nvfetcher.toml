@@ -56,6 +56,10 @@ src.git = "https://github.com/Gawdl3y/Resolute.git"
 fetch.github = "micheal65536/VapoR"
 src.git = "https://github.com/micheal65536/VapoR.git"
 
+[vrcvideocacher]
+fetch.github = "EllyVR/VRCVideoCacher"
+src.git = "https://github.com/EllyVR/VRCVideoCacher.git"
+
 [wayvr]
 cargo_lock = ["Cargo.lock"]
 fetch.github = "wlx-team/wayvr"

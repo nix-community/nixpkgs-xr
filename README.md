@@ -122,6 +122,7 @@ This overlay provides the following packages:
 - `proton-ge-rtsp-bin`
 - `resolute`
 - `vapor`
+- `vrcvideocacher`
 - `wayvr`
 - `wivrn`
 - `xrbinder`

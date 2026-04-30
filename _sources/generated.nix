@@ -96,15 +96,15 @@
   };
   monado = {
     pname = "monado";
-    version = "6cd7ff859c1197610a5d06e948db7522ce37f710";
+    version = "1adfc88a70e155553f5db5a20d312b3326212270";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "6cd7ff859c1197610a5d06e948db7522ce37f710";
+      rev = "1adfc88a70e155553f5db5a20d312b3326212270";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-pdrog755v8eLgWXYwQ2h78LPv4WTh/qGzgKPq4Zauuo=";
+      sha256 = "sha256-Z0y4lCcfCZrMU4azcR1fjd2dm46iJCPCnlEZfPFQTTs=";
     };
     date = "2026-04-28";
   };

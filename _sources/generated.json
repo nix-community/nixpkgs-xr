@@ -263,7 +263,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-T3VCQMyw38hdfLbdM02NuGM7mh5OaxbhC8EyCIuCv6c=/Cargo.lock",
+                "sha256-epLAFAtMLUkTSQtuRLoJO55oR5VBN2KiH9ObcQI7LnE=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
@@ -273,7 +273,7 @@
                 }
             ]
         },
-        "date": "2026-04-23",
+        "date": "2026-05-02",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -285,16 +285,16 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "9734955ebb60c9b3c231d8d9e64f01c6e845d77d",
-            "sha256": "sha256-T3VCQMyw38hdfLbdM02NuGM7mh5OaxbhC8EyCIuCv6c=",
+            "rev": "6b81f07cc805c818791682f725f9f32f7bab7794",
+            "sha256": "sha256-epLAFAtMLUkTSQtuRLoJO55oR5VBN2KiH9ObcQI7LnE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "9734955ebb60c9b3c231d8d9e64f01c6e845d77d"
+        "version": "6b81f07cc805c818791682f725f9f32f7bab7794"
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-04-30",
+        "date": "2026-05-02",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -306,12 +306,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "6d70dca173dacdca9ea09b01459c35bd2ff59d3d",
-            "sha256": "sha256-1hKXAVBBItHerxVzoTJnprb8YUQR+699ttPoK0pIPqU=",
+            "rev": "7e81f23f0fba4a3da8791c0a7c7a25800b910bf3",
+            "sha256": "sha256-ZehecdGkw2zSiHDwbMdA9cYGFjLSeOP0hxOhLFqLBg0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6d70dca173dacdca9ea09b01459c35bd2ff59d3d"
+        "version": "7e81f23f0fba4a3da8791c0a7c7a25800b910bf3"
     },
     "wivrn-monado": {
         "cargoLock": null,

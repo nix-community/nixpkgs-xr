@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "0db1d914d46efa72fe7a56cec40a24786968c934",
-            "sha256": "sha256-8BT1Dtp90atwCj0YdZOhPo9yzfYSDPrrpShXTu+A5tc=",
+            "rev": "4781e79d05a6e05964de9017c49d0f900c0e7098",
+            "sha256": "sha256-DWvYojp6cYyKLbXbyN+wyKXPioh6Vs2WbwI6srFWFMI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "0db1d914d46efa72fe7a56cec40a24786968c934"
+        "version": "4781e79d05a6e05964de9017c49d0f900c0e7098"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -263,7 +263,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-kQ686zPvFJbcUpRhqYXWlJfe++C6lS0ABK7cS6iS5Yc=/Cargo.lock",
+                "sha256-pgz9Ny5lid4054kJTIIgtnH3FJOCikEyfj7RJMgaQw0=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
@@ -273,7 +273,7 @@
                 }
             ]
         },
-        "date": "2026-05-03",
+        "date": "2026-05-07",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -285,12 +285,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "ec2e0501c105103eb36ec8290825083f5d557e6b",
-            "sha256": "sha256-kQ686zPvFJbcUpRhqYXWlJfe++C6lS0ABK7cS6iS5Yc=",
+            "rev": "cdd658d4ea8fc0309bbd658ab9fee714695c4282",
+            "sha256": "sha256-pgz9Ny5lid4054kJTIIgtnH3FJOCikEyfj7RJMgaQw0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ec2e0501c105103eb36ec8290825083f5d557e6b"
+        "version": "cdd658d4ea8fc0309bbd658ab9fee714695c4282"
     },
     "wivrn": {
         "cargoLock": null,

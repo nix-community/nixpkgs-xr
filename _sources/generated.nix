@@ -72,15 +72,15 @@
   };
   libsurvive = {
     pname = "libsurvive";
-    version = "2f4303c76f53be1919d89d801172fddd7b09aa7a";
+    version = "d63f79f1fee1c438bfa474c26173ac1202913925";
     src = fetchFromGitHub {
       owner = "collabora";
       repo = "libsurvive";
-      rev = "2f4303c76f53be1919d89d801172fddd7b09aa7a";
+      rev = "d63f79f1fee1c438bfa474c26173ac1202913925";
       fetchSubmodules = false;
-      sha256 = "sha256-fZYJVNRB4mQMj4TgAM89NO6CnF61MreSEZ9C5n+2buM=";
+      sha256 = "sha256-SjNgOuoLrAWpbp/ZkAbVFRwVm+nUQguRP2/8KQ3NI/o=";
     };
-    date = "2026-03-23";
+    date = "2026-05-08";
   };
   lovr-playspace = {
     pname = "lovr-playspace";
@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "4781e79d05a6e05964de9017c49d0f900c0e7098";
+    version = "9e968d486b026ca39658b8e1ea3e19e9ffd09659";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "4781e79d05a6e05964de9017c49d0f900c0e7098";
+      rev = "9e968d486b026ca39658b8e1ea3e19e9ffd09659";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-DWvYojp6cYyKLbXbyN+wyKXPioh6Vs2WbwI6srFWFMI=";
+      sha256 = "sha256-0ngDyZAo+R4kODBVdzAXJEGY94EMdEc9iWzTXlu2VJY=";
     };
-    date = "2026-05-06";
+    date = "2026-05-08";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -199,15 +199,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "6dfe43e0b6a7552b70906698682fc8c7280c3e06";
+    version = "e3be6294c8791ac68bd6a04f8ba12e82ca2edeb2";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "6dfe43e0b6a7552b70906698682fc8c7280c3e06";
+      rev = "e3be6294c8791ac68bd6a04f8ba12e82ca2edeb2";
       fetchSubmodules = false;
-      sha256 = "sha256-V/pMk6/ZzYbBJDJZRxGUAjtX+o7hqQv0FMe3Bj3bn4s=";
+      sha256 = "sha256-BhcIHqIF547RxiLH1hy7Unee1zYx4eEoauLCHI7mxQo=";
     };
-    date = "2026-05-06";
+    date = "2026-05-08";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

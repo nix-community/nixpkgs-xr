@@ -142,7 +142,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-05-10",
+        "date": "2026-05-12",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "81e02d336aa70578f3479dc5ecf2d567d5157a31",
-            "sha256": "sha256-NlfNwCDqGaA184ALRfAKkXUXf1VxixFSbjk7swSqHHA=",
+            "rev": "a971bcf48230f932319c610cee70694d05068ed8",
+            "sha256": "sha256-L9NyGg9URq7D5LBnCKPbfY2YOeB9VSQxhmAnWKSon3I=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "81e02d336aa70578f3479dc5ecf2d567d5157a31"
+        "version": "a971bcf48230f932319c610cee70694d05068ed8"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -263,7 +263,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-pgz9Ny5lid4054kJTIIgtnH3FJOCikEyfj7RJMgaQw0=/Cargo.lock",
+                "sha256-iPftqMaC3wOmHHGAow0WrIxySKl8atTh5qQOCl+2ZyY=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
@@ -273,7 +273,7 @@
                 }
             ]
         },
-        "date": "2026-05-07",
+        "date": "2026-05-12",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -285,12 +285,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "cdd658d4ea8fc0309bbd658ab9fee714695c4282",
-            "sha256": "sha256-pgz9Ny5lid4054kJTIIgtnH3FJOCikEyfj7RJMgaQw0=",
+            "rev": "20743f91eb970fe76f67c3f4844b2205a8e5b1cd",
+            "sha256": "sha256-iPftqMaC3wOmHHGAow0WrIxySKl8atTh5qQOCl+2ZyY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "cdd658d4ea8fc0309bbd658ab9fee714695c4282"
+        "version": "20743f91eb970fe76f67c3f4844b2205a8e5b1cd"
     },
     "wivrn": {
         "cargoLock": null,

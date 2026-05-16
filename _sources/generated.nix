@@ -72,15 +72,15 @@
   };
   libsurvive = {
     pname = "libsurvive";
-    version = "d63f79f1fee1c438bfa474c26173ac1202913925";
+    version = "33880717300ea94ac4b6224389fbd0fc771ea425";
     src = fetchFromGitHub {
       owner = "collabora";
       repo = "libsurvive";
-      rev = "d63f79f1fee1c438bfa474c26173ac1202913925";
+      rev = "33880717300ea94ac4b6224389fbd0fc771ea425";
       fetchSubmodules = false;
-      sha256 = "sha256-SjNgOuoLrAWpbp/ZkAbVFRwVm+nUQguRP2/8KQ3NI/o=";
+      sha256 = "sha256-qADr4dz9PSE6+aKWzvUi72oWVgD6ZnwBu6Fii2MYKeQ=";
     };
-    date = "2026-05-08";
+    date = "2026-05-15";
   };
   lovr-playspace = {
     pname = "lovr-playspace";

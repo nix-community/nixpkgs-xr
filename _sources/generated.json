@@ -100,7 +100,7 @@
     },
     "libsurvive": {
         "cargoLock": null,
-        "date": "2026-05-15",
+        "date": "2026-05-22",
         "extract": null,
         "name": "libsurvive",
         "passthru": null,
@@ -112,12 +112,12 @@
             "name": null,
             "owner": "collabora",
             "repo": "libsurvive",
-            "rev": "33880717300ea94ac4b6224389fbd0fc771ea425",
-            "sha256": "sha256-qADr4dz9PSE6+aKWzvUi72oWVgD6ZnwBu6Fii2MYKeQ=",
+            "rev": "5588cadf5ab764b51e50f9b08996009d1b9f836e",
+            "sha256": "sha256-S0i9/ZwCuPw4b/ZjhUIq77qdtn3FFEgLv/+byLRmfMI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "33880717300ea94ac4b6224389fbd0fc771ea425"
+        "version": "5588cadf5ab764b51e50f9b08996009d1b9f836e"
     },
     "lovr-playspace": {
         "cargoLock": null,
@@ -142,7 +142,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-05-13",
+        "date": "2026-05-22",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d0e85c8a4630b7da99ffec190b9f50956bc11969",
-            "sha256": "sha256-WgZUwWkN2GggzOffkFZWbt/XqCnRN8IKMVNw+hp0V9w=",
+            "rev": "60f1b6cc6e24ab7305d8cfd37424265fca198ba7",
+            "sha256": "sha256-YtjrbatyuHY89fywBLVTEhp67daYuLnJHHWec4hZ6xk=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "d0e85c8a4630b7da99ffec190b9f50956bc11969"
+        "version": "60f1b6cc6e24ab7305d8cfd37424265fca198ba7"
     },
     "opencomposite": {
         "cargoLock": null,

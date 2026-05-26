@@ -20,9 +20,10 @@ in
       (prevAttrs: {
         inherit (final.xrSources.xrizer) pname version src;
 
-        patches = builtins.filter (
-          patch: (!builtins.elem patch.name [ "xrizer-fix-aarch64.patch" ])
-        ) prevAttrs.patches;
+        postPatch = ''
+          substituteInPlace src/graphics_backends/gl.rs \
+            --replace-fail 'libGLX.so.0' '${final.lib.getLib final.libGL}/lib/libGLX.so.0'
+        '';
 
         cargoDeps = rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";
       });

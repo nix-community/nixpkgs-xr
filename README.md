@@ -113,6 +113,7 @@ This overlay provides the following packages:
 - `index_camera_passthrough`
 - `kaon`
 - `libsurvive`
+- `lighthouse`
 - `lovr`
 - `lovr-playspace`
 - `monado`

@@ -82,6 +82,24 @@
     };
     date = "2026-05-22";
   };
+  lighthouse = {
+    pname = "lighthouse";
+    version = "6c5e080dac852e82c18655d1214765d45aabedc9";
+    src = fetchFromGitHub {
+      owner = "ShayBox";
+      repo = "Lighthouse";
+      rev = "6c5e080dac852e82c18655d1214765d45aabedc9";
+      fetchSubmodules = false;
+      sha256 = "sha256-Ai+d7BKA1o98iOhQ7VXltnWHW/knw122xLZHhFM6gZ0=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-Ai+d7BKA1o98iOhQ7VXltnWHW_knw122xLZHhFM6gZ0=/Cargo.lock";
+      outputHashes = {
+
+      };
+    };
+    date = "2026-01-22";
+  };
   lovr-playspace = {
     pname = "lovr-playspace";
     version = "31c530d5be0ef435af9a2ff9a8eb00849b4bad8b";
@@ -158,7 +176,7 @@
     };cargoLock."Cargo.lock" = {
       lockFile = ./. + "/sha256-OdWdHFwmLSnELz0xn5goqKbMBAwTb4bwkV0jWlxtlm8=/Cargo.lock";
       outputHashes = {
-        
+
       };
     };
     date = "2025-03-05";
@@ -235,7 +253,7 @@
     cargoLock."Cargo.lock" = {
       lockFile = ./. + "/sha256-d3h3xBxEMza4MmmpDiUCHeaC6MVg1yUwZjMCwBEyLos=/Cargo.lock";
       outputHashes = {
-        
+
       };
     };
     date = "2026-05-20";

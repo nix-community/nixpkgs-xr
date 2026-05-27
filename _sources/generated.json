@@ -119,6 +119,32 @@
         },
         "version": "5588cadf5ab764b51e50f9b08996009d1b9f836e"
     },
+    "lighthouse": {
+        "cargoLock": {
+            "Cargo.lock": [
+                "sha256-Ai+d7BKA1o98iOhQ7VXltnWHW_knw122xLZHhFM6gZ0=/Cargo.lock",
+                {}
+            ]
+        },
+        "date": "2026-01-22",
+        "extract": null,
+        "name": "lighthouse",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "ShayBox",
+            "repo": "Lighthouse",
+            "rev": "6c5e080dac852e82c18655d1214765d45aabedc9",
+            "sha256": "sha256-Ai+d7BKA1o98iOhQ7VXltnWHW/knw122xLZHhFM6gZ0=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "6c5e080dac852e82c18655d1214765d45aabedc9"
+    },
     "lovr-playspace": {
         "cargoLock": null,
         "date": "2026-03-18",

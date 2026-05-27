@@ -26,6 +26,11 @@ src.git = "https://github.com/LorenDB/kaon.git"
 fetch.github = "collabora/libsurvive"
 src.git = "https://github.com/collabora/libsurvive.git"
 
+[lighthouse]
+cargo_lock = ["Cargo.lock"]
+fetch.github = "ShayBox/Lighthouse"
+src.git = "https://github.com/ShayBox/Lighthouse.git"
+
 [lovr-playspace]
 fetch.github = "SpookySkeletons/lovr-playspace"
 git.fetchSubmodules = true

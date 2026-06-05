@@ -11,15 +11,14 @@ final: prev: {
         final.hexdump
       ];
 
+      buildInputs = prevAttrs.buildInputs or [ ] ++ [
+        final.kdePackages.kirigami-addons
+      ];
+
       monado = final.applyPatches {
         inherit (final.xrSources.wivrn-monado) src;
         inherit (prevAttrs.monado) patches postPatch;
       };
-
-      # Remove patches against stable versions
-      # We need to make sure to filter this in the future, in case we have
-      # NixOS compatibility patches in nixpkgs
-      patches = [ ];
 
       cmakeFlags =
         (final.lib.filter (flag: !final.lib.hasInfix "GIT_DESC" flag) prevAttrs.cmakeFlags)

@@ -165,28 +165,28 @@
   };
   vapor = {
     pname = "vapor";
-    version = "08014062d080272bc192240e7e1ed8b2c6032011";
+    version = "1db7882324e03bb9e6797c4f9fbffe0b79bd2ee2";
     src = fetchFromGitHub {
       owner = "micheal65536";
       repo = "VapoR";
-      rev = "08014062d080272bc192240e7e1ed8b2c6032011";
+      rev = "1db7882324e03bb9e6797c4f9fbffe0b79bd2ee2";
       fetchSubmodules = false;
-      sha256 = "sha256-gwg7xSo8cYiqvOhgrbe1/dq85i2nUJtoBOn23qGjGbs=";
+      sha256 = "sha256-hAb2N/aDs6tBLK8Pa0BM+15Nbt1IMY2zM9iW3CAeWfY=";
     };
-    date = "2026-02-03";
+    date = "2026-06-09";
   };
   wayvr = {
     pname = "wayvr";
-    version = "6dc76c881f7b61eb5a26a960d31cf008ed2560bb";
+    version = "37896620eb7e35c5a7911a691fc9f21933bc5436";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "6dc76c881f7b61eb5a26a960d31cf008ed2560bb";
+      rev = "37896620eb7e35c5a7911a691fc9f21933bc5436";
       fetchSubmodules = false;
-      sha256 = "sha256-WQB7/eWJfl0jGpL0ELhjjL75SPhFV1uDFVkDGXRoc9Y=";
+      sha256 = "sha256-ggp/n6buwcgGeZNyduZJpawtugmjtRuWj/5Kb81zpeY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-WQB7_eWJfl0jGpL0ELhjjL75SPhFV1uDFVkDGXRoc9Y=/Cargo.lock";
+      lockFile = ./. + "/sha256-ggp_n6buwcgGeZNyduZJpawtugmjtRuWj_5Kb81zpeY=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "libspa-0.9.2" = "sha256-BmPyJdRYEz2o36hEE28GaRDVxhJm20cgYx28k0FhaSE=";
@@ -195,19 +195,19 @@
         "keyvalues-parser-0.2.2" = "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=";
       };
     };
-    date = "2026-06-03";
+    date = "2026-06-09";
   };
   wivrn = {
     pname = "wivrn";
-    version = "a3b40a1b6c46c8bc66fac2ba702d5bac45b53b6e";
+    version = "1fc70945cb9cdc38f4936fc2eea4df73661431c3";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "a3b40a1b6c46c8bc66fac2ba702d5bac45b53b6e";
+      rev = "1fc70945cb9cdc38f4936fc2eea4df73661431c3";
       fetchSubmodules = false;
-      sha256 = "sha256-Vl6i4POduC86uXUaT6vlCzzhSGoymcPIwqKPyiW3iyw=";
+      sha256 = "sha256-5XXhB3YjKrzh1nvTZloerDS6GLJtFs1AbIsTutThiRo=";
     };
-    date = "2026-06-06";
+    date = "2026-06-09";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

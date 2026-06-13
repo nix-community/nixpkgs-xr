@@ -23,15 +23,15 @@
     "envision-unwrapped": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-jFI2E1PkSD_UERN_JeoPX8sl1Kw+Lgxnm_UEJYwbqRE=/Cargo.lock",
+                "sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-GsICjkkwG9EJDIX8qwj6mE5QTfvisQdv5GuPCqhQxvg="
                 }
             ]
         },
-        "date": "2026-06-05",
+        "date": "2026-06-12",
         "extract": {
-            "Cargo.lock": "sha256-jFI2E1PkSD_UERN_JeoPX8sl1Kw+Lgxnm_UEJYwbqRE=/Cargo.lock"
+            "Cargo.lock": "sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=/Cargo.lock"
         },
         "name": "envision-unwrapped",
         "passthru": null,
@@ -41,13 +41,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "da87233d87da578c314f66c0ccc51ef3ae7141c3",
-            "sha256": "sha256-jFI2E1PkSD/UERN/JeoPX8sl1Kw+Lgxnm/UEJYwbqRE=",
+            "rev": "373646a12620a82e9684d79c1066f9b48bf3eed1",
+            "sha256": "sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.com/gabmus/envision.git"
         },
-        "version": "da87233d87da578c314f66c0ccc51ef3ae7141c3"
+        "version": "373646a12620a82e9684d79c1066f9b48bf3eed1"
     },
     "index_camera_passthrough": {
         "cargoLock": {

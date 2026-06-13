@@ -20,25 +20,25 @@
   };
   envision-unwrapped = {
     pname = "envision-unwrapped";
-    version = "da87233d87da578c314f66c0ccc51ef3ae7141c3";
+    version = "373646a12620a82e9684d79c1066f9b48bf3eed1";
     src = fetchgit {
       url = "https://gitlab.com/gabmus/envision.git";
-      rev = "da87233d87da578c314f66c0ccc51ef3ae7141c3";
+      rev = "373646a12620a82e9684d79c1066f9b48bf3eed1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-jFI2E1PkSD/UERN/JeoPX8sl1Kw+Lgxnm/UEJYwbqRE=";
+      sha256 = "sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=";
     };
     extract = {
-      "Cargo.lock" = ./. + "/sha256-jFI2E1PkSD_UERN_JeoPX8sl1Kw+Lgxnm_UEJYwbqRE=/Cargo.lock";
+      "Cargo.lock" = ./. + "/sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=/Cargo.lock";
     };cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-jFI2E1PkSD_UERN_JeoPX8sl1Kw+Lgxnm_UEJYwbqRE=/Cargo.lock";
+      lockFile = ./. + "/sha256-HrFrszIcgrnbo1SsSO0Ha8ObragtZv9vyUf5ZmcsTBU=/Cargo.lock";
       outputHashes = {
         "libmonado-1.6.0" = "sha256-GsICjkkwG9EJDIX8qwj6mE5QTfvisQdv5GuPCqhQxvg=";
       };
     };
-    date = "2026-06-05";
+    date = "2026-06-12";
   };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";

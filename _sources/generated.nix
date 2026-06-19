@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "2c3672c4491062a31c7b48c40c75191668ac0a49";
+    version = "7a017251626be35da190197ce07e4c388cd57bca";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "2c3672c4491062a31c7b48c40c75191668ac0a49";
+      rev = "7a017251626be35da190197ce07e4c388cd57bca";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-dlWR8tsVjOgmwEhqpwnlCFW6QMamuRNN/t8Rc0aJWOw=";
+      sha256 = "sha256-/88O5kUid55SIG7ZrHY496rtnAMIEpUPpukCnJoQwfA=";
     };
-    date = "2026-06-17";
+    date = "2026-06-18";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -165,15 +165,15 @@
   };
   vapor = {
     pname = "vapor";
-    version = "31fd7e0b50d8568b1a2e6eaf94101b7d4bb6c99f";
+    version = "fb9f462385cd74fb7f53473031011f4451e37e4c";
     src = fetchFromGitHub {
       owner = "micheal65536";
       repo = "VapoR";
-      rev = "31fd7e0b50d8568b1a2e6eaf94101b7d4bb6c99f";
+      rev = "fb9f462385cd74fb7f53473031011f4451e37e4c";
       fetchSubmodules = false;
-      sha256 = "sha256-hWXKbaQ4ns44CqVtQ7oVvbL3kQNGjRIwItFXXn9f/Ws=";
+      sha256 = "sha256-ZHulRZ7su41z64vUXep68fI3iPDZhaqwWAcgtf0OM8A=";
     };
-    date = "2026-06-17";
+    date = "2026-06-18";
   };
   wayvr = {
     pname = "wayvr";
@@ -199,15 +199,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "51e887ed1f9b488ecdd7781a4843018498873bfb";
+    version = "39ba5041e23cb6077424db03904c885dd7a85b97";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "51e887ed1f9b488ecdd7781a4843018498873bfb";
+      rev = "39ba5041e23cb6077424db03904c885dd7a85b97";
       fetchSubmodules = false;
-      sha256 = "sha256-qTNLrAtRsP5NDAgnRc3haCh8UHWStq7jhLI/9PRy8M0=";
+      sha256 = "sha256-UTm86gjLC6xJYXBtK81iGyw+H3JC4GqpMIiWOxum92g=";
     };
-    date = "2026-06-17";
+    date = "2026-06-18";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

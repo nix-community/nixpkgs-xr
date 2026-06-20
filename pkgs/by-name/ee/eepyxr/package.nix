@@ -31,12 +31,12 @@ stdenv.mkDerivation {
   buildInputs = [
     openxr-loader
     (sdl3.overrideAttrs {
-      version = "3.5.0-unstable-2026-04-08";
+      version = "3.5.0-unstable-2026-06-19";
       src = fetchFromGitHub {
         owner = "libsdl-org";
         repo = "SDL";
-        rev = "57f3d2ea0aada9131c109aaa0dfda41839997ebf";
-        hash = "sha256-tLX3uY18hWMLzkeAMcvEc0BLZ1M4vgp4FIOmnvh1yIc=";
+        rev = "49879ba0d6997709765caa53d9029b2c3551f1eb";
+        hash = "sha256-NHWjFOfeHE0GpiknnwSQ6Kqk5mxUNeUcoB+YT8gdgpo=";
       };
     })
     stb

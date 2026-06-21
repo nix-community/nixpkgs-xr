@@ -241,7 +241,7 @@
     },
     "vapor": {
         "cargoLock": null,
-        "date": "2026-06-18",
+        "date": "2026-06-20",
         "extract": null,
         "name": "vapor",
         "passthru": null,
@@ -253,17 +253,17 @@
             "name": null,
             "owner": "micheal65536",
             "repo": "VapoR",
-            "rev": "fb9f462385cd74fb7f53473031011f4451e37e4c",
-            "sha256": "sha256-ZHulRZ7su41z64vUXep68fI3iPDZhaqwWAcgtf0OM8A=",
+            "rev": "d69579dc53ecb9957af6a03a40650a6c0bcd08e5",
+            "sha256": "sha256-2ZyMrFVHws7a1dwrVwW1+s5Mr7KP2BbzLhRDFP0RXS8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "fb9f462385cd74fb7f53473031011f4451e37e4c"
+        "version": "d69579dc53ecb9957af6a03a40650a6c0bcd08e5"
     },
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-ggp_n6buwcgGeZNyduZJpawtugmjtRuWj_5Kb81zpeY=/Cargo.lock",
+                "sha256-OLd7QKag_hsZ57o8jXMTBI0mAqHzaBMkn197ZUhybuA=/Cargo.lock",
                 {
                     "keyvalues-parser-0.2.2": "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=",
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
@@ -273,7 +273,7 @@
                 }
             ]
         },
-        "date": "2026-06-09",
+        "date": "2026-06-21",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -285,12 +285,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "37896620eb7e35c5a7911a691fc9f21933bc5436",
-            "sha256": "sha256-ggp/n6buwcgGeZNyduZJpawtugmjtRuWj/5Kb81zpeY=",
+            "rev": "5723c3c1df31b332a54f59161762d41dd3bd4ff2",
+            "sha256": "sha256-OLd7QKag/hsZ57o8jXMTBI0mAqHzaBMkn197ZUhybuA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "37896620eb7e35c5a7911a691fc9f21933bc5436"
+        "version": "5723c3c1df31b332a54f59161762d41dd3bd4ff2"
     },
     "wivrn": {
         "cargoLock": null,

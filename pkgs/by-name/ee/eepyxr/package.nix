@@ -30,7 +30,7 @@ stdenv.mkDerivation {
   ];
   buildInputs = [
     openxr-loader
-    (sdl3.overrideAttrs {
+    (sdl3.overrideAttrs (oldAttrs: {
       version = "3.5.0-unstable-2026-06-19";
       src = fetchFromGitHub {
         owner = "libsdl-org";
@@ -38,7 +38,14 @@ stdenv.mkDerivation {
         rev = "49879ba0d6997709765caa53d9029b2c3551f1eb";
         hash = "sha256-NHWjFOfeHE0GpiknnwSQ6Kqk5mxUNeUcoB+YT8gdgpo=";
       };
-    })
+
+      postPatch = (
+        builtins.replaceStrings
+          [ "NONINTERACTIVE_TIMEOUT 20)" "NONINTERACTIVE_TIMEOUT 300)" ]
+          [ "NONINTERACTIVE_TIMEOUT 20" "NONINTERACTIVE_TIMEOUT 300" ]
+          oldAttrs.postPatch
+      );
+    }))
     stb
   ];
   patches = [ ./0001-Use-pkg-config-to-find-system-includes-in-translateC.patch ];

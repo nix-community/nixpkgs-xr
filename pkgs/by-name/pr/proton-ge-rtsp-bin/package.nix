@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
+# SPDX-FileCopyrightText: 2025 Sefa Eyeoglu <contact@scrumplex.net>
+# SPDX-FileCopyrightText: 2026 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
 {
@@ -6,8 +8,11 @@
   lib,
   proton-ge-bin,
 }:
-(proton-ge-bin.override {
+let
   steamDisplayName = "GE-Proton-rtsp";
+in
+(proton-ge-bin.override {
+  inherit steamDisplayName;
 }).overrideAttrs
   (
     finalAttrs: _: {
@@ -21,7 +26,7 @@
 
       preFixup = ''
         substituteInPlace "$steamcompattool/compatibilitytool.vdf" \
-          --replace-fail "${finalAttrs.version}" "GE-Proton-rtsp"
+          --replace-fail "${finalAttrs.version}" "${steamDisplayName}"
       '';
 
       meta = {
@@ -35,6 +40,7 @@
         maintainers = with lib.maintainers; [
           Scrumplex
           RTUnreal
+          coolGi
         ];
       };
     }

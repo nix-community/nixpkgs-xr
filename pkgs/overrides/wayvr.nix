@@ -8,6 +8,10 @@ final: prev: {
 
     cargoDeps = final.rustPlatform.importCargoLock final.xrSources.wayvr.cargoLock."Cargo.lock";
 
+    buildInputs = prevAttrs.buildInputs or [ ] ++ [
+      final.dav1d
+    ];
+
     env = prevAttrs.env or { } // {
       ORT_LIB_PATH = "${final.lib.getLib final.onnxruntime}/lib";
       ORT_PREFER_DYNAMIC_LINK = 1;

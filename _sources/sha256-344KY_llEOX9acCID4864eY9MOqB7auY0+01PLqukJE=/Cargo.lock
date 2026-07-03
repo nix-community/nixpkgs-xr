@@ -1444,6 +1444,7 @@ dependencies = [
  "hyper",
  "keyvalues-parser",
  "log",
+ "lz4_flex",
  "rust-embed",
  "serde",
  "serde_json",
@@ -1468,6 +1469,15 @@ name = "data-url"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "be1e0bca6c3637f992fc1cc7cbc52a78c1ef6db076dbf1059c4323d6a2048376"
+
+[[package]]
+name = "dav1d-sys"
+version = "0.8.3"
+source = "git+https://github.com/rust-av/dav1d-rs.git?rev=03477a36c3de4f2aacbab81a8951150ffdb9c4c3#03477a36c3de4f2aacbab81a8951150ffdb9c4c3"
+dependencies = [
+ "libc",
+ "system-deps",
+]
 
 [[package]]
 name = "dbus"
@@ -3102,6 +3112,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f66e8d5d03f609abc3a39e6f08e4164ebf1447a732906d39eb9b99b7919ef39"
 dependencies = [
  "hashbrown 0.16.1",
+]
+
+[[package]]
+name = "lz4_flex"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ef0d4ed8669f8f8826eb00dc878084aa8f253506c4fd5e8f58f5bce72ddb97e"
+dependencies = [
+ "twox-hash",
 ]
 
 [[package]]
@@ -5970,6 +5989,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "twox-hash"
+version = "2.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9ea3136b675547379c4bd395ca6b938e5ad3c3d20fad76e7fe85f9e0d011419c"
+
+[[package]]
 name = "typeid"
 version = "1.0.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6641,7 +6666,9 @@ name = "wgui"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "bytes",
  "cosmic-text",
+ "dav1d-sys",
  "etagere",
  "flate2",
  "glam",
@@ -7221,6 +7248,7 @@ dependencies = [
  "rust-ini",
  "serde",
  "serde_json",
+ "serde_json5",
  "smol",
  "strum",
  "walkdir",

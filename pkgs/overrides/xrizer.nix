@@ -20,10 +20,20 @@ in
       (prevAttrs: {
         inherit (final.xrSources.xrizer) pname version src;
 
+        nativeBuildInputs = prevAttrs.nativeBuildInputs or [ ] ++ [
+          final.autoPatchelfHook
+        ];
+
         postPatch = ''
           substituteInPlace src/graphics_backends/gl.rs \
             --replace-fail 'libGLX.so.0' '${final.lib.getLib final.libGL}/lib/libGLX.so.0'
         '';
+
+        postInstall = ''
+          patchelf $out/lib/libxrizer.so \
+            --add-needed "libopenxr_loader.so.1"
+        ''
+        + prevAttrs.postInstall or "";
 
         cargoDeps = rustPlatform.importCargoLock final.xrSources.xrizer.cargoLock."Cargo.lock";
       });

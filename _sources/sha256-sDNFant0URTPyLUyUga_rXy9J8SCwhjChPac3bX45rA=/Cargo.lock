@@ -6479,7 +6479,7 @@ dependencies = [
 
 [[package]]
 name = "wayvr"
-version = "26.7.0"
+version = "26.7.1"
 dependencies = [
  "anyhow",
  "ash",
@@ -6564,7 +6564,7 @@ dependencies = [
 
 [[package]]
 name = "wayvrctl"
-version = "26.7.0"
+version = "26.7.1"
 dependencies = [
  "anyhow",
  "clap",

@@ -10,6 +10,8 @@ final: prev: {
 
     buildInputs = prevAttrs.buildInputs or [ ] ++ [
       final.dav1d
+      final.libinput
+      final.systemdLibs
     ];
 
     env = prevAttrs.env or { } // {

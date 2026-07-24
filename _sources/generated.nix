@@ -165,28 +165,28 @@
   };
   vapor = {
     pname = "vapor";
-    version = "7296fd126a6e96e87ddc18b6e1f97066b5d4250e";
+    version = "f2348b85a7d84ed2862cbfdb061abf7b41e72b26";
     src = fetchFromGitHub {
       owner = "micheal65536";
       repo = "VapoR";
-      rev = "7296fd126a6e96e87ddc18b6e1f97066b5d4250e";
+      rev = "f2348b85a7d84ed2862cbfdb061abf7b41e72b26";
       fetchSubmodules = false;
-      sha256 = "sha256-7bg/jq34Jm93qxGcSKtNeb2ls0jcdPDaFDVkEDKXDHE=";
+      sha256 = "sha256-/+TirMXLpOe+dKw29cHU17nnGJ+Oc+PkBpbnJcUdVwg=";
     };
-    date = "2026-07-01";
+    date = "2026-07-23";
   };
   wayvr = {
     pname = "wayvr";
-    version = "7f6caca0f857a06c7e3b6078efaa05cf1512aedf";
+    version = "b4e2fd782caa33b40b0f0021b03e6c4364762880";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "7f6caca0f857a06c7e3b6078efaa05cf1512aedf";
+      rev = "b4e2fd782caa33b40b0f0021b03e6c4364762880";
       fetchSubmodules = false;
-      sha256 = "sha256-d/CQzfKpQ6nNLvx1mSAYlaYPXz/SA6SwDlAW23b/w1U=";
+      sha256 = "sha256-iOLp0TztprWTFSqdrM+U64z0STnDjSzjk55M8owDVSY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-d_CQzfKpQ6nNLvx1mSAYlaYPXz_SA6SwDlAW23b_w1U=/Cargo.lock";
+      lockFile = ./. + "/sha256-iOLp0TztprWTFSqdrM+U64z0STnDjSzjk55M8owDVSY=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "vulkano-0.35.2" = "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI=";
@@ -194,7 +194,7 @@
         "keyvalues-parser-0.2.2" = "sha256-WHl1JUXoIMsKNkmboRWy1wohY5YNDTpGp7s8l0h3yos=";
       };
     };
-    date = "2026-07-23";
+    date = "2026-07-24";
   };
   wivrn = {
     pname = "wivrn";

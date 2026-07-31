@@ -177,16 +177,16 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "d1f29958461b6b9eda78aea4ee86523a982357a5";
+    version = "6f6f9af983a86dc2acb2df6db05e1e8eda702e52";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "d1f29958461b6b9eda78aea4ee86523a982357a5";
+      rev = "6f6f9af983a86dc2acb2df6db05e1e8eda702e52";
       fetchSubmodules = false;
-      sha256 = "sha256-jrJesT6LWkpyoWXw1cx8XUMGdOXPqTGctdBi/TG2l/U=";
+      sha256 = "sha256-QOG2g4yFjlrvB4m2XCfy5Kmmqr0ePXertcdcZ/Tj9RY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-jrJesT6LWkpyoWXw1cx8XUMGdOXPqTGctdBi_TG2l_U=/Cargo.lock";
+      lockFile = ./. + "/sha256-QOG2g4yFjlrvB4m2XCfy5Kmmqr0ePXertcdcZ_Tj9RY=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "vulkano-0.35.2" = "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI=";
@@ -197,27 +197,27 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "aa3a94e76d3126eedcda0719d36722b3c350b90b";
+    version = "8c8bd6bd1a37ac771a81b72395e10062475d5d34";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "aa3a94e76d3126eedcda0719d36722b3c350b90b";
+      rev = "8c8bd6bd1a37ac771a81b72395e10062475d5d34";
       fetchSubmodules = false;
-      sha256 = "sha256-wgpeTDHl3m/sfdZVgaq2GHQNKywUWTDS/YmHISHBxAE=";
+      sha256 = "sha256-FnRrm6o4QsqrhPy4eBpBWvMGBlf+wfu5oRnQncRMrVA=";
     };
-    date = "2026-07-29";
+    date = "2026-07-30";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
-    version = "1b526bb3a0ff326ecd05af4c2c541407f53c6d4b";
+    version = "24e2c42e47ad8c9c1049c2a1e71e01b719b0658f";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "1b526bb3a0ff326ecd05af4c2c541407f53c6d4b";
+      rev = "24e2c42e47ad8c9c1049c2a1e71e01b719b0658f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-SzuCQ1uX15vFGwGt3gswlVF2Su8sIND4R3tsTJ4T1LY=";
+      sha256 = "sha256-kupGiT6OGR2GQOYDxg/+3Gfdm4pNPxh0kkBmlD9zHAo=";
     };
   };
   xr-chaperone = {

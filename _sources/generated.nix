@@ -124,16 +124,16 @@
   };
   oscavmgr = {
     pname = "oscavmgr";
-    version = "a4b4b5475b3dd3e00c4e6f878ccb89bc5daab198";
+    version = "f82cd9bc0ba851b8a903231b195d743ae0287d6f";
     src = fetchFromGitHub {
       owner = "galister";
       repo = "oscavmgr";
-      rev = "a4b4b5475b3dd3e00c4e6f878ccb89bc5daab198";
+      rev = "f82cd9bc0ba851b8a903231b195d743ae0287d6f";
       fetchSubmodules = true;
-      sha256 = "sha256-SbMiPP1wh1j+Kr8tfCY6w8LZXvLcllSpAhCYHh5yOsc=";
+      sha256 = "sha256-mdDpPS5O2Em19/0YxBCnYf8KPsOQKiwccMDqvWCNM3o=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-SbMiPP1wh1j+Kr8tfCY6w8LZXvLcllSpAhCYHh5yOsc=/Cargo.lock";
+      lockFile = ./. + "/sha256-mdDpPS5O2Em19_0YxBCnYf8KPsOQKiwccMDqvWCNM3o=/Cargo.lock";
       outputHashes = {
         "alvr_common-20.14.1" = "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=";
         "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
@@ -197,15 +197,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "ca59f467516b2d67dc17de5fa430145050a1dcd6";
+    version = "85a635069f3eb9a164a8d4df6a92ef04da957248";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "ca59f467516b2d67dc17de5fa430145050a1dcd6";
+      rev = "85a635069f3eb9a164a8d4df6a92ef04da957248";
       fetchSubmodules = false;
-      sha256 = "sha256-hFrmrSgnJRJg8Na6FUSwVZk+wz4RpNuKfRERnT1wK+A=";
+      sha256 = "sha256-QTlbKx5QHzOb9yLCPi6gO75xbP2jCnn+H32M1Og1+Jw=";
     };
-    date = "2026-08-02";
+    date = "2026-08-06";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

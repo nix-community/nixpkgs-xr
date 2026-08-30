@@ -18,11 +18,11 @@ in
   (
     finalAttrs: _: {
       pname = "proton-rtsp-bin";
-      version = "proton-rtsp-11.0-20260609-2";
+      version = "proton-rtsp-11.0-20260609-3";
 
       src = fetchzip {
         url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
-        hash = "sha256-Nw+4d6My86KfdUvOS78+f04T/VaLzQaAZuZLSoaYTaY=";
+        hash = "sha256-Toj9kApuJmmZahBjNWJjE/YfiWEXGi2Oq8PYm3Ub+nI=";
       };
 
       preFixup = ''

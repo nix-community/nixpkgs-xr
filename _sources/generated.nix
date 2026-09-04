@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "1efe13ecc84e0cc72de1959c28e9ce7ccfab7350";
+    version = "efb8cefb05646a5af78fa1f32be41ddfd10c0ee8";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "1efe13ecc84e0cc72de1959c28e9ce7ccfab7350";
+      rev = "efb8cefb05646a5af78fa1f32be41ddfd10c0ee8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-8FeoTMiVVUW3bS8SnnBNHcTD7HwJB7ZFIFJYluyQctE=";
+      sha256 = "sha256-V2qVgTv9s0Bl9quq1wbhKshqubGipTEDKGtwYU0Sqzo=";
     };
-    date = "2026-09-01";
+    date = "2026-09-03";
   };
   opencomposite = {
     pname = "opencomposite";
@@ -197,15 +197,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "42b3417ba92dff9aa45d4148639e3a354e1d0019";
+    version = "ad7391d51b09b7f3e642d9da10e3ef99a59b423a";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "42b3417ba92dff9aa45d4148639e3a354e1d0019";
+      rev = "ad7391d51b09b7f3e642d9da10e3ef99a59b423a";
       fetchSubmodules = false;
-      sha256 = "sha256-TLkll/CTeAkUn9LC7X2K4+Nvc9zehE8J3m7qbQt9Eb8=";
+      sha256 = "sha256-Zgb4J8kA59mluXTJXIsv0ZC4P/PDnIj7h/3kLonoYzo=";
     };
-    date = "2026-09-01";
+    date = "2026-09-03";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
@@ -254,20 +254,20 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "f81fedd45d00118365cb2782a7f9f23994984fdf";
+    version = "0989a7fac2d1efb7ea82f5fe1a8ed30c3eeb9596";
     src = fetchFromGitHub {
       owner = "Supreeeme";
       repo = "xrizer";
-      rev = "f81fedd45d00118365cb2782a7f9f23994984fdf";
+      rev = "0989a7fac2d1efb7ea82f5fe1a8ed30c3eeb9596";
       fetchSubmodules = false;
-      sha256 = "sha256-tWTvLswMQQ+Zonf2CGLYqRPhFU0MbKldoiX+3qFR+vw=";
+      sha256 = "sha256-Rb1pssAq6Zx6VmQVQtGcThkA6zCwi5X7G7aHmdsDrJo=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-tWTvLswMQQ+Zonf2CGLYqRPhFU0MbKldoiX+3qFR+vw=/Cargo.lock";
+      lockFile = ./. + "/sha256-Rb1pssAq6Zx6VmQVQtGcThkA6zCwi5X7G7aHmdsDrJo=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-09-01";
+    date = "2026-09-03";
   };
 }

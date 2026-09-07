@@ -124,23 +124,23 @@
   };
   oscavmgr = {
     pname = "oscavmgr";
-    version = "c3bf7b2d8a0f56e84940c5fc1c7c8a6a95e6c26d";
+    version = "f054440d570de08482f7692ab82e340a7bbe655b";
     src = fetchFromGitHub {
       owner = "galister";
       repo = "oscavmgr";
-      rev = "c3bf7b2d8a0f56e84940c5fc1c7c8a6a95e6c26d";
+      rev = "f054440d570de08482f7692ab82e340a7bbe655b";
       fetchSubmodules = true;
-      sha256 = "sha256-oQ58gViLK4t6M6+hICmSyDTnQhQ9SjsvpK76Phg0tXU=";
+      sha256 = "sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-oQ58gViLK4t6M6+hICmSyDTnQhQ9SjsvpK76Phg0tXU=/Cargo.lock";
+      lockFile = ./. + "/sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=/Cargo.lock";
       outputHashes = {
         "alvr_common-20.14.1" = "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=";
         "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
         "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
       };
     };
-    date = "2026-08-09";
+    date = "2026-09-07";
   };
   resolute = {
     pname = "resolute";
@@ -177,23 +177,23 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "f0a1b82db5d967c18c733d4cb2e46efeba849e3b";
+    version = "40811f219e475bb3afd98610ab1cb7648bd352d5";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "f0a1b82db5d967c18c733d4cb2e46efeba849e3b";
+      rev = "40811f219e475bb3afd98610ab1cb7648bd352d5";
       fetchSubmodules = false;
-      sha256 = "sha256-RK7Y+xL6b4Z9pVN7tYvFKeSiSUOCVK4DK/7PUlXsM1g=";
+      sha256 = "sha256-kSR+PVg4I0WG/2xinapvQUPc36WxnsIKV8l4BUmtvro=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-RK7Y+xL6b4Z9pVN7tYvFKeSiSUOCVK4DK_7PUlXsM1g=/Cargo.lock";
+      lockFile = ./. + "/sha256-kSR+PVg4I0WG_2xinapvQUPc36WxnsIKV8l4BUmtvro=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=";
         "vulkano-0.35.2" = "sha256-KsL9NpPtR3iGL4T5TbYeVAeH9RjiKTBtKyn3p1ONwAI=";
         "libmonado-1.6.0" = "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=";
       };
     };
-    date = "2026-09-05";
+    date = "2026-09-06";
   };
   wivrn = {
     pname = "wivrn";

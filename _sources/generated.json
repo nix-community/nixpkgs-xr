@@ -183,7 +183,7 @@
     "oscavmgr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-oQ58gViLK4t6M6+hICmSyDTnQhQ9SjsvpK76Phg0tXU=/Cargo.lock",
+                "sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=/Cargo.lock",
                 {
                     "alvr_common-20.14.1": "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=",
                     "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
@@ -191,7 +191,7 @@
                 }
             ]
         },
-        "date": "2026-08-09",
+        "date": "2026-09-07",
         "extract": null,
         "name": "oscavmgr",
         "passthru": null,
@@ -203,12 +203,12 @@
             "name": null,
             "owner": "galister",
             "repo": "oscavmgr",
-            "rev": "c3bf7b2d8a0f56e84940c5fc1c7c8a6a95e6c26d",
-            "sha256": "sha256-oQ58gViLK4t6M6+hICmSyDTnQhQ9SjsvpK76Phg0tXU=",
+            "rev": "f054440d570de08482f7692ab82e340a7bbe655b",
+            "sha256": "sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c3bf7b2d8a0f56e84940c5fc1c7c8a6a95e6c26d"
+        "version": "f054440d570de08482f7692ab82e340a7bbe655b"
     },
     "resolute": {
         "cargoLock": {
@@ -263,7 +263,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-RK7Y+xL6b4Z9pVN7tYvFKeSiSUOCVK4DK_7PUlXsM1g=/Cargo.lock",
+                "sha256-kSR+PVg4I0WG_2xinapvQUPc36WxnsIKV8l4BUmtvro=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
                     "ovr_overlay-0.0.0": "sha256-hJlMb6hTVxUuZZIDbIXqdOoWWXA56TrUaGQ7LnCKxG4=",
@@ -271,7 +271,7 @@
                 }
             ]
         },
-        "date": "2026-09-05",
+        "date": "2026-09-06",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -283,12 +283,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "f0a1b82db5d967c18c733d4cb2e46efeba849e3b",
-            "sha256": "sha256-RK7Y+xL6b4Z9pVN7tYvFKeSiSUOCVK4DK/7PUlXsM1g=",
+            "rev": "40811f219e475bb3afd98610ab1cb7648bd352d5",
+            "sha256": "sha256-kSR+PVg4I0WG/2xinapvQUPc36WxnsIKV8l4BUmtvro=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f0a1b82db5d967c18c733d4cb2e46efeba849e3b"
+        "version": "40811f219e475bb3afd98610ab1cb7648bd352d5"
     },
     "wivrn": {
         "cargoLock": null,

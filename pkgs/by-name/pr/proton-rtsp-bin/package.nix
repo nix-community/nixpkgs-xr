@@ -13,7 +13,7 @@
 proton-ge-bin.overrideAttrs (
   finalAttrs: prevAttrs: {
     pname = "proton-rtsp-bin";
-    version = "proton-rtsp-11.0-20260609-3";
+    version = "proton-rtsp-11.0-20260609-4";
 
     inherit (finalAttrs.passthru.variants.${stdenvNoCC.hostPlatform.system}) src toolName;
 
@@ -23,7 +23,7 @@ proton-ge-bin.overrideAttrs (
       toolName = finalAttrs.version;
       src = fetchzip {
         url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
-        hash = "sha256-Toj9kApuJmmZahBjNWJjE/YfiWEXGi2Oq8PYm3Ub+nI=";
+        hash = "sha256-ENLAPkz6PhqBpGibwjnWJE8NEnUnmoM81IuPQB9Ufoc=";
       };
     };
 

@@ -152,13 +152,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "b5394f51d2db04290e1cea07a080628a3d36e047",
-            "sha256": "sha256-gwpIxnhIxENN3+mjQNk9WztwQuJqn+PYteiVhnClRNg=",
+            "rev": "a6d31c6c1ce5ab54c6a897328f963571a757e4e7",
+            "sha256": "sha256-3zWfm0CeFC2pNwl2zyj29+G2RJsqXwBKq/l0MgyPJKI=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "b5394f51d2db04290e1cea07a080628a3d36e047"
+        "version": "a6d31c6c1ce5ab54c6a897328f963571a757e4e7"
     },
     "opencomposite": {
         "cargoLock": null,
@@ -183,7 +183,7 @@
     "oscavmgr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=/Cargo.lock",
+                "sha256-xujhOtowAJ+PCGHHQbqc5jL9DGK3431j9j1eOkzULYY=/Cargo.lock",
                 {
                     "alvr_common-20.14.1": "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=",
                     "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
@@ -191,7 +191,7 @@
                 }
             ]
         },
-        "date": "2026-09-07",
+        "date": "2026-09-11",
         "extract": null,
         "name": "oscavmgr",
         "passthru": null,
@@ -203,12 +203,12 @@
             "name": null,
             "owner": "galister",
             "repo": "oscavmgr",
-            "rev": "f054440d570de08482f7692ab82e340a7bbe655b",
-            "sha256": "sha256-PcUlHJO0x+qROpQDAcYAVsQU4KEC+EeehKIGelfHRW0=",
+            "rev": "58f5da04f40503be3b6a323c4e1c219c6863332b",
+            "sha256": "sha256-xujhOtowAJ+PCGHHQbqc5jL9DGK3431j9j1eOkzULYY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f054440d570de08482f7692ab82e340a7bbe655b"
+        "version": "58f5da04f40503be3b6a323c4e1c219c6863332b"
     },
     "resolute": {
         "cargoLock": {

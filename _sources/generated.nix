@@ -72,15 +72,15 @@
   };
   libsurvive = {
     pname = "libsurvive";
-    version = "f1e6eddb669320f2a30760f4b42936bdb4306da0";
+    version = "df22f2d6be34cb54d43c46e8838eae8b326b88ff";
     src = fetchFromGitHub {
       owner = "collabora";
       repo = "libsurvive";
-      rev = "f1e6eddb669320f2a30760f4b42936bdb4306da0";
+      rev = "df22f2d6be34cb54d43c46e8838eae8b326b88ff";
       fetchSubmodules = false;
-      sha256 = "sha256-/APARELbsI4Y1GusRhKXzXTUxhXaSUyX7zocbYUt2+4=";
+      sha256 = "sha256-l7a627tcgomY8TKC7SsuGUTTTpn+z2q4L5VMpM28VuI=";
     };
-    date = "2026-08-27";
+    date = "2026-09-15";
   };
   lovr-playspace = {
     pname = "lovr-playspace";
@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "4a711c926ede7b31a48c0fe3f9a62ca9ae9a3832";
+    version = "09741cbcb45236f4f4f79790ea133cd90d68d5eb";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "4a711c926ede7b31a48c0fe3f9a62ca9ae9a3832";
+      rev = "09741cbcb45236f4f4f79790ea133cd90d68d5eb";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-+ACDeWyNbuCL5a+lL3fFaHY2vuPEH+6cdgBtzxtjcJ8=";
+      sha256 = "sha256-3+bdxyXHuaweT/K+Jwh428XNMuZUd1tL2bdFBRIZ/Po=";
     };
-    date = "2026-09-14";
+    date = "2026-09-16";
   };
   opencomposite = {
     pname = "opencomposite";

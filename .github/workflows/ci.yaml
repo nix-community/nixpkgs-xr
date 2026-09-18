@@ -8,7 +8,7 @@ on: [push, pull_request]
 
 jobs:
   format:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
     - uses: actions/checkout@v7
     - uses: cachix/install-nix-action@v31
@@ -19,7 +19,7 @@ jobs:
         nix fmt -- --ci
 
   check-readme:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
     - uses: actions/checkout@v7
     - uses: cachix/install-nix-action@v31
@@ -39,7 +39,7 @@ jobs:
         fi
 
   test:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
     - uses: actions/checkout@v7
     - name: REUSE Compliance Check

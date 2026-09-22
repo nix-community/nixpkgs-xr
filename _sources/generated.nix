@@ -108,6 +108,20 @@
     };
     date = "2026-09-19";
   };
+  monado-solarxr = {
+    pname = "monado-solarxr";
+    version = "7490bf30f3eb857542e80ab6b49747ab6a63f930";
+    src = fetchgit {
+      url = "https://gitlab.freedesktop.org/rcelyte/monado.git";
+      rev = "7490bf30f3eb857542e80ab6b49747ab6a63f930";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-1w7NwC8kW5gVOi9ceQbLVaYItCW7xOXu0qn834jJKJA=";
+    };
+    date = "2026-09-08";
+  };
   opencomposite = {
     pname = "opencomposite";
     version = "cff07db75c4823afe93ed7027b03d5f7bc86f164";

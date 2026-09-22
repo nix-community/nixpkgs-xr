@@ -160,6 +160,26 @@
         },
         "version": "f07dd134877d850ca9407c4b1a7b0c5a2a3d1ce2"
     },
+    "monado-solarxr": {
+        "cargoLock": null,
+        "date": "2026-09-08",
+        "extract": null,
+        "name": "monado-solarxr",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "7490bf30f3eb857542e80ab6b49747ab6a63f930",
+            "sha256": "sha256-1w7NwC8kW5gVOi9ceQbLVaYItCW7xOXu0qn834jJKJA=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://gitlab.freedesktop.org/rcelyte/monado.git"
+        },
+        "version": "7490bf30f3eb857542e80ab6b49747ab6a63f930"
+    },
     "opencomposite": {
         "cargoLock": null,
         "date": "2025-07-21",

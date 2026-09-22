@@ -116,6 +116,7 @@ This overlay provides the following packages:
 - `lovr`
 - `lovr-playspace`
 - `monado`
+- `monado-solarxr`
 - `opencomposite`
 - `opencomposite-vendored`
 - `oscavmgr`

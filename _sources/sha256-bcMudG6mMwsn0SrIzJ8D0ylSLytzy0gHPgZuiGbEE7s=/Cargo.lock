@@ -1600,7 +1600,8 @@ dependencies = [
 [[package]]
 name = "libmonado"
 version = "1.6.0"
-source = "git+https://github.com/technobaboo/libmonado-rs.git?rev=8c5481f4061cceb746ee8324da2c7e7ddfb973da#8c5481f4061cceb746ee8324da2c7e7ddfb973da"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0df3183760954d877b894d42f5c6954837d8a7d7bd5f042409c4175afeaf24ea"
 dependencies = [
  "dlopen2",
  "flagset",
@@ -1787,12 +1788,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ndk-context"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "27b02d87554356db9e9a873add8782d4ea6e3e58ea071a9adb9a2e8ddb884a8b"
-
-[[package]]
 name = "nix"
 version = "0.29.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1907,21 +1902,20 @@ dependencies = [
 
 [[package]]
 name = "openxr"
-version = "0.21.1"
+version = "0.22.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c2f814a47d257c79c762bc64042859661b6aa2f57cfa1f0ad4d778f419aeb0e"
+checksum = "53770c8f7d3f185bcb577b78f2ed8e33bbf7cdf5cd57fb68b5ec0b4117b79de6"
 dependencies = [
  "libc",
  "libloading 0.9.0",
- "ndk-context",
  "openxr-sys",
 ]
 
 [[package]]
 name = "openxr-sys"
-version = "0.13.1"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b8d66081de28c2fa40216182a37292fe38aeea20bc184612504d5e64daf5359"
+checksum = "febb5d50cee7b964b69d5b7a810ed9620fc64f41382ffefe05434754c7a48877"
 dependencies = [
  "libc",
 ]

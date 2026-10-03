@@ -60,15 +60,15 @@
   };
   kaon = {
     pname = "kaon";
-    version = "ca304206de0484b3867ee9e2a154d9ca2dccf49d";
+    version = "686c0160eb537a163957ccf6dda0f6297d77af03";
     src = fetchFromGitHub {
       owner = "LorenDB";
       repo = "kaon";
-      rev = "ca304206de0484b3867ee9e2a154d9ca2dccf49d";
+      rev = "686c0160eb537a163957ccf6dda0f6297d77af03";
       fetchSubmodules = false;
-      sha256 = "sha256-1QSsccmkxDMCc8RoQDwZU72wBkQADrpEUGH7/HgRj7U=";
+      sha256 = "sha256-pYJ9w26kjnNDDt7SvnGydMLDjaLQb2iZP78IT0IqOG0=";
     };
-    date = "2026-01-10";
+    date = "2026-10-02";
   };
   libsurvive = {
     pname = "libsurvive";
@@ -96,17 +96,17 @@
   };
   monado = {
     pname = "monado";
-    version = "045931d12f1cc9afde942f7905db08e6f51b9d8e";
+    version = "22d5c936ccc7218e7d139c7d921456c49ff5aaf1";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "045931d12f1cc9afde942f7905db08e6f51b9d8e";
+      rev = "22d5c936ccc7218e7d139c7d921456c49ff5aaf1";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PjfasW0nFfRRWH50bomqQGEZMV0YbAVNypxTVUSk/vg=";
+      sha256 = "sha256-DpWcEyQJ0JPFNN+r0xw0WLejhksOQzA5xIomGEK7LZw=";
     };
-    date = "2026-09-30";
+    date = "2026-10-02";
   };
   monado-solarxr = {
     pname = "monado-solarxr";
@@ -191,34 +191,34 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "4590371a4c8f6a5b30e2e7a3fdb3b8af15b6d65e";
+    version = "68944184dea019f4efb1dccb68fdc6734e9baf58";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "4590371a4c8f6a5b30e2e7a3fdb3b8af15b6d65e";
+      rev = "68944184dea019f4efb1dccb68fdc6734e9baf58";
       fetchSubmodules = false;
-      sha256 = "sha256-zrBJ25Oe/1+eGwXqmhC6Z2a4lwqEcc7BS1AlgvaRN0c=";
+      sha256 = "sha256-XsCha4oPmsgafOuaPT5sTtYNHwOckL9FJCYDsydRz10=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-zrBJ25Oe_1+eGwXqmhC6Z2a4lwqEcc7BS1AlgvaRN0c=/Cargo.lock";
+      lockFile = ./. + "/sha256-XsCha4oPmsgafOuaPT5sTtYNHwOckL9FJCYDsydRz10=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs=";
         "libmonado-1.6.0" = "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=";
       };
     };
-    date = "2026-09-30";
+    date = "2026-10-03";
   };
   wivrn = {
     pname = "wivrn";
-    version = "7e0bf5efc1f4298b433eff1c6f3d81a1bc401b44";
+    version = "e8c92a720238a4853f896eeaca9cdc679beedee9";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "7e0bf5efc1f4298b433eff1c6f3d81a1bc401b44";
+      rev = "e8c92a720238a4853f896eeaca9cdc679beedee9";
       fetchSubmodules = false;
-      sha256 = "sha256-UfeYkSxH8mP8VOvC7eWNb0drSqqE81lrHBjBLVQwxVE=";
+      sha256 = "sha256-I9YiFJ4bOsdHRmb8w3iyZRFPV7pujLM9tDNg9lzJOpw=";
     };
-    date = "2026-10-01";
+    date = "2026-10-02";
   };
   wivrn-monado = {
     pname = "wivrn-monado";

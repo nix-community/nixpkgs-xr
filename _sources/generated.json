@@ -281,7 +281,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-XsCha4oPmsgafOuaPT5sTtYNHwOckL9FJCYDsydRz10=/Cargo.lock",
+                "sha256-FIwEbup1VpeKZ2QRTKObis9e94caoRDweOpe+kN_b_U=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
                     "ovr_overlay-0.0.0": "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs="
@@ -300,16 +300,16 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "68944184dea019f4efb1dccb68fdc6734e9baf58",
-            "sha256": "sha256-XsCha4oPmsgafOuaPT5sTtYNHwOckL9FJCYDsydRz10=",
+            "rev": "745728d90df094fd44d752c5c0170a6ebaf06dc4",
+            "sha256": "sha256-FIwEbup1VpeKZ2QRTKObis9e94caoRDweOpe+kN/b/U=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "68944184dea019f4efb1dccb68fdc6734e9baf58"
+        "version": "745728d90df094fd44d752c5c0170a6ebaf06dc4"
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -321,12 +321,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "e8c92a720238a4853f896eeaca9cdc679beedee9",
-            "sha256": "sha256-I9YiFJ4bOsdHRmb8w3iyZRFPV7pujLM9tDNg9lzJOpw=",
+            "rev": "833004f18c3057376998753ffb6aff37dcbf42e4",
+            "sha256": "sha256-Gp1/mNh/vASQ4Hffh5Ku56P8ZmizsQGslP7cwx/LN9w=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e8c92a720238a4853f896eeaca9cdc679beedee9"
+        "version": "833004f18c3057376998753ffb6aff37dcbf42e4"
     },
     "wivrn-monado": {
         "cargoLock": null,

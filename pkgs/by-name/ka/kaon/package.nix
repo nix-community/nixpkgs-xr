@@ -7,6 +7,7 @@
   stdenv,
   qt6,
   cmake,
+  openvr,
 
   xrSources,
 }:
@@ -32,11 +33,15 @@ stdenv.mkDerivation {
     date
     ;
 
-  patches = [ ./0001-Disable-update-checker-by-default.patch ];
+  patches = [
+    ./0001-Disable-update-checker-by-default.patch
+    ./0002-find-system-openvr.patch
+  ];
 
   buildInputs = [
     qt6.qtbase
     qt6.qtquick3d
+    openvr
   ];
 
   nativeBuildInputs = [

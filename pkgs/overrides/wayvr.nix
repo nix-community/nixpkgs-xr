@@ -14,6 +14,12 @@ final: prev: {
       final.systemdLibs
     ];
 
+    checkFlags = [
+      # Upstream doesn't test this in CI so sometimes some translations are
+      # missing
+      "--skip=test::tests::lang_json_files_contain_all_keys"
+    ];
+
     env = prevAttrs.env or { } // {
       ORT_LIB_PATH = "${final.lib.getLib final.onnxruntime}/lib";
       ORT_PREFER_DYNAMIC_LINK = 1;

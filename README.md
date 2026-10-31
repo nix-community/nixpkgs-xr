@@ -109,7 +109,6 @@ You can also pin the tarball url using tools like [niv].
 This overlay provides the following packages:
 
 - `eepyxr`
-- `envision-unwrapped`
 - `index_camera_passthrough`
 - `kaon`
 - `libsurvive`

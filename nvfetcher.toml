@@ -7,12 +7,6 @@
 fetch.github = "Beyley/eepyxr"
 src.git = "https://github.com/Beyley/eepyxr.git"
 
-[envision-unwrapped]
-cargo_lock = ["Cargo.lock"]
-extract = ["Cargo.lock"]
-fetch.git = "https://gitlab.com/gabmus/envision.git"
-src.git = "https://gitlab.com/gabmus/envision.git"
-
 [index_camera_passthrough]
 cargo_lock = ["Cargo.lock"]
 fetch.github = "yshui/index_camera_passthrough"

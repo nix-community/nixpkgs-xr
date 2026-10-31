@@ -18,28 +18,6 @@
     };
     date = "2026-04-09";
   };
-  envision-unwrapped = {
-    pname = "envision-unwrapped";
-    version = "d2b5045774f021013ce4ab9e0df5e6a53c70d646";
-    src = fetchgit {
-      url = "https://gitlab.com/gabmus/envision.git";
-      rev = "d2b5045774f021013ce4ab9e0df5e6a53c70d646";
-      fetchSubmodules = false;
-      deepClone = false;
-      leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-bcMudG6mMwsn0SrIzJ8D0ylSLytzy0gHPgZuiGbEE7s=";
-    };
-    extract = {
-      "Cargo.lock" = ./. + "/sha256-bcMudG6mMwsn0SrIzJ8D0ylSLytzy0gHPgZuiGbEE7s=/Cargo.lock";
-    };cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-bcMudG6mMwsn0SrIzJ8D0ylSLytzy0gHPgZuiGbEE7s=/Cargo.lock";
-      outputHashes = {
-        
-      };
-    };
-    date = "2026-09-30";
-  };
   index_camera_passthrough = {
     pname = "index_camera_passthrough";
     version = "0d3ec30c5cd74e4a3df93d704ecf4a25136afd73";

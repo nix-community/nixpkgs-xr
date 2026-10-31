@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2023 Sefa Eyeoglu <contact@scrumplex.net>
 # SPDX-FileCopyrightText: 2024 Sefa Eyeoglu <contact@scrumplex.net>
 # SPDX-FileCopyrightText: 2025 Sefa Eyeoglu <contact@scrumplex.net>
+# SPDX-FileCopyrightText: 2026 Sefa Eyeoglu <contact@scrumplex.net>
 #
 # SPDX-License-Identifier: MIT
 { nixpkgs, self, ... }:
@@ -18,7 +19,6 @@ in
     (import "${nixpkgs}/pkgs/top-level/by-name-overlay.nix" ./by-name)
 
     # Overridden packages
-    (import ./overrides/envision-unwrapped.nix)
     (import ./overrides/libsurvive.nix)
     (import ./overrides/monado.nix)
     (import ./overrides/opencomposite.nix)

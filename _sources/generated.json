@@ -50,7 +50,7 @@
     },
     "kaon": {
         "cargoLock": null,
-        "date": "2026-10-18",
+        "date": "2026-10-30",
         "extract": null,
         "name": "kaon",
         "passthru": null,
@@ -62,16 +62,16 @@
             "name": null,
             "owner": "LorenDB",
             "repo": "kaon",
-            "rev": "6afa3d1b4fb63d4e102e39e9cfe8e55165c561f1",
-            "sha256": "sha256-fYaNWafZtxF/94EumRJR7lXcV8I7n6chCPVbH5m2W34=",
+            "rev": "fa4e22a7217d9b3450d42c50b04677d3e424d1e7",
+            "sha256": "sha256-IMmPQvD1i7FLETZS6Z9Jj2GJf7vcbvIsfAZxEEuEozg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6afa3d1b4fb63d4e102e39e9cfe8e55165c561f1"
+        "version": "fa4e22a7217d9b3450d42c50b04677d3e424d1e7"
     },
     "libsurvive": {
         "cargoLock": null,
-        "date": "2026-10-09",
+        "date": "2026-10-30",
         "extract": null,
         "name": "libsurvive",
         "passthru": null,
@@ -83,12 +83,12 @@
             "name": null,
             "owner": "collabora",
             "repo": "libsurvive",
-            "rev": "23f03665070549f0c13a6e768dfaf7764f75c417",
-            "sha256": "sha256-vv+2IOdDPKcY20/bS/TIKMUtrsYkgX8qed/1IzhOvzk=",
+            "rev": "878c74e45b46b470aee93fcb35d391c761180669",
+            "sha256": "sha256-W/Uum1BaeGIRYVHPdp2ZOZlMBO2L0UAi4dfFC5ZpLqw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "23f03665070549f0c13a6e768dfaf7764f75c417"
+        "version": "878c74e45b46b470aee93fcb35d391c761180669"
     },
     "lovr-playspace": {
         "cargoLock": null,
@@ -113,7 +113,7 @@
     },
     "monado": {
         "cargoLock": null,
-        "date": "2026-10-18",
+        "date": "2026-10-30",
         "extract": null,
         "name": "monado",
         "passthru": null,
@@ -123,13 +123,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "34584b360b21290a4921f0ba6eb065fdd3d22831",
-            "sha256": "sha256-Y9lfhVgYHRHMFmRJC68PdJ4EaNwfRdrsssnC9MvxK+E=",
+            "rev": "b1174ee7668d090fb0ce24165d1bb9737db7c1c4",
+            "sha256": "sha256-jvLVsQlGd8SPTSTaQpmuZ/UjJ2ezHG/JYPYjuLqievc=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "34584b360b21290a4921f0ba6eb065fdd3d22831"
+        "version": "b1174ee7668d090fb0ce24165d1bb9737db7c1c4"
     },
     "monado-solarxr": {
         "cargoLock": null,
@@ -174,7 +174,7 @@
     "oscavmgr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-_3WSiW2ucoqJDbjtLpcE9Vyxebcue7pZwI5eeM4u+vM=/Cargo.lock",
+                "sha256-bZmi0_MjNi7_lCeGCI5rv8u+vDHRpnc8zSTBQH0Ub0A=/Cargo.lock",
                 {
                     "alvr_common-20.14.1": "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=",
                     "openxr-0.19.0": "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=",
@@ -182,7 +182,7 @@
                 }
             ]
         },
-        "date": "2026-09-17",
+        "date": "2026-10-24",
         "extract": null,
         "name": "oscavmgr",
         "passthru": null,
@@ -194,12 +194,12 @@
             "name": null,
             "owner": "galister",
             "repo": "oscavmgr",
-            "rev": "95e0a77168be7018d722c381907f69a6e58966dc",
-            "sha256": "sha256-/3WSiW2ucoqJDbjtLpcE9Vyxebcue7pZwI5eeM4u+vM=",
+            "rev": "512e4916f935c76cb8753ae404e69f1518c2abdd",
+            "sha256": "sha256-bZmi0/MjNi7/lCeGCI5rv8u+vDHRpnc8zSTBQH0Ub0A=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "95e0a77168be7018d722c381907f69a6e58966dc"
+        "version": "512e4916f935c76cb8753ae404e69f1518c2abdd"
     },
     "resolute": {
         "cargoLock": {
@@ -232,7 +232,7 @@
     },
     "vapor": {
         "cargoLock": null,
-        "date": "2026-07-23",
+        "date": "2026-10-24",
         "extract": null,
         "name": "vapor",
         "passthru": null,
@@ -244,24 +244,26 @@
             "name": null,
             "owner": "micheal65536",
             "repo": "VapoR",
-            "rev": "f2348b85a7d84ed2862cbfdb061abf7b41e72b26",
-            "sha256": "sha256-/+TirMXLpOe+dKw29cHU17nnGJ+Oc+PkBpbnJcUdVwg=",
+            "rev": "39b86da49cf10582949475e1c6841df4b8ed1d04",
+            "sha256": "sha256-6BtJJEQZzVmbpPptGghKnMNMG9Vmk8hpbvIAIlMGjN8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f2348b85a7d84ed2862cbfdb061abf7b41e72b26"
+        "version": "39b86da49cf10582949475e1c6841df4b8ed1d04"
     },
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-QjPZYGydnkOk62kVBjqirUHS8J6yUK2PLPP0C3J5K98=/Cargo.lock",
+                "sha256-q5iseDul_ea_JM9HjUhsbxCWe5Yr_P0_I_HF8gmNS7M=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
-                    "ovr_overlay-0.0.0": "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs="
+                    "ovr_overlay-0.0.0": "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs=",
+                    "rxscreen-0.1.7": "sha256-SgPz+dQCo2Pz5sJ4AtHFdBnBUhx3k8aJADHA2rjkc2k=",
+                    "smithay-0.7.0": "sha256-cxSemsoLLg5i7ZLELph4pvUckEpO2osaqnzf0oeKCiI="
                 }
             ]
         },
-        "date": "2026-10-18",
+        "date": "2026-10-31",
         "extract": null,
         "name": "wayvr",
         "passthru": null,
@@ -273,16 +275,16 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "adf852971fa06afcf859dfe8d734493ed1d7004e",
-            "sha256": "sha256-QjPZYGydnkOk62kVBjqirUHS8J6yUK2PLPP0C3J5K98=",
+            "rev": "ef7e5f61ebb962b2385b88a85033c48a167a046e",
+            "sha256": "sha256-q5iseDul/ea/JM9HjUhsbxCWe5Yr/P0/I/HF8gmNS7M=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "adf852971fa06afcf859dfe8d734493ed1d7004e"
+        "version": "ef7e5f61ebb962b2385b88a85033c48a167a046e"
     },
     "wivrn": {
         "cargoLock": null,
-        "date": "2026-10-18",
+        "date": "2026-10-28",
         "extract": null,
         "name": "wivrn",
         "passthru": null,
@@ -294,12 +296,12 @@
             "name": null,
             "owner": "WiVRn",
             "repo": "WiVRn",
-            "rev": "2e60fa75e4dd30e4aaed159a104fca01589580bc",
-            "sha256": "sha256-zJstDDaAg6pkiSymy0qFDnPHIfJvgTbR0mjSOtkuaXU=",
+            "rev": "49b4ab96c62232e488842830368c29e7a468902c",
+            "sha256": "sha256-Uzj/IGSF5+Q5hY+DbrkRxZdpY75VyyY2TqEX/Y1GaB0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2e60fa75e4dd30e4aaed159a104fca01589580bc"
+        "version": "49b4ab96c62232e488842830368c29e7a468902c"
     },
     "wivrn-monado": {
         "cargoLock": null,
@@ -370,11 +372,11 @@
     "xrizer": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-_UiAJhKrMN2gYD3aVeORtI196xzjs61cK_FLyHPizZw=/Cargo.lock",
+                "sha256-Z08LRGOfSXEaKWj2Vc0ZWQ_YGXCqlDhc0sP9dwPEbGg=/Cargo.lock",
                 {}
             ]
         },
-        "date": "2026-10-14",
+        "date": "2026-10-20",
         "extract": null,
         "name": "xrizer",
         "passthru": null,
@@ -386,11 +388,11 @@
             "name": null,
             "owner": "Supreeeme",
             "repo": "xrizer",
-            "rev": "63fc7eb3f80bba2277b48c023d2af569cc6e6453",
-            "sha256": "sha256-/UiAJhKrMN2gYD3aVeORtI196xzjs61cK/FLyHPizZw=",
+            "rev": "0519ded7421e608805d710be01fdc51303eda16a",
+            "sha256": "sha256-Z08LRGOfSXEaKWj2Vc0ZWQ/YGXCqlDhc0sP9dwPEbGg=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "63fc7eb3f80bba2277b48c023d2af569cc6e6453"
+        "version": "0519ded7421e608805d710be01fdc51303eda16a"
     }
 }

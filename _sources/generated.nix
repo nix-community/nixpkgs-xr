@@ -74,17 +74,17 @@
   };
   monado = {
     pname = "monado";
-    version = "fa080d8240a9b5cb3e275851fa065ca5e7819b97";
+    version = "db1903bd41aab9363ef0478408178c94e1b06570";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "fa080d8240a9b5cb3e275851fa065ca5e7819b97";
+      rev = "db1903bd41aab9363ef0478408178c94e1b06570";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-6rUG8n+BtfO9TFosRGsRNLe6jrqWZouzc3AlYoUnymA=";
+      sha256 = "sha256-kzQqJ2llRv/wjKfS6liQoFRKogA1Ao9YNtZeeP3QK4k=";
     };
-    date = "2026-10-31";
+    date = "2026-11-01";
   };
   monado-solarxr = {
     pname = "monado-solarxr";
@@ -116,23 +116,23 @@
   };
   oscavmgr = {
     pname = "oscavmgr";
-    version = "512e4916f935c76cb8753ae404e69f1518c2abdd";
+    version = "c139ebce4467f3d5d3b847605d8bd538548dc697";
     src = fetchFromGitHub {
       owner = "galister";
       repo = "oscavmgr";
-      rev = "512e4916f935c76cb8753ae404e69f1518c2abdd";
+      rev = "c139ebce4467f3d5d3b847605d8bd538548dc697";
       fetchSubmodules = true;
-      sha256 = "sha256-bZmi0/MjNi7/lCeGCI5rv8u+vDHRpnc8zSTBQH0Ub0A=";
+      sha256 = "sha256-x5QTeLKG0en1w0zh+6X1727YD0Zf/MC/f1N5C5WpJCY=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-bZmi0_MjNi7_lCeGCI5rv8u+vDHRpnc8zSTBQH0Ub0A=/Cargo.lock";
+      lockFile = ./. + "/sha256-x5QTeLKG0en1w0zh+6X1727YD0Zf_MC_f1N5C5WpJCY=/Cargo.lock";
       outputHashes = {
         "alvr_common-20.14.1" = "sha256-9fckUhUPAbcmbqOdUO8RlwuK8/nf1fc7XQBrAu5YaR4=";
-        "openxr-0.19.0" = "sha256-kbEYoN4UvUEaZA9LJWEKx1X1r+l91GjTWs1hNXhr7cw=";
+        "openxr-0.22.0" = "sha256-CndaurmIaGTCA4Hbsb0yY112Ps+/5EcthBpvbsJHq50=";
         "settings-schema-0.2.0" = "sha256-luEdAKDTq76dMeo5kA+QDTHpRMFUg3n0qvyQ7DkId0k=";
       };
     };
-    date = "2026-10-24";
+    date = "2026-11-01";
   };
   resolute = {
     pname = "resolute";

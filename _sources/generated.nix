@@ -74,17 +74,17 @@
   };
   monado = {
     pname = "monado";
-    version = "ee03722885e777462708841223b60affe6873ac2";
+    version = "2b7f5cb0fb0b5b5e7b6b12e85e94b08bd37e4463";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "ee03722885e777462708841223b60affe6873ac2";
+      rev = "2b7f5cb0fb0b5b5e7b6b12e85e94b08bd37e4463";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-d6ob8/LtXoBUimnFPuNenRH3r+S0nhlK1OjFRiqSL2Q=";
+      sha256 = "sha256-mKLAowXdTfCdgTUYpbIgX9cg7KOMeHIAkQMenuoht/M=";
     };
-    date = "2026-11-04";
+    date = "2026-11-06";
   };
   monado-solarxr = {
     pname = "monado-solarxr";
@@ -190,15 +190,15 @@
   };
   wivrn = {
     pname = "wivrn";
-    version = "6adb188c154572a27fd6f0d97ba5a732d7095090";
+    version = "869b0ce660b439d7065f60a50c6df8823b5606b3";
     src = fetchFromGitHub {
       owner = "WiVRn";
       repo = "WiVRn";
-      rev = "6adb188c154572a27fd6f0d97ba5a732d7095090";
+      rev = "869b0ce660b439d7065f60a50c6df8823b5606b3";
       fetchSubmodules = false;
-      sha256 = "sha256-cpbAH+1r0Pz1OF3y05GmKE48xSzExV5GrpQ0EcSy+nc=";
+      sha256 = "sha256-VTznFOrgeVMxbRYmCivzW6WqzcNSSp1eEm757wlXm2U=";
     };
-    date = "2026-11-04";
+    date = "2026-11-05";
   };
   wivrn-monado = {
     pname = "wivrn-monado";
@@ -247,20 +247,20 @@
   };
   xrizer = {
     pname = "xrizer";
-    version = "0519ded7421e608805d710be01fdc51303eda16a";
+    version = "a6c27cc4dc614f9d60c0745f47fa4ead4cf2f64b";
     src = fetchFromGitHub {
       owner = "Supreeeme";
       repo = "xrizer";
-      rev = "0519ded7421e608805d710be01fdc51303eda16a";
+      rev = "a6c27cc4dc614f9d60c0745f47fa4ead4cf2f64b";
       fetchSubmodules = false;
-      sha256 = "sha256-Z08LRGOfSXEaKWj2Vc0ZWQ/YGXCqlDhc0sP9dwPEbGg=";
+      sha256 = "sha256-D5zhaieQ0xfNEY5nkV/dFVKboyGY6GOnNgiuCDYMlFI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-Z08LRGOfSXEaKWj2Vc0ZWQ_YGXCqlDhc0sP9dwPEbGg=/Cargo.lock";
+      lockFile = ./. + "/sha256-D5zhaieQ0xfNEY5nkV_dFVKboyGY6GOnNgiuCDYMlFI=/Cargo.lock";
       outputHashes = {
         
       };
     };
-    date = "2026-10-20";
+    date = "2026-11-05";
   };
 }

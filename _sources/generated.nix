@@ -74,17 +74,17 @@
   };
   monado = {
     pname = "monado";
-    version = "3acbda6b7dacbe014749020e8543fded54ef076b";
+    version = "4f5025c4d420cd1057ab4a3999d53f5acfa114db";
     src = fetchgit {
       url = "https://gitlab.freedesktop.org/monado/monado.git";
-      rev = "3acbda6b7dacbe014749020e8543fded54ef076b";
+      rev = "4f5025c4d420cd1057ab4a3999d53f5acfa114db";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-hZHD9dazL/+eb/nF2AAZ6NX5q/cc9kIvG587IWQzUvw=";
+      sha256 = "sha256-izPbd1k3wB4LBnDsKG+jtGfYRbMFYwiocCTJ462Yblw=";
     };
-    date = "2026-11-06";
+    date = "2026-11-09";
   };
   monado-solarxr = {
     pname = "monado-solarxr";

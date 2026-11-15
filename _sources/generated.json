@@ -123,13 +123,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "026709433c57c6f8a2b4c07e37f41801093ac796",
-            "sha256": "sha256-BMCC5GVZfdbnJoQAUKrEOd8wsxKwJnoGy3V55eNA+sQ=",
+            "rev": "9dc151cd2efae21d1308fcc4e974b6c9a97a7513",
+            "sha256": "sha256-iOo8rfMlxcjgpdL9Z0gzIzkD9o9rSAHryF5SChbpjgQ=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://gitlab.freedesktop.org/monado/monado.git"
         },
-        "version": "026709433c57c6f8a2b4c07e37f41801093ac796"
+        "version": "9dc151cd2efae21d1308fcc4e974b6c9a97a7513"
     },
     "monado-solarxr": {
         "cargoLock": null,
@@ -254,7 +254,7 @@
     "wayvr": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-XU3W4C2OtM4_XanDNKViEfV3Cnj+i1kBJ1q3+uDbyGg=/Cargo.lock",
+                "sha256-FeauKs69T6Cio0g+fGhVuYOISohPQ10O7ewnG9bFLf0=/Cargo.lock",
                 {
                     "libmonado-1.6.0": "sha256-s0f8CN8eEBOIucbZ8DVY3j9adCC+G6C472JWU7fNor4=",
                     "ovr_overlay-0.0.0": "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs=",
@@ -275,12 +275,12 @@
             "name": null,
             "owner": "wlx-team",
             "repo": "wayvr",
-            "rev": "e21fe11f81d9d75af5cc29331b23aaaa28f81d17",
-            "sha256": "sha256-XU3W4C2OtM4/XanDNKViEfV3Cnj+i1kBJ1q3+uDbyGg=",
+            "rev": "b61486c4c9160f3dc68296f0512a109b24b8ee23",
+            "sha256": "sha256-FeauKs69T6Cio0g+fGhVuYOISohPQ10O7ewnG9bFLf0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "e21fe11f81d9d75af5cc29331b23aaaa28f81d17"
+        "version": "b61486c4c9160f3dc68296f0512a109b24b8ee23"
     },
     "wivrn": {
         "cargoLock": null,

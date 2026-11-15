@@ -14,6 +14,10 @@ final: prev: {
       final.systemdLibs
     ];
 
+    postPatch =
+      final.lib.replaceString "dash-frontend/src/util/pactl_wrapper.rs" "wlx-common/src/pactl_wrapper.rs"
+        prevAttrs.postPatch;
+
     checkFlags = [
       # Upstream doesn't test this in CI so sometimes some translations are
       # missing

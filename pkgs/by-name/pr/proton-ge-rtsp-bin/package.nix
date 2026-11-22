@@ -6,39 +6,35 @@
 {
   fetchzip,
   lib,
-  proton-ge-bin,
+  mkProtonBinDerivation,
   stdenvNoCC,
 }:
-proton-ge-bin.overrideAttrs (
-  finalAttrs: prevAttrs: {
-    pname = "proton-ge-rtsp-bin";
-    version = "GE-Proton10-33-rtsp23-4";
+mkProtonBinDerivation (finalAttrs: {
+  pname = "proton-ge-rtsp-bin";
+  version = "GE-Proton10-33-rtsp23-4";
 
-    inherit (finalAttrs.passthru.variants.${stdenvNoCC.hostPlatform.system}) src toolName;
+  steamDisplayName = "GE-Proton-rtsp";
 
-    steamDisplayName = "GE-Proton-rtsp";
-
-    passthru.variants."x86_64-linux" = {
-      toolName = finalAttrs.version;
-      src = fetchzip {
-        url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
-        hash = "sha256-sP+xNPbeI1jbs081QvFmj48A/yG6IC9ZPZRvGkFZnX0=";
-      };
+  variants."x86_64-linux" = {
+    toolName = finalAttrs.version;
+    src = fetchzip {
+      url = "https://github.com/SpookySkeletons/proton-ge-rtsp/releases/download/${finalAttrs.version}/${finalAttrs.version}.tar.gz";
+      hash = "sha256-sP+xNPbeI1jbs081QvFmj48A/yG6IC9ZPZRvGkFZnX0=";
     };
+  };
 
-    meta = {
-      inherit (prevAttrs.meta)
-        description
-        license
-        platforms
-        sourceProvenance
-        ;
-      homepage = "https://github.com/SpookySkeletons/proton-ge-rtsp";
-      maintainers = with lib.maintainers; [
-        Scrumplex
-        RTUnreal
-        coolGi
-      ];
-    };
-  }
-)
+  meta = {
+    description = ''
+      Compatibility tool for Steam Play based on Wine and additional components.
+
+      (This is intended for use in the `programs.steam.extraCompatPackages` option only.)
+    '';
+    homepage = "https://github.com/SpookySkeletons/proton-ge-rtsp";
+    license = lib.licenses.bsd3;
+    maintainers = with lib.maintainers; [
+      Scrumplex
+      RTUnreal
+      coolGi
+    ];
+  };
+})

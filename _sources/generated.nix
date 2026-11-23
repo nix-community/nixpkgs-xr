@@ -38,15 +38,15 @@
   };
   kaon = {
     pname = "kaon";
-    version = "4d9f4b7e8b9e63a8ec6bfa8da409a6a0beed5276";
+    version = "82f5a0663e79de0383e45c5ec36adc71853ba0d3";
     src = fetchFromGitHub {
       owner = "LorenDB";
       repo = "kaon";
-      rev = "4d9f4b7e8b9e63a8ec6bfa8da409a6a0beed5276";
+      rev = "82f5a0663e79de0383e45c5ec36adc71853ba0d3";
       fetchSubmodules = false;
-      sha256 = "sha256-yGe5iPgv2vhVtM75NlZO0pz74ckdpjXN2UtDzTw6Tms=";
+      sha256 = "sha256-GQc38qITteW7bfrTPaxMIBY3HjNW41BaPiWL0gZdp3c=";
     };
-    date = "2026-11-21";
+    date = "2026-11-22";
   };
   libsurvive = {
     pname = "libsurvive";

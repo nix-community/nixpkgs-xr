@@ -169,16 +169,16 @@
   };
   wayvr = {
     pname = "wayvr";
-    version = "cc8843a95a8aaf6adcd9db21b30aaf1438372ef0";
+    version = "b56b4f203f2f8a7a34614ccc09d6b94021ea03fc";
     src = fetchFromGitHub {
       owner = "wlx-team";
       repo = "wayvr";
-      rev = "cc8843a95a8aaf6adcd9db21b30aaf1438372ef0";
+      rev = "b56b4f203f2f8a7a34614ccc09d6b94021ea03fc";
       fetchSubmodules = false;
-      sha256 = "sha256-SVEuVsO+8iLM/lstAFJ4B1kQ23BurOOCuZiI2gV/eDc=";
+      sha256 = "sha256-nWk1glDuqFrT5ZJ7qoz1pjy2WhmzZvJUIKrOP8xxQPs=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-SVEuVsO+8iLM_lstAFJ4B1kQ23BurOOCuZiI2gV_eDc=/Cargo.lock";
+      lockFile = ./. + "/sha256-nWk1glDuqFrT5ZJ7qoz1pjy2WhmzZvJUIKrOP8xxQPs=/Cargo.lock";
       outputHashes = {
         "ovr_overlay-0.0.0" = "sha256-rIAUlsSGHnpuVvGoUwsV+kD63ki3cJinqgntqurgqvs=";
         "smithay-0.7.0" = "sha256-cxSemsoLLg5i7ZLELph4pvUckEpO2osaqnzf0oeKCiI=";
